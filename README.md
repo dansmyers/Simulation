@@ -1,4 +1,4 @@
-# CMS 380 -- Simulation and Stochastic Modeling
+# CMS 380 &mdash; Simulation and Stochastic Modeling
 
 ## Fall 2020 Syllabus
 
