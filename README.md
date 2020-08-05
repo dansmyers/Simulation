@@ -70,6 +70,46 @@ Scrumage will let you **learn computer science concepts** by **working like a co
 
 Finally, Scrumage supports **learning how to learn**, the **single most important skill you can acquire in college**. By taking ownership of your own learning, you'll be able to identify the resources, plans, and strategies that work best for you and build skills that you can take forward into other classes or your professional career.
 
+### More Details
+
+Some of you have already taken one or more Scrumage courses with me or Dr. Summet. If this is your second or third Scrumage experience, you'll find the rhythms of this course to be similar to your previous courses. If this is your first time, don't worry: the course format may feel a little unusual at first, but you'll adapt to it quickly.
+
+I'm using Scrumage for all of my classes this semester because it performed well during our emergency transition to remote learning in the spring. Scrumage gives us a lot of
+features that are useful for hybrid courses:
+
+- You're automatically connected to other students in the class, so you have allies already in place if we need to change formats.
+
+- It keeps the course on an overall schedule, but gives you flexibility for how to manage your time within each sprint. Flexibility emerged as an important theme in feedback
+from the Spring semester.
+
+- It gives me lots of options for how to adjust the schedule if we need to. The sprint-based structure means that we're never more than two weeks from a reset point, and I
+can adjust the content and deliverables for each sprint in response to changing conditions.
+
+### FAQs
+
+- **How big are the teams?** In previous classes, most teams have been four or five students. For this semester, I think smaller is better, so most teams will be threes, with
+a few twos and fours.
+
+- **How are the teams created?** I have let previous classes choose their initial teams for the first sprint. Almost all teams form at the beginning of the semester and
+stay together through the end.
+
+- **What if I don't want to be on a team?** Working by yourself is allowed, although you should check with me first.
+
+- **Does my grade depend on my team?** I approach the deliverables for each sprint as individual
+assignments that can be completed with the help of your teammates, rather than (shudder) "team projects". Most Scrumage teams operate more like collaborative study 
+groups rather than divide-and-conquer project teams that you might have used in other classes.
+
+- **What if I can't work with my teammates? Do I have to stay in the same team?** You're allowed to change teams at the start of each sprint. One goal of Scrumage is to help you
+think about the kind of collaboration that works best for your learning. It's okay to recognize that some people in the class are your friends, but that you'd be better off
+working with a different group that's a better fit for your style.
+
+- **Will we be able to meet in person?** That's still an open question at this point. It might be possible for small groups to meet in some (socially-distanced) spaces on 
+campus. Even if that is possible, you should plan on a significant amount of remote collaboration. In addition to WebEx, we'll be using collaborative tools like Slack and
+GitHub that are widely used in industry. I'd also emphasize that **remote work is a skill**, and it's likely that many tech companies will continue to be mostly remote for
+at least the next year and others will choose to make a large-scale transition to a remote-first working philosophy.
+
+- **What if I'm participating virtually?** To the greatest extent possible, we'll build virtual-only teams to avoid hybrid mixtures of in-person and virtual students.
+
 ## Schedule
 
 ### Sprints
