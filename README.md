@@ -10,19 +10,20 @@ dmyers@rollins.edu
 407-646-2146
 
 ## Office Hours
-Office hours for Fall 2019:
 
-- Monday 4:00 - 5:00
-- Tuesday 2:00 - 4:00
-- Wednesday 4:00 - 5:00
+To better manage student interactions during the pandemic, **I'm not planning to hold regular in-person office hours during the fall semester**. While I'm on campus, my office
+will be the primary space where I can work without a mask, record videos, eat, etc. Therefore, I think it's wise to limit the number of students coming in and out of my office
+each day, at least at the beginning of the semester while we're all adjusting to new patterns of working and interacting.
 
-Meeting with students is my highest priority during these times. Feel free to come by **even if you don't have a question or a problem**. Please e-mail me if you'd like to schedule an appointment for a different time.
+Most informal class-related questions will be handled over Slack. I'll send out details for how to join our class workspace in the first week of the semester. I will also 
+handle most casual advising questions over Slack.
 
-I sometimes need to modify my schedule to account for meetings and other campus events.
+If you'd like to chat in person, we can talk (in a socially-distanced way) at the beginning or end of class. You can also make an appointment to chat via WebEx
+if you have questions that are too in-depth to handle over Slack.
 
 ## Official Course Description
 
-**CMS 380 Simulation and Stochastic Modeling**: Explores the use of probability theory and statistical methods in the development of computer simulations used to study/model real-world phenomenon. Topics include an overview of probability theory, a survey of common statistical distributions, random number generation, and common techniques for creating models that incorporate randomness, such as queueing networks and Markov chains. Prerequisite: CMS 170.
+**CMS 380 Simulation and Stochastic Modeling**: Explores the use of probability theory and statistical methods in the development of computer simulations used to study and model real-world phenomenon. Topics include an overview of probability theory, a survey of common statistical distributions, random number generation, and common techniques for creating models that incorporate randomness, such as queueing networks and Markov chains. Prerequisite: CMS 170.
 
 ## Learning Outcomes
 
