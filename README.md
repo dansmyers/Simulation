@@ -114,30 +114,20 @@ at least the next year and others will choose to make a large-scale transition t
 
 ### Sprints
 
-| Sprint       | Topic                           | Start  |   End  | Deliverable     | Outcomes |
-| -------------|---------------------------------|--------|--------|-----------------|----------|
-| 1            | Python and Monte Carlo Simulation | 8/26     | 9/16       | Programs | 1, 2, 5  |
-| 2            | Discrete Probability              |  9/16    |  9/30      | Problem Set    | 2     |
-| 3            | Continuous Probability            |   9/30   |  10/16      | Queueing Simulator    | 1, 2, 5    |
-| 4            | Discrete-Time Event-Driven Simulation   | 10/16   |  10/30  | Theme Park    | 1, 2, 3, 5 |
-| 5            | Markov Chains                     |   10/30  | 11/13   | Twitter Bot        | 1, 4 |
-| 6            | Queueing Models                   |   11/13  |  12/6  | Capacity Planning | 1, 2, 3, 4, 5 |
-| ~7~            | ~Final Project~               |  ~11/18~ |  ~12/6~  | ~Simulate Campus~ | ~1, 2, 3, 4, 5~ |
-
-
-### Schedule Guidelines
-
-You **must** be in class on the ending day of each sprint to complete the individual quiz.
+| Sprint       | Topic                           | Start  |   End  | Deliverable     |
+| -------------|---------------------------------|--------|--------|-----------------|
+| 1            | Python and Descriptive Statistics | 9/14     | 9/30       | Campus Connections |
+| 2            | Probability              |  9/30    |  10/14     | Hermione Granger and the Distributions of Probability    |
+| 3            | Monte Carlo           |   10/14   |  10/28      | Casino Royale    |
+| 4            | Continuous Distributions   | 10/28   |  11/11  | Queueing Simulators    |
+| 5            | Discrete Event Simulation   |   11/11  | 12/2   | Happiest Place on Earth? |
+| 6            | Markov Chains               |   12/2  |  12/18  | Predictive Text Generation |
 
 ### Other Important Dates
 
-- First day of class: August 26
-- Last day of class: December 6
-- Labor Day: September 2
-- Fall Break: October 14 (no class, occurs during Sprint 4)
-- Dr. Myers at IARSLCE: October 23
-- Last day to drop the class: September 6
-- Last day to withdraw without penalty: November 8
+- Last day of class: December 18
+- Last day to drop the class: September 25
+- Last day to withdraw without penalty: November 6
 
 ## The All-Important Grading Section
 
@@ -149,97 +139,94 @@ Rather than calculating your score as number of points on a 0-100 scale, your gr
 If you achieve satisfactory performance on enough assigments, described in more detail below, you'll receive a baseline grade of **B** for the course. This demonstrates that you have engaged with the material and met the basic learning outcomes for the class. To get a higher grade, you can do more work that shows greater mastery of the course learning outcomes.
 
 ### Assignments and Scoring
-We'll have five kinds of assignments in the class:
+Each sprint will have two graded assessments the **deliverable assignment** and an **individal quiz**. You will also complete a **short reflective self-assessment** at the
+end of each sprint.
 
-1. Short reflective pieces completed at the end of each sprint.
-2. Team deliverables due at the end of each sprint.
-3. Indvidual quizzes
-4. Two major projects, due at the ends of sprints 4 and 7.
-5. A final exam.
+In addition to the quizzes and deliverables, there will be additional **challenge assignments** that you can complete to increase your grade above a B, or to make up for any
+work that failed to meet specifications. More information on the challenge projects is below.
 
-I will grade most of the items you turn in on a two-level scale: your work will be either **satisfactory** or receive **no credit**. 
-A "satisfactory" assignment corresponds to a B-level performance, which is **a higher standard** than we often associate with that term. It means that the work is:
+The sprint deliverables will be graded on a **binary scale**: you'll receive either **one full point** or **zero points**. To receive credit for a sprint deliverable, the work
+you submit must be:
 
 1. Substantially complete and correct (there may be a few issues, but only minor ones).
 2. Shows real understanding and application of the course material.
 3. Completed on time in the required format.
 
-I'll grade the quizzes on a scale from 0 to 3:
+All of the quizzes will be worth **one total point** and the questions on each quiz will be weighted equally. For example, if there are four questions on a quiz (which will be
+the typical case):
 
-0. No submission, or too incomplete to grade.
-1. Shows effort, but has serious issues.
-2. Satisfactory.
-3. Excellent, complete and correct with an attention to detail and insight that goes beyond satisfactory.
+- Satisfactory answers for all four questions would earn a full point
+- Satisfactory answers for three out of four questions would earn .75 points
+- Satisfactory answers for two out of four questions would earn .5 points
+- And so forth
 
-You can earn a **bonus point** on a quiz if either:
+I will mark the quiz questions as correct/incorrect using the same "substantially complete and correct" standards as for the deliverable assignments.
 
-1. Every member of your team earns a 2 or 3.
-2. You improve your individual performance relative to the last quiz.
+Using this system, you can earn a total of 12 points across all six sprints: six points from the deliverable assignments and a maximum of six points from all of the quizzes.
+
+
+### Midterm and Final Exams
+
+There will be **no exams** due to our compressed schedule.
+
 
 ### Final Letter Grades
 
-**To earn a B**, you must meet the following six criteria:
+**To earn a B for the course**, you must earn at least 11 out of 12 points. This is equivalent to saying that everyone gets one free automatic drop.
 
-1. Satisfactory completion of all reflective assignments and concept maps.
-2. Satisfactory completion of *N - 1* quizzes (I'll ignore your lowest quiz).
-3. Satisfactory work on all of the team sprint deliverables.
-4. Satisfactory work on major project #1.
-5. Satisfactory work on major project #2.
-6. Satisfactory performance on the final exam.
+If you fail to achieve at least 11 points, your score will be adjusted downwards by a fraction of a letter grade per point, as shown in the following table:
 
-**If you fail to complete the requirements for a B**, your grade will be adjusted downwards according to the following table:
+| Points      | Letter Grade                          |
+| -------------|---------------------------------|
+| 11            | B |
+| 10            | B- |
+| 9            | C+ |
+| 8            | C |
+| 7            | C- |
+| 6            | D+ |
+| 5            | D |
+| 4            | D- |
+| 3 or fewer   | F |
 
-| For unsatisfactory performance on              | Your grade will be adjusted downwards by |
-|------------------------------------------------|------------------------------------------|
-| One quiz beyond the one you're allowed to drop | Half a letter grade (e.g. B to B-)       |
-| Additional quizzes                             | A full letter grade (e.g. B to C)        |
-| One team deliverable                           | Half a letter grade                      |
-| Additional team deliverables                   | A full letter grade                      |
-| A major project                                | A full letter grade                      |
-| The final exam                                 | A full letter grade                      |
-| Failure to complete all reflective assignments | A full letter grade                      |
-| Failure to submit an assignment                | Double the regular penalty for an unsatisfactory submission |
+**To raise your grade above a B**, you can complete **challenge projects**. My goal is to offer four challenge projects if the schedule allows, but there will be at least three. Satisfactory completion of each one will raise your final grade by
+a fraction of a letter. If you lose points for any reason, you can complete a challenge project to counteract what you've lost.
 
-These penalties are cumulative. For example, if you fail to achieve satisfactory performance on two quizzes (beyond the one you're allowed drop), your base grade would be lowered by 1.5 letters, from B to C-.
+Here is the complete points table, including the challenge projects.
 
-**To earn a higher grade**, you can complete additional work that shows deeper engagement with the course goals.
+| Points      | Letter Grade                       |
+| -------------|---------------------------------|
+| 14 or more   | A | 
+| 13            | A- |
+| 12            | B+ |                
+| 11            | B |
+| 10            | B- |
+| 9            | C+ |
+| 8            | C |
+| 7            | C- |
+| 6            | D+ |
+| 5            | D |
+| 4            | D- |
+| 3 or fewer   | F |
 
-| For successfully completing                         | Your grade will be adjusted upwards by   |
-|-----------------------------------------------------|------------------------------------------|
-| A challenge assignment (there will be at least two) | Half a letter grade                      |
-| An in-depth reflective writing assignment           | Half a letter grade                      |
-| Bonus points on a majority of the quizzes           | Half a letter grade                      |
+If you earn all 12 points from the regular coursework, you only need to complete two challenge projects to earn an A. If you lose less than one point, you need to complete
+three projects to earn an A.
 
-If your grade drops, you can still complete extra work to boost it up. For example, you could struggle with one team deliverable, but
-complete the reflective writing assignment. The two would cancel each other out and your grade would remain a B.
 
 ### Why Are You Doing This To Us?
 
-1. In a traditional system, your grade is ultimately determined by my judgment of your work. My judgment is pretty good, but specs grading gives you more clarity about where you stand and guidance for how to achieve the grade you want
+1. In a traditional system, your grade is ultimately determined by my judgment of your work. My judgment is pretty good, but specs grading gives you more clarity about where you stand and guidance for how to achieve the grade you want.
 
-2. Your grade is directly tied to the learning that you demonstrate. The satisfactory work sets a baseline, but to earn a higher grade, you must demonstrate a higher level of engagement with the course material.
+2. Points-out-of-100 based systems place a lot of value on small differences in your scores. What, really, is the meaningful difference between an 89 and a 91, even if we say
+one of those grades is a B+ and the other is an A-? Under specs grading, you're incentivized to focus on doing good work, not arguing for more points or partial credit after
+the fact.
 
-3. It gives you choices for how to attain higher grades. You can boost your grade by completing individual programming assignments, superior team-based projects, or an in-depth reflection.
+3. Your grade is directly tied to the learning that you demonstrate. The satisfactory work sets a baseline, but to earn a higher grade, you must demonstrate a higher level of engagement with the course material, and I give you choices for how to demonstrate that increased engagement.
 
-4. It's relatively easy to get a B if you do the required work, but hard to get an A. This preserves the integrity of the course, while still making it possible for everyone to succeed.
+4. Earning a B is straightforward if you do the required work, but it's hard to get an A. This preserves the integrity of the course, while still making it possible for everyone to succeed. Failure is unlikely unless you abandon the course.
 
 5. If you only need a B or a C, you can adjust your effort accordingly: the standards are transparent. You don't have to spend time on the most difficult assignments if you don't need them to get the result you want.
 
 6. It reflects how you'll be evaluated in your career. Work assignments aren't graded out of 100% and your boss won't give partial credit for incomplete work. So, basically, I'm setting you up for massive career success.
-
-### What About My Partial Credit?
-
-You may feel uncomfortable about the two-level grading scale. This will pass.
-
-1. Two-level grading is faster, so I will be able to return work more quickly and put more effort into giving you meaningful feedback.
-
-2. Two-level grading is more consistent. It's easier to sort work into two bins, rather than slicing it into 100 possible points.
-
-3. Each project will have a spec that clearly explains the requirements for satisfactory work. You can also ask me (through the expert request form) for an evaluation of your work-in-progress.
-
-4. Again, industry doesn't give partial credit. If you're asked to code a feature or prepare a presentation, you ultimately either perform at a satisfactory level or you don't.
-
-5. There are at least four ways to increase your grade. You only need three of them to move from the satisfactory B to an A.
 
 ## Course Policies
 
