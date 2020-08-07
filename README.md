@@ -172,7 +172,7 @@ There will be **no exams** due to our compressed schedule.
 
 ### Final Letter Grades
 
-**To earn a B for the course**, you must earn at least 11 out of 12 points. This is equivalent to saying that everyone gets one free automatic drop.
+**To earn a B for the course**, you must earn at least 11 out of 12 points. This is equivalent to allowing you to automatically drop your lowest grade.
 
 If you fail to achieve at least 11 points, your score will be adjusted downwards by a fraction of a letter grade per point, as shown in the following table:
 
