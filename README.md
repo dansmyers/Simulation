@@ -148,9 +148,9 @@ work that failed to meet specifications. More information on the challenge proje
 The sprint deliverables will be graded on a **binary scale**: you'll receive either **one full point** or **zero points**. To receive credit for a sprint deliverable, the work
 you submit must be:
 
-1. Substantially complete and correct (there may be a few issues, but only minor ones).
-2. Shows real understanding and application of the course material.
-3. Completed on time in the required format.
+- Substantially complete and correct (there may be a few issues, but only minor ones).
+- Indicative of real understanding and application of the course material.
+- Completed on time in the required format.
 
 All of the quizzes will be worth **one total point** and the questions on each quiz will be weighted equally. For example, if there are four questions on a quiz (which will be
 the typical case):
