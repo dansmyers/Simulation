@@ -81,20 +81,6 @@ You may work with any combination of students to complete the programs, and you 
 
 ## Resources
 
-I've given you several notes and example programs to help you get started:
-
-- The `Notes` directory contains some background telling you how to set up Python, the differences between Python and Java, and some tips for writing Python programs.
-
-- The `Examples` directory contains example Monte Carlo simulation programs and some practice questions.
-
 For general Python background I recommend Allen Downey's *Think Python*, which is [available free on the web](https://greenteapress.com/wp/think-python/). It contains a good overview of essential elements of Python programming. For our purposes, the most important chapters are the ones on variables, iteration, conditionals, functions, and lists. We'll get into the material on tuples, dictionaries, and objects later in the class.
 
 You may also enjoy [this video tutorial](https://www.youtube.com/watch?v=_uQrJ0TkZlc) giving an accessible overview to Python (you don't need to watch the whole thing).
-
-For an overview of summary statistics, I recommend [this free book from UCLA](http://wiki.stat.ucla.edu/socr/index.php/EBook) and [Khan Academy's set of videos](https://www.khanacademy.org/math/statistics-probability/summarizing-quantitative-data). Note that you only need to study the sample mean, median, interquartile range, sample standard deviation, and sample variance.
-
-Official documentation for [matplotlib](https://matplotlib.org/) and [Python's `random` module](https://docs.python.org/3/library/random.html).
-
-[An MIT lecture on Monte Carlo simulation](https://www.youtube.com/watch?v=OgO1gpXSUzU). The second half gets into some more complex material that we'll cover later, but the first half is a good overview of the history and motivation for the method.
-
-An example of using Monte Carlo simulation [to estimate pi](https://academo.org/demos/estimating-pi-monte-carlo/).
