@@ -68,9 +68,9 @@ given a small input data set. Know about the **mode** of a categorical data set.
 
 6. Opening a file in Python and processing it line by line. Extracting the data values on each line into a data structure for later processing.
 
-7. **Box plots** as visualizations of a quantitative data set, both interpreting them and creating them in matplotlib.
+7. **Box plots** as visualizations of a quantitative data set, both interpreting them and creating them in `matplotlib`.
 
-8. **Histograms** as visualizations of a quantitative data set. Again, now how to interpret them and create them in matplotlib.
+8. **Histograms** as visualizations of a quantitative data set. Again, now how to interpret them and create them in `matplotlib`.
 
 
 ## Deliverables
