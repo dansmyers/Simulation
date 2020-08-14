@@ -9,21 +9,20 @@
 This is it: the first sprint. We're going to do four things:
 
 1. Get comfortable with the rhythms and practice of Scrumage.
-
 2. Learn (or review) the important elements of Python programming
-
 3. Review important background concepts on descriptive statistics, including measures of centrality, measures of spread,
 quartiles, box plots, and histograms.
-
 4. Get comfortable using Python to conduct a non-trivial data analysis and visualize results.
 
 At the end of the sprint, you'll have three things to complete:
 
 1. The deliverables described in this project.
-
 2. An individual quiz.
-
 3. A short individual reflective write-up.
+
+The content for this sprint is not particularly difficult, although you will need to get familiar with programming in Python, which may be new for you. As you're working,
+focus on getting into the rhythm of Scrumage and developing good working habits with your teams that will carry you through the more content-heavy sprints that are coming up.
+
 
 ## Quiz
 
