@@ -21,6 +21,11 @@ handle most casual advising questions over Slack.
 If you'd like to chat in person, we can talk (in a socially-distanced way) at the beginning or end of class. You can also make an appointment to chat via WebEx
 if you have questions that are too in-depth to handle over Slack.
 
+I will plan to be generally available for WebEx appointments on
+
+- Mondays, Wednesdays, and Fridays from 1:30 to 3:00
+- Tuesdays and Thursdays from 10:00 to 12:00
+
 ## Official Course Description
 
 **CMS 380 Simulation and Stochastic Modeling**: Explores the use of probability theory and statistical methods in the development of computer simulations used to study and model real-world phenomenon. Topics include an overview of probability theory, a survey of common statistical distributions, random number generation, and common techniques for creating models that incorporate randomness, such as queueing networks and Markov chains. Prerequisite: CMS 170.
@@ -42,12 +47,12 @@ At the end of this course, you will be able to:
 ## Scrumage
 
 ### What?
-This course will be different from other courses you've taken. We'll be using a new course management framework called **Scrumage** ("**Scrum** for **Ag**ile **E**ducation"), originally developed by Dr. Shannon Duvall at Elon University. Scrumage is based on the Scrum project management framework, which you may have used for team-based projects in some of your earlier courses.
+This course will be different from other courses you've taken. We'll be using a new course management framework called **Scrumage** ("**Scrum** for **Ag**ile **E**ducation"), originally developed by Dr. Shannon Duvall at Elon University. Scrumage is based on the Scrum project management framework, which you may have used for team-based projects in some of your other courses.
 
 ### How Does It Work?
 Here are the  main features of Scrumage:
 
-1. The course is structured as a series of **sprints**, each lasting two weeks. Each sprint covers one unit of material. There will be seven sprints in our course.
+1. The course is structured as a series of **sprints**, each lasting two weeks. Each sprint covers one unit of material. There will be six sprints in our course.
 
 2. At the beginning of each sprint, you'll be given a list of learning topics for the sprint, a curated list of resources (videos, readings, worked examples, etc.), and a set of required deliverables due at the end of the two-week period.
 
@@ -80,7 +85,7 @@ features that are useful for hybrid courses:
 - You're automatically connected to other students in the class, so you have allies already in place if we need to change formats.
 
 - It keeps the course on an overall schedule, but gives you flexibility for how to manage your time within each sprint. Flexibility emerged as an important theme in feedback
-from the Spring semester.
+from the spring semester.
 
 - It gives me lots of options for how to adjust the schedule if we need to. The sprint-based structure means that we're never more than two weeks from a reset point, and I
 can adjust the content and deliverables for each sprint in response to changing conditions.
@@ -139,7 +144,7 @@ Rather than calculating your score as number of points on a 0-100 scale, your gr
 If you achieve satisfactory performance on enough assigments, described in more detail below, you'll receive a baseline grade of **B** for the course. This demonstrates that you have engaged with the material and met the basic learning outcomes for the class. To get a higher grade, you can do more work that shows greater mastery of the course learning outcomes.
 
 ### Assignments and Scoring
-Each sprint will have two graded assessments the **deliverable assignment** and an **individal quiz**. You will also complete a **short reflective self-assessment** at the
+Each sprint will have two graded assessments: the **deliverable assignment** and an **individal quiz**. You will also complete a **short reflective self-assessment** at the
 end of each sprint.
 
 In addition to the quizzes and deliverables, there will be additional **challenge assignments** that you can complete to increase your grade above a B, or to make up for any
@@ -150,7 +155,7 @@ you submit must be:
 
 - Substantially complete and correct (there may be a few issues, but only minor ones).
 - Indicative of real understanding and application of the course material.
-- Completed on time in the required format.
+- Completed on time and in the required format.
 
 All of the quizzes will be worth **one total point** and the questions on each quiz will be weighted equally. For example, if there are four questions on a quiz (which will be
 the typical case):
@@ -160,9 +165,7 @@ the typical case):
 - Satisfactory answers for two out of four questions would earn .5 points
 - And so forth
 
-I will mark the quiz questions as correct/incorrect using the same "substantially complete and correct" standards as for the deliverable assignments.
-
-Using this system, you can earn a total of 12 points across all six sprints: six points from the deliverable assignments and a maximum of six points from all of the quizzes.
+The indvidual quiz questions will be marked as either satisfactory or unsatisfactory using the same "substantially complete and correct" standards as for the deliverable assignments. Therefore, **your grade on the quiz is based on giving satisfactory answers to the quiz questions**.
 
 
 ### Midterm and Final Exams
@@ -172,6 +175,7 @@ There will be **no exams** due to our compressed schedule.
 
 ### Final Letter Grades
 
+Using this system, you can earn a total of 12 points across all six sprints: six points from the deliverable assignments and a maximum of six points from all of the quizzes.
 **To earn a B for the course**, you must earn at least 11 out of 12 points. This is equivalent to allowing you to automatically drop your lowest grade.
 
 If you fail to achieve at least 11 points, your score will be adjusted downwards by a fraction of a letter grade per point, as shown in the following table:
@@ -189,7 +193,7 @@ If you fail to achieve at least 11 points, your score will be adjusted downwards
 | 3 or fewer   | F |
 
 **To raise your grade above a B**, you can complete **challenge projects**. My goal is to offer four challenge projects if the schedule allows, but there will be at least three. Satisfactory completion of each one will raise your final grade by
-a fraction of a letter. If you lose points for any reason, you can complete a challenge project to counteract what you've lost.
+a fraction of a letter. If you lose points for any reason, you can complete a challenge project to make up for what you've lost.
 
 Here is the complete points table, including the challenge projects.
 
@@ -222,7 +226,7 @@ the fact.
 
 3. Your grade is directly tied to the learning that you demonstrate. The satisfactory work sets a baseline, but to earn a higher grade, you must demonstrate a higher level of engagement with the course material, and I give you choices for how to demonstrate that increased engagement.
 
-4. Earning a B is straightforward if you do the required work, but it's hard to get an A. This preserves the integrity of the course, while still making it possible for everyone to succeed. Failure is unlikely unless you abandon the course.
+4. Earning a B is straightforward if you do the required work, but it's hard to get an A. This preserves the integrity of the course, while still making it possible for everyone to succeed. Failure is pretty much impossible unless you abandon the course.
 
 5. If you only need a B or a C, you can adjust your effort accordingly: the standards are transparent. You don't have to spend time on the most difficult assignments if you don't need them to get the result you want.
 
@@ -261,6 +265,9 @@ Material submitted electronically should contain the pledge; submission implies 
 
 ## How Do I Interpret the Honor Code?
 In the context of this class, my interpretation of the Honor Code pledge is that the work you submit for every assignment shall be your own original creation. This means that any item you submit must be written by you and you alone, or in an assigned group project by your group alone. Copying a complete solution from fellow class members, previous class members, books, or the Internet is a violation of this policy and will constitute academic misconduct.
+
+The use of online homework help sites such as Chegg or non-Rollins-approved tutors is **explicitly and brutally forbidden**. I will pursue the maximum possible penalty
+against any student who violates the Honor Code by purchasing plagiarized solutions to assignments.
 
 ## Official Syllabus Statements
 
