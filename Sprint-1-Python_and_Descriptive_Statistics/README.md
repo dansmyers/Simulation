@@ -26,13 +26,15 @@ focus on getting into the rhythm of Scrumage and developing good working habits 
 
 ## Deliverables and Quiz
 
-Complete the four problems in `Deliverables.md`.
+Complete the four problems in `Deliverables.md`. Remember that you may work freely with the members of your team and you may use any resources that you find helpful to
+complete the project. **Please list the names of you collaborators in the project document**.
 
 ***ADD SUBMISSION INSTRUCTIONS***.
 
 The quiz and reflective write-up will be done **online** on **Wednesday, September 30**, which will also be the release day for the next sprint's material. The quiz will be 
 **individual** (not team) but will be **open everything**: you can use the sprint resources, your notes, and online resources. Remember to abide by the Honor Code 
 and ask me if you have questions about what is an acceptable resource!
+
 
 
 ## Learning Outcomes
@@ -71,13 +73,6 @@ given a small input data set. Know about the **mode** of a categorical data set.
 9. **Box plots** as visualizations of a quantitative data set, both interpreting them and creating them in `matplotlib`.
 
 10. **Histograms** as visualizations of a quantitative data set. Again, know how to interpret them and create them in `matplotlib`.
-
-
-## Deliverables
-
-The `Deliverables` directory contains a write-up with three problems that you need to complete by the end of the sprint.
-
-You may work with any combination of students to complete the programs, and you may use any resources. Make sure to list the names of you collaborators in the project document.
 
 
 ## Resources
