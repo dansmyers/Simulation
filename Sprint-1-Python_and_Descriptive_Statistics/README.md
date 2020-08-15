@@ -96,7 +96,19 @@ are in the `Examples` directory.
 
 ### Descriptive Stats
 
+There are many readily available resources with information on basic descriptive statistics and most of this material will be review for you. Here are some videos covering
+the basics:
 
+- [Types of data](https://www.youtube.com/watch?v=2zSYAlonQIQ&list=PL3NllU3-qaWJQmITLdyDKxqMatjhTomR1&index=1) (feat. sweet backwards writing on glass setup)
+- [Measures of central tendency](https://www.youtube.com/watch?v=CSNm7cNMVdM&list=PL3NllU3-qaWJQmITLdyDKxqMatjhTomR1&index=2) ("Central Tendency" is a great name for a progressive metal band)
+- [Range and interquartile range](https://www.youtube.com/watch?v=PzXsgs_DxGI&list=PL3NllU3-qaWJQmITLdyDKxqMatjhTomR1&index=3)
+- [Five number summary](https://www.youtube.com/watch?v=ifhx1vCKZGU&list=PL3NllU3-qaWJQmITLdyDKxqMatjhTomR1&index=11)
+- [Box plots](https://www.youtube.com/watch?v=CJlvCxHMB_4&list=PL3NllU3-qaWJQmITLdyDKxqMatjhTomR1&index=12) (you only need the first three minutes)
+- [Creating histograms](https://www.youtube.com/watch?v=gSEYtAjuZ-Y)
+- [Variance](https://www.youtube.com/watch?v=E4HAYd0QnRc) (the key idea is the concept of variance as the average squared distance from the mean)
+
+I will not make you perform extensive calculations by hand (no one does that in real life), but you should be able to manually calculate means, medians, quartiles, the five 
+number summary, and variance for small data sets.
 
 ## Tips
 
