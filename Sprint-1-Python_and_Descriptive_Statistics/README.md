@@ -110,7 +110,7 @@ the basics:
 I will not make you perform extensive calculations by hand (no one does that in real life), but you should be able to manually calculate means, medians, quartiles, the five 
 number summary, and variance for small data sets.
 
-## Tips
+## Suggested Plan and Some Tips
 
 As always, **don't wait until the last minute**. You won't be able to learn everything that you need to know and finish the deliverables if you wait until the night before the end of the sprint.
 
