@@ -2,14 +2,14 @@
 
 ## Overview
 
-This note shows how to plot a histogram using Matplotlib, a popular Python visualization library based on the visualization tools in the MATLAB language. Similar code will
+This note shows how to plot a histogram using `matplotlib`, a popular Python visualization library based on the visualization tools in the MATLAB language. Similar code will
 work for creating box plots: just substitute the box plot function (hint: you can look it up in the documentation).
 
 ## Installing Matplotlib
 
 Open the terminal in your Mimir IDE.
 
-Install Matplotlib using `apt-get`, the basic package manager for Debian Linux distributions:
+Install `matplotlib` using `apt-get`, the basic package manager for Debian Linux distributions:
 
 ```
 sudo apt-get install python-matplotlib
@@ -17,9 +17,7 @@ sudo apt-get install python-matplotlib
 
 You may recall that `sudo` is the *substitute user do* command. Linux systems always make a distinction between regular users (i.e., your normal user account), who are restricted from performing potentially damaging or insecure operations, and the `root` account, which is allowed to modify pretty much anything on the system. `sudo` allows you to run a single command with root-level privileges, so it's typically used when you want to perform one operation that modifies the system, like installing a new program. Your Mimir account is automatically configured so that you can use `sudo` to install new programs.
 
-## 
-
-Here's an example Matplotlib script.
+## Example Script
 
 ```
 # Import matplotlib and configure it to save files in the web IDE
@@ -53,7 +51,11 @@ Put this into a file named `histogram.py` and run it using `python3`.
 python3 histogram.py
 ```
 
+## Output
+
 The final plot will be saved into `example_histogram.pdf`. You may need to reload Mimir to make it appear in your file browser pane; you can then download it and make sure that it appears the way you want.
+
+## Notes
 
 Notes on the functions in this example:
 
