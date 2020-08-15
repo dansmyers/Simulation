@@ -110,3 +110,9 @@ while True:
 ```
 
 Think about how to test if a number is prime, then write an `is_prime(n)` function that returns `True` if the input number `n` is prime and `False` otherwise. The straightforward way is to test for divisibility by any numbers between 2 and `sqrt(n)`.
+
+Tip: you can do a little better if you recognize that 2 is a special case as the only even prime. Start with 3 and then advance by 2 on each iteration.
+
+Tip-tip: if you want to be even fancier (which, of course, you do), you could use a list to keep track of the primes you find. It's then sufficient to test for divisibility by the **primes** that are less than or equal to `sqrt(n)`, which will be much faster than grinding up through the sequential numbers.
+
+You can try the straightforward solution first. If it runs for more than, say, a minute, try implementing the faster solution.
