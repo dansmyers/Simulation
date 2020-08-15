@@ -31,12 +31,10 @@ from matplotlib import pyplt as plt
 # Example data
 data = [10, 12, 15, 25, 4, 8, 11, 64, 100]
 
-# Create a new figure
+# Create a new figure -- you must do this before calling a plotting function
 plt.figure()
 
-# Histogram of the example data
-#
-# The second argument is the number of bins to create
+# Create a histogram with 15 bins
 plt.hist(data, 15)
 
 # Title and axis labels
