@@ -40,4 +40,46 @@ Tip: the first line has `height - 1` spaces and 2 blocks. The second line has `h
 Tip-tip: use an outer `for` loop to iterate over the levels of the staircase; you can use inner loops to print the spaces and stars, or read about Python's 
 **string multiplication** feature, which is very convenient for generating repeated strings.
 
-### 
+
+### RPS
+
+Write a rock-paper-scissors game. Use the template below as a starting point and fill in the rest of the sections.
+
+```
+"""
+A Rock-Paper-Scissors game that plays one round of human vs. computer
+"""
+
+# Import the randint method
+from random import randint
+
+# Declare constant variables representing the three moves
+# Map each move to a number, but refer to them by name in the rest of the program
+#
+# Using CAPITALIZATION to indicate constants is standard style, but Python
+# doesn't have a way to enforce that a variable is constant
+ROCK = 1
+PAPER = 2
+SCISSORS = 3
+
+# Print the welcome message and list the three moves
+print('Welcome, pathetic human, to Rock-Paper-Scissors.')
+print()
+print('1. ROCK')
+print('2. PAPER')
+print('3.SCISSORS')
+
+# Read the user's move
+move = int(input('Select a move to form with your clumsy and imprecise meat-hands: '))
+
+# If the move is not ROCK, PAPER, or SCISSORS, exit the program
+
+# Randomly generate the CPU's move using randint
+
+# Print a message declaring the CPU's move
+
+# Easy case: if the player and CPU's moves are the same, it's a tie
+
+# Fill in the other cases
+
+```
