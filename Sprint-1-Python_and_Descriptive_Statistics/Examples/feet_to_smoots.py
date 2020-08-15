@@ -11,9 +11,10 @@ beginning of each function to have a descriptive docstring.
 
 # Read length in feet and convert it to a float type
 #
-# input() is the basic Python 3 input function
-# It returns a string type
-# Use float() to convert the input value to a real-valued number
+# input() is the basic Python 3 input function.
+#
+# input() returns its result as a string type: float() converts to a
+# real-valued number.
 #
 # The basic Python types are int, str, and float
 # Python's float is equivalent to a Java double
