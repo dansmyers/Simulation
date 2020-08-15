@@ -65,11 +65,15 @@ given a small input data set. Know about the **mode** of a categorical data set.
 
 5. The **standard deviation** and **variance** as the most important measures of spread. Be able to calculate both values for a small example data set.
 
-6. Opening a file in Python and processing it line by line. Extracting the data values on each line into a data structure for later processing.
+6. **Standard features of Python programming**: variables, conditionals, loops, functions, etc.
 
-7. **Box plots** as visualizations of a quantitative data set, both interpreting them and creating them in `matplotlib`.
+7. Python's important built-in data structures: **lists** (like a Java `ArrayList`) and **dictionaries** (like Java's `HashMap`)
 
-8. **Histograms** as visualizations of a quantitative data set. Again, now how to interpret them and create them in `matplotlib`.
+8. **Opening a file in Python** and processing it line by line. Extracting the data values on each line into a data structure for later processing.
+
+9. **Box plots** as visualizations of a quantitative data set, both interpreting them and creating them in `matplotlib`.
+
+10. **Histograms** as visualizations of a quantitative data set. Again, now how to interpret them and create them in `matplotlib`.
 
 
 ## Deliverables
