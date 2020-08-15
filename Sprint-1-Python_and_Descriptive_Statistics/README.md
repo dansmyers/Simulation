@@ -24,19 +24,16 @@ The content for this sprint is not particularly difficult, although you will nee
 focus on getting into the rhythm of Scrumage and developing good working habits with your teams that will carry you through the more content-heavy sprints that are coming up.
 
 
-## Quiz
+## Deliverables and Quiz
 
-The quiz and write-up will be done **online** on **Wednesday, September 30**, which will also be the release day for the next sprint's material. The quiz will be 
+Complete the four problems in `Deliverables.md`.
+
+***ADD SUBMISSION INSTRUCTIONS***.
+
+The quiz and reflective write-up will be done **online** on **Wednesday, September 30**, which will also be the release day for the next sprint's material. The quiz will be 
 **individual** (not team) but will be **open everything**: you can use the sprint resources, your notes, and online resources. Remember to abide by the Honor Code 
 and ask me if you have questions about what is an acceptable resource!
 
-## Tips
-
-As always, **don't wait until the last minute**. You won't be able to learn everything that you need to know and finish the deliverables if you wait until the night before the end of the sprint.
-
-In general, you should be **making some progress every day**. Think about working at a steady, even pace throughout the two weeks, rather than trying to binge large amounts of work into small windows.
-
-Use our class meeting times to coordinate with your team and check-in with me. You'll still need to work outside of our scheduled class time to accomplish everything.
 
 ## Learning Outcomes
 
@@ -73,7 +70,7 @@ given a small input data set. Know about the **mode** of a categorical data set.
 
 9. **Box plots** as visualizations of a quantitative data set, both interpreting them and creating them in `matplotlib`.
 
-10. **Histograms** as visualizations of a quantitative data set. Again, now how to interpret them and create them in `matplotlib`.
+10. **Histograms** as visualizations of a quantitative data set. Again, know how to interpret them and create them in `matplotlib`.
 
 
 ## Deliverables
@@ -85,6 +82,26 @@ You may work with any combination of students to complete the programs, and you 
 
 ## Resources
 
-For general Python background I recommend Allen Downey's *Think Python*, which is [available free on the web](https://greenteapress.com/wp/think-python/). It contains a good overview of essential elements of Python programming. For our purposes, the most important chapters are the ones on variables, iteration, conditionals, functions, and lists. We'll get into the material on tuples, dictionaries, and objects later in the class.
+### Python Programming
+
+[Python for Java programmers cheat sheet](https://medium.com/nestedif/cheatsheet-python-for-java-developers-98f75c94a1a)
+
+For general Python background I recommend Allen Downey's *Think Python*, which is [available free on the web](https://greenteapress.com/wp/think-python/). It contains a good overview of essential elements of Python programming. For our purposes, the most important chapters are the ones on variables, iteration, conditionals, functions, and lists. We'll get into the material on tuples, dictionaries, and objects later in the class. **Don't try to read this book before doing any programming**; look at it as a reference
+if you need more information on a particular topic.
 
 You may also enjoy [this video tutorial](https://www.youtube.com/watch?v=_uQrJ0TkZlc) giving an accessible overview to Python (you don't need to watch the whole thing).
+
+I've also given you a set of example programs illustrating all of the basic Python features you need for this unit and a short set of additional practice problems. Both 
+are in the `Examples` directory.
+
+### Descriptive Stats
+
+
+
+## Tips
+
+As always, **don't wait until the last minute**. You won't be able to learn everything that you need to know and finish the deliverables if you wait until the night before the end of the sprint.
+
+In general, you should be **making some progress every day**. Think about working at a steady, even pace throughout the two weeks, rather than trying to binge large amounts of work into small windows.
+
+Use our class meeting times to coordinate with your team and check-in with me. You'll still need to work outside of our scheduled class time to accomplish everything.
