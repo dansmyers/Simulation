@@ -1,8 +1,9 @@
-# Histograms
+# Plotting Histograms in `matplotlib`
 
 ## Overview
 
-This note shows how to plot a histogram using Matplotlib, a popular Python visualization library based on the visualization tools in the MATLAB language.
+This note shows how to plot a histogram using Matplotlib, a popular Python visualization library based on the visualization tools in the MATLAB language. Similar code will
+work for creating box plots: just substitute the box plot function (hint: you can look it up in the documentation).
 
 ## Installing Matplotlib
 
