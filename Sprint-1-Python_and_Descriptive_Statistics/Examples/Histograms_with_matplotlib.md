@@ -58,6 +58,6 @@ Notes on the functions in this example:
 
 - `matplotlib.use('Agg')` configures the output engine of matplotlib to a setting that works with web-based IDEs like Mimir's. Noramlly, Matplotlib would make any plots you create appear on your desktop, but that isn't possible in Mimir, so we'll just save everything to a PDF.
 
-- `plt.hist` plots the histogram on the current figure. The second argument that specifies the number of bins for the histogram; the default is ten.
+- `plt.hist` plots the histogram on the current figure. The second argument that specifies the number of bins; the default is ten.
 
 - `plt.savefig` outputs the plot to a PDF file. The `bbox_inches = 'tight'` argument tells the output engine to eliminate unnecessary white space around the figure in the final PDF. It isn't required, but it makes the plot easier to use if you need to embed it in a document.
