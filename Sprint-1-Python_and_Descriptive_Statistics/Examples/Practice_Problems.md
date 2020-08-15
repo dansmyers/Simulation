@@ -83,3 +83,30 @@ move = int(input('Select a move to form with your clumsy and imprecise meat-hand
 # Fill in the other cases
 
 ```
+
+### 10001st Prime (Project Euler #7)
+
+By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13.
+
+What is the 10 001st prime number?
+
+Tips:
+
+The basic strategy is something like this:
+
+```
+n = 2;
+numPrimes = 0;
+
+while True:
+    if (isPrime(n)):
+        numPrimes += 1
+    
+    if numPrimes == 10001:
+        print(n)
+        break
+    else:
+        n += 1
+```
+
+Think about how to test if a number is prime, then write an `is_prime(n)` function that returns `True` if the input number `n` is prime and `False` otherwise. The straightforward way is to test for divisibility by any numbers between 2 and `sqrt(n)`.
