@@ -4,8 +4,6 @@
 
 This note shows how to plot a histogram using Matplotlib, a popular Python visualization library based on the visualization tools in the MATLAB language.
 
-If you'd like to review the basics of creating and using histograms, check out [this video](https://www.khanacademy.org/math/pre-algebra/pre-algebra-math-reasoning/pre-algebra-picture-bar-graphs/v/histograms).
-
 ## Installing Matplotlib
 
 Open the terminal in your Mimir IDE.
@@ -24,6 +22,8 @@ Here's an example Matplotlib script.
 
 ```
 # Import matplotlib and configure it to save files in the web IDE
+#
+# These three lines should be at the start of any script that uses matplotlib on Mimir
 import matplotlib
 matplotlib.use('Agg')  # <-- Required if you're using matplotilb in Mimir, see below
 from matplotlib import pyplt as plt
@@ -35,6 +35,8 @@ data = [10, 12, 15, 25, 4, 8, 11, 64, 100]
 plt.figure()
 
 # Histogram of the example data
+#
+# The second argument is the number of bins to create
 plt.hist(data, 15)
 
 # Title and axis labels
@@ -54,7 +56,7 @@ python3 histogram.py
 
 The final plot will be saved into `example_histogram.pdf`. You may need to reload Mimir to make it appear in your file browser pane; you can then download it and make sure that it appears the way you want.
 
-A few notes on some of the functions in this example:
+Notes on the functions in this example:
 
 - `matplotlib.use('Agg')` configures the output engine of matplotlib to a setting that works with web-based IDEs like Mimir's. Noramlly, Matplotlib would make any plots you create appear on your desktop, but that isn't possible in Mimir, so we'll just save everything to a PDF.
 
