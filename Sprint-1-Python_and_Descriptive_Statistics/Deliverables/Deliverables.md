@@ -1,4 +1,4 @@
-# Sprint 1 &ndash; Deilverables
+# Sprint 1 &ndash; Deliverables
 
 ## Honor Code
 
