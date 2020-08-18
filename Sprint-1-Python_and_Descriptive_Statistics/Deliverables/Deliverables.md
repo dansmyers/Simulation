@@ -45,4 +45,18 @@ for line in f:
     
     # Cast to a float and then append to the list
     values.append(float(line))
+    
+    
+# Now you calculate answers using the values list
+```
+
+Tip-tip: I recommend writing functions to calculate each one of the outputs. For example,
+
+```
+def mean(x):
+    """
+    Calculate and return the mean of input list x
+    """
+    
+    return sum(x) / len(x)
 ```
