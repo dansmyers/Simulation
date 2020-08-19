@@ -190,7 +190,10 @@ If you fail to achieve at least 11 points, your score will be adjusted downwards
 | 6            | D+ |
 | 5            | D |
 | 4            | D- |
-| 3 or fewer   | F |
+| Less than 4  | F |
+
+Fractional numbers of points fit into the appropriate spot on the table. For example, if you earned 10.5 points over the entire course, your letter grade would be a B-, because 
+you've earned more than 10 points but fewer than 11 points.
 
 **To raise your grade above a B**, you can complete **challenge projects**. My goal is to offer four challenge projects if the schedule allows, but there will be at least three. Satisfactory completion of each one will raise your final grade by
 a fraction of a letter. If you lose points for any reason, you can complete a challenge project to make up for what you've lost.
@@ -199,7 +202,7 @@ Here is the complete points table, including the challenge projects.
 
 | Points      | Letter Grade                       |
 | -------------|---------------------------------|
-| 14 or more   | A | 
+| More than 13  | A | 
 | 13            | A- |
 | 12            | B+ |                
 | 11            | B |
@@ -210,10 +213,10 @@ Here is the complete points table, including the challenge projects.
 | 6            | D+ |
 | 5            | D |
 | 4            | D- |
-| 3 or fewer   | F |
+| Less than 4  | F |
 
-If you earn all 12 points from the regular coursework, you only need to complete two challenge projects to earn an A. If you lose less than one point, you need to complete
-three projects to earn an A.
+If you earn more than 11 points from the regular coursework, you only need to complete two challenge projects to earn an A. If you earn between 10 and 11 points, you need to complete three challenge projects to earn an A. Note that earning 10.5 points is straightforward if you complete all of the deliverable proejcts (which is to be expected) and
+average three out of four correct answers on the quizzes.
 
 
 ### Why Are You Doing This To Us?
