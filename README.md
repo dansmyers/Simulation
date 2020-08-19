@@ -257,13 +257,9 @@ the following:
 
 - Please don't relax in your bed (sitting in your bedroom or *on* your bed is perfectly fine, but don't bury yourself under the blankets).
 
-- Please don't eat an entire meal during class.
+- Please don't eat, like, an entire three-course meal during class.
 
 - Please keep your webcams on as much as possible; it helps when I can see everyone.
-
-<img src="https://files.slack.com/files-pri/TVD83HF46-F010LES8DAN/image.png" width="50%"/>
-
-*Cozy Island is not an appropriate location for class*.
 
 ## Necessary and Proper Clause
 
