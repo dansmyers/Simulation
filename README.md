@@ -248,9 +248,26 @@ the fact.
 
 **Canvas and GitHub** Most of the course material will be distributed through GitHub. We'll use Canvas to keep track of grades, announcements, and a few other things.
 
+## Policies for Virtual Attendance
+
+When meeting virtually, it's important to maintain an atmosphere that's conducive to learning and comparable to an in-person class. In that spirit, I respectfully request
+the following:
+
+- Please wear regular clothes, of the kind that would be appropriate for in-person class.
+
+- Please don't relax in your bed (sitting in your bedroom or *on* your bed is perfectly fine, but don't bury yourself under the blankets).
+
+- Please don't eat an entire meal during class.
+
+- Please keep your webcams on as much as possible; it helps when I can see everyone.
+
+<img src="https://files.slack.com/files-pri/TVD83HF46-F010LES8DAN/image.png" width="50%"/>
+
+*Cozy Island is not an appropriate location for class*.
+
 ## Necessary and Proper Clause
 
-As your course facilitator, I will make every effort to adhere to the topics and schedule described in this syllabus. However, I reserve the right to make changes for the good of the course.
+I will make every effort to adhere to the topics and schedule described in this syllabus. However, I reserve the right to make changes for the good of the course.
 
 
 ## Honor Code
