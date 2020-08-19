@@ -215,7 +215,7 @@ Here is the complete points table, including the challenge projects.
 | 4            | D- |
 | Less than 4  | F |
 
-If you earn more than 11 points from the regular coursework, you only need to complete two challenge projects to earn an A. If you earn between 10 and 11 points, you need to complete three challenge projects to earn an A. Note that earning 10.5 points is straightforward if you complete all of the deliverable proejcts (which is to be expected) and
+If you earn more than 11 points from the regular coursework, you only need to complete two challenge projects to earn an A. If you earn between 10 and 11 points, you need to complete three challenge projects to earn an A. Note that earning 10.5 points is straightforward if you complete all of the deliverable projects (which is to be expected) and
 average three out of four correct answers on the quizzes.
 
 
