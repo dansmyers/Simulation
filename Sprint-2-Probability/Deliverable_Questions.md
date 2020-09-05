@@ -53,6 +53,26 @@ P(B) is therefore the total probability of not receiving a letter.
 
 <img src="https://64.media.tumblr.com/99413ebb9f4e29d268974d90d81da509/tumblr_ne9qzeTT7T1s5b5tzo1_500.jpg" width="40%"/>
 
+### Chocolate Frogs
+
+Good news! Hermione got into Hogwarts after all!
+
+Now she's taking her first trip to school on the magical Hogwarts Express. The snack trolley has all kinds of amazing wizard treats, including the ever-popular Chocolate Frogs. Every Chocolate Frog comes with a collectable Famous Witch or Wizard card.
+
+Suppose that there are 30 total Famous Witch or Wizard cards in the set. Every frog is equally likely to contain any one of the cards.
+
+What is the expected number of Chocolate Frogs Hermione would need to open to collect every Famous Witch and Wizard?
+
+Hints:
+
+- If Hermione buys her first frog on the Express, she's guaranteed to get a card she's never seen before.
+
+- After that, there are 29 out of 30 unseen cards remaining. The expected number of frogs she needs to open to find one of the 29 unseen cards is 30 / 29 ~ 1.0344.
+
+- After she has two cards, she'd expect to open 30 / 28 ~ 1.0714 cards to find a third unique card.
+
+This problem is based on a classic called the Coupon Collector's Problem. It's related to the geometric distribution, which we'll talk about in the next sprint.
+
 ### Hat Problem
 
 Hermione and Harry made it to Hogwarts!
@@ -72,20 +92,11 @@ If 10% of new Hogwarts students are evil, what is the probability that a randoml
 Tip: the value you want is `P(Evil | Slytherin)`.
 
 
-### Dragon's Dice
+### 
 
 <img src="https://64.media.tumblr.com/908ee88323640428f9cbda47df177a38/tumblr_nke6rsvC3C1s5b5tzo1_500.jpg" width="40%"/>
 
-Hermione has settled into a nice routine with her fellow Slytherins. During the day, she eats meals in the Great Hall, reads about famous Dark Wizards in the library, and attends her classes. During the evening, she practices jinxing the Hufflepuffs, does her homework, and plays wizard games with her new friends, Daphne Greengrass and Tracey Davis.
 
-One of their games is called Dragon's Dice. It's a simple gambling game, similar to one offered at Muggle carnivals.
-
-Hermione picks a number 1-6 and rolls three fair dice (instead of numbers, the dice are marked with enchanted, moving images of dragons). If her number comes up *k* = 1, 2, or 3 times, she wins *k* galleons. If it does not
-appear on any of the dice, she loses one galleon.
-
-What is Hermione's expected long-run win or loss from playing Dragon's Dice?
-
-Tip: the number of successes in a roll is binomially distributed.
 
 
 ### Urn While You Learn
