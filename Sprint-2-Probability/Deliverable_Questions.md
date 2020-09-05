@@ -133,6 +133,8 @@ Hint-hint: There's going to be a summation. You can look up the result if you do
 
 ### Birthday Attack
 
+<img src="https://64.media.tumblr.com/3ee467fbfc590a59e079ddfe7f93d34d/tumblr_psp65oRMS91s5b5tzo1_500.jpg" width="40%" />
+
 There are a total of 40 students in Hermoine's year at Hogwarts.
 
 Birthdays are important in the Wizarding World. Sharing a birthday with another witch or wizard can create a magical bond between the two of you, leading to all sorts of ridiculous hijinks. This is why wizard twins are always crazy.
