@@ -92,11 +92,23 @@ If 10% of new Hogwarts students are evil, what is the probability that a randoml
 Tip: the value you want is `P(Evil | Slytherin)`.
 
 
-### 
+### Dumblevator
 
 <img src="https://64.media.tumblr.com/908ee88323640428f9cbda47df177a38/tumblr_nke6rsvC3C1s5b5tzo1_500.jpg" width="40%"/>
 
+Hogwarts is so magical that the stairs constantly rearrange themselves.  This has gotten annoying, so Headmaster Dumbledore finally magicked up an elevator to reliably transport 
+students between floors and reduce, but not eliminate, the peril of leaving your room to attend classes and meals.
 
+The school has fifteen floors. The Dumblevator continually moves between the first floor and the fifteenth floor in the order 1, 2, 3 ... 13, 14, 15, 14, 13 
+... 3, 2, 1, and so forth. Any time spent stopped at a floor is negligible compared to the time moving between floors.
+
+Hermione's last class ends at 5 PM on the thirteenth floor and she wants to go down to the first floor to reach the Great Hall for dinner. What is the probability that the Dumblevator is moving **down** when it arrives at the thirteenth floor for the first time after Hermione leaves her class?
+
+Tips:
+
+- This problem is based on one by Don Knuth, author of *The Art of Computer Programming*, which is famous for being one of the first comprehensive computer science texts and having a number of creative problems.
+
+- Hermione can only get on a down-moving Dumblevator if it was **above** the thirteenth floor when she arrived to wait.
 
 
 ### Urn While You Learn
