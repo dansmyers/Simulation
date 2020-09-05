@@ -121,4 +121,4 @@ problems, which will require you to be comfortable with the statistical calculat
 - **Week 2**: Focus on completing the Campus Connections problem. I will show you how to open and input the dataset during class. This problem is not that complicated, but
 it requires you to use Python's built-in lists and dictionaries, which have a different syntax than Java's `ArrayList` and `HashMap`.
 
-- **Week 3**: Finish the Campus Connections problem. **Do not wait until the last minute to start this problem** or you won't be able to finish it.
+- **Week 3**: Finish the Campus Connections problem. **Do not wait until the last minute** or you won't be able to finish it.
