@@ -115,4 +115,10 @@ Use our class meeting times to coordinate with your team and check-in with me. Y
 
 Here is a suggested schedule:
 
-- **Week 1**: 
+- **Week 1**: Begin by working through the Python scripts in the `Examples` directory. We will work through some of these examples together in class during the first week. I suggest reimplementing each script in Mimir, paying attention to the comments that describe what's happening in each program. Work on completing the first two deliverable
+problems, which will require you to be comfortable with the statistical calculations as well as opening files in Python.
+
+- **Week 2**: Focus on completing the Campus Connections problem. I will show you how to open and input the dataset during class. This problem is not that complicated, but
+it requires you to use Python's built-in lists and dictionaries, which have a different syntax than Java's `ArrayList` and `HashMap`.
+
+- **Week 3**: Finish the Campus Connections problem. **Do not wait until the last minute to start this problem** or you won't be able to finish it.
