@@ -123,6 +123,7 @@ Tips:
 
 If the Dumblevator continually moves between the floors (never going above the fourth or below the first), then it spends **one-third** of its time above floor 3.
 
+
 ### Urn While You Learn
 
 Hogwarts is filled with all kinds of wonderous magical objects: talking portraits, deadly moving stairs, secret passages, and the largest collection of magical urns in Western Europe.
