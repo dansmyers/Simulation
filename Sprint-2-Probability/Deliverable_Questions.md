@@ -109,8 +109,19 @@ Tips:
 
 - This problem is based on one by Don Knuth, author of *The Art of Computer Programming*, which is famous for being one of the first comprehensive computer science texts and having a number of creative problems.
 
-- Hermione can only get on a down-moving Dumblevator if it was **above** the thirteenth floor when she arrived to wait.
+- Hermione can only get on a down-moving Dumblevator if it was **above** the thirteenth floor when she arrived to wait. Suppose that there are only four floors:
 
+```
+4 --------
+
+3 --------  
+            
+2 -------- 
+            
+1 --------
+```
+
+If the Dumblevator continually moves between the floors (never going above the fourth or below the first), then it spends **one-third** of its time above floor 3.
 
 ### Urn While You Learn
 
