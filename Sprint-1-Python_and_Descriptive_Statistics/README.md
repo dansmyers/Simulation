@@ -112,3 +112,7 @@ As always, **don't wait until the last minute**. You won't be able to learn ever
 In general, you should be **making some progress every day**. Think about working at a steady, even pace throughout the two weeks, rather than trying to binge large amounts of work into small windows.
 
 Use our class meeting times to coordinate with your team and check-in with me. You'll still need to work outside of our scheduled class time to accomplish everything.
+
+Here is a suggested schedule:
+
+- **Week 1**: 
