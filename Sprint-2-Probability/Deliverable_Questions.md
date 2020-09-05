@@ -24,6 +24,9 @@ You can type your answers in this document or upload a scanned handwritten file.
 
 ### Wizard People, Dear Reader?
 
+<img src="https://64.media.tumblr.com/99413ebb9f4e29d268974d90d81da509/tumblr_ne9qzeTT7T1s5b5tzo1_500.jpg" width="40%"/>
+
+
 Hermione Granger is pretty sure she’s a witch, because she read in a book that having very curly hair is a sign of latent mystical power. Also, one time an owl landed on her head. However, she didn’t receive a letter from Hogwarts on her 11th birthday.
 
 After reading several books and pamphlets, Hermione is pretty sure that
@@ -50,8 +53,6 @@ B = Not receiving a letter
 
 P(B) is therefore the total probability of not receiving a letter.
 ``` 
-
-<img src="https://64.media.tumblr.com/99413ebb9f4e29d268974d90d81da509/tumblr_ne9qzeTT7T1s5b5tzo1_500.jpg" width="40%"/>
 
 ### Chocolate Frogs
 
