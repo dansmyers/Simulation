@@ -51,20 +51,6 @@ B = Not receiving a letter
 P(B) is therefore the total probability of not receiving a letter.
 ``` 
 
-
-### Chocolate Frogs
-
-Good news! Hermione got into Hogwarts after all!
-
-Now she's taking her first trip to school on the magical Hogwarts Express. The snack trolley has all kinds of amazing wizard treats, including the ever-popular Chocolate Frogs. Every Chocolate Frog comes with a collectable Famous Witch or Wizard card.
-
-Suppose that there are 30 total Famous Witch or Wizard cards in the set. Every frog is equally likely to contain any one of the cards.
-
-What is the expected number of Chocolate Frogs Hermione would need to open to collect every Famous Witch and Wizard?
-
-Hint: if she buys her first frog on the Express, she's guaranteed to get a card she's never seen before. After that, there are 29 unseen cards remaining. Think of the card collecting process as a series of geometric trials.
-
-
 ### Hat Problem
 
 Hermione and Harry made it to Hogwarts!
@@ -85,6 +71,8 @@ Tip: the value you want is `P(Evil | Slytherin)`.
 
 
 ### Dragon's Dice
+
+<img src="https://64.media.tumblr.com/908ee88323640428f9cbda47df177a38/tumblr_nke6rsvC3C1s5b5tzo1_500.jpg" width="35%"/>
 
 Hermione has settled into a nice routine with her fellow Slytherins. During the day, she eats meals in the Great Hall, reads about famous Dark Wizards in the library, and attends her classes. During the evening, she practices jinxing the Hufflepuffs, does her homework, and plays wizard games with her new friends, Daphne Greengrass and Tracey Davis.
 
