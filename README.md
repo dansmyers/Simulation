@@ -251,6 +251,13 @@ the fact.
 
 **Canvas and GitHub** Most of the course material will be distributed through GitHub. We'll use Canvas to keep track of grades, announcements, and a few other things.
 
+## Late Work
+
+Late work is only accepted in the case of unusual extenuating circumstances, such as a sudden illness. Work for other classes or part-time jobs does not count as extenuating. 
+You are responsible for submitting work on time, in the required format, and using the correct submission procedure.
+
+Please speak with me as soon as possible if you have concerns about your ability to meet a deadline so we can discuss options.
+
 ## Policies for Virtual Attendance
 
 When meeting virtually, it's important to maintain an atmosphere that's conducive to learning and comparable to an in-person class. In that spirit, I respectfully request
