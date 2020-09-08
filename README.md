@@ -30,6 +30,13 @@ I will plan to be generally available for WebEx appointments on
 
 **CMS 380 Simulation and Stochastic Modeling**: Explores the use of probability theory and statistical methods in the development of computer simulations used to study and model real-world phenomenon. Topics include an overview of probability theory, a survey of common statistical distributions, random number generation, and common techniques for creating models that incorporate randomness, such as queueing networks and Markov chains. Prerequisite: CMS 170.
 
+## Textbook and Resources
+
+There is no required textbook. Our material will come from several online resources, plus my own notes.
+
+We will use [Mimir](https://www.mimirhq.com/) for programming. It is free for the 2020-21 academic year.
+
+
 ## Learning Outcomes
 
 At the end of this course, you will be able to:
