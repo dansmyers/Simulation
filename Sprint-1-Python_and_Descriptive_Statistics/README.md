@@ -33,7 +33,15 @@ The quiz and reflective write-up will be done **online** on **Wednesday, Septemb
 **individual** (not team) but will be **open everything**: you can use the sprint resources, your notes, and online resources. Remember to abide by the Honor Code 
 and ask me if you have questions about what is an acceptable resource!
 
+## Submission Instructions
 
+- Fork this repo (dansmyers/Simulation) using the "Fork" button on the repo homepage. Forking creates a copy of the repo under your own GitHub account.
+
+- Do your work, uploading your files into your repo.
+
+- Submit a pull request to me using the "Pull Request" button on the front page of your repo. The pull request will create an entry that allows me to review your new files.
+
+- I'll use the pull request commenting feature to provide feedback on your work.
 
 ## Learning Outcomes
 
