@@ -164,12 +164,14 @@ you submit must be:
 - Indicative of real understanding and application of the course material.
 - Completed on time and in the required format.
 
+
 Each quiz will be worth **one point**.
 
 - You will receive the full point for a quiz if you give satisfactory answers to *N* - 1 quiz questions.
 - You will receive a half point if you give satisfactory answers to at least half of the quiz questions.
 - The typical quiz will have four questions, so you would need to answer three out of four for full credit and two out of four for half credit.
 - The quizzes will be taken online and are **open notes and open book**.
+- Individual questions will be marked as satisfactory or unsatisfactory using the same "substantially complete and correct" standard as the projects.
 
 
 ### Midterm and Final Exams
