@@ -122,6 +122,14 @@ There's an urn on the fourth floor with a strange property: every time Hermione 
 
 Suppose the urn contains 10 black balls and 5 red balls. If Hermione draws two balls, what is the probability that the second ball is red?
 
+### Pólya's Urn
+
+Suppose an urn contains 9 black balls and 6 red balls. On each trial, Hermione picks a ball at random from the urn, returns it to the urn, and adds in one more ball of the same color.
+
+Suppose she carries out this procedure two times. What are the expected numbers of red and black balls in the urn?
+
+Tip: draw a tree of possible outcomes.
+
 ### Arithmancy
 
 The discrete uniform distribution is defined over a finite set of integer values
