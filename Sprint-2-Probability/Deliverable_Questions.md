@@ -174,6 +174,6 @@ Suppose there are only two Slytherin students: Hermione and her best friend Vict
 P(Both are born on two different days) = (365 / 365) * (364 / 365)
 ```
 
-Hermoine's birthday can be on any day, but Draco's must occur randomly on one of the other 364 days.
+Hermoine's birthday can be on any day, but Victoria's must occur randomly on one of the other 364 days.
 
 What if there are three students? How about more?
