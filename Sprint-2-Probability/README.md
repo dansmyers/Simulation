@@ -16,11 +16,13 @@ At the end of this sprint, you will be familiar with the following concepts.
 
 1. The probability mass function (pmf) of a discrete distribution.
 
-2. Calculating the expected value, variance, and coefficient of variation of a discrete distribution.
+2. Using the sample space of a random variable to reason about the probabilities of events.
 
-3. Conditional probability and the concept of independent events.
+3. Calculating the expected value, variance, and coefficient of variation of a discrete distribution.
 
-4. Bayes' Rule and how to use it to calculate conditional probabilities.
+4. Conditional probability and the concept of independent events.
+
+5. Bayes' Rule and how to use it to calculate conditional probabilities.
 
 ## Deliverables
 
