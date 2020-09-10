@@ -1,5 +1,8 @@
 # Sprint 2 &ndash; Introduction to Probability
 
+## Starts Wednesday 9/30
+## Deliverables and quiz are due on Wednesday 10/14
+
 
 <img src="https://imgs.xkcd.com/comics/seashell_2x.png" width="25%" />
 
