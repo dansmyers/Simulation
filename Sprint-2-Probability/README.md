@@ -4,7 +4,7 @@
 ## Deliverables and quiz are due on Wednesday 10/14
 
 
-<img src="https://imgs.xkcd.com/comics/seashell_2x.png" width="25%" />
+<img src="https://imgs.xkcd.com/comics/seashell_2x.png" width="35%" />
 
 ## Overview
 
