@@ -221,7 +221,7 @@ Here is the complete points table, including the challenge projects.
 | 4            | D- |
 | Less than 4  | F |
 
-If you earn more than 11 points from the regular coursework, you need to complete three challenge projects to earn an A.
+If you earn 11 points from the regular coursework, you would need to complete three challenge projects to earn an A.
 
 
 ### Why Are You Doing This To Us?
