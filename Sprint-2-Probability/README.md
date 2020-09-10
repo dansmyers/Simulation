@@ -1,5 +1,8 @@
 # Sprint 2 &ndash; Introduction to Probability
 
+
+<img src="https://imgs.xkcd.com/comics/seashell_2x.png" width="50%" />
+
 ## Overview
 
 This sprint will introduce several important concepts related to probability and randomness. These concepts are the building blocks of more complex stochastic models and simulations that we'll talk about in later units.
