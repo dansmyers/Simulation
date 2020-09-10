@@ -1,7 +1,7 @@
 # Sprint 2 &ndash; Introduction to Probability
 
 
-<img src="https://imgs.xkcd.com/comics/seashell_2x.png" width="50%" />
+<img src="https://imgs.xkcd.com/comics/seashell_2x.png" width="25%" />
 
 ## Overview
 
