@@ -109,7 +109,9 @@ Tips:
 
 - This problem is based on one by Don Knuth, author of *The Art of Computer Programming*, which is famous for being one of the first comprehensive computer science texts and having a number of creative problems.
 
-- Hermione can only get on a down-moving Dumblevator if it was **above** the thirteenth floor when she arrived to wait.
+- If Hermione boards a down-moving elevator at the 13th floor, where must it have been when she arrived to wait?
+
+- Try reasoning about a smaller number of floors and drawing a picture.
 
 
 ### Urn While You Learn
