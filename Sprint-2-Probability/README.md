@@ -30,25 +30,6 @@ Complete the questions in `Deliverable_Questions.md`.
 
 You can write up your answers in a document or write them by hand and then scan your pages.
 
-## Resources
-
-The file `Probability_Notes.pdf` contains my write-up of the key concepts for this sprint. It covers
-
-- Sample spaces, events, and random variables
-- Probability mass functions
-- Expected value and variance of discrete distributions
-- Bernoulli trials
-- Geometric random variables
-- Binomial random variables
-
-It also contains several examples and practice questions.
-
-For a more technical mathematical overview of probability, take a look at [these notes](https://www.math.wisc.edu/~seppalai/notes-for-courses/prob-basics.pdf) by Prof. Timo Seppäläinen of UW-Madison. You don't need these to learn the sprint material, but they provide some additional formal mathematical context and examples that may be helpful.
-
-For an overview of conditional probability, read my notes, then [look here](https://www.mathsisfun.com/data/probability-events-conditional.html) for more examples. The link illustrates the use of tree diagrams, which is a useful method for reasoning about sequential events. The same site has a [useful page on Bayes' Theorem](https://www.mathsisfun.com/data/bayes-theorem.html).
-
-If you would like to see more examples and development of the ideas in the notes, take a look at Chapter 4 of [this](http://www.dartmouth.edu/~chance/teaching_aids/books_articles/probability_book/amsbook.mac.pdf) *Introduction to Probability* text by Grinstead and Snell.
-
 ## Topics
 
 At the end of this sprint, you should be familiar with the following concepts and examples.
@@ -65,5 +46,29 @@ At the end of this sprint, you should be familiar with the following concepts an
 
 - Be able to reason about conditional probabilities, using the formal definition and the reduced sample space / tree diagram approach. Look at the urn problems and other examples in the linked resources.
 
-- Understand the blood test example and related problems from the homework that use Bayes' Rule.
+## Resources
 
+There are two files in the `Notes` directory that you should start with. These are my write-ups on the important concepts for this sprint.
+
+The first, `Probability_Notes.pdf` introduces the key terms of probability theory:
+
+- Sample spaces, events, and random variables
+- Probability mass functions
+- Expected value and variance of discrete distributions
+- Bernoulli trials
+
+Read through it one section at a time. Take care to understand the reasoning behind the examples, then attempt the practice questions before moving on to the next section.
+
+The second document, `Conditonal_Probability_and_Bayes_Rule.pdf` introduces those two topics. The important elements are
+
+- The definition of conditional and joint probabilities
+- Independence of events
+- Reasoning about conditional events using the reduced sample space
+- The definition of Bayes' Rule
+- The blood test example: this is an important example and its the template for all of our applications of Bayes' Rule
+
+After you read my notes, [look here](https://www.mathsisfun.com/data/probability-events-conditional.html) for more examples. The link illustrates the use of tree diagrams, which is a useful method for reasoning about sequential events. The same site has a [useful page on Bayes' Theorem](https://www.mathsisfun.com/data/bayes-theorem.html).
+
+For a more technical mathematical overview of probability, take a look at [these notes](https://www.math.wisc.edu/~seppalai/notes-for-courses/prob-basics.pdf) by Prof. Timo Seppäläinen of UW-Madison. You don't need these to learn the sprint material, but they provide some additional formal mathematical context and examples that may be helpful.
+
+If you would like to see more examples and development of the ideas in the notes, take a look at Chapter 4 of [this](http://www.dartmouth.edu/~chance/teaching_aids/books_articles/probability_book/amsbook.mac.pdf) *Introduction to Probability* text by Grinstead and Snell.
