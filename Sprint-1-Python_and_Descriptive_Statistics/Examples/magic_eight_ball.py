@@ -8,7 +8,7 @@ Demonstrates conditionals, random choices, and import statements
 #
 # You can also use the from...import... form if you want to load only
 # one function from a module
-from math import random
+from random import random
 
 # Read a question from the user
 # This is just for flavor: it has no effect on the output
