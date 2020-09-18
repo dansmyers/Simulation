@@ -26,6 +26,17 @@ Calculate, **by hand**, the five number summary and variance of the following da
 6.7
 ```
 
+Five Number Summary:
+    Lowest #: 2.5
+    First Quartile: 4.4
+    Middle #: 6.7
+    Third Quartile: 8.7
+    Highest #: 9.5
+    
+Variance = 5.5
+
+
+
 Disclaimer: I may also ask you to do something like this on the quiz.
 
 ## More Calculations
