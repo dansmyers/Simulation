@@ -4,8 +4,11 @@
 	
 	This program reads the file "data.txt" and calculates the mean, median, variance, and standard deviation. Also, this program creates a box plot and histogram to graphically model the data. 
 	
+<<<<<<< upstream/master
 	CMS380, Fall 2020
 
+=======
+>>>>>>> HEAD~5
 """
 import math
 import matplotlib
@@ -122,7 +125,10 @@ def build_boxplot(values):
 
 	plt.figure()
 	plt.boxplot(values)
+<<<<<<< upstream/master
 	plt.title('Data Boxplot')
+=======
+>>>>>>> HEAD~5
 	plt.savefig("Data_Boxplot.pdf", bbox_inches= "tight")
 
 
