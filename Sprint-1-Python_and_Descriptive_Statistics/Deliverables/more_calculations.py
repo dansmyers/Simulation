@@ -120,6 +120,7 @@ def build_boxplot(values):
 
 	plt.figure()
 	plt.boxplot(values)
+	plt.title('Data Boxplot')
 	plt.savefig("Data_Boxplot.pdf", bbox_inches= "tight")
 
 
