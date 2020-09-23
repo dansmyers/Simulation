@@ -3,6 +3,8 @@
 	I worked on this problem with Griffin and Maria
 	
 	This program reads the file "data.txt" and calculates the mean, median, variance, and standard deviation. Also, this program creates a box plot and histogram to graphically model the data. 
+	
+	CMS380, Fall 2020
 
 """
 import math
