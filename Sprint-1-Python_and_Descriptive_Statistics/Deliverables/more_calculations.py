@@ -5,10 +5,15 @@
 	This program reads the file "data.txt" and calculates the mean, median, variance, and standard deviation. Also, this program creates a box plot and histogram to graphically model the data. 
 	
 <<<<<<< upstream/master
+<<<<<<< upstream/master
 	CMS380, Fall 2020
 
 =======
 >>>>>>> HEAD~5
+=======
+	CMS380, Fall 2020
+
+>>>>>>> HEAD~3
 """
 import math
 import matplotlib
