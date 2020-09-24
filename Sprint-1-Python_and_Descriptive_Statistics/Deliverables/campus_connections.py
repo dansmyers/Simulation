@@ -1,4 +1,5 @@
 """ 
+<<<<<<< HEAD
 This script uses enorllment data to understand how densely connected is the Rollins campus
     
 CMS 380, Fall 2020
@@ -9,13 +10,28 @@ Maria Morales
 import csv
 # Imports the functions from method_definitions.py to be used for distribution calculation
 from method_definitions import *
+=======
+Use enorllemt data to understand campus connetcivity
+    
+CMS 380, Fall 2020
+
+Maria Morales
+"""
+
+import csv
+from more_calculations import *
+>>>>>>> cc added
 
 # Set up matplotlib and configure it to be used on Mimir 
 import matplotlib
 matplotlib.use('Agg') # Required because we are using a remote environment
 from matplotlib import pyplot as plt
 
+<<<<<<< HEAD
 # Create a dictionary to store the cids for each student
+=======
+# create a dictionary to store the cids for each student
+>>>>>>> cc added
 courses_per_student = {}
 
 # Second dictionary to store the students in each course 
@@ -27,32 +43,68 @@ class_size = []
 # open the enrollments.csv file
 f = open('enrollments.csv', 'r')
 
+<<<<<<< HEAD
 # Create a csv reader to process the file
 reader = csv.reader(f)
 
 # Use the for loop to iterate through all lines in the file
+=======
+# Cerate a csv reader to process the file
+reader = csv.reader(f)
+
+# Use the for loop to step through all lines in the file
+>>>>>>> cc added
 for line in reader:
     r_number = line[0]
     cid = line[1]
     
+<<<<<<< HEAD
+=======
+    print (r_number, cid)
+    
+>>>>>>> cc added
     # If this is the frist time we've seen the student r_number, make an entry for it in the dictionary
     if r_number not in courses_per_student:
         courses_per_student[r_number] = [] # Makes a brand new empyt lists of courses associated with this student
         
     # If this is the first time we've seen the course ID, make an entry for it in the  dictionary
     if cid not in students_per_course:
+<<<<<<< HEAD
         students_per_course[cid] = [] # Makes a brand new empty list of students associated with this course
+=======
+        students_per_course[cid] = [] # Makes a brand new empty lists of students associated with this course
+>>>>>>> cc added
     
     # Append the course id so that it adds to the list of courses associated with that student
     courses_per_student[r_number].append(cid)
     # Append the student ID so that it adds to the list of students associated with that course
     students_per_course[cid].append(r_number)
+<<<<<<< HEAD
+=======
+    
+    # Add two more  statements to populate the students_per_course
+    # Reverse the roles of r-number and cid 
+#print(courses_per_student)
+
+# Iterate through the keys
+for r_number in courses_per_student:
+    print(r_number, courses_per_student[r_number])
+    
+for cid in students_per_course:
+    print("The course and the students in it are:", cid, students_per_course[cid])
+    
+
+>>>>>>> cc added
 
 # Count the total number of students in each course and append it to the list
 for cid in students_per_course:
     class_size.append(len(students_per_course[cid]))
 
+<<<<<<< HEAD
 
+=======
+print(class_size)
+>>>>>>> cc added
 print('The mean class size: ',calc_mean(class_size))
 print('The median class size: ', calc_median(class_size))
 
@@ -60,7 +112,11 @@ print('The median class size: ', calc_median(class_size))
 plt.figure()
 
 # Plot a histogram of the data of total students per course 
+<<<<<<< HEAD
 plt.hist(class_size, 20)
+=======
+plt.hist(class_size, 25)
+>>>>>>> cc added
 
 # Set title and axes labels 
 plt.title('Class size distribution')
@@ -82,6 +138,7 @@ plt.title('Class size')
 # Save the figure to a file
 plt.savefig('class_size_boxplot.pdf', bbox_inches='tight')
 
+<<<<<<< HEAD
 # INTERACTIONS
 # This part of the script is used to determine how many  unique students does each  Rollins student interact with in classes
 
@@ -135,4 +192,6 @@ plt.title('Unique Student Interactions')
 plt.savefig('unique_student_interactions_boxplot.pdf', bbox_inches='tight')
 
 
+=======
+>>>>>>> cc added
 
