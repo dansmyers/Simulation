@@ -2,6 +2,8 @@
 
 ## Fall 2020 Syllabus
 
+Jenny was here
+
 ## Who? Where?
 
 Dan S. Myers (Dr. Myers)  
