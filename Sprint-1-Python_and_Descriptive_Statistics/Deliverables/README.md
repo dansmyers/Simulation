@@ -2,11 +2,11 @@
 
 ## Honor Code
 
-Edit this section to include a statement of the Honor Code.
+In my honor, I have not given nor receievd nor witnessed any unauthorized assistance in this work.
 
 ## Team Members
 
-List the other members of your team here.
+Jacob, Griffin, Mariah 
 
 ## I Promise I'll Only Make You Do This One Time
 
