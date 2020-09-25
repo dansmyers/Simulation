@@ -117,6 +117,7 @@ num_unique_students = []
 
 for students in courses_per_student:
 	courses = courses_per_student[students]
+	unique_students.append(students)
 	
 	for course in courses:
 		student = students_per_course[course]
@@ -125,12 +126,12 @@ for students in courses_per_student:
 			if y not in unique_students:
 				unique_students.append(y)
 				
-		num_unique_students.append(len(unique_students))
-		unique_students.clear()
+	num_unique_students.append(len(unique_students))
+	unique_students.clear()
 		
 print("Average unique student connections: ", calculate_mean(num_unique_students))
 
-#print(num_unique_students)
+
 
 
 
