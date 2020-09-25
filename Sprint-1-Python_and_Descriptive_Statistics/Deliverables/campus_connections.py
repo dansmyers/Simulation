@@ -69,6 +69,24 @@ def box_plot_of_data(values):
 	
 	
 	plt.savefig("class_sizes_box_plot.pdf", bbox_inches = "tight")
+	
+
+"""
+	Function that calculates the variance of the data values in the data.txt file
+"""
+
+def calculate_variance(values):
+	median = calculate_median(values)
+	element_sum = 0
+	
+	for elements in values:
+		element_sum += pow(elements - median, 2)
+		
+	variance = element_sum / len(values)
+		
+	return variance 
+	
+
 
 # open the file and save it into enrollments
 enrollments = open("enrollments.csv", "r")
@@ -126,11 +144,11 @@ for students in courses_per_student:
 			if y not in unique_students:
 				unique_students.append(y)
 				
-	num_unique_students.append(len(unique_students))
+	num_unique_students.append(len(unique_students) - 1)
 	unique_students.clear()
 		
 print("Average unique student connections: ", calculate_mean(num_unique_students))
-
+print("Variance of the unique student connections: ", calculate_variance(num_unique_students))
 
 
 
