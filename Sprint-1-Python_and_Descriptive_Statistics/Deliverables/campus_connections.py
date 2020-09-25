@@ -63,12 +63,12 @@ def box_plot_of_data(values):
 	
 	plt.boxplot(values)
 	
-	plt.title("Rollins Class Sizes")
-	plt.xlabel("Class Size")
+	plt.title("Distribuiton of Unique Students Box Plot")
+	plt.xlabel("Number of Unique Connections")
 	plt.ylabel("Count")
 	
 	
-	plt.savefig("class_sizes_box_plot.pdf", bbox_inches = "tight")
+	plt.savefig("campus_connections_distrubution_box_plot.pdf", bbox_inches = "tight")
 	
 
 """
@@ -76,11 +76,11 @@ def box_plot_of_data(values):
 """
 
 def calculate_variance(values):
-	median = calculate_median(values)
+	median = calculate_mean(values)
 	element_sum = 0
 	
 	for elements in values:
-		element_sum += pow(elements - median, 2)
+		element_sum += (elements - median) ** 2
 		
 	variance = element_sum / len(values)
 		
@@ -149,91 +149,3 @@ for students in courses_per_student:
 		
 print("Average unique student connections: ", calculate_mean(num_unique_students))
 print("Variance of the unique student connections: ", calculate_variance(num_unique_students))
-
-
-
-
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
