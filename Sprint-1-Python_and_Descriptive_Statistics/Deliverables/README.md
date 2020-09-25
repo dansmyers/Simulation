@@ -2,7 +2,7 @@
 
 ## Honor Code
 
-Edit this section to include a statement of the Honor Code.
+I promise not to cheat on purpose.
 
 ## Team Members
 
