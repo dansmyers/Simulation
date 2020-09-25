@@ -2,7 +2,7 @@
 
 ## Honor Code
 
-On my honor I have not givre, recieved, or witnessed any unauthorized assistance on this work. 
+On my honor I have not given, recieved, or witnessed any unauthorized assistance on this work. 
 ## Team Members
 
 List the other members of your team here.
