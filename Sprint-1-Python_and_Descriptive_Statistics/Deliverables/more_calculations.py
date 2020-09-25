@@ -72,7 +72,7 @@ def calculate_median(values):
 """
 
 def calculate_variance(values):
-	median = calculate_median(values)
+	median = calculate_mean(values)
 	element_sum = 0
 	
 	for elements in values:
