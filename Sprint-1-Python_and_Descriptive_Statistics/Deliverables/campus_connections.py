@@ -51,11 +51,11 @@ def histogram_of_data(values):
 	
 	plt.hist(values, 20)
 	
-	plt.title("Rollins Class Sizes")
-	plt.xlabel("Class Size")
+	plt.title("Distribuiton of Unique Students")
+	plt.xlabel("Number of Unique Connections")
 	plt.ylabel("Count")
 	
-	plt.savefig("class_sizes_histogram.pdf", bbox_inches = "tight")
+	plt.savefig("campus_connections_distrubution.pdf", bbox_inches = "tight")
 	
 # function to caluclate a box plot of data
 def box_plot_of_data(values):
