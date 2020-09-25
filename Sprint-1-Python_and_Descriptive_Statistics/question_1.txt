@@ -1,0 +1,43 @@
+Calculate, by hand, the five number summary and variance of the following data set:
+
+3.5
+9.1
+9.5
+8.3
+8.2
+8.7
+4.4
+6.7
+2.5
+4.4
+6.7
+
+List in order:
+
+2.5 
+3.5 
+4.4 
+4.4 
+6.7 
+6.7 
+8.2 
+8.3 
+8.7 
+9.1 
+9.5
+
+Five number summary:
+
+lowest element, 1st quartile, median, 3rd quartile, largest element
+
+2.5, 4.4, 6.7, 8.7, 9.5
+
+Variance:
+
+Mean of the list = (2.5 + 3.5 + 4.4 + 4.4 + 6.7 + 6.7 + 8.2 + 8.3 + 8.7 + 9.1 + 9.5) / 11 = 6.5
+
+variance calculation = ( ((2.5 - 6.4) ** 2) + ((3.5 - 6.5) ** 2) + ((4.4 - 6.5) ** 2) + ((4.4 - 6.5) ** 2) + ((6.7 - 6.5) ** 2) + ((6.7 - 6.5) ** 2) ((8.2 - 6.5 ** 2)
++ ((8.3 - 6.5 ** 2) + ((8.7 - 6.5 ** 2) + ((9.1 - 6.5) ** 2) + ((9.5 - 6.5) ** 2) ) / 11
+
+the variance is 5.5
+
