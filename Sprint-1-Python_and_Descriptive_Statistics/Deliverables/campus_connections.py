@@ -130,6 +130,8 @@ for students in courses_per_student:
 		
 print("Average unique student connections: ", calculate_mean(num_unique_students))
 
+print(num_unique_students)
+
 
 
 	
