@@ -2,11 +2,13 @@
 
 ## Honor Code
 
-Edit this section to include a statement of the Honor Code.
+On my honor, I have not given, nor received, nor witnessed any unauthorized assistance on this work.
 
 ## Team Members
 
-List the other members of your team here.
+Christian Huber,
+Hiroki Sato,
+Fritz Stapfer Paz
 
 ## I Promise I'll Only Make You Do This One Time
 
@@ -27,6 +29,18 @@ Calculate, **by hand**, the five number summary and variance of the following da
 ```
 
 Disclaimer: I may also ask you to do something like this on the quiz.
+
+```
+min = 2.5
+q1  = 4.4
+med = 6.7
+q2  = 8.7
+max = 9.5
+
+variance = ((733348/12100)/11) ~ 5.5098
+```
+
+NOTE: Work in fiveNumberSummaryAndVariance.jpeg
 
 ## More Calculations
 
