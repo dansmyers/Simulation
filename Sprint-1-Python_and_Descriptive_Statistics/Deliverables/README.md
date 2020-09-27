@@ -29,6 +29,7 @@ Calculate, **by hand**, the five number summary and variance of the following da
 Disclaimer: I may also ask you to do something like this on the quiz.
 
 
+
 ## More Calculations
 
 Write a Python script to open the file `data.txt` and read through its values. Calculate and print the mean, median, variance, and standard deviation. Save (as PDFs) a box plot and a 20-bin histogram calculated from the values.
