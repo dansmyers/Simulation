@@ -25,7 +25,11 @@ def median(l):                                                  #  copied from m
 def variance(l):                                                #  copied from moreCalculations.py
     m = mean(l)
     sq = [(i-m)**2 for i in l]
+<<<<<<< HEAD
     return(sum(sq)/(len(sq)-1))                                 #  changed variance from POPULATION to SAMPLE (/n, /n-1)
+=======
+    return(sum(sq)/len(sq))
+>>>>>>> Added the three python scripts requested in the deliverables README, the plots they generate, a scanned image of the work done calculating the five number summary and variance for the given data set, and updated the README.
 
 def standardDeviation(l):                                       #  copied from moreCalculations.py
     return(sqrt(variance(l)))
