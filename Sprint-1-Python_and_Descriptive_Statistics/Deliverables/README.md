@@ -2,11 +2,14 @@
 
 ## Honor Code
 
-Edit this section to include a statement of the Honor Code.
+In my honor, I have not given nor received, nor witnessed, 
+any unauthorized assistance on this work
+
+Hiroki Sato 09/28/20
 
 ## Team Members
 
-List the other members of your team here.
+Christian Huber, Fritz Paz, Hiroki Sato, Noah Harvey, 
 
 ## I Promise I'll Only Make You Do This One Time
 
