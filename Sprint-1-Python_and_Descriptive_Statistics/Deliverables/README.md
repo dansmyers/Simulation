@@ -2,11 +2,11 @@
 
 ## Honor Code
 
-Edit this section to include a statement of the Honor Code.
+On my honor I have not given, recieved, or witnessed unauthorized assistance on this work.
 
 ## Team Members
 
-List the other members of your team here.
+Lee, Christian, Matthew
 
 ## I Promise I'll Only Make You Do This One Time
 
@@ -24,6 +24,33 @@ Calculate, **by hand**, the five number summary and variance of the following da
 2.5
 4.4
 6.7
+```
+
+```
+Numbers Listed In Order:
+2.5
+3.5
+4.4
+4.4
+6.7
+6.7
+8.2
+8.3
+8.7
+9.1
+9.5
+```
+
+```
+Minimum: 2.5
+1st Quartile: 4.4
+Median: 6.7
+3rd Quartile: 8.7
+Maximum: 9.5
+
+Mean: 6.54
+SSD: 60.6076
+Variance: 6.06076
 ```
 
 Disclaimer: I may also ask you to do something like this on the quiz.
