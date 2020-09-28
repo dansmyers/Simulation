@@ -283,5 +283,3 @@ I will make every effort to adhere to the topics and schedule described in this 
 ## Official Syllabus Statements
 
 Links to the full list of syllabus policy statements are [available here](https://rpublic.rollins.edu/sites/ASCPS/SitePages/Syllabi%20Statements.aspx).
-
-Hiroki Sato 
