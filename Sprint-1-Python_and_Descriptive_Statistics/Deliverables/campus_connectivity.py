@@ -134,8 +134,7 @@ plt.boxplot(length_list)
 
 # Title and axis labels
 plt.title('Class Size Distribution')
-plt.xlabel('Class Size')
-plt.ylabel('Count')
+plt.ylabel('Class Size')
 
 # Save the figure to a file
 plt.savefig('class_size_boxplot.pdf', bbox_inches='tight')
