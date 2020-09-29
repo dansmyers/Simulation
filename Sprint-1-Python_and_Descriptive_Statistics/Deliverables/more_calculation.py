@@ -15,18 +15,18 @@ matplotlib.use('Agg')
 from matplotlib import pyplot as plt
 from math import sqrt
 
-#opening a file here and argument 'r' specifying that we are reading this file 
+# Opening a file here and argument 'r' specifying that we are reading this file 
 with open ('data.txt','r') as f: 
     
     values =[float(x.strip()) for x in f]
    
-# calculating mean by using len and sum function
+# Calculate mean by using len and sum function
 def mean(vs):
 
     return sum(vs)/len(vs)
     
 
-# calculating median for the data
+# Calculate median for the data
 def median(vs):
     
     vs.sort()
@@ -37,7 +37,7 @@ def median(vs):
         
     return median
     
-#Calculating variance of the data
+# Calculate variance of the data
 def variance(vs):
     
     m = mean(vs)
@@ -46,29 +46,31 @@ def variance(vs):
     
     return sum(vs)/len(vs)
 
+# Calculate standard deviation
 def std_deviation(vs):
     
     v = variance(vs)
     return sqrt(v)
     
     
-#Printing out the mean, median, variance and standard deviation
+# Printing out the mean, median, variance and standard deviation
 print("Mean: %.3f" % mean(values))
 print("Median: %.3f" % median(values))
 print("Variance: %.3f" % variance(values))
 print("Standard deviation: %.3f" % std_deviation(values))
 
-#Creating boxplot and histogram
-# we use fig function to initialize the plot
+# Creating boxplot and histogram
+# We use fig function to initialize the plot
 # Creating a boxplot, the vert is a parameter which takes boolean values in, to 
-#specify whether the matplotlib is going to create a vertical or horizontal boxplot.
+# specify whether the matplotlib is going to create a vertical or horizontal boxplot.
 plt.figure()
 plt.boxplot(values,vert=False)
 plt.title('data.txt Boxplot')
 plt.xlabel('Value')
-plt.savefig('calculation_boxplot1.pdf',bbox_inches='tight')
+plt.savefig('calculation_boxplot.pdf',bbox_inches='tight')
 
 # Creating a histogram with 20 bins 
+# and save the plot figure as pdf
 # First we are not overwriting on top of the boxplot 
 # so we call figure() and create brand new plot
 
@@ -77,5 +79,5 @@ plt.hist(values,20)
 plt.title('data.txt  histogram')
 plt.xlabel('Values')
 plt.ylabel('Frequency')
-plt.savefig('calculation_histogram1.pdf',bbox_inches='tight')
+plt.savefig('calculation_histogram.pdf',bbox_inches='tight')
 
