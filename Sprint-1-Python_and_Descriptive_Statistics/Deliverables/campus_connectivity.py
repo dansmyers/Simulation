@@ -15,7 +15,7 @@ import csv
 #Create an empty dictionary to record the students in each course
 students_per_course = {}
 
-#Create an empty disctionary to record the students courses
+#Create an empty disctionary to record the courses of each student
 courses_per_student = {}
 
 #Open the enrollment file and create csv reader
@@ -50,10 +50,7 @@ for c_id in students_per_course:
     number_of_students = len(student_list) - 1
     length_list.append(number_of_students)
     
-
-#Visualization purposes
-#print(sorted(length_list))
-#print(len(length_list))
+# Mean and Median function from calculator.py
 
 #Calculates the mean or average of a list
 def mean(x):
@@ -80,7 +77,7 @@ def median(x):
         return float(x[int(n / 2)]) 
     
     # If its odd average two numbers in the middle    
-    return float((x[int((n-1)/ 2 )] + x[int(n / 2)]) / 2)
+    return float((x[int( (n-1) / 2 )] + x[int( n / 2)]) / 2)
 
 # Print the median and average of class sizes 
 print('The median class size is: ', median(length_list))
@@ -119,7 +116,7 @@ print('The average number of unique students meet: ', mean(unique_students_list)
 plt.figure()
 
 # Create a histogram
-plt.hist(length_list, 18)
+plt.hist(length_list, 15)
 
 # Title and axis labels
 plt.title('Class Size Distribution')
