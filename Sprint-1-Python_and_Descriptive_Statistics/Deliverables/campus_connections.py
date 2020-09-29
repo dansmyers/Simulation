@@ -1,5 +1,6 @@
 """ 
 <<<<<<< HEAD
+<<<<<<< HEAD
 This script uses enorllment data to understand how densely connected is the Rollins campus
     
 CMS 380, Fall 2020
@@ -12,15 +13,23 @@ import csv
 from method_definitions import *
 =======
 Use enorllemt data to understand campus connetcivity
+=======
+This script uses enorllment data to understand how densely connected is the Rollins campus
+>>>>>>> revised files for comments and clarity
     
 CMS 380, Fall 2020
-
 Maria Morales
 """
 
+# import csv module to process delimited text files
 import csv
+<<<<<<< HEAD
 from more_calculations import *
 >>>>>>> cc added
+=======
+# Imports the functions from method_definitions.py to be used for distribution calculation
+from method_definitions import *
+>>>>>>> revised files for comments and clarity
 
 # Set up matplotlib and configure it to be used on Mimir 
 import matplotlib
@@ -28,10 +37,14 @@ matplotlib.use('Agg') # Required because we are using a remote environment
 from matplotlib import pyplot as plt
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Create a dictionary to store the cids for each student
 =======
 # create a dictionary to store the cids for each student
 >>>>>>> cc added
+=======
+# Create a dictionary to store the cids for each student
+>>>>>>> revised files for comments and clarity
 courses_per_student = {}
 
 # Second dictionary to store the students in each course 
@@ -59,10 +72,13 @@ for line in reader:
     cid = line[1]
     
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     print (r_number, cid)
     
 >>>>>>> cc added
+=======
+>>>>>>> revised files for comments and clarity
     # If this is the frist time we've seen the student r_number, make an entry for it in the dictionary
     if r_number not in courses_per_student:
         courses_per_student[r_number] = [] # Makes a brand new empyt lists of courses associated with this student
@@ -80,6 +96,7 @@ for line in reader:
     # Append the student ID so that it adds to the list of students associated with that course
     students_per_course[cid].append(r_number)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     
     # Add two more  statements to populate the students_per_course
@@ -95,16 +112,22 @@ for cid in students_per_course:
     
 
 >>>>>>> cc added
+=======
+>>>>>>> revised files for comments and clarity
 
 # Count the total number of students in each course and append it to the list
 for cid in students_per_course:
     class_size.append(len(students_per_course[cid]))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 print(class_size)
 >>>>>>> cc added
+=======
+#print(class_size)
+>>>>>>> revised files for comments and clarity
 print('The mean class size: ',calc_mean(class_size))
 print('The median class size: ', calc_median(class_size))
 
@@ -113,10 +136,14 @@ plt.figure()
 
 # Plot a histogram of the data of total students per course 
 <<<<<<< HEAD
+<<<<<<< HEAD
 plt.hist(class_size, 20)
 =======
 plt.hist(class_size, 25)
 >>>>>>> cc added
+=======
+plt.hist(class_size, 20)
+>>>>>>> revised files for comments and clarity
 
 # Set title and axes labels 
 plt.title('Class size distribution')
@@ -139,12 +166,18 @@ plt.title('Class size')
 plt.savefig('class_size_boxplot.pdf', bbox_inches='tight')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # INTERACTIONS
 # This part of the script is used to determine how many  unique students does each  Rollins student interact with in classes
 
 # Number of unique student ids for the student
 student_interactions = []
 # Total number of unique student interactions
+=======
+# INTERACTIONS
+
+student_interactions = []
+>>>>>>> revised files for comments and clarity
 total_interactions = []
 
 # For each student look up their  list of courses
@@ -163,7 +196,11 @@ for r_number in courses_per_student:
     student_interactions.clear()
     
 
+<<<<<<< HEAD
 print('The average number of unique student interactions: ', calc_mean(total_interactions))
+=======
+print('The mean student interactions: ', calc_mean(total_interactions))
+>>>>>>> revised files for comments and clarity
 
 # Create a new figure for the histogram
 plt.figure()
@@ -191,7 +228,11 @@ plt.title('Unique Student Interactions')
 # Save the figure to a file
 plt.savefig('unique_student_interactions_boxplot.pdf', bbox_inches='tight')
 
+<<<<<<< HEAD
 
 =======
 >>>>>>> cc added
+=======
+            
+>>>>>>> revised files for comments and clarity
 

@@ -2,10 +2,14 @@
 For this Python script I worked with Jacob and Griffin.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> revised files for comments and clarity
 This script calculates and prints the mean, meadian, variance, and standard deviation of the data set defined in the data.txt file. It also saves, as PDFs, a box plot and a 20-bin histogram calculated from the values.
 
 CMS380, Fall 2020 
 Maria Morales
+<<<<<<< HEAD
 """
 
 import math
@@ -25,34 +29,44 @@ for value in file:
     value = value.strip() # Remove whitespace from the lines
 =======
 This script calculates and prints the mean, meadian, variance, and standard deviation of a dataset defined in the data.txt file. It also saves, as PDFs  a box plot and a 20-bin histogram calculated from the  values.
+=======
+>>>>>>> revised files for comments and clarity
 """
-import statistics
-import math
-import matplotlib
 
+import math
+# Import and setup of matplotlib for Mimir IDE
+import matplotlib
+# Required when running on a remote environment
 matplotlib.use('Agg')
-from matplotlib import pyplot as plt 
+from matplotlib import pyplot as plt
+
 # Open file for reading
 file = open ("data.txt", "r")
 
-# Empty list
+
 data_values = []
 
-#print (file.read())
-
 for value in file:
+<<<<<<< HEAD
     value = value.strip() # Remove whitespace
 >>>>>>> cc added
+=======
+    value = value.strip() # Remove whitespace from the lines
+>>>>>>> revised files for comments and clarity
     # Cast to a float and then append to the list
     data_values.append(float(value))
 
 
 """
 <<<<<<< HEAD
+<<<<<<< HEAD
 Function to calculate and return the mean of an input list
 =======
 Calculate and return the mean of input list x
 >>>>>>> cc added
+=======
+Function to calculate and return the mean of an input list
+>>>>>>> revised files for comments and clarity
 """
 def calc_mean(x):
     number_of_values = len(x)
@@ -66,10 +80,14 @@ def calc_mean(x):
     return  mean
 """
 <<<<<<< HEAD
+<<<<<<< HEAD
 Function to calculate and return the median of an input list
 =======
 Calculate and return the median of input list x 
 >>>>>>> cc added
+=======
+Function to calculate and return the median of an input list
+>>>>>>> revised files for comments and clarity
 """    
 def calc_median(x):
     number_of_values = len(x)
@@ -83,10 +101,14 @@ def calc_median(x):
 
 """
 <<<<<<< HEAD
+<<<<<<< HEAD
 Function to calculate and return the variance of an input list
 =======
 Calculate and return the variance of input list x 
 >>>>>>> cc added
+=======
+Function to calculate and return the variance of an input list
+>>>>>>> revised files for comments and clarity
 """        
 def calc_variance(x):
     number_of_values  = len(x)
@@ -100,16 +122,21 @@ def calc_variance(x):
     
 """
 <<<<<<< HEAD
+<<<<<<< HEAD
 Function to calculate and return the standard deviation of an input list
 =======
 Calculate and return the standard deviation of input list x 
 >>>>>>> cc added
+=======
+Function to calculate and return the standard deviation of an input list
+>>>>>>> revised files for comments and clarity
 """
 def calc_standard_deviation(x):
     variance = calc_variance(x)
     
     return math.sqrt(variance)
     
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 # Save (as PDFs) a box plot and a 20-bin histogram calculated from the values.
@@ -119,6 +146,11 @@ def calc_standard_deviation(x):
 Save (as PDFs) a box plot and a 20-bin histogram calculated from the values.
 """
 >>>>>>> cc added
+=======
+
+# Save (as PDFs) a box plot and a 20-bin histogram calculated from the values.
+
+>>>>>>> revised files for comments and clarity
 
 # Create a new  figure
 plt.figure()
@@ -147,6 +179,7 @@ plt.savefig('more_calculations_boxplot.pdf', bbox_inches='tight')
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
     
@@ -154,6 +187,9 @@ plt.savefig('more_calculations_boxplot.pdf', bbox_inches='tight')
     
 test = [4, 5, 8, 9, 10]
 >>>>>>> cc added
+=======
+
+>>>>>>> revised files for comments and clarity
 
 print('The mean of the data set:', calc_mean(data_values))
 print('The median of the data set: ', calc_median(data_values))

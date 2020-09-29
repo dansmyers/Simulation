@@ -15,12 +15,16 @@ Calculate, by hand, the five number summary and variance of the following data s
 Ordered list:
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> revised files for comments and clarity
 2.5
 3.5
 4.4
 4.4
 6.7
 6.7
+<<<<<<< HEAD
 =======
 ---2.5
 ---3.5
@@ -29,6 +33,8 @@ Ordered list:
 ---6.7
 ---6.7
 >>>>>>> cc added
+=======
+>>>>>>> revised files for comments and clarity
 8.2
 8.3
 8.7
@@ -37,6 +43,7 @@ Ordered list:
 
 Five number summary:
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 2.5, 4.4, 6.7, 8.7, 9.5 
 
@@ -51,17 +58,17 @@ Variance is  5.5
 =======
 lowest element, 1st quartile, median, 2nd quartile, largest element 
 
+=======
+>>>>>>> revised files for comments and clarity
 2.5, 4.4, 6.7, 8.7, 9.5 
 
+Mean of the list: (2.5 + 3.5 + 4.4 + 4.4 + 6.7 + 6.7 + 8.2 + 8.3 + 8.7 + 9.1 + 9.5) = 6.5
+
 Variance:
-Mean of the list = (2.5 + 3.5 + 4.4 + 4.4 + 6.7 + 6.7 + 8.2 + 8.3 + 8.7 + 9.1 + 9.5) = 6.5
 
-Variance calculation = (2.5 - 6.5)^2 + (3.5 - 6.5)^2 + (4.4 - 6.5)^2 + (4.4 - 6.5)^2 + (6.7 - 6.5)^2 + (6.7 - 6.5)^2 + (8.2 -  6.5)^2 + (8.3 - 
+Variance calculation:
+((2.5 - 6.5)^2 + (3.5 - 6.5)^2 + (4.4 - 6.5)^2 + (4.4 - 6.5)^2 + (6.7 - 6.5)^2 + (6.7 - 6.5)^2 + (8.2 -  6.5)^2 + (8.3 - 6.5)^2 + (8.7 - 6.5)^2 + (9.1 - 6.5)^2 + (9.5 - 6.5)^2 ) / 11 = 5.5
 
-
-
-
-Disclaimer: I may also ask you to do something like this on the quiz.
 
 >>>>>>> cc added
 
