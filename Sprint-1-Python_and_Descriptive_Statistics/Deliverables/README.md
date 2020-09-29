@@ -2,11 +2,12 @@
 
 ## Honor Code
 
-Edit this section to include a statement of the Honor Code.
+On my honor, I have not received, nor given any unauthorized assistance on this work. 
+FSP
 
 ## Team Members
 
-List the other members of your team here.
+Christian, Hiroki, Noah
 
 ## I Promise I'll Only Make You Do This One Time
 
