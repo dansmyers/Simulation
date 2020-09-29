@@ -1,4 +1,6 @@
 """
+Hiroki Sato 
+09/29/20
 
 Deliverable Problem No.3: Class size
 
@@ -88,15 +90,15 @@ for course in students_per_course:
 
 size_list = [len(students_per_course[course]) for course in students_per_course]
 
-print("The median class size is: %.2f" % median(size_list))
-print("The mean class size is: %.2f" % mean(size_list))
+print("The median: %.2f" % median(size_list))
+print("The mean: %.2f" % mean(size_list))
 
 # Create a Histogram
 plt.figure()
 plt.hist(size_list,25)
 plt.title('Rollins Class Size Histogram')
 plt.xlabel('Size of a Class')
-plt.ylabel('Number of Students')
+plt.ylabel('Student Count')
 plt.savefig('class_size_hist.pdf',bbox_inches='tight')
 
 # Create a boxplot
