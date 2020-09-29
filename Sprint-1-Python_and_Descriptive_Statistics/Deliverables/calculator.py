@@ -100,8 +100,7 @@ plt.hist(values, 20)
 
 # Title and axis labels
 plt.title('Values Histogram')
-plt.xlabel('Data value')
-plt.ylabel('Count')
+plt.ylabel('Data Value')
 
 # Save the figure to a file
 plt.savefig('values_histogram.pdf', bbox_inches='tight')
