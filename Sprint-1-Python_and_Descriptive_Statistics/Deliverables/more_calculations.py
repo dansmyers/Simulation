@@ -1,30 +1,33 @@
 """
 For this Python script I worked with Jacob and Griffin.
 
-This script calculates and prints the mean, meadian, variance, and standard deviation of a dataset defined in the data.txt file. It also saves, as PDFs  a box plot and a 20-bin histogram calculated from the  values.
-"""
-import statistics
-import math
-import matplotlib
+This script calculates and prints the mean, meadian, variance, and standard deviation of the data set defined in the data.txt file. It also saves, as PDFs, a box plot and a 20-bin histogram calculated from the values.
 
+CMS380, Fall 2020 
+Maria Morales
+"""
+
+import math
+# Import and setup of matplotlib for Mimir IDE
+import matplotlib
+# Required when running on a remote environment
 matplotlib.use('Agg')
-from matplotlib import pyplot as plt 
+from matplotlib import pyplot as plt
+
 # Open file for reading
 file = open ("data.txt", "r")
 
-# Empty list
+
 data_values = []
 
-#print (file.read())
-
 for value in file:
-    value = value.strip() # Remove whitespace
+    value = value.strip() # Remove whitespace from the lines
     # Cast to a float and then append to the list
     data_values.append(float(value))
 
 
 """
-Calculate and return the mean of input list x
+Function to calculate and return the mean of an input list
 """
 def calc_mean(x):
     number_of_values = len(x)
@@ -37,7 +40,7 @@ def calc_mean(x):
     
     return  mean
 """
-Calculate and return the median of input list x 
+Function to calculate and return the median of an input list
 """    
 def calc_median(x):
     number_of_values = len(x)
@@ -50,7 +53,7 @@ def calc_median(x):
         return (sorted_list[middle] + sorted_list[middle + 1]) / 2
 
 """
-Calculate and return the variance of input list x 
+Function to calculate and return the variance of an input list
 """        
 def calc_variance(x):
     number_of_values  = len(x)
@@ -63,16 +66,16 @@ def calc_variance(x):
     return value_sum/number_of_values
     
 """
-Calculate and return the standard deviation of input list x 
+Function to calculate and return the standard deviation of an input list
 """
 def calc_standard_deviation(x):
     variance = calc_variance(x)
     
     return math.sqrt(variance)
     
-"""
-Save (as PDFs) a box plot and a 20-bin histogram calculated from the values.
-"""
+
+# Save (as PDFs) a box plot and a 20-bin histogram calculated from the values.
+
 
 # Create a new  figure
 plt.figure()
@@ -100,10 +103,7 @@ ax.boxplot(data_values, vert=False)
 plt.savefig('more_calculations_boxplot.pdf', bbox_inches='tight')
 
 
-    
-    
-    
-test = [4, 5, 8, 9, 10]
+
 
 print('The mean of the data set:', calc_mean(data_values))
 print('The median of the data set: ', calc_median(data_values))
