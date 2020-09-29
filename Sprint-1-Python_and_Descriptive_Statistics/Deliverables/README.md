@@ -6,7 +6,7 @@
 
 ## Team Members
 
-List the other members of your team here.
+Randy, Christian, Ryan, Matthew
 
 ## I Promise I'll Only Make You Do This One Time
 
