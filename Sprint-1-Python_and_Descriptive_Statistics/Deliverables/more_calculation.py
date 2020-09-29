@@ -1,5 +1,8 @@
 """
-Deliverable Problem No.1: More calculation
+Hiroki Sato 
+09/29/20
+
+Deliverable Problem No.2: More Calculation
 
 Open the data.txt file and calculate mean, median, variance, and standard deviation of the data
     * Use of with open & file reading
@@ -61,9 +64,9 @@ print("Standard deviation: %.3f" % std_deviation(values))
 #specify whether the matplotlib is going to create a vertical or horizontal boxplot.
 plt.figure()
 plt.boxplot(values,vert=False)
-plt.title('Deliverable First plot')
-plt.xlabel('Values')
-plt.savefig('Deliverable_boxplot1.pdf',bbox_inches='tight')
+plt.title('data.txt Boxplot')
+plt.xlabel('Value')
+plt.savefig('calculation_boxplot1.pdf',bbox_inches='tight')
 
 # Creating a histogram with 20 bins 
 # First we are not overwriting on top of the boxplot 
@@ -71,8 +74,8 @@ plt.savefig('Deliverable_boxplot1.pdf',bbox_inches='tight')
 
 plt.figure()
 plt.hist(values,20)
-plt.title('Deliverable Second plot')
+plt.title('data.txt  histogram')
 plt.xlabel('Values')
 plt.ylabel('Count')
-plt.savefig('Deliverable_histogram1.pdf',bbox_inches='tight')
+plt.savefig('calculation_histogram1.pdf',bbox_inches='tight')
 
