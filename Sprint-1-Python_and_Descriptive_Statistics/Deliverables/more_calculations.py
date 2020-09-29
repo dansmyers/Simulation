@@ -73,20 +73,17 @@ data_standard_deviation = standard_deviation(values)
 
 """
 MatPlotLib stuff goes here
-Noah figured out how to put two plots in a single pdf, so I am using his code for this
 """
-plt.subplot(121)                                # First Subplot
 plt.boxplot(values)
 plt.title("Data.txt Box-Plot")
 plt.xlabel("Data")
 plt.ylabel("Values")
+plt.savefig("more_calculations_boxplot.pdf",bbox_inches="tight")
 
-plt.subplot(122)                                # Second Subplot
 plt.hist(values,20)
 plt.title("Data.txt Histogram")
 plt.xlabel("Value")
 plt.ylabel("Frequency")
-
-plt.savefig("more_calculations.pdf",bbox_inches="tight")
+plt.savefig("more_calculations_histogram.pdf",bbox_inches="tight")
 
 
