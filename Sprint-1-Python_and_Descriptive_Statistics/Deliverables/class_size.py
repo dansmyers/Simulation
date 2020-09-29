@@ -19,7 +19,7 @@ import csv
 from math import sqrt
 
 
-# Helper functions: mean, median, variance and standard standard deviation
+# Helper functions: mean, and median
 def median(vs):
     
     vs.sort()
@@ -34,19 +34,6 @@ def median(vs):
 def mean(vs):
 
     return sum(vs)/len(vs)
-
-def variance(vs):
-    
-    m = mean(vs)
-    
-    vs = [(x-m)**2 for x in vs]
-    
-    return sum(vs)/len(vs)
-
-def std_deviation(vs):
-    
-    v = variance(vs)
-    return sqrt(v)
 
 # Create two dictionaries we will use as hashmap
 students_per_course = dict()
