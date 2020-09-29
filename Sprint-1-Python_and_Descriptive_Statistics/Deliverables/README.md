@@ -25,7 +25,8 @@ Calculate, **by hand**, the five number summary and variance of the following da
 4.4
 6.7
 ```
-Min: 2.5 Q1: 4.4 Median: 6.7 Q3: 8.7 Max: 9.5 
+Min: 2.5 Q1: 4.4 Median: 6.7 Q3: 8.7 Max: 9.5 Variance: 5.48
+
 Disclaimer: I may also ask you to do something like this on the quiz.
 
 ## More Calculations
