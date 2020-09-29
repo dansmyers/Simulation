@@ -76,10 +76,17 @@ dataVariance = variance(values)
 dataSDeviation = sDeviation(values)
 
 
-# Use matlibplot to output boxplot to pdf
+# Use matlibplot to output boxplot and histogram to pdf
 plt.figure()
 plt.boxplot(values)
 plt.title("Data.txt Values visualization in Boxplot")
 plt.xlabel("Data")
 plt.ylabel("Values")
-plt.savefig("MoreCalculationsBoxplot.pdf")
+plt.savefig("MoreCalculationsBoxplot.pdf", bbox_inches = "tight")
+
+plt.figure()
+plt.hist(values,20)
+plt.title("Data.txt Histogram")
+plt.xlabel("Value")
+plt.ylabel("Frequency")
+plt.savefig("moreCalculationsHistogram.pdf", bbox_inches = "tight")
