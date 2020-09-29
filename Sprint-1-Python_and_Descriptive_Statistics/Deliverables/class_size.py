@@ -9,49 +9,47 @@ Create a box plot and a histogram to show the distribution of class sizes.
 Make sure to label the axes of your plots.
 """
 
-# Used to read/parse csv
-import csv
-# Required setup for matplotlib
-import matplotlib
+"""
+Importing
+"""
+import csv                          # Used to read/parse csv
+import matplotlib                   # Required setup for matplotlib
 matplotlib.use('Agg')               # <-- Required on Mimir
 from matplotlib import pyplot as plt
 
 
-# Create a dictionary to store the cids for each student
-courses_per_student = {}
+"""
+Declare dictionaries
+"""
+courses_per_student = {}            # Create a dictionary to store the cids for each student
+students_per_course = {}            # Second dictionary to store the students in each course
 
-# Second dictionary to store the students in each course
-students_per_course = {}
+
+"""
+Opening the file and populating dictionaries
+"""
+f = open('enrollments.csv', 'r')    # Open the enrollments.csv file
 
 
-# Open the enrollments.csv file
-f = open('enrollments.csv', 'r')
+reader = csv.reader(f)              # Create a csv reader to process the file
 
-# Create a csv reader to process the file
-reader = csv.reader(f)
 
-# Use the for loop to step through all lines in the file
-for line in reader:
+for line in reader:                 # Use the for loop to step through all lines in the file
     r_number = line[0]
     cid = line[1]
     
-    # If this is the first time we've seen the student r-number,
-    # make an entry for it in the dictionary
-    if r_number not in courses_per_student:
-        courses_per_student[r_number] = []
-    # Append the cid to the student's list of courses
-    courses_per_student[r_number].append(cid)
-    
-    
-    # If this is the first time we've seen the student r-number,
-    # make an entry for it in the dictionary
-    if cid not in students_per_course:
-        students_per_course[cid] = []
-    # Append the r_number to the course's list of student
-    students_per_course[cid].append(r_number)
+    if r_number not in courses_per_student:     # If this is the first time we've seen the student r-number,
+        courses_per_student[r_number] = []      # make an entry for it in the dictionary
+    courses_per_student[r_number].append(cid)   # Append the cid to the student's list of courses
+
+    if cid not in students_per_course:          # If this is the first time we've seen the student r-number,
+        students_per_course[cid] = []           # make an entry for it in the dictionary
+    students_per_course[cid].append(r_number)   # Append the r_number to the course's list of student
 
 
-#Helper Functions to Calculate Mean and Median
+"""
+Calculation helper functions
+"""
 def mean_class_size(x):                         # Pass students_per_course as x
     classes = []                                # Array that will hold the number of students per class
     for student in x:                           # For each student in x
@@ -63,29 +61,29 @@ def median_class_size(x):                         # Pass students_per_course as 
     classes = []
     for student in x:
         classes.append(len(x[student]))
-        
     classes.sort()
-    
     if(len(classes) % 2 == 0):                  # Calculate median
         e_1 = classes[int(len(classes) / 2)]    # First Middle Element
         e_2 = classes[int(len(classes)/2 -1)]   # Second Middle Element
         e_sum = e_1 + e_2                       # Add middle two elements
-
         return (e_sum / 2)                      #Return Average of the Middle Elementss
     else:
         e = classes[int(len(classes)/2)]        # Middle Element
         return (e)                              # Return Middle Element
 
 
-# Perform Calculations
+"""
+Perform Calculations
+"""
 mean = mean_class_size(students_per_course)
 median = median_class_size(students_per_course)
 class_size = [len(students_per_course[x]) for x in students_per_course]  
 
 
-# NatPlotLib stuff goes here
-# Noah figured out how to put two plots in a single pdf, so I am using his code for this
-
+"""
+MatPlotLib stuff goes here
+Noah figured out how to put two plots in a single pdf, so I am using his code for this
+"""
 plt.subplot(121)                                # First Subplot
 plt.boxplot(class_size)
 plt.title("Average Class Size")
