@@ -2,7 +2,7 @@
 
 ## Honor Code
 
-I promise not to cheat.
+“On my honor, I have not given, nor received, nor witnessed any unauthorized assistance on this work."
 
 ## Team Members
 
