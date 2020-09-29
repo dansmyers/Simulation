@@ -2,11 +2,11 @@
 
 ## Honor Code
 
-Edit this section to include a statement of the Honor Code.
+On my honor, I have not given, nor received, nor witnessed any unauthorized assistance on this work.
 
 ## Team Members
 
-List the other members of your team here.
+Alexander Diaz
 
 ## I Promise I'll Only Make You Do This One Time
 
@@ -25,7 +25,7 @@ Calculate, **by hand**, the five number summary and variance of the following da
 4.4
 6.7
 ```
-
+Min: 2.5 Q1: 4.4 Median: 6.7 Q3: 8.7 Max: 9.5 
 Disclaimer: I may also ask you to do something like this on the quiz.
 
 ## More Calculations
