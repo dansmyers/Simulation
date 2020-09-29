@@ -2,6 +2,7 @@
 Calculator functions for displaying data to matplotlib
 Calculating the mean, median, variance, and std deviation
 Of a given data text tile
+CMS380 Fall 2020
 """
 # Import math and matplotlib libraries
 import math
