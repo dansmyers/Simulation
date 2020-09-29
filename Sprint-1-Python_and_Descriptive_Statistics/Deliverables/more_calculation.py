@@ -53,9 +53,9 @@ def std_deviation(vs):
     
     
 #Printing out the mean, median, variance and standard deviation
-print("Mean : %.3f" % mean(values))
+print("Mean: %.3f" % mean(values))
 print("Median: %.3f" % median(values))
-print("variance: %.3f" % variance(values))
+print("Variance: %.3f" % variance(values))
 print("Standard deviation: %.3f" % std_deviation(values))
 
 #Creating boxplot and histogram
@@ -76,6 +76,6 @@ plt.figure()
 plt.hist(values,20)
 plt.title('data.txt  histogram')
 plt.xlabel('Values')
-plt.ylabel('Count')
+plt.ylabel('Frequency')
 plt.savefig('calculation_histogram1.pdf',bbox_inches='tight')
 

@@ -99,8 +99,8 @@ for student in courses_per_student:
 num_unique_student = [len(unique_students[s]) for s in unique_students]
 
 # Perform basic statistical analysis and print them out
-print("The median of the number of unique student to each individual student is: %.2f" %  median(num_unique_student))
-print("The mean of the number of unique student to each individual student is: %.2f" % mean(num_unique_student))
+print("The median of the number of unique students to each individual student is: %.2f" %  median(num_unique_student))
+print("The mean of the number of unique students to each individual student is: %.2f" % mean(num_unique_student))
 print("The variance of the distribution of the number of unique student to each individual student is: %.2f" % variance(num_unique_student))
 print("The standard deviation of the distribution of the number of student to eahc individual student is: %.2f" % std_deviation(num_unique_student))
 
@@ -110,5 +110,5 @@ plt.figure()
 plt.hist(num_unique_student,50)
 plt.title('Rollins Campus Connection Histogram')
 plt.xlabel('Number of Unique Student')
-plt.ylabel('Student Count')
+plt.ylabel('Frequency')
 plt.savefig('campus_connection_hist.pdf',bbox_inches='tight')
