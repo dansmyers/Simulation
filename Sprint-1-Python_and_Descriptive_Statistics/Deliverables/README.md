@@ -29,6 +29,13 @@ Calculate, **by hand**, the five number summary and variance of the following da
 4.4
 6.7
 ```
+2.5, 3.5, 4.4, 4.4, 6.7, 6.7, 8.2, 8.3, 8.7, 9.1, 9.5
+Minimum: 2.5
+Q1: 4.4
+Median: 6.7
+Q3: 8.5
+Maximum: 9.5
+Variance: 6.0607
 
 Disclaimer: I may also ask you to do something like this on the quiz.
 
