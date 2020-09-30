@@ -27,10 +27,10 @@ class_size = []
 # open the enrollments.csv file
 f = open('enrollments.csv', 'r')
 
-# Cerate a csv reader to process the file
+# Create a csv reader to process the file
 reader = csv.reader(f)
 
-# Use the for loop to step through all lines in the file
+# Use the for loop to iterate through all lines in the file
 for line in reader:
     r_number = line[0]
     cid = line[1]
@@ -41,7 +41,7 @@ for line in reader:
         
     # If this is the first time we've seen the course ID, make an entry for it in the  dictionary
     if cid not in students_per_course:
-        students_per_course[cid] = [] # Makes a brand new empty lists of students associated with this course
+        students_per_course[cid] = [] # Makes a brand new empty list of students associated with this course
     
     # Append the course id so that it adds to the list of courses associated with that student
     courses_per_student[r_number].append(cid)
@@ -52,7 +52,7 @@ for line in reader:
 for cid in students_per_course:
     class_size.append(len(students_per_course[cid]))
 
-#print(class_size)
+
 print('The mean class size: ',calc_mean(class_size))
 print('The median class size: ', calc_median(class_size))
 
@@ -83,8 +83,11 @@ plt.title('Class size')
 plt.savefig('class_size_boxplot.pdf', bbox_inches='tight')
 
 # INTERACTIONS
+# This part of the script is used to determine how many  unique students does each  Rollins student interact with in classes
 
+# Number of unique student ids for the student
 student_interactions = []
+# Total number of unique student interactions
 total_interactions = []
 
 # For each student look up their  list of courses
@@ -103,7 +106,7 @@ for r_number in courses_per_student:
     student_interactions.clear()
     
 
-print('The mean student interactions: ', calc_mean(total_interactions))
+print('The average number of unique student interactions: ', calc_mean(total_interactions))
 
 # Create a new figure for the histogram
 plt.figure()
@@ -131,5 +134,5 @@ plt.title('Unique Student Interactions')
 # Save the figure to a file
 plt.savefig('unique_student_interactions_boxplot.pdf', bbox_inches='tight')
 
-            
+
 
