@@ -1,6 +1,6 @@
 """
 
-A program that measures the connectivity of the Rollins campus. The program reads a file called enrollments.csv and extracts student courseIds and RNumbers so that they can be inserted into dictionaries. One dictionary will function as a way to organize students per course(with courseID) being the key). 
+A program that measures the connectivity of the Rollins campus. The program reads a file called enrollments.csv and extracts student courseIds and RNumbers so that they can be inserted into dictionaries. One dictionary will function as a way to organize students per course(with courseID being the key). The other dictionary will function as a way to organize courses per student(with RNumber being the key).
 
 Collaborated with Griffin
 
