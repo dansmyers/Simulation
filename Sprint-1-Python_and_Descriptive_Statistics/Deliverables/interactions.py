@@ -25,7 +25,7 @@ def median(l):                                                  #  copied from m
 def variance(l):                                                #  copied from moreCalculations.py
     m = mean(l)
     sq = [(i-m)**2 for i in l]
-    return(sum(sq)/len(sq))
+    return(sum(sq)/(len(sq)-1))                                 #  changed variance from POPULATION to SAMPLE (/n, /n-1)
 
 def standardDeviation(l):                                       #  copied from moreCalculations.py
     return(sqrt(variance(l)))
