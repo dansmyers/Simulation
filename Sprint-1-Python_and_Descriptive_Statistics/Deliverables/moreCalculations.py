@@ -25,7 +25,7 @@ def median(l):
 def variance(l):
     m = mean(l)
     sq = [(i-m)**2 for i in l]                                  #  uses list comprehension to create an array of each element minus the mean the result of which is squared
-    return(sum(sq)/len(sq))
+    return(sum(sq)/(len(sq)-1))                                 #  changed variance from POPULATION to SAMPLE (/n, /n-1)
 
 def standardDeviation(l):
     return(sqrt(variance(l)))
