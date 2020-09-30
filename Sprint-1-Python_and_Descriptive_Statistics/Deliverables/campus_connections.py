@@ -57,6 +57,7 @@ class_size = []
 f = open('enrollments.csv', 'r')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Create a csv reader to process the file
 reader = csv.reader(f)
 
@@ -67,6 +68,12 @@ reader = csv.reader(f)
 
 # Use the for loop to step through all lines in the file
 >>>>>>> cc added
+=======
+# Create a csv reader to process the file
+reader = csv.reader(f)
+
+# Use the for loop to iterate through all lines in the file
+>>>>>>> finalized revision
 for line in reader:
     r_number = line[0]
     cid = line[1]
@@ -86,10 +93,14 @@ for line in reader:
     # If this is the first time we've seen the course ID, make an entry for it in the  dictionary
     if cid not in students_per_course:
 <<<<<<< HEAD
+<<<<<<< HEAD
         students_per_course[cid] = [] # Makes a brand new empty list of students associated with this course
 =======
         students_per_course[cid] = [] # Makes a brand new empty lists of students associated with this course
 >>>>>>> cc added
+=======
+        students_per_course[cid] = [] # Makes a brand new empty list of students associated with this course
+>>>>>>> finalized revision
     
     # Append the course id so that it adds to the list of courses associated with that student
     courses_per_student[r_number].append(cid)
@@ -121,6 +132,7 @@ for cid in students_per_course:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 print(class_size)
@@ -128,6 +140,9 @@ print(class_size)
 =======
 #print(class_size)
 >>>>>>> revised files for comments and clarity
+=======
+
+>>>>>>> finalized revision
 print('The mean class size: ',calc_mean(class_size))
 print('The median class size: ', calc_median(class_size))
 
@@ -175,9 +190,15 @@ student_interactions = []
 # Total number of unique student interactions
 =======
 # INTERACTIONS
+# This part of the script is used to determine how many  unique students does each  Rollins student interact with in classes
 
+# Number of unique student ids for the student
 student_interactions = []
+<<<<<<< HEAD
 >>>>>>> revised files for comments and clarity
+=======
+# Total number of unique student interactions
+>>>>>>> finalized revision
 total_interactions = []
 
 # For each student look up their  list of courses
@@ -197,10 +218,14 @@ for r_number in courses_per_student:
     
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 print('The average number of unique student interactions: ', calc_mean(total_interactions))
 =======
 print('The mean student interactions: ', calc_mean(total_interactions))
 >>>>>>> revised files for comments and clarity
+=======
+print('The average number of unique student interactions: ', calc_mean(total_interactions))
+>>>>>>> finalized revision
 
 # Create a new figure for the histogram
 plt.figure()
@@ -229,10 +254,14 @@ plt.title('Unique Student Interactions')
 plt.savefig('unique_student_interactions_boxplot.pdf', bbox_inches='tight')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> cc added
 =======
             
 >>>>>>> revised files for comments and clarity
+=======
+
+>>>>>>> finalized revision
 
