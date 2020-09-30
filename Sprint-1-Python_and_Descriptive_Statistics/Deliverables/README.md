@@ -25,8 +25,16 @@ Calculate, **by hand**, the five number summary and variance of the following da
 4.4
 6.7
 ```
-
 Disclaimer: I may also ask you to do something like this on the quiz.
+## MY ANSWER: (Five Number Summary)
+```
+2.5, 3.5, 4.4, 4.4, 6.7, 6.7, 8.2, 8.3, 8.7, 9.1, 9.5
+Max: 9.5 
+Min: 2.5 
+Median: 6.7
+Upper Quartile: 8.7
+Lower Quartile: 4.4
+```
 
 ## More Calculations
 
@@ -84,7 +92,7 @@ I've pre-filtered the course list to eliminate both unusually small classes (lik
 
 ### Class Size
 
-Use the data to find the mean and median class sizes. Create a box plot and a histogram to show the distribution of class sizes. Make sure to label the axes of your plots.
+Use the data to find the mean and median class sizes. **Create a box plot and a histogram to show the distribution of class sizes. Make sure to label the axes of your plots.**
 
 The basic challenge is mapping each course to a list of the students in contains. Here's a code excerpt that will help you do this, and also illustrates the use of the `csv`
 module for working with structured text files.
@@ -153,7 +161,7 @@ Harry
 
 Daphne is in classes with six unique students: Ernie, Fred, George, Harry, Filius, and Gilderoy.
 
-Determine the average and distribution of the number of unique connections that each student experiences through classes. Here is a general strategy:
+**Determine the average and distribution of the number of unique connections that each student experiences through classes.** Here is a general strategy:
 
 1. Use the example above to read `enrollments.csv` and create dictionaries that record `students_per_course` and `courses_per_student`.
 
