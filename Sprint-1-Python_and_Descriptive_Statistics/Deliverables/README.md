@@ -26,6 +26,34 @@ Calculate, **by hand**, the five number summary and variance of the following da
 6.7
 ```
 
+ANSWER:
+
+
+1.	“I promise I’ll only make you do this one time”
+-	5 Number Summary:
+Lowest Number – 2.5
+Q1 – 4.4
+Median – 6.5
+Q3 – 8.7
+Highest – 9.5
+-	Sample Variance Σ(x – xi )2  / n - 1
+o	Mean = Σx/n = 72/11 = 6.54
+o	Variance = (6.54 – 2.5)2 + (6.54 – 3.5)2 +(6.54 – 4.4)2 +(6.54 – 4.4)2 +(6.54 – 6.7)2 +(6.54 – 6.7)2 +(6.54 – 8.2)2 +(6.54 – 8.3)2 +(6.54 – 8.7)2 +(6.54 – 9.1)2 +(6.54 – 9.5)2 = 60.62/n-1 = 60.62/10 = 6.062
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Disclaimer: I may also ask you to do something like this on the quiz.
 
 ## More Calculations
