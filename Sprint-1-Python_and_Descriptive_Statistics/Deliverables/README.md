@@ -2,11 +2,11 @@
 
 ## Honor Code
 
-Edit this section to include a statement of the Honor Code.
+On my honor i have not given nor recieved nor witnessed any unauthorized assistance on this work
 
 ## Team Members
 
-List the other members of your team here.
+Jay Jiranek, Gonzalo Ruiz
 
 ## I Promise I'll Only Make You Do This One Time
 
@@ -25,6 +25,17 @@ Calculate, **by hand**, the five number summary and variance of the following da
 4.4
 6.7
 ```
+
+3.5   9.1   9.5   8.3   8.2   8.7   4.4   6.7   2.5   4.4   6.7
+2.5  3.5  4.4  4.4  6.7  6.7  8.2  8.3  8.7  9.1  9.5
+min: 2.5   q1: 4.4   med: 6.7   q3: 8.7   max: 9.5
+mean: 72/11 = 6.5
+var: 4+3+2.1+2.1+.2+.2+1.7+1.8+2.6+3
+    16 + 9 + 4.41 + 4.41 + .04 + .04 + 2.89 + 3.24 + 6.76 + 9
+        =55.79 / 11 
+            =5.1
+standev: = 2.3
+
 
 Disclaimer: I may also ask you to do something like this on the quiz.
 
