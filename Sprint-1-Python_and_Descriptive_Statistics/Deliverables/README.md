@@ -6,7 +6,7 @@ On my honor, I have not given, nor received, nor witnessed any unauthorized assi
 
 ## Team Members
 
-Alexander Diaz
+Alexander Diaz, Alejandra De Osma, Jenny Goldsher, Nathaly Espinosa Teran
 
 ## I Promise I'll Only Make You Do This One Time
 
