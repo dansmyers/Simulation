@@ -5,7 +5,7 @@
 On my honor I have not given, recieved, or witnessed any unauthorized assistance on this work. 
 ## Team Members
 
-List the other members of your team here.
+Alejandra, Alexander, Jenny
 
 ## I Promise I'll Only Make You Do This One Time
 
