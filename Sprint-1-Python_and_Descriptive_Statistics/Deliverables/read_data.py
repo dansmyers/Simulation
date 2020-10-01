@@ -62,6 +62,12 @@ print("The median is:", sum2)
 print("The varience is:", sum3)
 print("The standard deviation is:", sum4)
 
+plt.figure()
+plt.hist(values)
+plt.xlabel('Num bins')
+plt.ylabel('Count per bin')
+plt.savefig('values.pdf', bbox_inches='tight')
+
 
 
 
