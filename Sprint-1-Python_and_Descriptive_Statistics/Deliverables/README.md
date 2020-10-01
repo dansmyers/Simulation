@@ -2,11 +2,11 @@
 
 ## Honor Code
 
-Edit this section to include a statement of the Honor Code.
+On my honor, I have not given, nor recieved, nor witnessed any unauthorized assitance on this assignment. 
 
 ## Team Members
 
-TJ Don
+TJ Donahue, Gonzalo
 
 ## I Promise I'll Only Make You Do This One Time
 
@@ -25,6 +25,12 @@ Calculate, **by hand**, the five number summary and variance of the following da
 4.4
 6.7
 ```
+2.5 3.5 4.4 4.4 6.7 6.7 8.2 8.3 8.7 9.1 9.5 
+min: 2.5
+q1: 4.4
+median: 6.7
+q3: 8.5
+max: 9.5
 
 Disclaimer: I may also ask you to do something like this on the quiz.
 
@@ -36,6 +42,9 @@ Tip: read the values into a list first. The easiest way to add an item to a list
 
 ```
 # Add code here to open the file
+
+reader = csv.reader(f)
+
 
 # Declare an empty list
 values = []
@@ -49,6 +58,35 @@ for line in f:
     
 # Now you calculate answers using the values list
 ```
+def min(x):
+    minimum = x[0]
+    for i in x:
+        if i < minimum:
+            minimum = i
+    return minimum
+    
+def max(x):
+    maximum = x[0]
+    for i in x:
+        if i > maximum:
+            maximum = i
+    return maximum
+def median(x):
+    num = []
+    for i in x:
+        num.append(float(i))     
+    while len(tempo) > 1:
+        num.remove(min(num))
+        num.remove(max(num))
+    return num[0]
+    
+def mean(x):
+    sum = 0.0
+    count = 0.0
+    for i in x:
+        sum += i
+        count += 1
+    return sum/count
 
 Tip-tip: I recommend writing functions to calculate each one of the outputs. For example,
 
