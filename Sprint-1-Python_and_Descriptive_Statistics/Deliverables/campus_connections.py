@@ -10,6 +10,7 @@ Determine the average and distribution of the number of unique connections that 
 import matplotlib
 matplotlib.use('Agg')
 from matplotlib import pyplot as plt
+import statistics
 
 # csv module makes it easy to process delimited text files
 import csv
@@ -64,29 +65,40 @@ for student_id in courses_per_student:
 avg_students = avg(num_students)
 print("This is the average number of students per class:", "{:.2f}".format(avg_students))
 
-# Get average number of classes each student takes
-avg_class = avg(num_courses)
-print("This is the average number of classes each student takes:", "{:.2f}".format(avg_class))
+# Get median of class sizes
+print("The median is:", statistics.median(num_students))
 
+# Get avg connections
+unique_connections = []
+num_connections= []
+for student in courses_per_student:
+    courses = courses_per_student[student]
+    for course in courses:
+        students = students_per_course[course]
+        for person in students:
+            if person not in unique_connections:
+                unique_connections.append(person)
+                x = len(unique_connections)
+    num_connections.append(x - 1)
+    unique_connections.clear()
+        
+avg_connections = avg(num_connections)
+print("The average number of unique connections: ", avg_connections)
 """
-****FIX PLOT FORMAT ********
+    ****FIX PLOT FORMAT ********
 """
    
 plt.figure()
-plt.hist(num_students)
-plt.xlabel('Class Size')
-plt.ylabel('Num of Students')
-plt.savefig('students.pdf', bbox_inches='tight')
+plt.hist(num_connections)
+plt.xlabel('Num of Connections')
+plt.ylabel('Count of Students')
+plt.savefig('unique_connections.pdf', bbox_inches='tight')
 
-plt.figure()
-plt.hist(num_courses)
-plt.xlabel('Num of Students')
-plt.ylabel('Num Courses')
-plt.savefig('courses.pdf', bbox_inches='tight')
+
 # Create a box plot
 
 fig = plt.figure()
-plt.boxplot(num_students)
+plt.boxplot(num_connections)
 plt.xlabel("Class size")
 
 plt.savefig('box_course.pdf')
