@@ -82,6 +82,8 @@ Your goal for this project is to write a simulator that can estimate the probabi
 You'll need to write a `simulate` function that can execute one round of the game: dealing the cards, calculating hand values, applying the tableau rules, and then deciding
 the winner. Report whether the result was a win for the player, the banker, or a tie. Run a large number of simulations, then report the fraction of wins for each hand.
 
+Once you have the fraction of wins, you can work out the actual house edge by taking into account the payouts for each bet.
+
 ## Tips
 
 - Take a look at [this article from the Wizard of Odds](https://wizardofodds.com/games/baccarat/basics/#toc-Rules) if you'd like to review another presentation of
