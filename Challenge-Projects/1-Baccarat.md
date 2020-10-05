@@ -59,7 +59,7 @@ achieve naturals.
 
 4. If the player hand has a point value of 0-5, the dealer will give a third card to to the player hand. The player hand stands on a 6 or 7.
 
-5. The rules for the banker are more complex. If the player stood with two cards, the banker follows the same rules as the player: hit on 0-5 and stand on 6-7.
+5. The rules for the banker are more complex. If the player stood with two cards, the banker follows the same rules as the player: hit on 0-5 and stand on 6-7.  
 
   If the player did take a third card, the banker acts according to the following tableau:
 
