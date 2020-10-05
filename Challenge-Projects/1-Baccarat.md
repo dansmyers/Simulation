@@ -50,16 +50,16 @@ of 3: calculated as `(7 + 6) % 10`.
 
 Play proceeds as follows:
 
-1. The dealer deals the two hands of two cards and announces their values using the rules above.
+The dealer deals the two hands of two cards and announces their values using the rules above.
 
-2. If a hand achieves an 8 or 9, it is declared a "natural" and the round ends immediately as either a win for the natural hand or a tie if both hands
+If a hand achieves an 8 or 9, it is declared a "natural" and the round ends immediately as either a win for the natural hand or a tie if both hands
 achieve naturals.
 
-3. If neither hand achieves a natural, then the tableau of drawing rules is consulted, first for the player, then the banker.
+If neither hand achieves a natural, then the tableau of drawing rules is consulted, first for the player, then the banker.
 
-4. If the player hand has a point value of 0-5, the dealer will give a third card to to the player hand. The player hand stands on a 6 or 7.
+If the player hand has a point value of 0-5, the dealer will give a third card to to the player hand. The player hand stands on a 6 or 7.
 
-5. The rules for the banker are more complex. If the player stood with two cards, the banker follows the same rules as the player: hit on 0-5 and stand on 6-7.  
+The rules for the banker are more complex. If the player stood with two cards, the banker follows the same rules as the player: hit on 0-5 and stand on 6-7.  
 
   If the player did take a third card, the banker acts according to the following tableau:
 
