@@ -92,7 +92,7 @@ the rules.
 - This project is not conceptually harder than our other gambling simulations, but the rules of the game are more complex. Test your method thoroughly to make sure it's
 doing what you want before you try running a long simulation.
 
-- You have to decide how you want to handle dealing. The casino game is traditonally played with a shoe of eight decks shuffled together, and the dealer will reshuffle a 
-new shoe of eight decks about three-quarters of the way through. Modeling the composition of the real decks affects the probabilities, because cards that have been dealt out 
+- You have to decide how you want to handle dealing. The casino game is traditonally played with a shoe of eight decks shuffled together; the dealer reshuffles a new shoe when
+the current one is almost empty. Modeling the composition of the real decks affects the probabilities, because cards that have been dealt out 
 can't be used again until the decks are reshuffled. Think about the best way to represent how the cards are dealt. The easiest choice is to just generate the
 cards randomly, but this will not give you the same results as a real game.
