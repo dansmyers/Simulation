@@ -16,7 +16,7 @@ high bets, although many casinos now offer "Mini-Bac", which uses the same rules
 reasonable bets. Despite its reputation as the province of high-rollers, baccarat is purely a game of chance: there is no strategy involved. Interestingly, it features some of 
 the lowest house edges available at any casino game without resorting to special strategies like card counting in blackjack.
 
-In this project, you'll write a Monte Carlo simulator for baccarat and calculate the player's expected winning probability for the two main bets.
+In this project, you'll write a Monte Carlo simulator for baccarat and estimate the expected winning probability for the two main bets.
 
 ## Rules
 
