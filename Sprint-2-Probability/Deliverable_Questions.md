@@ -54,6 +54,19 @@ B = Not receiving a letter
 P(B) is therefore the total probability of not receiving a letter.
 ``` 
 
+
+Answer:
+
+P(She's a Witch | Not receiving a letter ) = .8333
+
+Equation: P(Witch) * P(No letter|She's a Witch)/ P(No letter) - Bayes Theorem
+
+P(No letter) = P(No letter|witch)*P(witch) + P(No letter|Not a witch) * P(Not a witch) = .27
+
+so, final equation = .75 * .03 / .27 = .8333
+
+
+
 ### Chocolate Frogs
 
 Good news! Hermione got into Hogwarts after all!
@@ -64,6 +77,8 @@ Suppose that there are 30 total Famous Witch or Wizard cards in the set. Every f
 
 What is the expected number of Chocolate Frogs Hermione would need to open to collect every Famous Witch and Wizard?
 
+
+
 Hints:
 
 - If Hermione buys her first frog on the Express, she's guaranteed to get a card she's never seen before.
@@ -73,6 +88,10 @@ Hints:
 - After she has two cards, she'd expect to open 30 / 28 ~ 1.0714 cards to find a third unique card.
 
 This problem is based on a classic called the Coupon Collector's Problem. It's related to the geometric distribution, which we'll talk about in the next sprint.
+
+E(N) = 1 + 30/29 + 30/28 + 30/27 .... + 30/1
+
+where E(ith card) = N/N-1
 
 ### Hat Problem
 
@@ -92,6 +111,11 @@ If 10% of new Hogwarts students are evil, what is the probability that a randoml
 
 Tip: the value you want is `P(Evil | Slytherin)`.
 
+P(Evil|Slytherin) = P(Evil) * P(Slytherin|Evil)/ P(Slytherin) = .357
+
+where P(Slytherin) = P(slytherin|Not evil) * P(Not Evil) + P(Slytherin|Evil) * P(Evil) = (.2*.9) + (1 * .1) = .28
+
+Final equation = .1 * 1 / .28 = .357 or 35.7%
 
 ### Dumblevator
 
@@ -122,6 +146,12 @@ There's an urn on the fourth floor with a strange property: every time Hermione 
 
 Suppose the urn contains 10 black balls and 5 red balls. If Hermione draws two balls, what is the probability that the second ball is red?
 
+.33 picked red * (4/13 - black was discarded) + .33 * (3/13 - red was discarded) 
++
+.67 picked black * (4/13 - red was discarded) + .67 * (5/13 - black was discarded)
+
+= .21 + .26 + .10 + .08 / 4 = .1625
+
 ### Pólya's Urn
 
 Suppose an urn contains 9 black balls and 6 red balls. On each trial, Hermione picks a ball at random from the urn, returns it to the urn, and adds in one more ball of the same color.
@@ -129,6 +159,9 @@ Suppose an urn contains 9 black balls and 6 red balls. On each trial, Hermione p
 Suppose she carries out this procedure two times. What are the expected numbers of red and black balls in the urn?
 
 Tip: draw a tree of possible outcomes.
+
+
+
 
 ### Arithmancy
 
@@ -177,3 +210,6 @@ P(Both are born on two different days) = (365 / 365) * (364 / 365)
 Hermoine's birthday can be on any day, but Victoria's must occur randomly on one of the other 364 days.
 
 What if there are three students? How about more?
+
+
+
