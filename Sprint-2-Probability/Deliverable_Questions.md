@@ -8,7 +8,7 @@ This problem set is a work of fan fiction. Hermione Granger and related characte
 
 ## Honor Code
 
-"On my honor, I have not given, nor received, nor witnessed any unauthorized assistance on this work.
+"On my honor, I have not given, nor received, nor witnessed any unauthorized assistance on this work."
 
 ## List Your Team Members
 
