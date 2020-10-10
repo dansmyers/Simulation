@@ -124,7 +124,7 @@ plt.savefig('students_per_course.pdf', bbox_inches = 'tight')
 
 #boxplot
 plt.figure()
-plt.boxplot(num_stud, vert = 0)
+plt.boxplot(num_stud, vert = 0, labels = ['#ofStud.'])
 plt.title('Students_per_course.bxplt')
 plt.savefig('studentspercourseboxplot.pdf')
 
@@ -146,14 +146,41 @@ for r_number in courses_per_student:
         classesstudents = students_per_course[classnumb]
         for studentnum in classesstudents:
             if (studentnum not in classmates_per_student[r_number]) and (studentnum != r_number):
-                #checks the current r_number and adds it only if it is not the current student or if it is already a=added
+                #checks the current r_number and adds it only if it is not the current student or if it is already added
                 classmates_per_student[r_number].append(studentnum)
 
 
         
 unique_connections_per_student = {}#dict of number of unique classmates each r number has
+classmates_student = [];#array of number of classmates
+
 for r_number in classmates_per_student:
     unique_connections_per_student[r_number] = []
     unique_connections_per_student[r_number].append(len(classmates_per_student[r_number]))
+    classmates_student.append(len(classmates_per_student[r_number]))
 
 print(unique_connections_per_student)
+
+#create a new figure -- always do this before calling a plotting fuunction
+#histogram
+plt.figure()
+
+#plot a histogram of the data with 20 bins
+plt.hist(classmates_student, 20)
+
+
+#set title and axis labels
+plt.title('Classmates per Student')
+plt.xlabel('Student')
+plt.ylabel('number of classmates')
+
+#save the figure to a file 
+plt.savefig('classmates_per_student.pdf', bbox_inches = 'tight')
+
+
+#boxplot
+plt.figure()
+plt.boxplot(classmates_student, vert = 0)
+plt.title('classmates_per_student.bxplt')
+plt.savefig('classmates_per_student_boxplot.pdf')
+
