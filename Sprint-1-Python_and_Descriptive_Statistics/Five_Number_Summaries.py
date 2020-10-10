@@ -1,3 +1,7 @@
+import matplotlib
+matplotlib.use('Agg')
+from matplotlib import pyplot as plt
+
 # Add code here to open the file
 f = open('data.txt', 'r')
 
@@ -73,3 +77,22 @@ def standev(x):
 print('Standard Deviation: ')
 print(standev(values))
 
+#create a new figure -- always do this before calling a plotting fuunction
+#histogram
+plt.figure()
+
+#plot a histogram of the data with 15 bins
+plt.hist(values, 20)
+
+#set title and axis labels
+plt.title('Data.txt')
+
+#save the figure to a file 
+plt.savefig('data_hist.pdf', bbox_inches = 'tight')
+
+
+#boxplot
+plt.figure()
+plt.boxplot(values, vert = 0)
+plt.title('data.bxplt')
+plt.savefig('data_boxplot.pdf')
