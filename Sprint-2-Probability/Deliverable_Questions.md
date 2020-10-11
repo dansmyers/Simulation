@@ -93,6 +93,12 @@ E(N) = 1 + 30/29 + 30/28 + 30/27 .... + 30/1
 
 where E(ith card) = N/N-1
 
+
+Answer:
+E(N) = Sum (where i = 1, and n = 30) of n/n-i
+30/30 + 30/29 + 30/28 ... 30/1, which is represented by the equation n/n-i
+
+
 ### Hat Problem
 
 Hermione and Harry made it to Hogwarts!
@@ -197,6 +203,7 @@ Birthdays are important in the Wizarding World. Sharing a birthday with another 
 
 What's the probability that no two students in Hermoine's year share the same birthday?
 
+
 Tip: Assume that there are 365 possible birthdays (wizards can't be born on Leap Days) and that wizards are equally likely to be born on any day of the year.
 
 Tip-Tip:
@@ -213,3 +220,9 @@ What if there are three students? How about more?
 
 
 
+Answer:
+
+P(No two students have same birthday) = (365/365) * (364/365) * ... * (325/365)
+
+Represented by the equation:
+Product notation, where i = 1, n = 40, 365-i/365 
