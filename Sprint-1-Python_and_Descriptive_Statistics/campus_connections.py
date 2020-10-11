@@ -84,6 +84,8 @@ def median(x):
     while len(tempo) > 1:
         tempo.remove(min(tempo))
         tempo.remove(max(tempo))
+        if (len(tempo) == 2):
+            return mean(tempo)
     
     return tempo[0]
 
@@ -160,6 +162,11 @@ for r_number in classmates_per_student:
     classmates_student.append(len(classmates_per_student[r_number]))
 
 print(unique_connections_per_student)
+
+print('Mean: ')
+print(mean(classmates_student))
+print('Median: ')
+print(median(classmates_student))
 
 #create a new figure -- always do this before calling a plotting fuunction
 #histogram
