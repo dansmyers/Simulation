@@ -1,5 +1,7 @@
 # Challenge Project &ndash; Baccarat
 
+## Due December 11 (week before the last day of class)
+
 <img src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iyOGRok9ziCM/v1/1000x-1.jpg" width="50%" />
 
 ## Overview
