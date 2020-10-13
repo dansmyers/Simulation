@@ -122,7 +122,10 @@ Hermione's last class ends at 5 PM on the thirteenth floor and she wants to go d
 
 Answer:
 ```
-There is a 1 in 15 chance that when Hermione arrives at the elevator it will be on the 13th floor. On top of that, there is 1/2 chance that the elevator will be moving downward. Combining the two probablities gets Hermione a 1 in 30 chance that the elevator is on the 13th floor and moving down when she arrives.
+There is a 1 in 15 chance that when Hermione arrives at the elevator it will be on the 13th floor. 
+On top of that, there is 1/2 chance that the elevator will be moving downward. 
+Combining the two probablities gets Hermione a 1 in 30 chance that the 
+elevator is on the 13th floor and moving down when she arrives.
 1/15 * 1/2 = 1/30
 ```
 
