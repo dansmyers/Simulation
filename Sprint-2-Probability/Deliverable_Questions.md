@@ -165,6 +165,16 @@ Suppose she carries out this procedure two times. What are the expected numbers 
 
 Tip: draw a tree of possible outcomes.
 
+Answer:
+```
+Expected black balls:
+(9/15 * 10/16 * 11) + (9/15 * 6/16 * 10) + (6/15 * 9/16 * 10) + (6/15 * 7/16 * 9) = 8.2 black balls
+
+Expected red balls:
+(9/15 * 10/16 * 6) + (9/15 * 6/16 * 7) + (6/15 * 9/16 * 7) + (6/15 * 7/16 * 8) = 6.8 red balls
+
+```
+
 ### Arithmancy
 
 The discrete uniform distribution is defined over a finite set of integer values
