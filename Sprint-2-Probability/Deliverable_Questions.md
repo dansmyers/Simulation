@@ -92,9 +92,9 @@ E(N) = 1 + 30/29 + 30/28 + 30/27 .... + 30/1
 
 where E(ith card) = N/N-1
 
-
+ 
 Answer:
-E(N) = Summation (where k = 1, and n = 30) of 30/k
+E(N) = ∑ (where k = 1, and n = 30) of 30/k
 30/30 + 30/29 + 30/28 ... 30/1, which is represented by the equation 30/k
 
 
@@ -165,7 +165,9 @@ Suppose the urn contains 10 black balls and 5 red balls. If Hermione draws two b
 +
 .67 picked black * (5/14 - red was discarded * 4/13 choose red ) + .67 * (10/14 - black was discarded * 5/13 choose red)
 
-= .101 + .076 + .206 + .257  = .641
+= .072 + .022 + .074 + .184  = .352
+
+
 
 ### Pólya's Urn
 
@@ -176,24 +178,24 @@ Suppose she carries out this procedure two times. What are the expected numbers 
 Tip: draw a tree of possible outcomes.
 
 E[black]:
-9/15 * 10/16 * 11 
+(9/15 * 10/16 * 11) 
 +
-9/15 * 6/16 * 10
+(9/15 * 6/16 * 10)
 +
-6/15 * 9/16 * 10
+(6/15 * 9/16 * 10)
 +
-6/15 * 7/16 * 9  
+(6/15 * 7/16 * 9)  
 = 10.2
 
 
 E[red]:
-9/15 * 10/16 * 6
+(9/15 * 10/16 * 6)
 +
-9/15 * 6/16 * 7
+(9/15 * 6/16 * 7)
 +
-6/15 * 9/16 * 7
+(6/15 * 9/16 * 7)
 +
-6/15 * 7/16 * 8
+(6/15 * 7/16 * 8)
 = 6.8
 
 E[Black] = 10.2
@@ -265,4 +267,4 @@ Answer:
 P(No two students have same birthday) = (365/365) * (364/365) * ... * (325/365)
 
 Represented by the equation:
-Product notation, where k = 1, n = 40, 365-i/365 
+Product notation, where k = 0, n = 39, 365-k/365 
