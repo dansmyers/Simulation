@@ -179,6 +179,37 @@ Prove that the expected value of a discrete uniform distribution with `a = 1` an
 E[X] = -------
           2
 ```
+
+Answer:
+```
+       n
+E[X] = ∑ 1/n * k
+      k=1
+
+           n
+E[X] = 1/n ∑ k
+          k=1
+          
+This summation is equal to two thing: 
+S = n + n-1 + n-2 + n-3 + ... + 1
+and
+S = 1 + 2 + 3 + 4 + ... + n
+
+Multiply the summation by two, but use each definition:
+2S = (1 + n) + ( 2 + n-1) + (3 + n-2) + ... (n + 1)
+Each group of parenthesis equals (1 + n) and each one happens n time so:
+
+2S = n * (1 + n)
+Then divide by 2 on both sides:
+S = n * (1 + n)
+   ------------
+        2
+        
+Therefore:
+
+E[X] = 1/n * (n * (1 + n))/2
+Which simplifies to: E[X] = (1 + n) / 2
+```
 Hint: Each of the `n` values is equally likely to be observed.
 
 Hint-hint: There's going to be a summation. You can look up the result if you don’t remember it.
@@ -207,3 +238,13 @@ P(Both are born on two different days) = (365 / 365) * (364 / 365)
 Hermoine's birthday can be on any day, but Victoria's must occur randomly on one of the other 364 days.
 
 What if there are three students? How about more?
+
+Answer:
+```
+  n
+  π 365 - k/365
+ k=0
+
+n = 39
+
+```
