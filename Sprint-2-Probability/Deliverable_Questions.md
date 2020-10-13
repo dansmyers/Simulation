@@ -7,12 +7,11 @@ This problem set is a work of fan fiction. Hermione Granger and related characte
 <img src="https://64.media.tumblr.com/d85b44001002bb249c42b27e00d8dccb/tumblr_nzrkzfmjZW1s5b5tzo1_500.jpg" width="40%" />
 
 ## Honor Code
-
-Edit this section to include a statement of the Honor Code.
+On my honor I have no given, recieved, nor witnessed any unauthorized assistance on this work.
 
 ## List Your Team Members
 
-Edit this section to include a list of everyone on your team.
+Jenny Goldsher and Mariah Haskell
 
 ## Instructions
 
@@ -53,7 +52,10 @@ B = Not receiving a letter
 
 P(B) is therefore the total probability of not receiving a letter.
 ``` 
-
+Answer:
+```
+P(witch|no letter) = 0.08333
+```
 ### Chocolate Frogs
 
 Good news! Hermione got into Hogwarts after all!
@@ -63,6 +65,12 @@ Now she's taking her first trip to school on the magical Hogwarts Express. The s
 Suppose that there are 30 total Famous Witch or Wizard cards in the set. Every frog is equally likely to contain any one of the cards.
 
 What is the expected number of Chocolate Frogs Hermione would need to open to collect every Famous Witch and Wizard?
+
+Answer:
+```
+E[X] = (1 + 30/29 + 30/28 + 30/27 + ... 30
+E[X] = Summation k = 1 up to 30 (30/k)
+```
 
 Hints:
 
@@ -90,6 +98,11 @@ Hermione is shocked when she's sorted into Slytherin! She's never thought of her
 
 If 10% of new Hogwarts students are evil, what is the probability that a randomly chosen Slytherin is evil?
 
+Answer:
+```
+35.714% chance of being evil and in Slytherin
+```
+
 Tip: the value you want is `P(Evil | Slytherin)`.
 
 
@@ -104,6 +117,12 @@ The school has fifteen floors. The Dumblevator continually moves between the fir
 ... 3, 2, 1, and so forth. Any time spent stopped at a floor is negligible compared to the time moving between floors.
 
 Hermione's last class ends at 5 PM on the thirteenth floor and she wants to go down to the first floor to reach the Great Hall for dinner. What is the probability that the Dumblevator is moving **down** when it arrives at the thirteenth floor for the first time after Hermione leaves her class?
+
+Answer:
+```
+There is a 1 in 15 chance that when Hermione arrives at the elevator it will be on the 13th floor. On top of that, there is 1/2 chance that the elevator will be moving downward. Combining the two probablities gets Hermione a 1 in 30 chance that the elevator is on the 13th floor and moving down when she arrives.
+1/15 * 1/2 = 1/30
+```
 
 Tips:
 
@@ -121,6 +140,17 @@ Hogwarts is filled with all kinds of wonderous magical objects: talking portrait
 There's an urn on the fourth floor with a strange property: every time Hermione takes a ball out, the urn randomly chooses and discards another ball!
 
 Suppose the urn contains 10 black balls and 5 red balls. If Hermione draws two balls, what is the probability that the second ball is red?
+
+```
+10 black 5 red
+
+(10/15 * 9/14 * 5/13) + (10/15 * 5/14 * 4/13) + (5/15 * 10/14 * 4/13) + (5/15 * 4/14 * 3/13)= 1/3
+
+(H Pick)Black * (Urn Discard) B * (HP) Red + (HP)B * (UD) R * (HP) R + (HP)R * (UD) B * (HP) R + (HP)R * (UP)R * (HP)R
+
+1/3 a chance Hermione will get Red on her second pick
+
+```
 
 ### Pólya's Urn
 
