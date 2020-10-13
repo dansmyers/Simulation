@@ -69,7 +69,9 @@ What is the expected number of Chocolate Frogs Hermione would need to open to co
 Answer:
 ```
 E[X] = (1 + 30/29 + 30/28 + 30/27 + ... 30
-E[X] = Summation k = 1 up to 30 (30/k)
+       30
+E[X] = ∑ (30/k)
+      k=1
 ```
 
 Hints:
