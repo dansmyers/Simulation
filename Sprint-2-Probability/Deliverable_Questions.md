@@ -8,11 +8,11 @@ This problem set is a work of fan fiction. Hermione Granger and related characte
 
 ## Honor Code
 
-Edit this section to include a statement of the Honor Code.
+“On my honor, I have not given, nor received, nor witnessed any unauthorized assistance on this work."
 
 ## List Your Team Members
 
-Edit this section to include a list of everyone on your team.
+Randy, Christian, Ryan, Matthew
 
 ## Instructions
 
@@ -54,6 +54,22 @@ B = Not receiving a letter
 P(B) is therefore the total probability of not receiving a letter.
 ``` 
 
+```
+P(A) = .75         P(B|A) = .03       P(B|!A) = .99
+P(!A) = 1 - .75 = .25
+
+Using notes from class:
+P(B) = P(B|A)P(A) + P(B|!A)P(!A)
+     = .03 * .75  + .99 * .25
+     = .0225 + .2475 = .27
+
+Using Bayes' Rule,
+P(A|B) = (.75 * .03) / .27
+       = .0225 / .27 
+       = .08333333
+       = 8.3%
+```
+
 ### Chocolate Frogs
 
 Good news! Hermione got into Hogwarts after all!
@@ -74,6 +90,27 @@ Hints:
 
 This problem is based on a classic called the Coupon Collector's Problem. It's related to the geometric distribution, which we'll talk about in the next sprint.
 
+```
+k = 30
+Yi = number of Chocolate frogs to collect all cards
+Xi = Yi+1 + Yi
+Yk = Sum i = 0 to k-1 Xi
+E[Xi] = k * (1/(k-i))
+E[Yk] = E[Sum i = 0 to k-1 (Xi)]
+      = Sum i = 0 to k-1 (E[Xi])
+      
+      pull the k out of the Summation
+      = k Sum i = 0 to k-1 (1/(k-i))
+      
+      rewrite it to make it more readable
+      = k Sum i = 1 to k (1/i)
+      
+      Sum i = 1 to k (1/i) is equal to ln k
+      
+      so the answer becomes
+      = k ln k
+```
+
 ### Hat Problem
 
 Hermione made it to Hogwarts!
@@ -92,6 +129,18 @@ If 10% of new Hogwarts students are evil, what is the probability that a randoml
 
 Tip: the value you want is `P(Evil | Slytherin)`.
 
+```
+P(A) = .1    P(B|A) = 1    P(B) = 1 - .1 (subtract the guys auto put in slyth) 
+                                = .9 * .2 (using the 2nd step)
+                                = .18 + .1 (add back in the people auto put in slyth)
+                                = .28
+
+Using Bayes' Rule:
+P(A|B) = (1 * .1) / .28
+       = .1 / .28
+       = .357 
+       about 35.7%
+```
 
 ### Dumblevator
 
@@ -112,6 +161,22 @@ Tips:
 - If Hermione boards a down-moving elevator at the 13th floor, where must it have been when she arrived to wait?
 
 - Try reasoning about a smaller number of floors and drawing a picture.
+- 
+```
+Was confused by this by what you were mentioning in class.  "when it arrives at the thirteenth floor for the first time after Hermione leaves her class?"  Which sounds like we do not care about the time that she somehow magically catches it right at the floor when she arrives at the elevator.
+
+Well on floor 1 and floor 15 the elevator can only go in one direction.  Every other floor it can be going in either direction.  So 15 - 2 = 13 * 2 = 26 + 2 = 28 different possible things that the elevator could be doing.  We are interested in only the time when it arrives at 13 
+going down.  So if the elevator is at floor 15 or floor 14 (no matter which direction its 
+going from 14 it will be going down when it first arrives at 13) so,
+
+p = 1/28 (for floor 15) + 2/28 (for floor 14) + 1/28 (for the time it arrives at floor 13 
+  going down)
+p = 4/28 = 1/7 
+  - so about a 14% chance when the elevator arrives at 13 it will be going down
+  
+  - can't the wizards just fly?
+  
+```
 
 
 ### Urn While You Learn
@@ -122,6 +187,29 @@ There's an urn on the fourth floor with a strange property: every time Hermione 
 
 Suppose the urn contains 10 black balls and 5 red balls. If Hermione draws two balls, what is the probability that the second ball is red?
 
+```
+Using a tree diagram
+                      B:10                  R: 5
+               10/15  /                        \  5/15
+                   B:9    R:5                B:10        R:4
+                .5/         \ .5           .5 /            \ .5
+              B:8 R:5       B:9 R:4       B:9 R:4          B:10 R:3
+          DC /    \ 5/13      DC/\ 4/13     DC/\ 4/13      DC / \ 3/13
+          
+On the left side:
+10/15 * .5 * 5/13 = .1282
+10/15 * .5 * 4/13 = .1026
+
+On the right side:
+5/15 * .5 * 4/13 = .0513
+5/15 * .5 * 3/13 = .0385
+
+p = .1282 + .1026 + .0513 + .0385
+  = .3206
+  about 32%
+
+```
+
 ### Pólya's Urn
 
 Suppose an urn contains 9 black balls and 6 red balls. On each trial, Hermione picks a ball at random from the urn, returns it to the urn, and adds in one more ball of the same color.
@@ -129,6 +217,19 @@ Suppose an urn contains 9 black balls and 6 red balls. On each trial, Hermione p
 Suppose she carries out this procedure two times. What are the expected numbers of red and black balls in the urn?
 
 Tip: draw a tree of possible outcomes.
+
+```
+Using a tree diagram
+                                   B: 9 R: 6
+                   9/15     /                             \    6/15
+                B: 10 R: 6                                B: 9 R: 7
+        10/16     /     \   6/16                      9/16 /       \  7/16
+        B: 11 R: 6      B: 10 R: 7                B:10 R: 7       B: 9 R: 8
+
+11 black balls 6 red balls = 37.5%
+10 black balls 7 red balls = 22.5% * 2 = 45%
+9 black balls 8 red balls = 17.5%
+```
 
 ### Arithmancy
 
@@ -153,6 +254,18 @@ Hint: Each of the `n` values is equally likely to be observed.
 
 Hint-hint: There's going to be a summation. You can look up the result if you don’t remember it.
 
+```
+E[X] = sum x (x p(x))
+     = 1(1/n) + 2(1/n) + 3(1/n) + ...
+     = sum k = 1 to n (k(1/n))
+     
+     sum k = 1 to n (k(1/n)) is equal to (n + 1) / 2
+     
+This makes sense because (n+1)/2 is also the formula to find the median.  Over
+  a discrete uniform distribution this would also be the average.  The E[X] is
+  sometimes written as the average value of X.
+
+```
 
 ### Birthday Attack
 
@@ -172,8 +285,26 @@ Suppose there are only two students: Hermione and her best friend Victoria Potte
 
 ```
 P(Both are born on two different days) = (365 / 365) * (364 / 365)
+
 ```
 
 Hermoine's birthday can be on any day, but Victoria's must occur randomly on one of the other 364 days.
 
 What if there are three students? How about more?
+
+```
+
+P(Both are born on two different days) = .9973 or about 99.7%
+
+If 3 Students:
+Number of pairs = (3 * 2) / 2 = 3
+P(unique pair) = .9973
+P(3 unique pairs) = (.9973)^3 = .9919 or about 99.19%
+
+
+For 40 Students:
+Number of pairs = (40 * 39) / 2 = 780
+P(unique pair) = .9973
+P(780 unique pairs) = (.9973)^780 = .1214 or about 12.14%
+
+```
