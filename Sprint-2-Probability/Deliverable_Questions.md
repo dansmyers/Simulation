@@ -8,11 +8,10 @@ This problem set is a work of fan fiction. Hermione Granger and related characte
 
 ## Honor Code
 
-Edit this section to include a statement of the Honor Code.
+AHC - JG
 
 ## List Your Team Members
-
-Edit this section to include a list of everyone on your team.
+Mariah Haskell 
 
 ## Instructions
 
@@ -57,13 +56,13 @@ P(B) is therefore the total probability of not receiving a letter.
 
 Answer:
 
-P(She's a Witch | Not receiving a letter ) = .8333
+P(She's a Witch | Not receiving a letter ) = .08333
 
 Equation: P(Witch) * P(No letter|She's a Witch)/ P(No letter) - Bayes Theorem
 
 P(No letter) = P(No letter|witch)*P(witch) + P(No letter|Not a witch) * P(Not a witch) = .27
 
-so, final equation = .75 * .03 / .27 = .8333
+so, final equation = .75 * .03 / .27 = .08333
 
 
 
@@ -95,8 +94,8 @@ where E(ith card) = N/N-1
 
 
 Answer:
-E(N) = Sum (where i = 1, and n = 30) of n/n-i
-30/30 + 30/29 + 30/28 ... 30/1, which is represented by the equation n/n-i
+E(N) = Summation (where k = 1, and n = 30) of 30/k
+30/30 + 30/29 + 30/28 ... 30/1, which is represented by the equation 30/k
 
 
 ### Hat Problem
@@ -144,6 +143,16 @@ Tips:
 - Try reasoning about a smaller number of floors and drawing a picture.
 
 
+Answer:
+
+Set of situations where elevator is coming down @ or above the 13th floor:
+@13th - 1/15 chance@13th * 1/2 is going down = 1/30
+@14th - 1/15 chance@14th * 1/2 is going down = 1/30
+@15th - 1/15 chance, and must be going down = 1/15
+
+1/30 + 1/30 + 1/15 = 2/15 chance Hermione gets the elevator on the 13th floor while it is moving down
+
+
 ### Urn While You Learn
 
 Hogwarts is filled with all kinds of wonderous magical objects: talking portraits, deadly moving stairs, secret passages, and the largest collection of magical urns in Western Europe.
@@ -152,11 +161,11 @@ There's an urn on the fourth floor with a strange property: every time Hermione 
 
 Suppose the urn contains 10 black balls and 5 red balls. If Hermione draws two balls, what is the probability that the second ball is red?
 
-.33 picked red * (4/13 - black was discarded) + .33 * (3/13 - red was discarded) 
+.33 picked red * (10/14 - black was discarded * 4/13 choose red) + .33 * (4/14 - red was discarded * 3/13 choose red) 
 +
-.67 picked black * (4/13 - red was discarded) + .67 * (5/13 - black was discarded)
+.67 picked black * (5/14 - red was discarded * 4/13 choose red ) + .67 * (10/14 - black was discarded * 5/13 choose red)
 
-= .21 + .26 + .10 + .08 / 4 = .1625
+= .101 + .076 + .206 + .257  = .641
 
 ### Pólya's Urn
 
@@ -166,7 +175,29 @@ Suppose she carries out this procedure two times. What are the expected numbers 
 
 Tip: draw a tree of possible outcomes.
 
+E[black]:
+9/15 * 10/16 * 11 
++
+9/15 * 6/16 * 10
++
+6/15 * 9/16 * 10
++
+6/15 * 7/16 * 9  
+= 10.2
 
+
+E[red]:
+9/15 * 10/16 * 6
++
+9/15 * 6/16 * 7
++
+6/15 * 9/16 * 7
++
+6/15 * 7/16 * 8
+= 6.8
+
+E[Black] = 10.2
+E[Red] = 6.8
 
 
 ### Arithmancy
@@ -191,6 +222,15 @@ E[X] = -------
 Hint: Each of the `n` values is equally likely to be observed.
 
 Hint-hint: There's going to be a summation. You can look up the result if you don’t remember it.
+
+E[X] = ∑ - k = 1 to n, 1/n * k
+factor out 1/n to get =  1/n * ∑ k 
+k = 1, n ∑ K = n(n+1)/2
+n + n-1 + n-2 ... = n(n+1) / 2
+
+So we now have:
+
+1/n * n(n+1)/2 - n's cancel out to get n + 1/2
 
 
 ### Birthday Attack
@@ -225,4 +265,4 @@ Answer:
 P(No two students have same birthday) = (365/365) * (364/365) * ... * (325/365)
 
 Represented by the equation:
-Product notation, where i = 1, n = 40, 365-i/365 
+Product notation, where k = 1, n = 40, 365-i/365 
