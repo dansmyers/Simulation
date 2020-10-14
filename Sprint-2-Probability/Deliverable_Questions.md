@@ -63,7 +63,6 @@ This problem is based on a classic called the Coupon Collector's Problem. It's r
 ```
 30/30 + 30/29 + 30/28 + 30/27 + 30/26 + 30/25 + 30/24 + 30/23 + 30/22 + 30/21 + 30/20 + 30/19 + 30/18 + 30/17 + 
 30/16 + 30/15 + 30/14 + 30/13+ 30/12 + 30/11 + 30/10 + 30/9 + 30/8 + 30/7 + 30/6 + 30/5 + 30/4 + 30/3 + 30/2 + 30/1
-___________
 
 ```
 total = 0
@@ -72,7 +71,6 @@ for i in range(1, 30, 1):
   total += temp; 
 print(total)
 ```
-____________
 total = 118.85
 
 119 chocolate frogs to get all 30 cards
