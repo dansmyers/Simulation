@@ -18,6 +18,7 @@ beginning of each function to have a descriptive docstring.
 #
 # The basic Python types are int, str, and float
 # Python's float is equivalent to a Java double
+
 length_in_feet = float(input('Enter a length in feet: '))
 
 # Convert
@@ -30,4 +31,4 @@ length_in_smoots = length_in_feet / 5.5833
 # Formatted printing is similar to C's printf
 #
 # %.2f prints the given variable as float with two decimal places
-print('Length in Smoots: %.2f' % length_in_smoots)
+print('Length in Smoots: %.2f plus or minus one ear' % length_in_smoots)
