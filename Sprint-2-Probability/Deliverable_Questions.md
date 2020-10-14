@@ -62,18 +62,18 @@ Hints:
 This problem is based on a classic called the Coupon Collector's Problem. It's related to the geometric distribution, which we'll talk about in the next sprint.
 ```
 30/30 + 30/29 + 30/28 + 30/27 + 30/26 + 30/25 + 30/24 + 30/23 + 30/22 + 30/21 + 30/20 + 30/19 + 30/18 + 30/17 + 
-30/16 + 30/15 + 30/14 + 30/13+ 30/12 + 30/11 + 30/10 + 30/9 + 30/8 + 30/7 + 30/6 + 30/5 + 30/4 + 30/3 + 30/2 + 30/1
+30/16 + 30/15 + 30/14 + 30/13 + 30/12 + 30/11 + 30/10 + 30/9 + 30/8 + 30/7 + 30/6 + 30/5 + 30/4 + 30/3 + 30/2 + 30/1
 
 ```
 total = 0
-for i in range(1, 30, 1):
+for i in range(0, 30, 1):
   temp = 30/(30 - i) 
   total += temp; 
 print(total)
 ```
-total = 118.85
+total = 119.85
 
-119 chocolate frogs to get all 30 cards
+120 chocolate frogs to get all 30 cards
 
 ### Hat Problem
 ```
@@ -229,11 +229,13 @@ What if there are three students? How about more?
 ```
 What's the probability that no two students in Hermoine's year share the same birthday?
 
+365/365 * 364/365 * 363/365 ... 326/365
 ```
-total = 0
-for i in range(1, 40, 1):
-  temp = (365-i)/365
-  total = total * temp;  
+total = 1
+for i in range(0, 40, 1):
+    temp = (365-i)/365
+    total = total * temp;
 print(total)
 ```
-total = 
+total = .1087...
+= .11
