@@ -88,6 +88,8 @@ Tip: the value you want is `P(Evil | Slytherin)`.
 ```
 Given: P(Slytherin|Evil): 1; P(Hufflepuff): .4; P(Slytherin|~Evil): .2; P(evil): .1; 
 
+-
+
 P(Evil|Slytherin) + P(Evil) * P(Slytherin|Evil) / P(Slytherin)
 
 = P(Evil) * P(Slytherin|Evil) / (P(Evil) * P(Slytherin|Evil) + P(Slytherin|~Evil) * P(~Evil))
@@ -100,6 +102,7 @@ P(Slytherin) = (.1) * (1) + (.2) * (.9)
 
 P(Evil|Slytherin) = (.1)(1)/.28 = .36
 
+-
 
 100 theoretical students, 10 are evil therefore get put into slytherin. 
 
@@ -108,6 +111,7 @@ of the other 90 students 20% of them get put into slytherin (90*.2 = 18).
 that makes the population of slytherin 10 evil to 18 not evil
 
 which means P(Evil|Slytherin) = 10/28 = .36
+
 
 ### Dumblevator
 ```
