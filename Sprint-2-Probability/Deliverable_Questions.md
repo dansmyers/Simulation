@@ -258,8 +258,9 @@ Hint-hint: There's going to be a summation. You can look up the result if you do
 E[X] = sum x (x p(x))
      = 1(1/n) + 2(1/n) + 3(1/n) + ...
      = sum k = 1 to n (k(1/n))
-     
-     sum k = 1 to n (k(1/n)) is equal to (n + 1) / 2
+     = (1/n) sum k = 1 to n (k)
+     = (1/n) (n(n+1))/2
+     = (n+1) / 2
      
 This makes sense because (n+1)/2 is also the formula to find the median.  Over
   a discrete uniform distribution this would also be the average.  The E[X] is
