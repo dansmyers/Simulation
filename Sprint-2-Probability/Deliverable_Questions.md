@@ -170,13 +170,33 @@ Tip: draw a tree of possible outcomes.
 
 RR: 9b8r RB: 10b7r BR: 10b7r BB: 11b6r
 
+-
 
-50% chance of 10 black and 7 red
+P(RR) = 6/15 * 7/16 = .175 -> 9b8r
 
-25% chance of 11 black and 6 red
+P(RB) = 6/15 * 9/16 = .225 -> 10b7r
 
-25% chance of 9 black and 8 red
+P(BR) = 9/15 * 6/16 = .225 -> 10b7r
 
+P(BB) = 9/15 * 10/16 = .375 -> 11b6r
+
+-
+
+P(11b6r) = .375
+
+P(10b7r) = .225 + .225 = .45
+
+P(9b8r) = .175
+
+-
+
+45% chance of pulling one black and one red resulting in 10 black and 7 red
+
+37.5% chance of pulling two black resulting in 11 black and 6 red
+
+17.5% chance of pulling 2 red resulting in 9 black and 8 red
+
+-
 
 therefore the expected number of red and black balls in the urn is 10 black and 7 red
 
