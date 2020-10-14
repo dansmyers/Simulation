@@ -1,11 +1,11 @@
 # Hermione Granger and the Distributions of Probability
-
+```
 ## Disclaimer
 
 This problem set is a work of fan fiction. Hermione Granger and related characters were created by J.K. Rowling. Please don't sue me.
 
 <img src="https://64.media.tumblr.com/d85b44001002bb249c42b27e00d8dccb/tumblr_nzrkzfmjZW1s5b5tzo1_500.jpg" width="40%" />
-
+```
 ## Honor Code
 
 On my honor i have not given nor recieved nor witnessed any unauthorized assistance on this work
@@ -214,6 +214,15 @@ Hint: Each of the `n` values is equally likely to be observed.
 Hint-hint: There's going to be a summation. You can look up the result if you don’t remember it.
 ```
 
+E[X] = E(kX + (a - k))
+
+= k * E[X] + (a - k)
+
+= k((N + 1)/ 2) + (a - k)
+
+= k/2 * ((b - a + k) / (k + 1)) + a - k
+
+= (a + b) / 2
 
 ### Birthday Attack
 ```
