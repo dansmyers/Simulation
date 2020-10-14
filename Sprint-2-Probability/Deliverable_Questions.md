@@ -8,11 +8,13 @@ This problem set is a work of fan fiction. Hermione Granger and related characte
 
 ## Honor Code
 
-Edit this section to include a statement of the Honor Code.
+On my honor, I have not given, nor received, nor witnessed any unauthorized assistance on this work.
+
+MT
 
 ## List Your Team Members
 
-Edit this section to include a list of everyone on your team.
+Matthew Trautmann, Christian Hamilton, Randall Lee, Ryan
 
 ## Instructions
 
@@ -41,6 +43,7 @@ Under these assumptions, what is the probability that Hermione really is a witch
 
 Tip: use Bayes' Rule,
 
+
 ```
              P(A) * P(B | A)
 P(A | B) =  -----------------
@@ -53,6 +56,13 @@ B = Not receiving a letter
 
 P(B) is therefore the total probability of not receiving a letter.
 ``` 
+
+Answer:
+
+See Q123.pdf
+
+p(she's a witch | no letter) = (.75 * .03) / .27 = .083 
+
 
 ### Chocolate Frogs
 
@@ -74,6 +84,14 @@ Hints:
 
 This problem is based on a classic called the Coupon Collector's Problem. It's related to the geometric distribution, which we'll talk about in the next sprint.
 
+Answer:
+
+See Q123.pdf
+
+E[x] = summation( 30 / (30 - n)) from n = 0 to 29
+
+= 119.84
+
 ### Hat Problem
 
 Hermione made it to Hogwarts!
@@ -92,6 +110,11 @@ If 10% of new Hogwarts students are evil, what is the probability that a randoml
 
 Tip: the value you want is `P(Evil | Slytherin)`.
 
+Answer: 
+
+See Q123.pdf
+
+P(Evil | Slytherin) = (1 * 0.1) / .28 = .357
 
 ### Dumblevator
 
@@ -113,6 +136,12 @@ Tips:
 
 - Try reasoning about a smaller number of floors and drawing a picture.
 
+Answer:
+
+For this problem my reasoning was that every floor from 2 - 14 can be in two different states, either up or down. Then the first and last floor can either only go up or down, respectively. Therefore, at any given time there is a total of 30 states in the system. When Hermoine goes to check the elevator for the first time, the only states the elevator could be in for it to go down on floor 13 before it goes up on floor 13 are all the states above floor thirteen. There are only three states above floor thirteen but you also must include the down state of 13 incase hermoine arrives at the exact time the elevator is going down on floor 13. Therefore a total of 4 possible states out of the 30.
+
+Final answer 4 /30.
+
 
 ### Urn While You Learn
 
@@ -122,6 +151,11 @@ There's an urn on the fourth floor with a strange property: every time Hermione 
 
 Suppose the urn contains 10 black balls and 5 red balls. If Hermione draws two balls, what is the probability that the second ball is red?
 
+Answer:
+See tree diagram on Q45.pdf
+
+p(second ball is red) = 1 /3
+
 ### Pólya's Urn
 
 Suppose an urn contains 9 black balls and 6 red balls. On each trial, Hermione picks a ball at random from the urn, returns it to the urn, and adds in one more ball of the same color.
@@ -129,6 +163,14 @@ Suppose an urn contains 9 black balls and 6 red balls. On each trial, Hermione p
 Suppose she carries out this procedure two times. What are the expected numbers of red and black balls in the urn?
 
 Tip: draw a tree of possible outcomes.
+
+Answer: 
+
+See Tree diagram on Q67.pdf
+
+E[Black] = 10.10
+
+E[Red] = 6.7125
 
 ### Arithmancy
 
@@ -154,6 +196,10 @@ Hint: Each of the `n` values is equally likely to be observed.
 Hint-hint: There's going to be a summation. You can look up the result if you don’t remember it.
 
 
+Answer
+
+See question 7 on Q67.pdf
+
 ### Birthday Attack
 
 <img src="https://64.media.tumblr.com/3ee467fbfc590a59e079ddfe7f93d34d/tumblr_psp65oRMS91s5b5tzo1_500.jpg" width="40%" />
@@ -177,3 +223,10 @@ P(Both are born on two different days) = (365 / 365) * (364 / 365)
 Hermoine's birthday can be on any day, but Victoria's must occur randomly on one of the other 364 days.
 
 What if there are three students? How about more?
+
+
+Answer
+
+p(40 different birthdays) = 0.109
+
+p(3 different birthdays) = 0.992
