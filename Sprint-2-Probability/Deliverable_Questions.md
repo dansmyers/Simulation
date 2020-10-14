@@ -43,8 +43,11 @@ P(B) is therefore the total probability of not receiving a letter.
 P(A|B): P(A) * P(B|A) / P(B) 
 ```
 = P(A) * P(B|A) / ( (P(B|A) * P(A)) + (P(B|~A) * P(~A)) )
+
 = (.75 * .03) / (.03 * .75) + (.99 * .25)
+
 = .0833
+
 
 ### Chocolate Frogs
 ```
@@ -62,12 +65,17 @@ This problem is based on a classic called the Coupon Collector's Problem. It's r
 30/16 + 30/15 + 30/14 + 30/13+ 30/12 + 30/11 + 30/10 + 30/9 + 30/8 + 30/7 + 30/6 + 30/5 + 30/4 + 30/3 + 30/2 + 30/1
 ___________
 total = 0
+
 for i in range(1, 30, 1):
-    temp = 30/(30 - i)
-    total += temp;
+
+  temp = 30/(30 - i)
+    
+  total += temp;
+    
 print(total)
 ____________
 total = 118.85
+
 119 chocolate frogs to get all 30 cards
 
 ### Hat Problem
@@ -84,17 +92,24 @@ Tip: the value you want is `P(Evil | Slytherin)`.
 Given: P(Slytherin|Evil): 1; P(Hufflepuff): .4; P(Slytherin|~Evil): .2; P(evil): .1; 
 
 P(Evil|Slytherin) + P(Evil) * P(Slytherin|Evil) / P(Slytherin)
+
 = P(Evil) * P(Slytherin|Evil) / (P(Evil) * P(Slytherin|Evil) + P(Slytherin|~Evil) * P(~Evil))
+
 P(Slytherin) = (.1) * (1) + (.2) * (.9)
+
 = .1 + .18
+
 = .28 students in slytherin
+
 P(Evil|Slytherin) = (.1)(1)/.28 = .36
 
-P(Evil)/P(
 
 100 theoretical students, 10 are evil therefore get put into slytherin. 
+
 of the other 90 students 20% of them get put into slytherin (90*.2 = 18). 
+
 that makes the population of slytherin 10 evil to 18 not evil
+
 which means P(Evil|Slytherin) = 10/28 = .36
 
 ### Dumblevator
@@ -112,9 +127,13 @@ Tips:
 ```
 
 P(Elevator>=13 && Going Down) = P(15)(1) + P(14)(.5) + P(13)(.5)
+
 = (1/15)(1) + (1/15)(1/2) + (1/15)(1/2)
+
 = (1/15)(2)
+
 = 2/15
+
 = .13
 
 ### Urn While You Learn
@@ -124,11 +143,17 @@ There's an urn on the fourth floor with a strange property: every time Hermione 
 Suppose the urn contains 10 black balls and 5 red balls. If Hermione draws two balls, what is the probability that the second ball is red?
 ```
 P(RRR)+P(BBR)+P(BRR)+P(RBR)
+
 = (5 * 4 * 3 / 15 * 14 * 13) + (10 * 9 * 5 / 15 * 14 * 13) 
+
 + (10 * 5 * 4 / 15 * 14 * 13) + (5 * 10 * 4 / 15 * 14 * 13)
+
 = (60/2730) + (450/2730) + 2(200/2730)
+
 = (60 + 450 + 400) / 2730
+
 = 910/2730 = 91/273 = .33
+
 = 1/3
 
 ### Pólya's Urn
@@ -138,14 +163,22 @@ Suppose she carries out this procedure two times. What are the expected numbers 
 Tip: draw a tree of possible outcomes.
 ```
 1        B9/15          R6/15
+
 .       /     \         /   \
+
 2    B10/16  R6/16   R7/16 B9/16
+
 =    11,6    10,7     9,8   10,7
+
 RR: 9b8r RB: 10b7r BR: 10b7r BB: 11b6r
 
+
 50% chance of 10 black and 7 red
+
 25% chance of 11 black and 6 red
+
 25% chance of 9 black and 8 red
+
 
 therefore the expected number of red and black balls in the urn is 10 black and 7 red
 
@@ -177,9 +210,15 @@ Hermoine's birthday can be on any day, but Victoria's must occur randomly on one
 What if there are three students? How about more?
 ```
 What's the probability that no two students in Hermoine's year share the same birthday?
+
 total = 0
+
 for i in range(1, 40, 1):
-    temp = (365-i)/365
-    total = total * temp;
+
+  temp = (365-i)/365
+    
+  total = total * temp;
+    
 print(total)
+
 total = 
