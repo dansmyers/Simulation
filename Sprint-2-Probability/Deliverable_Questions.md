@@ -7,12 +7,12 @@ This problem set is a work of fan fiction. Hermione Granger and related characte
 <img src="https://64.media.tumblr.com/d85b44001002bb249c42b27e00d8dccb/tumblr_nzrkzfmjZW1s5b5tzo1_500.jpg" width="40%" />
 
 ## Honor Code
-
+"In my honor, I have not given nor received, nor witnessed, any unauthorized assistance on this work" Hiroki Sato
 Edit this section to include a statement of the Honor Code.
 
 ## List Your Team Members
 
-Edit this section to include a list of everyone on your team.
+Christian Huber, Fritz Paz, Hiroki Sato, Noah Harvey,
 
 ## Instructions
 
