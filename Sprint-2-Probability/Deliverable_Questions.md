@@ -76,7 +76,7 @@ This problem is based on a classic called the Coupon Collector's Problem. It's r
 
 ### Hat Problem
 
-Hermione and Harry made it to Hogwarts!
+Hermione made it to Hogwarts!
 
 Students arriving at Hogwarts are sorted into one of the four residential houses -- Gryffindor, Hufflepuff, Ravenclaw, and Slytherin -- by the magical Sorting Hat.
 
