@@ -168,7 +168,18 @@ First, let's consider the prior probabilities. Because we have an equal number o
 
 - *P*(spam) = *P*(not spam)
 
-which means that the priors will not affect our classification decision.
+which means that the priors will not affect our classification decision, and can be dropped from further calculation. 
+If we felt it was important to weight one class as more likely than the other, we could change the prior probabilities to do so.
+
+### The Naïve Bayes Model
+
+We now need to consider the likelihood of the message conditioned on each class, and to do it we're going to make a very strong simplifying assumption:
+
+**Assume that the likelihood of each word in a message is independent of all of the other words**
+
+If all of the words are independent, then
+
+*P*("want to watch anime at my house" | spam) = *P*("want" | spam) *P*("to" | spam) *P*("watch" | spam) ... *P*("house" | spam)
 
 
 
