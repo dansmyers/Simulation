@@ -94,7 +94,7 @@ probability.
 
 Unleash the math!
 
-<img src="https://render.githubusercontent.com/render/math?math=P(c | \textbf{m}) = \frac{P(\textbf{m}  |  c) P(c)}{P(\textbf{m})}" width="20%">
+<img src="https://render.githubusercontent.com/render/math?math=P(c \quad | \textbf{m}) = \frac{P(\textbf{m}  |  c) P(c)}{P(\textbf{m})}" width="20%">
 
 
 
