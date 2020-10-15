@@ -54,6 +54,8 @@ doesn't **overfit** the training data, which would result in a model that doesn'
 
 ## Bayesian Classification
 
+### Classification as a Conditional Probability
+
 Very good. We've now committed to learning a model using a training data set that can discriminate between spam and non-spam messages.
 
 The Bayesian approach considers classification as a **probability problem**. Suppose we're considering a message *m*. We'd like to use the **words in *m*** as our **features**
@@ -89,9 +91,13 @@ estimates how likely a given message is if it's really spam.
 
 Similarly, we can construct a model that estimates `P(words in m | not spam)` using the messages in the training data that we know are legitimate.
 
+### Intuition
+
 If you're not sure about this part, consider a message that contains the words **FREE HERBAL VIAGRA**. This is a popular topic for spammers, so if we examined the universe of 
 all spam messages, we'd expect these words to show up frequently and we'd reasonably expect that `P(FREE HERBAL VIAGRA | spam)` is a relatively high probability. 
 If we were to examine the universe of all legitimate non-spam messages, we would not expect to see **FREE HERBAL VIAGRA** show up frequently, so `P(FREE HERBAL VIAGRA | not spam)` should be small.
+
+### Bayes' Rule
 
 **This is the perfect setup for Bayes' Rule**. We have a conditional probability of interest that's hard to calculate directly, but we can reason about the reversed conditional
 probability.
@@ -117,11 +123,60 @@ probability. If you have reason to believe that one class is more likely than an
 
   For example, suppose that we believe 80% of all e-mail traffic is spam and only 20% is legitimate, which is consistent with research estimates. Using these probabilities for 
 *P*(spam) and *P*(not spam) would have the effect of making it more likely for us to classify messages as spam and require stronger eveidence of legitimacy to mark a message
-as non-spam.
+as non-spam.  
+
+  In practice, we could use pre-existing evidence to set these values, estimate them from the training set, or assume that all classes are equally likely, which
+is equivalent to assuming no prior evidence about the class distribution.
 
 - The denominator, *P*(**m**), is the unconditional probability of observing a message with contents **m**, across the universe of all spam and non-spam messages. Notice:
 this does not depend on *c*. Therefore, the value of *P*(**m**) will be the same for both classes, so **we can ignore it in our calculations**.
 
+## Example
+
+This is all pretty abstract, so let's look at how this plays out in a **small** example.
+
+Suppose we have a universe of only four messages, two spam and two non-spam.
+
+| Message contents           | Class label |
+| -------------------------- | ----------- |
+| watch free anime downloads | spam        |
+| see you at the house       | not spam    |
+| do you want takeout        | not spam    |
+| sell your house now        | spam        |
+
+Is the message `want to watch anime at my house` more likely to be spam or not spam?
+
+Using the Bayesian formulation, we need to calculate two probabilities:
+
+```
+P(spam | want to watch anime at my house)
+```
+
+```
+P(not spam | want to watch anime at my house)
+```
+
+From the previous model, we know that
+
+```
+P(spam | want to watch anime at my house) = P(want to watch anime at my house | spam) P(spam)
+```
+
+and
+
+```
+P(not spam | want to watch anime at my house) = P(want to watch anime at my house | not spam) P(not spam)
+```
+
+### Prior Probabilities
+
+First, let's consider the prior probabilities. Because we have an equal number of training examples in each class, we could reasonably decide that
+
+```
+P(spam) = P(not spam)
+```
+
+which means that the priors will not affect our classification decision.
 
 
 
