@@ -58,7 +58,7 @@ doesn't **overfit** the training data, which would result in a model that doesn'
 Very good. We've now committed to learning a model using a training data set that can discriminate between spam and non-spam messages.
 
 The Bayesian approach considers classification as a **probability problem**. Suppose we're considering a message *m*. We'd like to use the **words in *m*** as our **features**
-to determine if *m* is spam or not. We could, potenially, expand our list of features to include things other than just the contents of the message, but we won't worry about 
+to determine if *m* is spam or not. We could, potentially, expand the model to consider features other than just the contents of the message, but we won't worry about 
 that in these examples.
 
 Intuitively, there are some words that are likely to occur in spam message but not in legitimate messages. I'll let you think about what some of those words are.
