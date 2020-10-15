@@ -94,7 +94,7 @@ probability.
 
 Unleash the math!
 
-<img src="https://render.githubusercontent.com/render/math?math=P(c \;; | \;; \textbf{m}) = ">
+<img src="https://render.githubusercontent.com/render/math?math=P(c \;\; | \;\; \textbf{m}) = \frac{P(\textbf{m} \;\; | \;\; c) P(c)}{P(\textbf{m})}">
 
 
 
