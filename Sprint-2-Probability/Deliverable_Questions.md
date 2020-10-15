@@ -8,11 +8,11 @@ This problem set is a work of fan fiction. Hermione Granger and related characte
 
 ## Honor Code
 
-Edit this section to include a statement of the Honor Code.
+On my honor I have not given, recieved or witnessed unauthorized assistance on this work.
 
 ## List Your Team Members
 
-Edit this section to include a list of everyone on your team.
+Lee, Matthew, Christian
 
 ## Instructions
 
@@ -39,6 +39,8 @@ P(Not receiving a letter | She's not a witch) = .99
 
 Under these assumptions, what is the probability that Hermione really is a witch even though she didn’t get a letter?
 
+(.75 * .03)/.25 = .09 
+
 Tip: use Bayes' Rule,
 
 ```
@@ -54,6 +56,12 @@ B = Not receiving a letter
 P(B) is therefore the total probability of not receiving a letter.
 ``` 
 
+```
+Answer:
+P(B) = 1 - .25(.03 + .99) = .775
+
+(.75 * .03)/.775 = .029
+```
 ### Chocolate Frogs
 
 Good news! Hermione got into Hogwarts after all!
@@ -73,6 +81,11 @@ Hints:
 - After she has two cards, she'd expect to open 30 / 28 ~ 1.0714 cards to find a third unique card.
 
 This problem is based on a classic called the Coupon Collector's Problem. It's related to the geometric distribution, which we'll talk about in the next sprint.
+```
+Answer:
+
+Expected # of frogs = 30/30 + 30/29 + 30/28 ... + 30/2 + 30/1
+```
 
 ### Hat Problem
 
@@ -91,6 +104,15 @@ Hermione is shocked when she's sorted into Slytherin! She's never thought of her
 If 10% of new Hogwarts students are evil, what is the probability that a randomly chosen Slytherin is evil?
 
 Tip: the value you want is `P(Evil | Slytherin)`.
+
+```
+Answer:
+
+P(Evil | Slytherin) = (P(Evil) + P(Slytherin | Evil))/P(Slytherin)
+
+= (.1 * 1)/(.2) = .5
+
+```
 
 
 ### Dumblevator
@@ -113,6 +135,15 @@ Tips:
 
 - Try reasoning about a smaller number of floors and drawing a picture.
 
+```
+Answer:
+
+2/15
+
+If Hermoine calls the elevator on floor 13, and the elevator was going down when it arrives, that means the elevator must have been on a higher floor when she called it, either floor 14 or 15. If it were already on 13 it would neither be going up or down. If the floor the elevator was  lower than 13, the elevator would be going up when it got to her. 
+
+```
+
 
 ### Urn While You Learn
 
@@ -122,6 +153,17 @@ There's an urn on the fourth floor with a strange property: every time Hermione 
 
 Suppose the urn contains 10 black balls and 5 red balls. If Hermione draws two balls, what is the probability that the second ball is red?
 
+```
+Answer:
+
+There are 2 scenarios where 1 red and 1 black ball were removed during the first draw and they both have prob .238
+Prob that two reds were removed: .428
+Prob that two blacks were removed: .0952
+
+2(.238)*(9/13) + (.428)(8/13) + (.0952)(10/13) = .66615
+
+```
+
 ### Pólya's Urn
 
 Suppose an urn contains 9 black balls and 6 red balls. On each trial, Hermione picks a ball at random from the urn, returns it to the urn, and adds in one more ball of the same color.
@@ -129,6 +171,30 @@ Suppose an urn contains 9 black balls and 6 red balls. On each trial, Hermione p
 Suppose she carries out this procedure two times. What are the expected numbers of red and black balls in the urn?
 
 Tip: draw a tree of possible outcomes.
+
+```
+1st draw: 
+Black: 9/15 chance, now 10/16 black in urn
+Red: 6/15 chance, now 9/16 black in urn
+
+2nd draw:
+If first was black:
+Black: 10/16 chance, now 11 black in urn
+Red: 6/16 chance, now 10 black in urn
+
+
+If first was red:
+Black: 9/16 chance, now 10 black in urn
+Red: 7/16 chance, now 9 black in urn
+
+Expected Value(black) = 11 * (9/15)(10/16) + 10 * (9/15)(6/16) + 10 * (6/15)(9/16) + 9 * (6/15)(7/16)
+					= 4.125 + 2.25 + 2.25 + 1.1575
+					= 9.7825
+					
+Expected value(red) = 17-9.7825 
+					= 7.2175
+
+```
 
 ### Arithmancy
 
@@ -152,6 +218,19 @@ E[X] = -------
 Hint: Each of the `n` values is equally likely to be observed.
 
 Hint-hint: There's going to be a summation. You can look up the result if you don’t remember it.
+
+```
+Answer: 
+
+E[x] = (Sum k=1 --> n) 1/n * k
+
+E[x] = 1/n * (Sum k=1 --> n) k
+
+E[x] = 1/n * n(n+1)/2
+
+E[x] = (n+1)/2
+
+```
 
 
 ### Birthday Attack
@@ -177,3 +256,13 @@ P(Both are born on two different days) = (365 / 365) * (364 / 365)
 Hermoine's birthday can be on any day, but Victoria's must occur randomly on one of the other 364 days.
 
 What if there are three students? How about more?
+
+```
+P(3 are born on different days) = (365/365) * (364/365) * (363/365)
+
+P(40 are born on different days) = (365!/(365-40)!)/(365^40) = (really big number) / (even bigger number)
+
+or
+
+P(40 are born on different days) = (365/365) * (364/365) * (363/365) ... * (325/365)
+```
