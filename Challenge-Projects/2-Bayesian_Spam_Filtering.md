@@ -148,17 +148,25 @@ Is the message "want to watch anime at my house" more likely to be spam or not s
 
 Using the Bayesian formulation, we need to calculate two probabilities:
 
-- *P*(spam | "want to watch anime at my house")
+```
+P(spam | "want to watch anime at my house")
+```
 
-- *P*(not spam | "want to watch anime at my house")
+```
+P(not spam | "want to watch anime at my house")
+```
 
 We'll take the larger probability to be the correct classification.
 
 From the previous model, we know that
 
-- *P*(spam | "want to watch anime at my house") = *P*("want to watch anime at my house" | spam) *P*(spam)
+```
+P(spam | "want to watch anime at my house") = P("want to watch anime at my house" | spam) P(spam)
+```
 
-- *P*(not spam | "want to watch anime at my house") = P("want to watch anime at my house" | not spam) *P*(not spam)
+```
+P(not spam | "want to watch anime at my house") = P("want to watch anime at my house" | not spam) P(not spam)
+```
 
 These formulas are the numerator Bayes' Rule, where we've removed the denominator because it's the same for both classes.
 
@@ -166,20 +174,98 @@ These formulas are the numerator Bayes' Rule, where we've removed the denominato
 
 First, let's consider the prior probabilities. Because we have an equal number of training examples in each class, we could reasonably decide that
 
-- *P*(spam) = *P*(not spam)
+```
+P(spam) = P(not spam)
+```
 
 which means that the priors will not affect our classification decision, and can be dropped from further calculation. 
 If we felt it was important to weight one class as more likely than the other, we could change the prior probabilities to do so.
 
 ### The Naïve Bayes Model
 
-We now need to consider the likelihood of the message conditioned on each class, and to do it we're going to make a very strong simplifying assumption:
+We now need to consider the likelihood of the message conditioned on each class, and to do it we're going to make a very strong simplifying assumption: **Assume that the likelihood of each word in a message is independent of all of the other words**. This is a strong assumption because it ignores all word context, sentence structure, and grammar.
 
-**Assume that the likelihood of each word in a message is independent of all of the other words**
+If all of the words are independent, then the likelihood of the entire message is the product of the individual word likelihoods
 
-If all of the words are independent, then
+```
+P("want to watch anime at my house" | spam) = P("want" | spam) * P("to" | spam) * P("watch" | spam) * ... * P("house" | spam)
+```
 
-*P*("want to watch anime at my house" | spam) = *P*("want" | spam) *P*("to" | spam) *P*("watch" | spam) ... *P*("house" | spam)
+A Bayesian model that assumes independence of the features is called a **naïve Bayesian classifier**, because the assumption of independence is usually a huge simplification
+of reality. Nonetheless, naïve Bayes has been shown to be effective in many real-world problems including text classification, so it's a standard technique in the field.
 
+### Estimating Word Likelihoods
 
+Estimating the likelihood of individual words is easy:
 
+```
+                  Number of times word occurs in all spam messages
+P(word | spam) = --------------------------------------------------
+                      Count of all words in all spam messages
+``` 
+
+For example, the word "anime" occurs one time in the set of spam messages and there are a total count of eight words in the entire spam data set, so we estimate
+
+```
+P("anime" | spam) = 1 / 8 = .125
+```
+
+Based on our data set, we expect that 12.5% of all words in spam message should be "anime".
+
+There are two issues to consider before moving on the final calculations.
+
+First, some words &dash; "a", "at", "the", "to", etc. &ndash; are so common they won't yield useful classification information. We can ignore these. More generally, we could
+pre-filter all messages to focus on only a subset of key words that we think are useful for classification. This has the advantage of making our feature vectors smaller and
+reducing irrelevant information in the model, at the risk that we choose to exclude something that would actually be useful.
+
+The second issue is more complicated: what about words that don't appear in one of the data sets? For example, "anime" does not appear in the non-spam data set, but we don't
+want to automatically conclude that `P("anime" | non-spam) = 0`, because that would imply it's impossible for me to receive a non-spam message about anime.
+
+A typical solution to this problem is to assume that every word has some small constant probability of occurring, even if it was never observed in the training data set. Modify the word likelihood formula to be
+
+```
+                                  Number of times word occurs in all spam messages + 1
+P(word | spam) = ---------------------------------------------------------------------------------------
+                      Count of all words in all spam messages + Number of unique words in all messages
+
+```
+
+The numerator is now guaranteed to be at least 1, even a word does not appear in any messages. To compensate for this change, the denominator has been increased to
+include the number of unique words in all messages (the **vocabulary** of the training set). Our training set contains 13 unique words after dropping "at", "the", and "do".
+
+Under these new assumptions, we can calculate
+
+```
+                      1 + 1
+P("anime" | spam) =  -------- ~ .095
+                      8 + 13
+```
+
+The corresponding non-spam probability is
+
+```
+                           0 + 1
+P("anime" | not spam) =  -------- ~ .053
+                           6 + 13
+```
+
+The fancy name for this adjustment is **Laplace smoothing**.
+
+### Results
+
+Here is the table of word likelihoods calculated using the Laplace smoothing strategy.
+
+| word | `P(word | spam)` | `P(word | not spam)` |
+|-----| ------------------| ---------------------|
+| watch | .095 | .053 |
+|free| .095 | .053 |
+|anime| .095 | .053 |
+|downloads| .095 | .053 |
+|see| .0476 | .105 |
+|you| .0476 | .158 |
+|house| .095 | .105 |
+|want| .0476 | .105 |
+|takeout| .0476 | .105 |
+|sell| .095 | .053 |
+|your| .095 | .053 |
+|now| .095 | .053 |
