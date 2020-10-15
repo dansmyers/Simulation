@@ -258,6 +258,7 @@ Here is the table of word likelihoods calculated using the Laplace smoothing str
 | word | P(word | spam)  | P(word | not spam) |
 |------| ----------------- | ------------------- |
 | watch | .095 | .053 |
+
 | free | .095 | .053 |
 | anime | .095 | .053 |
 | downloads | .095 | .053 |
