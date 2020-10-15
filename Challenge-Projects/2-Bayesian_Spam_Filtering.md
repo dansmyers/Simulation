@@ -144,37 +144,29 @@ Suppose we have a universe of only four messages, two spam and two non-spam.
 | do you want takeout        | not spam    |
 | sell your house now        | spam        |
 
-Is the message `want to watch anime at my house` more likely to be spam or not spam?
+Is the message "want to watch anime at my house" more likely to be spam or not spam?
 
 Using the Bayesian formulation, we need to calculate two probabilities:
 
-```
-P(spam | want to watch anime at my house)
-```
+- *P*(spam | "want to watch anime at my house")
 
-```
-P(not spam | want to watch anime at my house)
-```
+- *P*(not spam | "want to watch anime at my house")
+
+We'll take the larger probability to be the correct classification.
 
 From the previous model, we know that
 
-```
-P(spam | want to watch anime at my house) = P(want to watch anime at my house | spam) P(spam)
-```
+- *P*(spam | "want to watch anime at my house") = *P*("want to watch anime at my house" | spam) *P*(spam)
 
-and
+- *P*(not spam | "want to watch anime at my house") = P("want to watch anime at my house" | not spam) *P*(not spam)
 
-```
-P(not spam | want to watch anime at my house) = P(want to watch anime at my house | not spam) P(not spam)
-```
+These formulas are the numerator Bayes' Rule, where we've removed the denominator because it's the same for both classes.
 
 ### Prior Probabilities
 
 First, let's consider the prior probabilities. Because we have an equal number of training examples in each class, we could reasonably decide that
 
-```
-P(spam) = P(not spam)
-```
+- *P*(spam) = *P*(not spam)
 
 which means that the priors will not affect our classification decision.
 
