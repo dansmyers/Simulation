@@ -54,7 +54,7 @@ doesn't **overfit** the training data, which would result in a model that doesn'
 
 ## Bayesian Classification
 
-<img src="https://imgs.xkcd.com/comics/machine_learning_2x.png" width="50%" />
+<img src="https://imgs.xkcd.com/comics/machine_learning_2x.png" width="25%" />
 
 ### Classification as a Conditional Probability
 
