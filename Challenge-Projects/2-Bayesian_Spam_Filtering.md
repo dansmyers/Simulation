@@ -253,24 +253,17 @@ The fancy name for this adjustment is **Laplace smoothing**.
 
 ### Results
 
-Here is the table of word likelihoods calculated using the Laplace smoothing strategy.
+Here is the table of likelihoods for the important words in "you want to watch anime at my house" calculated using the Laplace smoothing strategy.
 
 
 | word | P(word \| spam)  | P(word \| not spam) |
 |------| ----------------- | ------------------- |
-| watch | .095 | .053 |
-| free | .095 | .053 |
-| anime | .095 | .053 |
-| downloads | .095 | .053 |
-| see | .0476 | .105 |
 | you | .0476 | .158 |
-| house | .095 | .105 |
 | want | .0476 | .105 |
-| takeout | .0476 | .105 |
-| sell | .095 | .053 |
-| your | .095 | .053 |
-| now | .095 | .053 |
+| watch | .095 | .053 |
+| anime | .095 | .053 |
 | my | .0476 | .053 |
+| house | .095 | .105 |
 
 For example, "you" appears two times in the non-spam messages and zero times in the spam messages. It's probabilities are therefore:
 
