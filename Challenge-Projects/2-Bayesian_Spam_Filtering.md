@@ -54,6 +54,8 @@ doesn't **overfit** the training data, which would result in a model that doesn'
 
 ## Bayesian Classification
 
+<img src="https://imgs.xkcd.com/comics/machine_learning_2x.png" width="50%" />
+
 ### Classification as a Conditional Probability
 
 Very good. We've now committed to learning a model using a training data set that can discriminate between spam and non-spam messages.
