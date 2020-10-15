@@ -41,10 +41,7 @@ yes/no or true/false structure, where there are two classes of interest, but it'
 - There is a **training data set**, consisting of labeled example messages for which we know the correct classification.
 
 - There is a **model**, which is capable of discriminating between the two classes. Our goal is to **fit** the model using the given training data, so that it makes
-accurate predictions on new data that will appear in the future. 
-
-  Most machine learning models are like abstract and general pieces of applied statistics and linear algebra; 
-every model can be used to solve many different types of classification tasks, although some models may be better suited for some problems that others. Examples
+accurate predictions on new data that will appear in the future. Examples
 of popular machine learning models include the naïve Bayesian classifier, which we'll discuss in more detail below, deep learning neural networks, decision trees, and
 support vector machines.
 
