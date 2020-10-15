@@ -119,10 +119,10 @@ P(c | m) =  ----------------
 The left-hand side is the classification probability we're interested in: the probability of observing class *c* given the contents of the message. The right side
 contains three terms.
 
-- The first is the conditional probability we considered a moment ago: *P*(*m* | *c*), which we interpret as the probability of observing message *m* if it really belongs
-to class *c*. In a moment, we'll talk about how to calculate these from the training data.
+- The first is the conditional probability we considered a moment ago, *P*(*m* | *c*), which we interpret as the probability of observing message *m* if it really belongs
+to class *c*. In a moment, we'll talk about how to calculate this value from the training data. This probability is also called the **likelihood**.
 
-- *P*(*c*) is the unconditional probability of observing class *c*, independent of any information about the message. In our problem, this is the fraction all messages that
+- *P*(*c*) is the **unconditional probability of observing class *c***, independent of any information about the message. In our problem, this is the fraction all messages that
 are spam or not spam. In Bayesian statistics, this is called the **prior** 
 probability. If you have reason to believe that one class is more likely than another, the prior probability allows you to incorporate this information into the model.  
 
