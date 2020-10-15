@@ -89,6 +89,10 @@ estimates how likely a given message is if it's really spam.
 
 Similarly, we can construct a model that estimates `P(words in m | not spam)` using the messages in the training data that we know are legitimate.
 
+If you're not sure about this part, consider a message that contains the words **FREE HERBAL VIAGRA**. This is a popular topic for spammers, so if we examined the universe of 
+all spam messages, we'd expect these words to show up frequently and we'd reasonably expect that `P(FREE HERBAL VIAGRA | spam)` is a relatively high probability. 
+If we were to examine the universe of all legitimate non-spam messages, we would not expect to see **FREE HERBAL VIAGRA** show up frequently, so `P(FREE HERBAL VIAGRA | not spam)` should be small.
+
 **This is the perfect setup for Bayes' Rule**. We have a conditional probability of interest that's hard to calculate directly, but we can reason about the reversed conditional
 probability.
 
@@ -97,8 +101,26 @@ Unleash the math!
 But first, let's simplify the notation a little bit. Let *c* denote a class of interest, either *spam* or *not spam* in this example. Let **m** denote the contents of the
 message, where we're using bold notation to indicate that we're thinking about the contents as a vector of words.
 
+Direct application of Bayes' Rules yields:
+
 <img src="https://render.githubusercontent.com/render/math?math=P(c \, | \, \textbf{m}) = \frac{P(\textbf{m} \, |  \, c) P(c)}{P(\textbf{m})}" width="20%">
 
+The left-hand side is the classification probability we're interested in: the probability of observing class *c* given the contents of the message. The right side
+contains three terms.
+
+- The first is the conditional probability we considered a moment ago: *P*(**m** | *c*), which we interpret as the probability of observing message **m** if it really belongs
+to class *c*. In a moment, we'll talk about how to calculate these from the training data.
+
+- *P*(*c*) is the unconditional probability of observing class *c*, independent of any information about the message. In our problem, this is the fraction all messages that
+are spam or not spam. In Bayesian statistics, this is called the **prior** 
+probability. If you have reason to believe that one class is more likely than another, the prior probability allows you to incorporate this information into the model.  
+
+  For example, suppose that we believe 80% of all e-mail traffic is spam and only 20% is legitimate, which is consistent with research estimates. Using these probabilities for 
+*P*(spam) and *P*(not spam) would have the effect of making it more likely for us to classify messages as spam and require stronger eveidence of legitimacy to mark a message
+as non-spam.
+
+- The denominator, *P*(**m**), is the unconditional probability of observing a message with contents **m**, across the universe of all spam and non-spam messages. Notice:
+this does not depend on *c*. Therefore, the value of *P*(**m**) will be the same for both classes, so **we can ignore it in our calculations**.
 
 
 
