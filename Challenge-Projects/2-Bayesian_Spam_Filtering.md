@@ -127,7 +127,7 @@ are spam or not spam. In Bayesian statistics, this is called the **prior**
 probability. If you have reason to believe that one class is more likely than another, the prior probability allows you to incorporate this information into the model.  
 
   For example, suppose that we believe 80% of all e-mail traffic is spam and only 20% is legitimate, which is consistent with research estimates. Using these probabilities for 
-*P*(spam) and *P*(not spam) would have the effect of making it more likely for us to classify messages as spam and require stronger eveidence of legitimacy to mark a message
+*P*(spam) and *P*(not spam) would have the effect of making it more likely for us to classify messages as spam and require stronger evidence of legitimacy to mark a message
 as non-spam.  
 
   In practice, we could use pre-existing evidence to set these values, estimate them from the training set, or assume that all classes are equally likely, which
