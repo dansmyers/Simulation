@@ -255,8 +255,8 @@ The fancy name for this adjustment is **Laplace smoothing**.
 
 Here is the table of word likelihoods calculated using the Laplace smoothing strategy.
 
-| word | `P(word | spam)` | `P(word | not spam)` |
-|-----| ------------------| ---------------------|
+| word | `P(word | spam)`  | `P(word | not spam)` |
+|------| ----------------- | ------------------- |
 | watch | .095 | .053 |
 | free | .095 | .053 |
 | anime | .095 | .053 |
