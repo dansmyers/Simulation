@@ -140,7 +140,7 @@ this does not depend on *c*! Therefore, the value of *P*(*m*) will be the **same
 
 This is all pretty abstract, so let's look at how this plays out in a **small** example.
 
-Suppose we have a universe of only four messages, two spam and two non-spam. We're ignoring any punctuation and case.
+Suppose we have a universe of only four messages, two spam and two non-spam. Let's assume the message have been pre-processed to remove all punctuation and case.
 
 | Message contents           | Class label |
 | -------------------------- | ----------- |
