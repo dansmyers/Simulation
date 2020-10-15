@@ -104,17 +104,23 @@ probability.
 
 Unleash the math!
 
-But first, let's simplify the notation a little bit. Let *c* denote a class of interest, either *spam* or *not spam* in this example. Let **m** denote the contents of the
-message, where we're using bold notation to indicate that we're thinking about the contents as a vector of words.
+But first, let's simplify the notation a little bit. Let *c* denote a class of interest, either *spam* or *not spam* in this example. Let *m* denote the contents of the
+message.
 
 Direct application of Bayes' Rules yields:
 
-<img src="https://render.githubusercontent.com/render/math?math=P(c \, | \, \textbf{m}) = \frac{P(\textbf{m} \, |  \, c) P(c)}{P(\textbf{m})}" width="20%">
+```
+             P(m | c) P (c)
+P(c | m) =  ----------------
+                 P(m)
+```
+
+<!--img src="https://render.githubusercontent.com/render/math?math=P(c \, | \, \textbf{m}) = \frac{P(\textbf{m} \, |  \, c) P(c)}{P(\textbf{m})}" width="20%"-->
 
 The left-hand side is the classification probability we're interested in: the probability of observing class *c* given the contents of the message. The right side
 contains three terms.
 
-- The first is the conditional probability we considered a moment ago: *P*(**m** | *c*), which we interpret as the probability of observing message **m** if it really belongs
+- The first is the conditional probability we considered a moment ago: *P*(*m* | *c*), which we interpret as the probability of observing message *m* if it really belongs
 to class *c*. In a moment, we'll talk about how to calculate these from the training data.
 
 - *P*(*c*) is the unconditional probability of observing class *c*, independent of any information about the message. In our problem, this is the fraction all messages that
@@ -128,14 +134,14 @@ as non-spam.
   In practice, we could use pre-existing evidence to set these values, estimate them from the training set, or assume that all classes are equally likely, which
 is equivalent to assuming no prior evidence about the class distribution.
 
-- The denominator, *P*(**m**), is the unconditional probability of observing a message with contents **m**, across the universe of all spam and non-spam messages. Notice:
-this does not depend on *c*. Therefore, the value of *P*(**m**) will be the same for both classes, so **we can ignore it in our calculations**.
+- The denominator, *P*(*m*), is the unconditional probability of observing a message with contents *m*, across the universe of all spam and non-spam messages. Notice:
+this does not depend on *c*! Therefore, the value of *P*(*m*) will be the **same for both classes** and **we can ignore it in our calculations**.
 
 ## Example
 
 This is all pretty abstract, so let's look at how this plays out in a **small** example.
 
-Suppose we have a universe of only four messages, two spam and two non-spam.
+Suppose we have a universe of only four messages, two spam and two non-spam. We're ignoring any punctuation and case.
 
 | Message contents           | Class label |
 | -------------------------- | ----------- |
@@ -144,9 +150,7 @@ Suppose we have a universe of only four messages, two spam and two non-spam.
 | do you want takeout        | not spam    |
 | sell your house now        | spam        |
 
-Is the message "you want to watch anime at my house" more likely to be spam or not spam?
-
-Using the Bayesian formulation, we need to calculate two probabilities:
+Is the message "you want to watch anime at my house" more likely to be spam or not spam? Using the Bayesian formulation, we need to calculate two probabilities:
 
 ```
 P(spam | "you want to watch anime at my house")
@@ -156,9 +160,7 @@ P(spam | "you want to watch anime at my house")
 P(not spam | "you want to watch anime at my house")
 ```
 
-We'll take the larger probability to be the correct classification.
-
-From the previous model, we know that
+Once we've performed both calculations, we'll take the larger probability to be the correct classification. From the previous model, we know that
 
 ```
 P(spam | "you want to watch anime at my house") = P("you want to watch anime at my house" | spam) P(spam)
@@ -168,7 +170,7 @@ P(spam | "you want to watch anime at my house") = P("you want to watch anime at 
 P(not spam | "you want to watch anime at my house") = P("you want to watch anime at my house" | not spam) P(not spam)
 ```
 
-These formulas are the numerator Bayes' Rule, where we've removed the denominator because it's the same for both classes.
+These formulas are the numerator of Bayes' Rule. Recall that the denominator can be ignored because it's the same for both classes.
 
 ### Prior Probabilities
 
@@ -183,7 +185,9 @@ If we felt it was important to weight one class as more likely than the other, w
 
 ### The Naïve Bayes Model
 
-We now need to consider the likelihood of the message conditioned on each class, and to do it we're going to make a very strong simplifying assumption: **Assume that the likelihood of each word in a message is independent of all of the other words**. This is a strong assumption because it ignores all word context, sentence structure, and grammar.
+We now need to consider the likelihood of the message conditioned on each class, and to do it we're going to make a very strong simplification: **Assume that the likelihood of 
+each word in a message is independent of all of the other words**. This is a strong assumption. By assuming independence, we're choosing to ignore all word context, sentence 
+structure, grammar, and any other aspect of language that makes some words more likely to appear together.
 
 If all of the words are independent, then the likelihood of the entire message is the product of the individual word likelihoods
 
