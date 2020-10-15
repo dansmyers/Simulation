@@ -94,7 +94,7 @@ probability.
 
 Unleash the math!
 
-<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+<img src="https://render.githubusercontent.com/render/math?math=P(\mbox{spam} | \mbox{words in message}) = \frac{P(\mbox{words in message} | \mbox{spam}) P(\mbox{spam})}{P(\mbox{words in message})}">
 
 
 
