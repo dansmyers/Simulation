@@ -8,11 +8,11 @@ This problem set is a work of fan fiction. Hermione Granger and related characte
 
 ## Honor Code
 
-Edit this section to include a statement of the Honor Code.
+I pledge that I have not given, nor recieved, nor witnessed any unauthorized assistance on this work. 
 
 ## List Your Team Members
 
-Edit this section to include a list of everyone on your team.
+TJ and Gonzalo
 
 ## Instructions
 
@@ -52,7 +52,17 @@ A = She's a witch
 B = Not receiving a letter
 
 P(B) is therefore the total probability of not receiving a letter.
+
+             P(A) * P(B | A)
+P(A | B) =  -----------------
+        P(B | A)P(A) + P(B | Ac)P(Ac)
+
+                    .75 * .03
+P(A | B) =  -------------------------   = .0834
+            (.75 * .03) + (.99 * .25)
+        
 ``` 
+
 
 ### Chocolate Frogs
 
@@ -74,6 +84,18 @@ Hints:
 
 This problem is based on a classic called the Coupon Collector's Problem. It's related to the geometric distribution, which we'll talk about in the next sprint.
 
+Python Script:
+total = 0
+for i in range(0, 30, 1):
+    temp = 30/(30-i)
+    total += temp
+    
+print(total)
+
+output: 119.85 
+
+120 frogs
+
 ### Hat Problem
 
 Hermione and Harry made it to Hogwarts!
@@ -91,6 +113,11 @@ Hermione is shocked when she's sorted into Slytherin! She's never thought of her
 If 10% of new Hogwarts students are evil, what is the probability that a randomly chosen Slytherin is evil?
 
 Tip: the value you want is `P(Evil | Slytherin)`.
+
+P(Evil | Slytherin) = P(evil) * P(Slytherin | Evil) / P(evil) * P(Slytherin | Evil) + P(~evil) * P(Slytherin | ~Evil)
+P(Slytherin) = (.1) * 1 + (.2) * .9
+= .1 + .18 
+P(Evil|Slytherin) = (.1)(1) / .28 = .36
 
 
 ### Dumblevator
@@ -113,6 +140,10 @@ Tips:
 
 - Try reasoning about a smaller number of floors and drawing a picture.
 
+P(Elevator >= 13 && Elevator is going down) 
+= (1/15)(1) + (1/15)(1/2) + (1/15)(1/2)
+= 2/15 
+= .13 
 
 ### Urn While You Learn
 
@@ -122,6 +153,11 @@ There's an urn on the fourth floor with a strange property: every time Hermione 
 
 Suppose the urn contains 10 black balls and 5 red balls. If Hermione draws two balls, what is the probability that the second ball is red?
 
+P(RRR) + P(BBR) + P(BRR) + P(RBR)
+=(5/15)(4/14)(3/13) + (10/15)(9/14)(5/13) + (10/15)(5/14)(4/13) + (5/15)(10/14)(4/13)
+= .02198 + .1648 + .0733 + .0733
+= .33 
+
 ### Pólya's Urn
 
 Suppose an urn contains 9 black balls and 6 red balls. On each trial, Hermione picks a ball at random from the urn, returns it to the urn, and adds in one more ball of the same color.
@@ -129,6 +165,13 @@ Suppose an urn contains 9 black balls and 6 red balls. On each trial, Hermione p
 Suppose she carries out this procedure two times. What are the expected numbers of red and black balls in the urn?
 
 Tip: draw a tree of possible outcomes.
+
+50% chance of 10 black and 7 red 
+25% chance of 11 black and 6 red 
+25% chance of 9 black and 8 red 
+
+expected number of red balls: 7
+expected number of black balls: 10 
 
 ### Arithmancy
 
@@ -152,6 +195,12 @@ E[X] = -------
 Hint: Each of the `n` values is equally likely to be observed.
 
 Hint-hint: There's going to be a summation. You can look up the result if you don’t remember it.
+
+E[X] = E(kX + (a - k))
+     = k * E[X] + (a - k)
+     = k ((N + 1) / 2) + (a - k)
+     = k/2 * ((b - a + k) / (k + 1) + a - k 
+     =(a + b) / 2 
 
 
 ### Birthday Attack
@@ -177,3 +226,12 @@ P(Both are born on two different days) = (365 / 365) * (364 / 365)
 Hermoine's birthday can be on any day, but Victoria's must occur randomly on one of the other 364 days.
 
 What if there are three students? How about more?
+
+Python Script:
+total = 1
+for i in range(0, 40, 1):
+    temp = (365-i)/365 
+    total = total * temp
+print(total)
+
+output: .1087
