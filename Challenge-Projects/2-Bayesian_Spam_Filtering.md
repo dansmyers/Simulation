@@ -258,14 +258,14 @@ Here is the table of word likelihoods calculated using the Laplace smoothing str
 | word | `P(word | spam)` | `P(word | not spam)` |
 |-----| ------------------| ---------------------|
 | watch | .095 | .053 |
-|free| .095 | .053 |
-|anime| .095 | .053 |
-|downloads| .095 | .053 |
-|see| .0476 | .105 |
-|you| .0476 | .158 |
-|house| .095 | .105 |
-|want| .0476 | .105 |
-|takeout| .0476 | .105 |
-|sell| .095 | .053 |
-|your| .095 | .053 |
-|now| .095 | .053 |
+| free | .095 | .053 |
+| anime | .095 | .053 |
+| downloads | .095 | .053 |
+| see | .0476 | .105 |
+| you | .0476 | .158 |
+| house | .095 | .105 |
+| want | .0476 | .105 |
+| takeout | .0476 | .105 |
+| sell | .095 | .053 |
+| your | .095 | .053 |
+| now | .095 | .053 |
