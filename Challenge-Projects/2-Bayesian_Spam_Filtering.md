@@ -93,9 +93,9 @@ Similarly, we can construct a model that estimates `P(words in m | not spam)` us
 
 ### Intuition
 
-If you're not sure about this part, consider a message that contains the words **FREE HERBAL VIAGRA**. This is a popular topic for spammers, so if we examined the universe of 
-all spam messages, we'd expect these words to show up frequently and we'd reasonably expect that `P(FREE HERBAL VIAGRA | spam)` is a relatively high probability. 
-If we were to examine the universe of all legitimate non-spam messages, we would not expect to see **FREE HERBAL VIAGRA** show up frequently, so `P(FREE HERBAL VIAGRA | not spam)` should be small.
+If you're not sure about this part, consider a message that contains the words "**FREE HERBAL VIAGRA**".  I do not often receive legitimate messages on this topic,
+so I'd expect `P("FREE HERBAL VIAGRA" | not spam)` to be very close to zero. The other case, `P("FREE HERBAL VIAGRA" | spam)`, should be much higher given that
+those words occur more frequently in the universe of all possible spam messages.
 
 ### Bayes' Rule
 
