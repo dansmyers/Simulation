@@ -218,7 +218,7 @@ First, some words &dash; "a", "at", "the", "to", etc. &ndash; are so common they
 pre-filter all messages to focus on only a subset of key words that we think are useful for classification. This has the advantage of making our feature vectors smaller and
 reducing irrelevant information in the model, at the risk that we choose to exclude something that would actually be useful.
 
-The second issue is more complicated: what about words that don't appear in one of the data sets? For example, "anime" does not appear in the non-spam data set, but we don't
+The second issue is more complicated. What about words that don't appear in one of the data sets? For example, "anime" does not appear in the non-spam data set, but we don't
 want to automatically conclude that `P("anime" | non-spam) = 0`, because that would imply it's impossible for me to receive a non-spam message about anime.
 
 A typical solution to this problem is to assume that every word has some small constant probability of occurring, even if it was never observed in the training data set. Modify the word likelihood formula to be
@@ -275,6 +275,11 @@ P("you" | non-spam) = (2 + 1) / (6 + 13) ~ .158
 P("you" | spam) = (0 + 1) / (8 + 13) ~ .0476
 ```
 
+Also observe that "my" doesn't appear in either the spam or non-spam group of training examples, but we can still calculate non-zero probabilities for it because
+of smoothing.
+
+### Finally
+
 The final step is to calculate the likelihood of the entire message "you want to watch anime at my house".
 
 ```
@@ -288,7 +293,7 @@ P("want to watch anime at my house" | spam) = P("you" | spam) * P("want" | spam)
 The corresponding probability for the non-spam case is
 
 ```
-P("want to watch anime at my house" | spam) = .158 * .105 * .053 * .053 * .053 * .105
+P("want to watch anime at my house" | not spam) = .158 * .105 * .053 * .053 * .053 * .105
                                            
                                             = 2.593e-7
 
@@ -296,5 +301,5 @@ P("want to watch anime at my house" | spam) = .158 * .105 * .053 * .053 * .053 *
 
 Based on these results, we conclude that "you want to watch anime at my house" is **most likely not spam** because the non-spam case yields the higher probability.
 
-Note that We can't truly interpret the output of these calculations as probabilities, because we dropped the denominator in the original Bayes' Rules formlation and 
-the prior probability. For our purposes, what matters is simply the fact that one value is larger than the other one.
+Note that we can't truly interpret the output of these calculations as probabilities, due to the changes we've made to the original Bayes formulation, like dropping
+the denominator. The results are still **proportional** to the true probabilities, which is what allows us to conclude that the not spam case is more likely.
