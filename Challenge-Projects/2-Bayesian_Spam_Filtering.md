@@ -144,16 +144,16 @@ Suppose we have a universe of only four messages, two spam and two non-spam.
 | do you want takeout        | not spam    |
 | sell your house now        | spam        |
 
-Is the message "want to watch anime at my house" more likely to be spam or not spam?
+Is the message "you want to watch anime at my house" more likely to be spam or not spam?
 
 Using the Bayesian formulation, we need to calculate two probabilities:
 
 ```
-P(spam | "want to watch anime at my house")
+P(spam | "you want to watch anime at my house")
 ```
 
 ```
-P(not spam | "want to watch anime at my house")
+P(not spam | "you want to watch anime at my house")
 ```
 
 We'll take the larger probability to be the correct classification.
@@ -161,11 +161,11 @@ We'll take the larger probability to be the correct classification.
 From the previous model, we know that
 
 ```
-P(spam | "want to watch anime at my house") = P("want to watch anime at my house" | spam) P(spam)
+P(spam | "you want to watch anime at my house") = P("you want to watch anime at my house" | spam) P(spam)
 ```
 
 ```
-P(not spam | "want to watch anime at my house") = P("want to watch anime at my house" | not spam) P(not spam)
+P(not spam | "you want to watch anime at my house") = P("you want to watch anime at my house" | not spam) P(not spam)
 ```
 
 These formulas are the numerator Bayes' Rule, where we've removed the denominator because it's the same for both classes.
@@ -188,7 +188,7 @@ We now need to consider the likelihood of the message conditioned on each class,
 If all of the words are independent, then the likelihood of the entire message is the product of the individual word likelihoods
 
 ```
-P("want to watch anime at my house" | spam) = P("want" | spam) * P("to" | spam) * P("watch" | spam) * ... * P("house" | spam)
+P("you want to watch anime at my house" | spam) = P("you" | spam) * P("want" | spam) * P("to" | spam) * ... * P("house" | spam)
 ```
 
 A Bayesian model that assumes independence of the features is called a **naïve Bayesian classifier**, because the assumption of independence is usually a huge simplification
@@ -270,3 +270,38 @@ Here is the table of word likelihoods calculated using the Laplace smoothing str
 | sell | .095 | .053 |
 | your | .095 | .053 |
 | now | .095 | .053 |
+| my | .0476 | .053 |
+
+For example, "you" appears two times in the non-spam messages and zero times in the spam messages. It's probabilities are therefore:
+
+```
+P("you" | non-spam) = (2 + 1) / (6 + 13) ~ .158
+```
+
+```
+P("you" | spam) = (0 + 1) / (8 + 13) ~ .0476
+```
+
+The final step is to calculate the likelihood of the entire message "you want to watch anime at my house".
+
+```
+P("want to watch anime at my house" | spam) = P("you" | spam) * P("want" | spam) * P("watch" | spam) * P("anime" | spam) * P("my" | spam) * P("house" | spam)
+
+                                            = .0476 * .0476 * .095 * .095 * .0476 * .095
+                                            
+                                            = 9.247e-8
+```
+
+The corresponding probability for the non-spam case is
+
+```
+P("want to watch anime at my house" | spam) = .158 * .105 * .053 * .053 * .053 * .105
+                                           
+                                            = 2.593e-7
+
+```
+
+Based on these results, we conclude that "you want to watch anime at my house" is **most likely not spam** because the non-spam case yields the higher probability.
+
+Note that We can't truly interpret the output of these calculations as probabilities, because we dropped the denominator in the original Bayes' Rules formlation and 
+the prior probability. For our purposes, what matters is simply the fact that one value is larger than the other one.
