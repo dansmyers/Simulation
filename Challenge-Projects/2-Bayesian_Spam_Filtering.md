@@ -52,4 +52,50 @@ support vector machines.
 but isn't used in the training process. If the model is good, it should produce accurate results on the testing set. The testing set is used to ensure that the model
 doesn't **overfit** the training data, which would result in a model that doesn't generalize well beyond the training examples.
 
+## Bayesian Classification
+
+Very good. We've now committed to learning a model using a training data set that can discriminate between spam and non-spam messages.
+
+The Bayesian approach considers classification as a **probability problem**. Suppose we're considering a message *m*. We'd like to use the **words in *m*** as our **features**
+to determine if *m* is spam or not. We could, potenially, expand our list of features to include things other than just the contents of the message, but we won't worry about 
+that in these examples.
+
+Intuitively, there are some words that are likely to occur in spam message but not in legitimate messages. I'll let you think about what some of those words are.
+
+Consider two conditional probabilities:
+
+```
+P(m is spam | words in m)
+```
+
+```
+P(m is NOT spam | words in m)
+```
+
+If we could calculate these two probabilities for the message *m*, we could classify *m* based on whichever probability is highest. For example, if our model deems it more 
+likely that *m* is spam than not-spam, we should send *m* straight to the junk folder.
+
+Here's the problem: **how do we calculate these two probabilities**?
+
+To begin, let's think about the reversed conditonal probability:
+
+```
+P(words in m | spam)
+```
+
+This probability expresses the likelihood that a message picked from the universe of all spam messages contains the words we observed in message *m*. **We can estimate
+this from the training data**. The training data contains a large number of example spam messages, so we can look at the words they contain and build a model that
+estimates how likely a given message is if it's really spam.
+
+Similarly, we can construct a model that estimates `P(words in m | not spam)` using the messages in the training data that we know are legitimate.
+
+**This is the perfect setup for Bayes' Rule**. We have a conditional probability of interest that's hard to calculate directly, but we can reason about the reversed conditional
+probability.
+
+Unleash the math!
+
+https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1
+
+
+
 
