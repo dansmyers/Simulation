@@ -94,6 +94,9 @@ probability.
 
 Unleash the math!
 
+But first, let's simplify the notation a little bit. Let *c* denote a class of interest, either *spam* or *not spam* in this example. Let **m** denote the contents of the
+message, where we're using bold notation to indicate that we're thinking about the contents as a vector of words.
+
 <img src="https://render.githubusercontent.com/render/math?math=P(c \, | \, \textbf{m}) = \frac{P(\textbf{m} \, |  \, c) P(c)}{P(\textbf{m})}" width="20%">
 
 
