@@ -294,9 +294,9 @@ The final step is to calculate the likelihood of the entire message "you want to
 ```
 P("you want to watch anime at my house" | spam) = P("you" | spam) * P("want" | spam) * ... * P("house" | spam)
 
-                                            = .0476 * .0476 * .095 * .095 * .0476 * .095
-                                            
-                                            = 9.247e-8
+                                                = .0476 * .0476 * .095 * .095 * .0476 * .095
+                                              
+                                                = 9.247e-8
 ```
 
 The corresponding probability for the non-spam case is
