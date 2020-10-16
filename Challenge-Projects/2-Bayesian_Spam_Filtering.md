@@ -1,5 +1,7 @@
 # Challenge Project &ndash; Bayesian Spam Filtering
 
+## Due December 11, 2020 (one week before the end of classes)
+
 ## Overview
 
 This project will let you explore a useful application of Bayes' Rule: **e-mail spam filtering**. Along the way, you'll get some practice working with statistical machine
@@ -18,6 +20,10 @@ By the end of this project you will be familiar with:
 - How to use naïve Bayes to classify texts
 
 - Implementing a classifier using Python's scikit-learn library
+
+You don't have to actually write that much code to complete this project, but you will have to work through these notes and understand the mechanics of the Bayesian
+classifier. Most of the difficulty comes from understanding the concepts involved.
+
 
 ## Spam Filtering as a Learning Problem
 
