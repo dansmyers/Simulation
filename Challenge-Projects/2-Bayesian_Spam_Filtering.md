@@ -292,7 +292,7 @@ of smoothing.
 The final step is to calculate the likelihood of the entire message "you want to watch anime at my house".
 
 ```
-P("want to watch anime at my house" | spam) = P("you" | spam) * P("want" | spam) * P("watch" | spam) * P("anime" | spam) * P("my" | spam) * P("house" | spam)
+P("you want to watch anime at my house" | spam) = P("you" | spam) * P("want" | spam) * ... * P("house" | spam)
 
                                             = .0476 * .0476 * .095 * .095 * .0476 * .095
                                             
@@ -302,9 +302,9 @@ P("want to watch anime at my house" | spam) = P("you" | spam) * P("want" | spam)
 The corresponding probability for the non-spam case is
 
 ```
-P("want to watch anime at my house" | not spam) = .158 * .105 * .053 * .053 * .053 * .105
+P("you want to watch anime at my house" | not spam) = .158 * .105 * .053 * .053 * .053 * .105
                                            
-                                            = 2.593e-7
+                                                    = 2.593e-7
 
 ```
 
