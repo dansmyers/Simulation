@@ -191,7 +191,9 @@ If we felt it was important to weight one class as more likely than the other, w
 ### The Naïve Bayes Model
 
 We now need to consider the likelihood of the message conditioned on each class, and to do it we're going to make a very strong simplification: **Assume that the likelihood of 
-each word in a message is independent of all of the other words**. This is a strong assumption. By assuming independence, we're choosing to ignore all word context, sentence 
+each word in a message is independent of all of the other words**.
+
+This is a strong assumption! By assuming independence, we're choosing to ignore all word context, sentence 
 structure, grammar, and any other aspect of language that makes some words more likely to appear together.
 
 If all of the words are independent, then the likelihood of the entire message is the product of the individual word likelihoods
