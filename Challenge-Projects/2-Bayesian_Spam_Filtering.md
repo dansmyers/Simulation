@@ -223,7 +223,7 @@ Based on our data set, we expect that 12.5% of all words in spam message should 
 
 There are two issues to consider before moving on the final calculations.
 
-First, some words &dash; "a", "at", "the", "to", etc. &ndash; are so common they won't yield useful classification information. We can ignore these. More generally, we could
+First, some words &ndash; "a", "at", "the", "to", etc. &ndash; are so common they won't yield useful classification information. We can ignore these. More generally, we could
 pre-filter all messages to focus on only a subset of key words that we think are useful for classification. This has the advantage of making our feature vectors smaller and
 reducing irrelevant information in the model, at the risk that we choose to exclude something that would actually be useful.
 
