@@ -440,7 +440,5 @@ measurement of about **98%**.
 All of the challenge in this project is in working through the details of the naïve Bayes model. You should be able to complete the calculations and scikit-learn example
 without difficulty if you understand the model.
 
-This example is just scratching the surface of machine learning in general and statistical learning in particular.
-
-If you're interested in learning more, I recommend starting with [this video](https://www.youtube.com/watch?v=aircAruvnKk&vl=en) on neural networks and the handwritten digit classification problem.
+This example is just scratching the surface of machine learning in general and statistical learning in particular. If you're interested in learning more, I recommend starting with [this video](https://www.youtube.com/watch?v=aircAruvnKk&vl=en) on neural networks and the handwritten digit classification problem.
 
