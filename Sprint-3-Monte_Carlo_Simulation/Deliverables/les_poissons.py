@@ -31,7 +31,7 @@ def simulate():
 	for i in range(1000):
 		number = random.random()
 		
-		if number < PROBABILITY:
+		if number <= PROBABILITY:
 			successes = successes + 1 
 		
 	return successes
@@ -72,92 +72,51 @@ def main():
 	# Counter from the collections library has a method to do this logic 
 	successes_count = Counter(fraction_successes)
 	
-	# put those values into sorted tuples and plot the tuples as x and y values 
-	values = sorted(successes_count.items())
+	# # put those values into sorted tuples and plot the tuples as x and y values 
+	# values = sorted(successes_count.items())
 	
-	# unpack the tuples and store the lists into the x and y variables 
-	x, y = zip(*values)
+	# # unpack the tuples and store the lists into the x and y variables 
+	# x, y = zip(*values)
 	
-	print(x)
-	print(y)
+	# # plot the values in a line chart using the x and y coordinates
+	# plt.plot(x, y)
 	
-	# plot the values in a line chart using the x and y coordinates
+	# plt.savefig("line_chart.pdf", bbox_inches = "tight")
+	
+	return successes_count
+	
+def poisson_pmf_25(k):
+	"""
+		This method will calcualte the pmf of a poisson distribution with a given k
+	"""
+	return (math.exp(-25) * 25 ** k) / math.factorial(k)
+	
+def plotFigs():
+	"""
+		This method will get all of the data calculated in the above functions and plot it into a line plot
+	"""
+	successes_count = main()
+	
+	print(successes_count)
+	
+	x = list(successes_count.keys())
+	y = list(successes_count.values())
+	print("y-axis ",y)
+	
+	# list holding the poisson_values
+	poisson_values = []
+	
+	# find the poisson pmf for all of the keys in the successes_count
+	for i in x:
+		poisson_values.append(poisson_pmf_25(i * 1000))
+
+	poisson_values.sort()
+	print("x-axis ",poisson_values)
+		
 	plt.plot(x, y)
+	plt.plot(poisson_values, y)
 	
 	plt.savefig("line_chart.pdf", bbox_inches = "tight")
 	
-	return fraction_successes
 	
-def poisson_pmf_25():
-	poisson_pmf = (math.exp(25) * 25 ** 1000) / (math.factorial(1000))
-	
-	return poisson_pmf
-	
-main()
-
-poisson_pmf_25()
-
-plt.hist(main())
-
-plt.savefig("histogram_of_coin_flips.pdf", bbox_inches = "tight")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+plotFigs()
