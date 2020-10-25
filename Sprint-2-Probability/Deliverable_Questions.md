@@ -12,7 +12,7 @@ This problem set is a work of fan fiction. Hermione Granger and related characte
 
 ## List Your Team Members
 
-Edit this section to include a list of everyone on your team.
+Griffin, Maria
 
 ## Instructions
 
