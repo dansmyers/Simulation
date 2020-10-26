@@ -53,7 +53,7 @@ for line in reader:
 #make a list of the length of each item in the dictionary
 def populate_num_class():
     for i in students_per_course:
-        data_class_size.append(len(i))
+        data_class_size.append(len(students_per_course[i]))
 
 
     
