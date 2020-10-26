@@ -8,11 +8,10 @@ This problem set is a work of fan fiction. Hermione Granger and related characte
 
 ## Honor Code
 
-Edit this section to include a statement of the Honor Code.
+AHC - JG
 
 ## List Your Team Members
-
-Edit this section to include a list of everyone on your team.
+Mariah Haskell 
 
 ## Instructions
 
@@ -54,6 +53,19 @@ B = Not receiving a letter
 P(B) is therefore the total probability of not receiving a letter.
 ``` 
 
+
+Answer:
+
+P(She's a Witch | Not receiving a letter ) = .08333
+
+Equation: P(Witch) * P(No letter|She's a Witch)/ P(No letter) - Bayes Theorem
+
+P(No letter) = P(No letter|witch)*P(witch) + P(No letter|Not a witch) * P(Not a witch) = .27
+
+so, final equation = .75 * .03 / .27 = .08333
+
+
+
 ### Chocolate Frogs
 
 Good news! Hermione got into Hogwarts after all!
@@ -64,6 +76,8 @@ Suppose that there are 30 total Famous Witch or Wizard cards in the set. Every f
 
 What is the expected number of Chocolate Frogs Hermione would need to open to collect every Famous Witch and Wizard?
 
+
+
 Hints:
 
 - If Hermione buys her first frog on the Express, she's guaranteed to get a card she's never seen before.
@@ -73,6 +87,16 @@ Hints:
 - After she has two cards, she'd expect to open 30 / 28 ~ 1.0714 cards to find a third unique card.
 
 This problem is based on a classic called the Coupon Collector's Problem. It's related to the geometric distribution, which we'll talk about in the next sprint.
+
+E(N) = 1 + 30/29 + 30/28 + 30/27 .... + 30/1
+
+where E(ith card) = N/N-1
+
+ 
+Answer:
+E(N) = ∑ (where k = 1, and n = 30) of 30/k
+30/30 + 30/29 + 30/28 ... 30/1, which is represented by the equation 30/k
+
 
 ### Hat Problem
 
@@ -92,6 +116,11 @@ If 10% of new Hogwarts students are evil, what is the probability that a randoml
 
 Tip: the value you want is `P(Evil | Slytherin)`.
 
+P(Evil|Slytherin) = P(Evil) * P(Slytherin|Evil)/ P(Slytherin) = .357
+
+where P(Slytherin) = P(slytherin|Not evil) * P(Not Evil) + P(Slytherin|Evil) * P(Evil) = (.2*.9) + (1 * .1) = .28
+
+Final equation = .1 * 1 / .28 = .357 or 35.7%
 
 ### Dumblevator
 
@@ -114,6 +143,16 @@ Tips:
 - Try reasoning about a smaller number of floors and drawing a picture.
 
 
+Answer:
+
+Set of situations where elevator is coming down @ or above the 13th floor:
+@13th - 1/15 chance@13th * 1/2 is going down = 1/30
+@14th - 1/15 chance@14th * 1/2 is going down = 1/30
+@15th - 1/15 chance, and must be going down = 1/15
+
+1/30 + 1/30 + 1/15 = 2/15 chance Hermione gets the elevator on the 13th floor while it is moving down
+
+
 ### Urn While You Learn
 
 Hogwarts is filled with all kinds of wonderous magical objects: talking portraits, deadly moving stairs, secret passages, and the largest collection of magical urns in Western Europe.
@@ -122,6 +161,14 @@ There's an urn on the fourth floor with a strange property: every time Hermione 
 
 Suppose the urn contains 10 black balls and 5 red balls. If Hermione draws two balls, what is the probability that the second ball is red?
 
+.33 picked red * (10/14 - black was discarded * 4/13 choose red) + .33 * (4/14 - red was discarded * 3/13 choose red) 
++
+.67 picked black * (5/14 - red was discarded * 4/13 choose red ) + .67 * (10/14 - black was discarded * 5/13 choose red)
+
+= .072 + .022 + .074 + .184  = .352
+
+
+
 ### Pólya's Urn
 
 Suppose an urn contains 9 black balls and 6 red balls. On each trial, Hermione picks a ball at random from the urn, returns it to the urn, and adds in one more ball of the same color.
@@ -129,6 +176,31 @@ Suppose an urn contains 9 black balls and 6 red balls. On each trial, Hermione p
 Suppose she carries out this procedure two times. What are the expected numbers of red and black balls in the urn?
 
 Tip: draw a tree of possible outcomes.
+
+E[black]:
+(9/15 * 10/16 * 11) 
++
+(9/15 * 6/16 * 10)
++
+(6/15 * 9/16 * 10)
++
+(6/15 * 7/16 * 9)  
+= 10.2
+
+
+E[red]:
+(9/15 * 10/16 * 6)
++
+(9/15 * 6/16 * 7)
++
+(6/15 * 9/16 * 7)
++
+(6/15 * 7/16 * 8)
+= 6.8
+
+E[Black] = 10.2
+E[Red] = 6.8
+
 
 ### Arithmancy
 
@@ -153,6 +225,15 @@ Hint: Each of the `n` values is equally likely to be observed.
 
 Hint-hint: There's going to be a summation. You can look up the result if you don’t remember it.
 
+E[X] = ∑ - k = 1 to n, 1/n * k
+factor out 1/n to get =  1/n * ∑ k 
+k = 1, n ∑ K = n(n+1)/2
+n + n-1 + n-2 ... = n(n+1) / 2
+
+So we now have:
+
+1/n * n(n+1)/2 - n's cancel out to get n + 1/2
+
 
 ### Birthday Attack
 
@@ -163,6 +244,7 @@ There are a total of 40 students in Hermoine's year at Hogwarts.
 Birthdays are important in the Wizarding World. Sharing a birthday with another witch or wizard can create a magical bond between the two of you, leading to all sorts of ridiculous hijinks. This is why wizard twins are always crazy.
 
 What's the probability that no two students in Hermoine's year share the same birthday?
+
 
 Tip: Assume that there are 365 possible birthdays (wizards can't be born on Leap Days) and that wizards are equally likely to be born on any day of the year.
 
@@ -177,3 +259,12 @@ P(Both are born on two different days) = (365 / 365) * (364 / 365)
 Hermoine's birthday can be on any day, but Victoria's must occur randomly on one of the other 364 days.
 
 What if there are three students? How about more?
+
+
+
+Answer:
+
+P(No two students have same birthday) = (365/365) * (364/365) * ... * (325/365)
+
+Represented by the equation:
+Product notation, where k = 0, n = 39, 365-k/365 
