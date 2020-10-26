@@ -24,6 +24,19 @@ I have an urn that contains 100 balls. I know that some are black and some are r
 
 My experiment shows that the expected number of draws to get one red ball is 20. What are reasonable estimates for the number of black and red balls in the urn?
 
+Trials for 1st red = 20, E[x] = 20
+
+E[x] = 1 / p
+20 = 1/p
+
+p = 1/20 = .05
+
+.05(100) red + .95(100) black so...
+
+
+Answer:
+5 red, 95 black
+
 ## Dragon Dice
 
 Hermione is back for another problem!
@@ -35,6 +48,16 @@ One of their games is called Dragon's Dice. It's a simple carnival game, also kn
 Hermione picks a number 1-6 and rolls three fair dice. If her number comes up *k* = 1, 2, or 3 times, she wins *k* galleons. If it does not appear on any of the dice, she loses one galleon.
 
 What is Hermione's expected outcome from playing Dragon's Dice? Solve this problem analytically.
+
+p(0), p(4), p(5), p(6) - all yield -1
+p(1) - yields $1
+p(2) - yields $2
+p(3) - yields $3
+
+E[x] = 4/6(-1) + 1/6(1) + 1/6(2) + 1/6(3)
+
+Answer:
+E[x] = 2/6
 
 
 ## *Les Poissons*! *Les Poissons*! How I Love *les Poissons*!
