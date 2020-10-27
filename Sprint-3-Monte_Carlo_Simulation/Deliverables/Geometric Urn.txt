@@ -1,0 +1,13 @@
+CMS380 / Sprint 3 Deliverables	--Christian Huber
+
+Geometric Urn
+=============
+
+E[X] = 20 = 1 / p
+
+> Solve for p
+> p = 0.05
+
+> 5% of the balls in the urn are red
+
+>>> There are 100 * 0.05 = 5 red balls in the urn.
