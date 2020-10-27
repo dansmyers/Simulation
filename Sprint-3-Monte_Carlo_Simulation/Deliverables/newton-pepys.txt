@@ -1,0 +1,31 @@
+Fritz Stapfer Paz
+Sprint 3 - The Newton-Pepys Problem
+10/28/2020
+
+Find the answer to Newton-Pepys problems using a discrete probability distribution.
+
+-------------------------------------------------------------------------------------------------------
+
+> Binomial distribution:
+b(N,k) = (NCk) * (p)^(k) * (1−p)^(N−k)
+
+> Probability that Six fair dice are tossed independently and at least one six appears:
+P(SIX)      = 1 - b(6,0)
+            = 1 - 0.334898
+            = 0.665102
+
+> Probability that Twelve fair dice are tossed independently and at least two sixes appear:
+P(TWELVE)   = 1 - b(12,0) - b(12,1)
+            = 1 - 0.112157 - 0.269176
+            = 1 - 0.381333
+            = 0.618667
+            
+> Probability that Eighteen fair dice are tossed independently and at least three sixes appear:
+P(EIGHTEEN) = 1 - b(18,0) - b(18,1) - b(18,2)
+            = 1 - 0.037561 - 0.135220 - 0.229874
+            = 0.597346
+            
+By using the Binomial Distribution, we can conclude that the first proposition:
+    > At least one six appearing from six fair dice tossed independently
+has the higher chance of success, at an estimated success rate of 66.51%.
+As it turns out, Newton was correct when he concluded outcome A has the highest probability.

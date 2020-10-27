@@ -1,0 +1,29 @@
+Fritz Stapfer Paz
+Sprint 3 - Geometric Urn
+10/28/2020
+
+Determine analytically the expected number of red and black balls in an urn of 100 balls where the 
+expected number of draws to get one red ball is 20.
+
+-------------------------------------------------------------------------------------------------------
+
+Geometric Distribution Expected Value:
+E[X] = 1 / p
+
+Given:
+E[x] = 20
+
+Solve for p:
+20 = 1 / p
+p = 1 / 20
+p = 0.05
+
+Use p to find amount of red and black balls:
+    red (total * p):
+        100 * 0.05 = 5
+    
+    black (total * (1 - p)):
+        100 * (1 - 0.05) = 
+        100 * 0.95 = 95
+
+We can expect the urn to have 95 black balls and 5 red balls.
