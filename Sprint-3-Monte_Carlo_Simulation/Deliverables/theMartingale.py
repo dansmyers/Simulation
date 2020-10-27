@@ -22,7 +22,11 @@ wheel = [True if(x<18) else False for x in range(38)]           ####  an array o
 
 def martingale(budget = 255, rounds = 100):                     ####  returns the player's winnings  ###########################
     bet = 1                                                     #  player bet starts at 1
+<<<<<<< HEAD
     while(budget>=bet and rounds > 0):                          #  while the player can afford the bet and less than 100 rounds
+=======
+    while(budget>=bet or rounds > 0):                           #  while the player can afford the bet and less than 100 rounds
+>>>>>>> added python solutions and plots for problems 4,5, and 6
         rounds -= 1                                             #  decrement rounds
         win = wheel[(int)(random()*38)]                         #  spin the roulette wheel
         if(win):                                                #  if the player wins...
