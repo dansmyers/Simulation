@@ -1,4 +1,5 @@
 #random.randint -- generate random integers in a range 
+
 from random import randint
 import matplotlib
 matplotlib.use('Agg')
@@ -8,9 +9,11 @@ money = 255
 
 
 def oneRound(bet):
+    #Use money as a global
     global money
     won = True
     
+    #Generate a random number to simulate the game
     rand_num = randint(1,38)
     if rand_num <= 18:
         money = money + bet
@@ -34,6 +37,8 @@ def plot(data):
 
     #save figure to a filter
     plt.savefig("Martingale_hist.pdf", bbox_inches='tight')
+    
+
 
 
 def main():

@@ -1,6 +1,9 @@
 #random.randint -- generate random integers in a range 
 import random
+from scipy.stats import poisson
+import numpy as np 
 
+import math 
 
 import matplotlib
 matplotlib.use('Agg')
@@ -25,7 +28,15 @@ def simulate():
         
     return count
     
-
+def possion():
+    x = 1000
+    num = 25
+    e = 2.71828
+    
+    denom = math.factorial(x)
+    
+    equation = pow(e,-num) * pow(num,x) / denom
+    print(equation)
     
 
 def main():
@@ -56,6 +67,27 @@ def main():
 
     #save figure to a filter
     plt.savefig("count_hist.pdf", bbox_inches='tight')
+    
+    
+    
+    #Use an array for th frequency of numbers
+    #Make an array of all the possible numbers
+    points =[]
+    points2 = []
+    for j in range(100):
+        points.append(0)
+        points2.append(j)
+    
+    for i in data:
+        points[i] = points[i] + 1
+    
+    
+    plt.figure();
+    plt.plot(points2, points)
+    plt.plot(x, poisson.pmf(x,25) * 1000)
+    
+    plt.savefig("overlay.pdf", bbox_inches='tight')
+    
 
 #Write some code that will call main when this program runs 
 
