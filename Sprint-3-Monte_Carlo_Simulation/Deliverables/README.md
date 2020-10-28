@@ -16,6 +16,12 @@ corresponded with Isaac Newton regarding a wager:
 
 What is the answer to Pepys' question? Calculate your answer exactly using a discrete probability distribution, not a simulation model.
 
+6 die (at least 1) = 1 - P(0) = 1 - (1 - 1/6)^6-0 * p^0 = 66.51%
+
+12 die (at least 2) = 1 - P(0) - P(1) = 1 - .112 - .268 = 61.78%
+
+18 die (at least 3) = 1 - P(0) - P(1) - P(2) = 1 - .038 - .135 - .229 = 59.8%
+
 Tip: notice that the problem is phrased as *at least* **not** *exactly*.
 
 ## Geometric Urn
