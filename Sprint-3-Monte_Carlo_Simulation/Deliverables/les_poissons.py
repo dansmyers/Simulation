@@ -112,9 +112,14 @@ def plotFigs():
 
 	poisson_values.sort()
 	print("x-axis ",poisson_values)
-		
-	plt.plot(x, y)
-	plt.plot(poisson_values, y)
+	
+	plt.xlabel("Value")
+	plt.ylabel("Frequency")
+	
+	plt.plot(x, y, label = "Simulated Values")
+	plt.plot(poisson_values, y, label = "Poisson Values")
+	
+	plt.legend()
 	
 	plt.savefig("line_chart.pdf", bbox_inches = "tight")
 	

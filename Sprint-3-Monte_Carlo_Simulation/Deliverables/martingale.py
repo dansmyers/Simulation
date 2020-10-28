@@ -54,6 +54,9 @@ def main():
 	
 	plt.figure()
 	
+	plt.xlabel("Value")
+	plt.ylabel("Count")
+	
 	plt.hist(results, 30)
 	
 	plt.savefig("martingale_strategy_results.pdf", bbox_inches = "tight")
