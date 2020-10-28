@@ -1,6 +1,11 @@
 # Sprint 3 &ndash; Deliverables
 
 
+ “On my honor, I have not given, nor received, nor witnessed any unauthorized assistance on this
+ work.” 
+ 
+ Griffin, Maria 
+
 ## The Newton-Pepys Problem
 
 <img src="https://cdn.aarp.net/content/dam/aarp/food/healthy-eating/2016/2016-05/1140-peeps-nation.imgcache.rev3aa6a5a0b7d521bbef63f0e833d97a8f.web.900.513.jpg" width="40%" />
