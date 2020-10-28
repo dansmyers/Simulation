@@ -1,5 +1,14 @@
 # Sprint 3 &ndash; Deliverables
 
+## Honor Code
+
+On my honor, I have not given, nor received, nor witnessed any unauthorized assistance on this work.
+
+MT
+
+## List Your Team Members
+
+Matthew Trautmann, Christian Hamilton, Randall Lee, Ryan
 
 ## The Newton-Pepys Problem
 
@@ -16,13 +25,28 @@ corresponded with Isaac Newton regarding a wager:
 
 What is the answer to Pepys' question? Calculate your answer exactly using a discrete probability distribution, not a simulation model.
 
+
+
 Tip: notice that the problem is phrased as *at least* **not** *exactly*.
+
+
+The first proposition has the highest probability of .4018
+
+The second proposition has a probabilty of .2691
+
+The third proposition has a probabilty of .135
+
+See PepysAndUrn.pdf for work
 
 ## Geometric Urn
 
 I have an urn that contains 100 balls. I know that some are black and some are red, but I don’t the numbers of each. Suppose I draw from the urn with replacement (putting each ball back in the urn, so that the number of balls remains the same) and write down the number of draws needed to get the first red ball. I then repeat this process several times and then use all of my results to calculate the expected number of draws needed to get the first red ball.
 
 My experiment shows that the expected number of draws to get one red ball is 20. What are reasonable estimates for the number of black and red balls in the urn?
+
+In an Urn of 100 balls we would expect the red balls to equal 5 and the black balls to equal 95.
+
+See PepysAndUrn.pdf for work
 
 ## Dragon Dice
 
@@ -36,7 +60,13 @@ Hermione picks a number 1-6 and rolls three fair dice. If her number comes up *k
 
 What is Hermione's expected outcome from playing Dragon's Dice? Solve this problem analytically.
 
+The expected outcome is -.0788
 
+Meaning that everytime you play you expect to lose .07 galleons.
+
+Play 100 times and you would expect to lose 7 galleons on average.
+
+See DragonDice.pdf
 ## *Les Poissons*! *Les Poissons*! How I Love *les Poissons*!
 
 <img src="https://vignette.wikia.nocookie.net/disney/images/4/4d/Tlmpe834.jpg/revision/latest?cb=20101108233151" width="40%" />
@@ -52,6 +82,8 @@ to show the Poisson distribution is a good approximation for the binomial under 
 
 I recommend using two line plots in two different styles for the two distributions.
 
+
+See poisson.py and poisson.pdf for the results
 
 ## The Ticket Problem
 
@@ -73,6 +105,9 @@ Tips:
 - As in the previous problem, use a `simulate` method to simulate one trial and return the result.
 
 - Because the seats could be renumbered, you can assume, without loss of generality, that the first passenger was assigned in seat 1, the second passenger in seat 2, and so forth. This simplifies the simulation because you don't need to generate a complete set of seat assignments.
+- 
+
+See ticket.py
 
 ## The Martingale
 
@@ -117,3 +152,6 @@ Tips:
 - As before, use a `simulate` method that plays one complete session, then returns that amount remaining in the gambler's bankroll at the end. Collect all of your results into a list, then use matplotlib's `hist` function to create the plot.
 
 Remember to update the bankroll after each win or loss. Wins become part of the total bankroll and can be used for future bets.
+
+
+See martingale.py and martingale_histo.pdf for results
