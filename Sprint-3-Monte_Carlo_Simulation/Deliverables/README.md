@@ -1,5 +1,12 @@
 # Sprint 3 &ndash; Deliverables
 
+## Honor Code
+
+“On my honor, I have not given, nor received, nor witnessed any unauthorized assistance on this work."
+
+## List Your Team Members
+
+Randy, Christian, Ryan, Matthew
 
 ## The Newton-Pepys Problem
 
@@ -18,11 +25,46 @@ What is the answer to Pepys' question? Calculate your answer exactly using a dis
 
 Tip: notice that the problem is phrased as *at least* **not** *exactly*.
 
+```
+For Discrete Distributions:
+P(x=k) = (n (1-p)^n-k p^k
+          k)
+E[X] = np
+
+First Example:
+n = 6, p = 1/6, k = 1
+(6 (5/6)^5(1/6)^1 = .4019
+ 1)
+                  = 40.19%
+
+Second Example:
+n = 12, p = 1/6, k = 2
+(12 (5/6)^10(1/6)^2 = .2961
+ 2)
+                  = 29.61%
+                  
+Third Example:
+n = 18, p = 1/6, k = 3
+(18 (5/6)^15(1/6)^3 = .2452
+ 3)
+                  = 24.52%                  
+                  
+The first example has the greatest chance of success.
+```
+
+
 ## Geometric Urn
 
 I have an urn that contains 100 balls. I know that some are black and some are red, but I don’t the numbers of each. Suppose I draw from the urn with replacement (putting each ball back in the urn, so that the number of balls remains the same) and write down the number of draws needed to get the first red ball. I then repeat this process several times and then use all of my results to calculate the expected number of draws needed to get the first red ball.
 
 My experiment shows that the expected number of draws to get one red ball is 20. What are reasonable estimates for the number of black and red balls in the urn?
+
+```
+E[x] = 20
+20 = 1/p so p = .05
+That means 5% of the balls in the urn are red
+So if there were 100 balls in the urn, 95 balls were black and 5 balls were red.
+```
 
 ## Dragon Dice
 
@@ -36,6 +78,19 @@ Hermione picks a number 1-6 and rolls three fair dice. If her number comes up *k
 
 What is Hermione's expected outcome from playing Dragon's Dice? Solve this problem analytically.
 
+```
+P(0 successes) --> loss of 1 wizard dollar
+P(0 successes) = (5/6)(5/6)(5/6) = 125 / 216 = .5787 or 57.87%
+
+P(1 success) --> gain of 1 dollar
+P(1 success) = (1/6)(5/6)(5/6) = 25 / 216 = .1157 or 11.57%
+
+P(2 successes) --> gain 2 dollars
+P(2 successes) = (1/6)(1/6)(5/6) = 5 / 216 = .0231 or 2.31%
+
+P(3 successes) --> gain 3 dollars
+P(3 successes) = (1/6)(1/6)(1/6) = 1 / 216 = .0046 or .46% 
+```
 
 ## *Les Poissons*! *Les Poissons*! How I Love *les Poissons*!
 
