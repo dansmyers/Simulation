@@ -1,0 +1,16 @@
+This is the document for the deliverable questions for this sprint
+
+
+Question1: Is Hermione witch? 
+Events in this question
+A: She is a witch
+B: Not receiving a letter 
+
+We were given 
+P (A) = .75
+P 
+
+
+
+
+
