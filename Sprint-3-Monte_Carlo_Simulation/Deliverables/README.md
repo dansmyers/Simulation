@@ -22,6 +22,8 @@ What is the answer to Pepys' question? Calculate your answer exactly using a dis
 
 18 die (at least 3) = 1 - P(0) - P(1) - P(2) = 1 - .038 - .135 - .229 = 59.8%
 
+6 die has the greatest chance.
+
 Tip: notice that the problem is phrased as *at least* **not** *exactly*.
 
 ## Geometric Urn
