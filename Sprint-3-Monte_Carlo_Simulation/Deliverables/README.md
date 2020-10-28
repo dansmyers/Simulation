@@ -30,11 +30,11 @@ What is the answer to Pepys' question? Calculate your answer exactly using a dis
 Tip: notice that the problem is phrased as *at least* **not** *exactly*.
 
 
-The first proposition has the highest probability of .4018
+The first proposition has the highest probability of .6651
 
-The second proposition has a probabilty of .2691
+The second proposition has a probabilty of .6187
 
-The third proposition has a probabilty of .135
+The third proposition has a probabilty of .5973
 
 See PepysAndUrn.pdf for work
 
