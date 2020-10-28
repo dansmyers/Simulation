@@ -14,7 +14,7 @@ from matplotlib import pyplot as plt
 
 
 ### FUNCTIONS ###
-​def simulate():
+def simulate():
     
     # Every Passenger-Index has a Seat-Value
     seats = list()
