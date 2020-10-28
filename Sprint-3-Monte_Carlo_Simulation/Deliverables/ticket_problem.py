@@ -1,6 +1,8 @@
 """
 
 	This program simulates the ticket problem and finds the probability that passenger 100 gets to sit in their assigned seat.
+	Jacob Buckelew
+	CMS380 Fall 2020
 
 """
 
@@ -12,19 +14,9 @@ import random
 def simulate(available_seats):
 	
 	"""
-	Simulate choosing a seat for each passenger. Takes an input of available seats and output the chosen seat of the passenger
+	Simulate choosing a seat for each passenger. Takes an input of available seats and output 1 if a success occurs, which is when the last passenger gets their assigned seat(100th passenger gets seat 100). Return 0 if it fails.
 	
 	"""
-	
-	# Get the length of the values list to get total number of seats available
-	# n is the number of seats available
-	n = len(available_seats)
-	
-		
-	
-	# probability p is the probability of picking a randoms seat out of n seats
-	
-	# p = 1/n 
 
 	seat = 0
 	
@@ -54,11 +46,6 @@ def simulate(available_seats):
 		unavailable_seats.append(seat)
 		available_seats[seat] = -1
 		
-	
-		
-		
-	
-	#print(unavailable_seats)
 	if(unavailable_seats[99] == 99):
 		return 1;
 	else: 
@@ -66,13 +53,12 @@ def simulate(available_seats):
 
 
 def main():
+	"""
+	Going to run 1000 simulations of the ticket problem and find a good approximation by averaging the total number of successes that occur over the total number of simulations.
 	
-	# set up our list of all available seats
-	#available_seats = list(range(0, 100))
+	"""
 	
 	# start running trials
-	
-	
 	# save outcomes of trials
 	
 	successes = 0
@@ -82,13 +68,6 @@ def main():
 		successes += simulate(available_seats)
 	
 	print(successes/(1000))
-		
-		
-
-		
-		
-		
-		
 		
 
 

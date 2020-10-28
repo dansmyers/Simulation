@@ -1,6 +1,8 @@
 """
 
 This is a program that simulate roulette games using the Martingale strategy.
+Jacob Buckelew
+CMS380 Fall 2020
 
 """
 
@@ -14,7 +16,7 @@ def simulate():
 	
 	"""
 	
-	Simulate rounds of roulette either up to 100 spins or until the player goes into bankruptcy. Take the final outcome of money that the player ended with and return it to main.
+	Simulate rounds of roulette either up to 100 spins or until the player goes into bankruptcy. Take the final outcome of money that the player ended with and return it to main. Takes no input
 	
 	"""
 	
@@ -46,6 +48,13 @@ def simulate():
 
 def main():
 	
+	"""
+	
+	Run 1000 simulations and plot the distribution of outcomes that occur from running the martingale strategy
+	
+	
+	"""
+	
 	outcomes = []
 	
 	
@@ -56,6 +65,9 @@ def main():
 	
 	
 	plt.figure()
+	plt.title("Distribution of Martingale Outcomes")
+	plt.xlabel("Outcomes")
+	plt.ylabel("Count")
 	plt.hist(outcomes, 30)
 	plt.savefig("Martingale.pdf", bbox_inches = 'tight')
 	
