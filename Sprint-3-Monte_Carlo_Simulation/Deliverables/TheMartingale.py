@@ -4,23 +4,23 @@ CMS 380, Fall 2020 / Sprint 3 / The Ticket Problem
 This script simulates using the Martingale stratgey
 in roulette and estimates the winnings.
 """
-​
+
 import matplotlib
 matplotlib.use("Agg")
 from matplotlib import pyplot as plt
 
 from random import random
-​
+
 
 # Create Roulette Wheel as array of 18 True, 20 False values
 wheel = [True if(x<18) else False for x in range(38)]
-​
+
 
 ### FUNCTIONS ###
-​
+
 def martingale(budget, spins):
     bet = 1
-    while(budget >= bet or spins > 0):
+    while(budget >= bet and spins > 0):
         spins -= 1
         win = wheel[(int)(random()*38)]
         if(win == True):
