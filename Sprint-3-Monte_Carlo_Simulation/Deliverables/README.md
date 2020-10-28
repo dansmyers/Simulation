@@ -18,11 +18,34 @@ What is the answer to Pepys' question? Calculate your answer exactly using a dis
 
 Tip: notice that the problem is phrased as *at least* **not** *exactly*.
 
+```
+Answer:
+    a. n = 6, p = 1/6, k = # of 6s
+    P(We get at least one 6)= 1 - P(X = 0)
+    1 - .3318979 = .66510203 ~~ 66.51%
+    
+    b. n = 12, p = 1/6, k = # of 6s
+    P(We get at least two 6s) = 1 - P(X = 0) + P(X = 1)
+    1 - (.11215665 + .26917597) = .61866738 ~~ 61.81%
+    
+    c. n = 18, p = 1/6, k = # of 6s
+    P(We get at least three 6s) = 1 - P(X = 0) + P(X = 1) + P(X = 2)
+    1 - (.03756103 + .13521973 + .22987354) = 0.573457 ~~ 57.34%
+```
+
 ## Geometric Urn
 
 I have an urn that contains 100 balls. I know that some are black and some are red, but I don’t the numbers of each. Suppose I draw from the urn with replacement (putting each ball back in the urn, so that the number of balls remains the same) and write down the number of draws needed to get the first red ball. I then repeat this process several times and then use all of my results to calculate the expected number of draws needed to get the first red ball.
 
 My experiment shows that the expected number of draws to get one red ball is 20. What are reasonable estimates for the number of black and red balls in the urn?
+
+```
+Answer:
+    E[X] = 20 = 1/p 
+    p = 1/20 = .05 
+    5% are expected to be red, 95% are expected to be black
+    Therefore with 100 total balls we expect to have 5 red balls and 95 black balls
+```
 
 ## Dragon Dice
 
@@ -35,6 +58,18 @@ One of their games is called Dragon's Dice. It's a simple carnival game, also kn
 Hermione picks a number 1-6 and rolls three fair dice. If her number comes up *k* = 1, 2, or 3 times, she wins *k* galleons. If it does not appear on any of the dice, she loses one galleon.
 
 What is Hermione's expected outcome from playing Dragon's Dice? Solve this problem analytically.
+
+```
+Answer:
+    p(0), p(4), p(5), p(6) all would be -1 gal
+    p(1) would be 1 gal
+    p(2) would be 2 gal
+    p(3) would be 3 gal
+
+E[x] = 4/6(-1) + 1/6(1) + 1/6(2) + 1/6(3)
+
+E[x] = 2/6
+```
 
 
 ## *Les Poissons*! *Les Poissons*! How I Love *les Poissons*!
