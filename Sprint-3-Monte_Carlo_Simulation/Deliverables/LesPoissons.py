@@ -21,7 +21,7 @@ from math import factorial
 def ppmf(most_heads):
     pmf = [((e**(-25))*(25)**(x))/factorial(x) for x in range(most_heads)]
     return pmf
-​
+
 
 # Plot frequencies of head occurences and pmf in one histogram
 def plot(num_heads, pmf):
@@ -31,7 +31,7 @@ def plot(num_heads, pmf):
     plt.title("Frequency of Event 'Heads' and Poisson PMF of Coin Flips")
     plt.xlabel("Frequency of Event 'Heads'")
     plt.savefig('les_poissons_hist_and_pmf.pdf', bbox_inches='tight')
-​
+
 
 # Simulate coin flips with binomial distribution
 def binom():
@@ -48,7 +48,7 @@ def binom():
 # Simulate the experiment
 def simulate():
     heads = list()
-​
+
     for trial in range(1000):
         flips = binom()
         heads.append(flips)
@@ -57,7 +57,7 @@ def simulate():
     poisson = ppmf(heads[-1])
     
     plot(heads, poisson)
-​
+
 
 if __name__ == '__main__':
     simulate()
