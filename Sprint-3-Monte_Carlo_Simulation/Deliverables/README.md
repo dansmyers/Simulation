@@ -16,6 +16,14 @@ corresponded with Isaac Newton regarding a wager:
 
 What is the answer to Pepys' question? Calculate your answer exactly using a discrete probability distribution, not a simulation model.
 
+6 die (at least 1) = 1 - P(0) = 1 - (1 - 1/6)^6-0 * p^0 = 66.51%
+
+12 die (at least 2) = 1 - P(0) - P(1) = 1 - .112 - .268 = 61.78%
+
+18 die (at least 3) = 1 - P(0) - P(1) - P(2) = 1 - .038 - .135 - .229 = 59.8%
+
+6 die has the greatest chance.
+
 Tip: notice that the problem is phrased as *at least* **not** *exactly*.
 
 ## Geometric Urn
@@ -23,6 +31,19 @@ Tip: notice that the problem is phrased as *at least* **not** *exactly*.
 I have an urn that contains 100 balls. I know that some are black and some are red, but I don’t the numbers of each. Suppose I draw from the urn with replacement (putting each ball back in the urn, so that the number of balls remains the same) and write down the number of draws needed to get the first red ball. I then repeat this process several times and then use all of my results to calculate the expected number of draws needed to get the first red ball.
 
 My experiment shows that the expected number of draws to get one red ball is 20. What are reasonable estimates for the number of black and red balls in the urn?
+
+Trials for 1st red = 20, E[x] = 20
+
+E[x] = 1 / p
+20 = 1/p
+
+p = 1/20 = .05
+
+.05(100) red + .95(100) black so...
+
+
+Answer:
+5 red, 95 black
 
 ## Dragon Dice
 
@@ -35,6 +56,16 @@ One of their games is called Dragon's Dice. It's a simple carnival game, also kn
 Hermione picks a number 1-6 and rolls three fair dice. If her number comes up *k* = 1, 2, or 3 times, she wins *k* galleons. If it does not appear on any of the dice, she loses one galleon.
 
 What is Hermione's expected outcome from playing Dragon's Dice? Solve this problem analytically.
+
+p(0), p(4), p(5), p(6) - all yield -1
+p(1) - yields $1
+p(2) - yields $2
+p(3) - yields $3
+
+E[x] = 4/6(-1) + 1/6(1) + 1/6(2) + 1/6(3)
+
+Answer:
+E[x] = 2/6
 
 
 ## *Les Poissons*! *Les Poissons*! How I Love *les Poissons*!
