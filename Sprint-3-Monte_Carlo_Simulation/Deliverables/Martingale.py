@@ -38,7 +38,7 @@ def Martingale(bankroll = 255):
         #print("Num Spin",spins)
         #print("The current Bankroll:",bankroll)
         #print("Size of bet",bet)
-        \
+
         spin = wheel[int(random()*38)]      # Producing the outcome of the spin
         if spin:                            # if spin is true, and won the spin, you gain bankroll
             bankroll = bankroll + bet
