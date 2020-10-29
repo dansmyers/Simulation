@@ -21,11 +21,10 @@ wheel = [True if(x<18) else False for x in range(38) ]
 # plot function to plot the simulation outcome as histogram. 
 def plot(records):
     plt.figure()
-    plt.hist(records,255)
+    plt.hist(records,255,density=True)
     plt.title("The Margingale Simulation")
     plt.xlabel(f"Amount\nAverage Winnings: {sum(records)/len(records)}")
-    #plt.xlabel("Remained Bankroll")
-    plt.ylabel("Fraction")
+    plt.ylabel("Fraction of event")
     plt.savefig('martingale_simulation.pdf', bbox_inches='tight')
     
 # Martingale function 
@@ -33,15 +32,13 @@ def Martingale(bankroll = 255):
     # we want to keep track of spins because the player stops after playing 100 spins and we start the bet from 1
     spins = 0                               # 
     bet = 1
-    while(spins < 100):
-        if bankroll - bet < 0:              # we exit the loop when the bankroll we have is less than the bet amount
-            break
+    while(spins < 100 and bankroll >= bet):
         spins +=1                           #placing the bet for a spin
         # Debugging lines
         #print("Num Spin",spins)
         #print("The current Bankroll:",bankroll)
         #print("Size of bet",bet)
-        
+        \
         spin = wheel[int(random()*38)]      # Producing the outcome of the spin
         if spin:                            # if spin is true, and won the spin, you gain bankroll
             bankroll = bankroll + bet
