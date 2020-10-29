@@ -80,6 +80,22 @@ Hermione picks a number 1-6 and rolls three fair dice. If her number comes up *k
 
 What is Hermione's expected outcome from playing Dragon's Dice? Solve this problem analytically.
 
+**response** 
+
+There are four possible outcomes:
+P(X=0) = (1) * (1) * (5/6)^3 = .5787
+
+P(X=1) = (3) * (1/6) * (5/6)^2 = .34723
+
+P(X=2) = (3) * (1/6)^2 * (5/6)^0 = .06945
+
+P(X=3) = (1) * (1/6)^3 * 1 = .00463
+
+Then take a weight average of probabilities:
+
+((-1 * .5787) + (1 * .34723) + (2 * .06945) + (3 * .00463)) / 1=
+**-.07868**
+
 
 ## *Les Poissons*! *Les Poissons*! How I Love *les Poissons*!
 
@@ -94,6 +110,7 @@ to show the Poisson distribution is a good approximation for the binomial under 
 
 I recommend using two line plots in two different styles for the two distributions.
 
+**see poisson_plot.py**
 
 ## The Ticket Problem
 
@@ -114,6 +131,8 @@ Tips:
 - As in the previous problem, use a `simulate` method to simulate one trial and return the result.
 
 - Because the seats could be renumbered, you can assume, without loss of generality, that the first passenger was assigned in seat 1, the second passenger in seat 2, and so forth. This simplifies the simulation because you don't need to generate a complete set of seat assignments.
+
+**see train.py**
 
 ## The Martingale
 
@@ -157,3 +176,5 @@ Tips:
 - As before, use a `simulate` method that plays one complete session, then returns that amount remaining in the gambler's bankroll at the end. Collect all of your results into a list, then use matplotlib's `hist` function to create the plot.
 
 Remember to update the bankroll after each win or loss. Wins become part of the total bankroll and can be used for future bets.
+
+**See martingale.py**
