@@ -76,7 +76,7 @@ This problem is based on a classic called the Coupon Collector's Problem. It's r
 
 ### Hat Problem
 
-Hermione and Harry made it to Hogwarts!
+Hermione made it to Hogwarts!
 
 Students arriving at Hogwarts are sorted into one of the four residential houses -- Gryffindor, Hufflepuff, Ravenclaw, and Slytherin -- by the magical Sorting Hat.
 
@@ -168,7 +168,7 @@ Tip: Assume that there are 365 possible birthdays (wizards can't be born on Leap
 
 Tip-Tip:
 
-Suppose there are only two Slytherin students: Hermione and her best friend Victoria Potter, the Girl-Who-Lived.
+Suppose there are only two students: Hermione and her best friend Victoria Potter, the Girl-Who-Lived.
 
 ```
 P(Both are born on two different days) = (365 / 365) * (364 / 365)
