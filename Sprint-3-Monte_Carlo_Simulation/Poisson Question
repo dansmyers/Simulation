@@ -1,0 +1,33 @@
+from numpy import random
+import matplotlib.pyplot as plt
+
+
+
+
+
+
+def coin_flip():
+    n = 1000
+    p = .025
+    heads = 0
+
+    for int in range(n):
+        rand = random.random()
+        if rand <= p:
+            heads += 1
+    return heads
+  
+binomial = []
+poisson = []
+      
+for int in range(1000):
+    binomial.append(coin_flip())
+    poisson.append(random.poisson(lam = 25))
+    
+plt.figure()
+plt.hist(binomial, histtype = 'step')
+
+
+plt.hist(poisson, histtype = 'step')
+
+
