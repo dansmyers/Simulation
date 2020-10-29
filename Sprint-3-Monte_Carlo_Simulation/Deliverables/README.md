@@ -1,5 +1,15 @@
 # Sprint 3 &ndash; Deliverables
 
+## Honor Code
+
+In my honor, I have not given nor received, nor witnessed, 
+any unauthorized assistance on this work
+
+Hiroki Sato 10/28/20
+
+## Team Members
+
+Christian Huber, Fritz Paz, Hiroki Sato, Noah Harvey, 
 
 ## The Newton-Pepys Problem
 
