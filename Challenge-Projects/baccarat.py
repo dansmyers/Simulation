@@ -202,15 +202,80 @@ def simulate():
 		player_hand.append(draw_one_card(deck))
 		
 		player_points = (card_points[player_hand[0]] + card_points[player_hand[1]] + card_points[player_hand[2]]) % 10
-	else:
-		banker_hand.append(draw_one_card(deck))
 		
-		banker_points = (card_points[banker_hand[0]] + card_points[banker_hand[1]] + card_points[banker_hand[2]]) % 10
+		# Decide if the banker draws a third card
+		if banker_points <= 2:
+			banker_hand.append(draw_one_card(deck))
+		
+		elif banker_points == 3:
+			
+			if player_hand[2] == EIGHT_OF_DIMONDS or player_hand[2] == EIGHT_OF_HEARTS or player_hand[2] == EIGHT_OF_CLUBS or player_hand[2] == EIGHT_OF_SPADES:
+				
+				banker_hand.append(draw_one_card(deck))
+				
+		elif banker_points == 4:
+			
+			if player_hand[2] == TWO_OF_DIMONDS or player_hand[2] == TWO_OF_HEARTS or player_hand[2] == TWO_OF_CLUBS or player_hand == TWO_OF_SPADES or player_hand[2] == THREE_OF_DIMONDS or player_hand[2] == THREE_OF_HEARTS or player_hand[2] == THREE_OF_CLUBS or player_hand[2] == THREE_OF_SPADES or player_hand[2] == FOUR_OF_DIMONDS or player_hand[2] == FOUR_OF_HEARTS or player_hand[2] == FOUR_OF_CLUBS or player_hand[2] == FOUR_OF_SPADES or player_hand[2] == FIVE_OF_DIMONDS or player_hand[2] == FIVE_OF_HEARTS or player_hand[2] == FIVE_OF_CLUBS or player_hand[2] == FIVE_OF_SPADES or player_hand[2] == SIX_OF_DIMONDS or player_hand[2] == SIX_OF_HEARTS or player_hand[2] == SIX_OF_CLUBS or player_hand[2] == SIX_OF_SPADES or player_hand[2] == SEVEN_OF_DIMONDS or player_hand[2] == SEVEN_OF_HEARTS or player_hand[2] == SEVEN_OF_CLUBS or player_hand[2] == SEVEN_OF_SPADES:
+				
+				banker_hand.append(draw_one_card(deck))
+			
+		elif banker_points == 5:
+			
+			if player_hand[2] == FOUR_OF_DIMONDS or player_hand[2] == FOUR_OF_HEARTS or player_hand[2] == FOUR_OF_CLUBS or player_hand[2] == FOUR_OF_SPADES or player_hand[2] == FIVE_OF_DIMONDS or player_hand[2] == FIVE_OF_HEARTS or player_hand[2] == FIVE_OF_CLUBS or player_hand[2] == FIVE_OF_SPADES or player_hand[2] == SIX_OF_DIMONDS or player_hand[2] == SIX_OF_HEARTS or player_hand[2] == SIX_OF_CLUBS or player_hand[2] == SIX_OF_SPADES or player_hand[2] == SEVEN_OF_DIMONDS or player_hand[2] == SEVEN_OF_HEARTS or player_hand[2] == SEVEN_OF_CLUBS or player_hand[2] == SEVEN_OF_SPADES:
+				
+				banker_hand.append(draw_one_card(deck))
+				
+		elif banker_points == 6:
+			
+			if player_hand[2] == SIX_OF_DIMONDS or player_hand[2] == SIX_OF_HEARTS or player_hand[2] == SIX_OF_CLUBS or player_hand[2] == SIX_OF_SPADES or player_hand[2] == SEVEN_OF_DIMONDS or player_hand[2] == SEVEN_OF_HEARTS or player_hand[2] == SEVEN_OF_CLUBS or player_hand[2] == SEVEN_OF_SPADES:
+				
+				banker_hand.append(draw_one_card(deck))
+				
+		if len(banker_hand) == 3:
+			banker_points = (card_points[banker_hand[0]] + card_points[banker_hand[1]] + card_points[banker_hand[2]]) % 10
+		
+	else:
+		
+		if banker_points <= 5:
+			banker_hand.append(draw_one_card(deck))
+		
+			banker_points = (card_points[banker_hand[0]] + card_points[banker_hand[1]] + card_points[banker_hand[2]]) % 10
+			
+	if banker_points > player_points:
+		outcome = "banker"
+	elif player_points > banker_points:
+		outcome = "player"
+	else:
+		outcome = "neither"
+		
+	return outcome
 	
-	
-for i in range(500):
-	simulate()
 
+def main():
+	"""
+		class that will drive the simulations and keep track of the fraction of outcomes
+	"""
+	
+	total_simulations = 500
+	player_wins = 0
+	banker_wins = 0
+	games_tied = 0
+	
+	for i in range(total_simulations):
+		baccarat_round_outcome = simulate()
+		
+		if baccarat_round_outcome == "banker":
+			banker_wins += 1
+		elif baccarat_round_outcome == "player":
+			player_wins += 1
+		elif baccarat_round_outcome == "neither":
+			games_tied += 1
+			
+	print("Player wins: ", player_wins)
+	print("Banker wins: ", banker_wins)
+	print("Games tied ", games_tied)
+
+main()
 
 
 
