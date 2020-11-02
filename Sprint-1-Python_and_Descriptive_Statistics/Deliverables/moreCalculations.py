@@ -26,10 +26,14 @@ def variance(l):
     m = mean(l)
     sq = [(i-m)**2 for i in l]                                  #  uses list comprehension to create an array of each element minus the mean the result of which is squared
 <<<<<<< HEAD
+<<<<<<< HEAD
     return(sum(sq)/(len(sq)-1))                                 #  changed variance from POPULATION to SAMPLE (/n, /n-1)
 =======
     return(sum(sq)/len(sq))
 >>>>>>> Added the three python scripts requested in the deliverables README, the plots they generate, a scanned image of the work done calculating the five number summary and variance for the given data set, and updated the README.
+=======
+    return(sum(sq)/(len(sq)-1))                                 #  changed variance from POPULATION to SAMPLE (/n, /n-1)
+>>>>>>> changed variance func from population to sample
 
 def standardDeviation(l):
     return(sqrt(variance(l)))
