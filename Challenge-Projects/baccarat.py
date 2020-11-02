@@ -87,7 +87,7 @@ for i in range(52):
 	if count == 13:
 		count = 0
 		
-	count += 1 
+	count += 1
 
 def reshuffle_deck(deck):
 	"""
@@ -194,7 +194,7 @@ def simulate():
 		outcome = "player"
 		return outcome
 	
-	elif banker_points > 8:
+	elif banker_points >= 8:
 		outcome = "banker"
 		return outcome
 	
@@ -256,7 +256,7 @@ def main():
 		class that will drive the simulations and keep track of the fraction of outcomes
 	"""
 	
-	total_simulations = 500
+	total_simulations = 10000
 	player_wins = 0
 	banker_wins = 0
 	games_tied = 0
@@ -274,6 +274,9 @@ def main():
 	print("Player wins: ", player_wins)
 	print("Banker wins: ", banker_wins)
 	print("Games tied ", games_tied)
+	print("Player win fraction", player_wins / total_simulations)
+	print("Banker win fraction", banker_wins / total_simulations)
+	print("Tied Games fraction", games_tied / total_simulations)
 
 main()
 
