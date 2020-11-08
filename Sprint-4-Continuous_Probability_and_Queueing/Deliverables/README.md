@@ -12,7 +12,7 @@ Assume that the bulbs are independent.
 λ = 1/2000
 
 For one bulb:
-P(X >= 3000) e^-λx = e^-1/2000 * 3000 = .223
+P(X > 3000) e^-λx = e^-1/2000 * 3000 = .223
 
 P(both) = .223^2 = .04978
 
@@ -28,6 +28,20 @@ The answer is about .04978.
 Suppose I've got some of the same type lightbulbs as in the previous problem, but that these have already been in operation for a while. The first bulb has already run for 1000 hours and the second has already run for 2500 hours. What is the probability that both bulbs have a lifetime of more than 3000 hours?
 
 Tip: use the memoryless property to reason about the future behavior of the exponential lifetime.
+
+Bulb 1:
+P(X > 3000 | X > 1000) = P ( X > 3000 - 1000 (2000)) - memoryless property
+
+P(X > 2000) = e^-λx = e^-1 = .367
+
+
+Bulb 2:
+P(X > 3000 | X > 2500) = P ( X > 3000 - 2500 (500)) - memoryless property
+
+P(X > 500) = e^-λx = e^-500/2000 = .778
+
+= .2865
+
 
 The answer is about .2231.
 
