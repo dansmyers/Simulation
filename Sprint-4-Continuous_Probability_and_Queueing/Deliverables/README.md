@@ -9,6 +9,14 @@ for more than 3000 hours?
 
 Assume that the bulbs are independent.
 
+λ = 1/2000
+
+For one bulb:
+P(X >= 3000) e^-λx = e^-1/2000 * 3000 = .223
+
+P(both) = .223^2 = .04978
+
+
 The answer is about .04978.
 
 ## The Non-Persistence of Memory
