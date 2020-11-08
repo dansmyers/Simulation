@@ -73,6 +73,23 @@ Tip: Start by calculating the throughput at server B using the Utilization Law.
 The answer should be about 222 µs.
 
 
+arrival rate @ k = Vk * λ
+λ = 10 arrivals/min
+Vk = .25 diskreq
+arrival rate @ k = 2.5/min
+
+Ua = 80%
+Ub = 60%
+
+.25 * λb = .6
+λb = .0024s
+
+.25 * λa = .8
+λa = .0036s
+
+Sa = .8 * .0036 = 222ms
+
+
 ## The M/M/1 Queue
 
 The M/M/1 queue is the classical, canonical queueing model. By itself, it isn't always the best model for real systems, but understanding it is the key to unlocking every other result in queueing theory.
