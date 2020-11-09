@@ -1,10 +1,39 @@
 from math import log
+from math import sqrt
 from random import random
 
 
 import matplotlib
 matplotlib.use("AGG")
 from matplotlib import pyplot as plt
+
+def calculate_mean(values):
+	num_values = len(values)
+	value_sum = 0
+	
+	for number in values:
+		value_sum += number
+	
+	mean = value_sum / num_values
+	
+	return mean
+
+def calculate_variance(values):
+	median = calculate_mean(values)
+	element_sum = 0
+	
+	for elements in values:
+		element_sum += pow(elements - median, 2)
+		
+	variance = element_sum / len(values)
+		
+	return variance 
+
+def calculate_standard_deviation(values):
+	deviation = sqrt(calculate_variance(values))
+	
+	return deviation 
+
 #--- Generate an exponential random variate
 #
 # Input: mu, the parameter of the exponential distribution
@@ -86,7 +115,7 @@ def simulate(arrival_rate, avg_service_time, n):
     return total
     
 
-def main():
+def get_residence_times():
 	
 	iterator = .05
 	residence_times = []
@@ -94,20 +123,61 @@ def main():
 	i = 0
 	
 	while i <= 18:
-		print("iterator is: ", iterator)
+		#print("iterator is: ", iterator)
 		residence_times.append(simulate(iterator, 1.0, 5000))
 		ulitization.append(iterator)
 		
 		iterator += .05
 		i += 1
 	
-	print(residence_times)
+	return residence_times
+
+def main():
+	
+	residence_times_trail_1 = get_residence_times()
+	residence_times_trail_2 = get_residence_times()
+	residence_times_trail_3 = get_residence_times()
+	residence_times_trail_4 = get_residence_times()
+	residence_times_trail_5 = get_residence_times()
+	
+	y_bar_list = []
+	s = []
+	
+	for i in range(len(residence_times_trail_1)):
+		y_bar_list.append( (residence_times_trail_1[i] + residence_times_trail_2[i] + residence_times_trail_3[i] + residence_times_trail_4[i] + residence_times_trail_5[i]) / 5)
+		
+	for i in range(len(residence_times_trail_1)):
+		current_times = []
+		current_times.append(residence_times_trail_1[i])
+		current_times.append(residence_times_trail_2[i])
+		current_times.append(residence_times_trail_3[i])
+		current_times.append(residence_times_trail_4[i])
+		current_times.append(residence_times_trail_5[i])
+		
+		s.append(calculate_standard_deviation(current_times))
+		
+		current_times.clear()
+		
+	
+	UCL = []
+	LCL = []
+	
+	for i in range(len(s)):
+		UCL.append(y_bar_list[i] + 2.776 * s[i] / sqrt(5))
+		LCL.append(y_bar_list[i] - 2.776 * s[i] / sqrt(5))
+	
+	ulitization = []
+	number = 0;
+	for i in range(19):
+		number += .05
+		ulitization.append(number)
+	
 	plt.figure()
-	plt.plot(ulitization, residence_times)
-	plt.savefig("ulitization.pdf", bbox_inches = "tight")
+	plt.errorbar(ulitization, y_bar_list, UCL)
+	plt.savefig("ulitization_confidence_intervals.pdf", bbox_inches = "tight")
 	
 main()
 
 
 
-
+    
