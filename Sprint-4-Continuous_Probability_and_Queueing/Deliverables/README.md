@@ -43,7 +43,7 @@ P(X > 500) = e^-λx = e^-500/2000 = .778
 = .2865
 
 
-The answer is about .2231.
+The answer is about .2865.
 
 ## Check My Math
 
