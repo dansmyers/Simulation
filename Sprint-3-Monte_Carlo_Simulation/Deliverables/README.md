@@ -1,4 +1,4 @@
-# Sprint 3 &ndash; Deliverables
+# Sprint 3 &ndash; Deliverables Maria, Jacob, Griffin
 
 
 ## The Newton-Pepys Problem
@@ -117,3 +117,5 @@ Tips:
 - As before, use a `simulate` method that plays one complete session, then returns that amount remaining in the gambler's bankroll at the end. Collect all of your results into a list, then use matplotlib's `hist` function to create the plot.
 
 Remember to update the bankroll after each win or loss. Wins become part of the total bankroll and can be used for future bets.
+
+"On my honor I have not given, nor received, nor witnessed any unauthorized assistance on this work"
