@@ -9,6 +9,14 @@ for more than 3000 hours?
 
 Assume that the bulbs are independent.
 
+λ = 1/2000
+
+For one bulb:
+P(X > 3000) e^-λx = e^-1/2000 * 3000 = .223
+
+P(both) = .223^2 = .04978
+
+
 The answer is about .04978.
 
 ## The Non-Persistence of Memory
@@ -21,7 +29,21 @@ Suppose I've got some of the same type lightbulbs as in the previous problem, bu
 
 Tip: use the memoryless property to reason about the future behavior of the exponential lifetime.
 
-The answer is about .2231.
+Bulb 1:
+P(X > 3000 | X > 1000) = P ( X > 3000 - 1000 (2000)) - memoryless property
+
+P(X > 2000) = e^-λx = e^-1 = .367
+
+
+Bulb 2:
+P(X > 3000 | X > 2500) = P ( X > 3000 - 2500 (500)) - memoryless property
+
+P(X > 500) = e^-λx = e^-500/2000 = .778
+
+= .2865
+
+
+The answer is about .2865.
 
 ## Check My Math
 
@@ -38,6 +60,12 @@ Tip: use Little's Law to derive the system throughput, then check the utilizatio
 
 Answer: Yes, I did. The number you're looking for is 1.2.
 
+R = 1s
+s @disk = .005 * 2 (disk accesses) = .01s ORIGINAL MISTAKE DID NOT ACCOUNT FOR S TO HAVE 2 DISK ACCESSES
+N = 120cust
+λ = R/N = 120 cust per second
+
+NOW U = λ * s = 120 * .01 = 1.2
 
 ## Unbalanced Server Loads
 
@@ -49,6 +77,25 @@ B can process one request in an average of 250 µs. Calculate the average servic
 Tip: Start by calculating the throughput at server B using the Utilization Law.
 
 The answer should be about 222 µs.
+
+
+arrival rate @ k = Vk * λ
+λ = 10 arrivals/min
+Vk = .25 diskreq
+arrival rate @ k = 2.5/min
+
+Ua = 80%
+Ub = 60%
+
+.25 * sb = .6
+sb = .0024s
+
+.25 * sa = .8
+sa = .0036s
+
+U / sa = λa
+
+Sa = .8 / .0036 = 222ms
 
 
 ## The M/M/1 Queue
@@ -103,12 +150,12 @@ arrival_time   service_time   enter_service_time   departure_time   residence_ti
 ------------   ------------   ------------------   --------------   --------------
      1              3                 1                  4                3             
      3              2                 4                  6                3
-     5              4
-     7              1
-     8              1            
-    13              2                     
-    14              1     
-    17              3    
+     5              4                 6                  10               5
+     7              1                 10                 11               4
+     8              1                 11                 12               4
+    13              2                 13                 15               2
+    14              1                 15                 16               2
+    17              3                 17                 20               3
 ```
 
 
