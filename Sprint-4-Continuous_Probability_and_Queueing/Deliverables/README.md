@@ -9,6 +9,12 @@ for more than 3000 hours?
 
 Assume that the bulbs are independent.
 
+λ = 1/2000
+
+For 1 bulb:
+P(X > 3000) e^-λx = e^-1/2000 * 3000 = .223
+P(both light bulbs) = .223^2 = .04978
+
 The answer is about .04978.
 
 ## The Non-Persistence of Memory
@@ -20,6 +26,16 @@ The answer is about .04978.
 Suppose I've got some of the same type lightbulbs as in the previous problem, but that these have already been in operation for a while. The first bulb has already run for 1000 hours and the second has already run for 2500 hours. What is the probability that both bulbs have a lifetime of more than 3000 hours?
 
 Tip: use the memoryless property to reason about the future behavior of the exponential lifetime.
+
+λ = 1/2000
+
+Bulb 1:
+P(X > 2000) = e^-λx = e^((-1/2000)(2000)) = e^-1
+
+Bulb 2:
+P(X > 500) = e^-λx = e^((-1/2000)(500)) = e^-0.25
+
+= e^(-1.25) = 0.2865
 
 The answer is about .2865.
 
@@ -38,6 +54,14 @@ Tip: use Little's Law to derive the system throughput, then check the utilizatio
 
 Answer: Yes, I did. The number you're looking for is 1.2.
 
+service time per job = 2 * 5 = 10ms
+N = Λ * R
+Λ = 120, R = 10ms
+Λ = 120/10 = 1.2
+
+U = λs
+λ = 1.2, s = 10ms
+U = 1.2 * 10 = 120
 
 ## Unbalanced Server Loads
 
@@ -50,6 +74,10 @@ Tip: Start by calculating the throughput at server B using the Utilization Law.
 
 The answer should be about 222 µs.
 
+U = λs
+B: U = 0.6, s = 250, λ = 0.6/250 = 0.0024 = λb
+λa = 0.0024(0.6/0.4) = 0.0036
+U = λs      0.8 = 0.0036 * s      s = 0.8/0.0036 = 222µs
 
 ## The M/M/1 Queue
 
@@ -103,14 +131,15 @@ arrival_time   service_time   enter_service_time   departure_time   residence_ti
 ------------   ------------   ------------------   --------------   --------------
      1              3                 1                  4                3             
      3              2                 4                  6                3
-     5              4
-     7              1
-     8              1            
-    13              2                     
-    14              1     
-    17              3    
+     5              4                 6                  10               5
+     7              1                 10                 11               3
+     8              1                 11                 12               4
+    13              2                 13                 15               2
+    14              1                 15                 16               2
+    17              3                 17                 20               3
 ```
 
+average residence time = 3.25
 
 ## Simulating M/M/1
 
