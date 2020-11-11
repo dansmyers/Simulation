@@ -11,6 +11,8 @@ Assume that the bulbs are independent.
 
 The answer is about .04978.
 
+Check work on Sprint4work1.pdf
+
 ## The Non-Persistence of Memory
 
 <img src="https://uploads5.wikiart.org/images/salvador-dali/the-disintegration-of-the-persistence-of-memory.jpg!Large.jpg" width="50%" />
@@ -22,6 +24,8 @@ Suppose I've got some of the same type lightbulbs as in the previous problem, bu
 Tip: use the memoryless property to reason about the future behavior of the exponential lifetime.
 
 The answer is about .2231.
+
+Check work on Sprint4work1.pdf
 
 ## Check My Math
 
@@ -38,6 +42,10 @@ Tip: use Little's Law to derive the system throughput, then check the utilizatio
 
 Answer: Yes, I did. The number you're looking for is 1.2.
 
+Check work on Sprint4work2.pdf
+
+Yes after doing the math, given the parameters, the Utilization rate turns out to be 1.2 which is incorrect because Utilization must be between 0 and 1
+
 
 ## Unbalanced Server Loads
 
@@ -49,6 +57,8 @@ B can process one request in an average of 250 µs. Calculate the average servic
 Tip: Start by calculating the throughput at server B using the Utilization Law.
 
 The answer should be about 222 µs.
+
+Check work on Sprint4work2.pdf
 
 
 ## The M/M/1 Queue
@@ -103,12 +113,12 @@ arrival_time   service_time   enter_service_time   departure_time   residence_ti
 ------------   ------------   ------------------   --------------   --------------
      1              3                 1                  4                3             
      3              2                 4                  6                3
-     5              4
-     7              1
-     8              1            
-    13              2                     
-    14              1     
-    17              3    
+     5              4                 6                  10               5
+     7              1                 10                 9                3
+     8              1                 9                  10               2
+    13              2                 13                 15               2
+    14              1                 15                 16               2
+    17              3                 17                 20               3
 ```
 
 
@@ -196,6 +206,7 @@ At 50% utilization, the residence time should be about 2.0; at 80% utilization, 
 
 We'll see how to derive this formula in a future sprint.
 
+See mm1.py and mm1.pdf for solution
 
 ## Confidence Intervals
 
@@ -216,3 +227,5 @@ LCL = Y_bar - 2.776 * s / sqrt(5)
 ```
 
 5. Create one plot showing the average residence time estimates and the upper and lower confidence levels.
+
+See confidence.py and confidence_interval.py
