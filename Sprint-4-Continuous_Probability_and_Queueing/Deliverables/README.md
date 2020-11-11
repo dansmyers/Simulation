@@ -1,5 +1,11 @@
 # Sprint 4 &ndash; Deliverables
 
+<<<<<<< HEAD
+=======
+## Maria, Griffin, Jacob
+"On my honor, I have not  given, nor received, nor witnessed, any unathorized assistance on this work."
+
+>>>>>>> Sprint 4 deliverables
 ## Yet More Lightbulbs
 
 Lightbulbs are the urns of the exponential distribution.
@@ -21,7 +27,11 @@ Suppose I've got some of the same type lightbulbs as in the previous problem, bu
 
 Tip: use the memoryless property to reason about the future behavior of the exponential lifetime.
 
+<<<<<<< HEAD
 The answer is about .2865.
+=======
+The answer is about .2231.
+>>>>>>> Sprint 4 deliverables
 
 ## Check My Math
 
