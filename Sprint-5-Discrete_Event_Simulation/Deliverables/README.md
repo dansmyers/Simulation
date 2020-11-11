@@ -1,5 +1,11 @@
 # Simulating Disney's FastPass+ System
 
+## Team members and honor pledge
+
+Griffin, Jacob, Maria
+
+“On my honor, I have not given, nor received, nor witnessed any unauthorized assistance on this work.”
+
 ## Description
 
 In this project, you'll use the *discrete-event simuation* strategy to model a version of Disney's FastPass+ system.

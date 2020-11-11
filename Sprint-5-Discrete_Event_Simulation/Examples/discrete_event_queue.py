@@ -29,7 +29,7 @@ def simulate(arrival_rate):
     """
 
     # Stopping condition
-    max_num_arrivals = 50000
+    max_num_arrivals = 10
 
     # Basic parameters
     service_rate = 1.0
@@ -55,6 +55,7 @@ def simulate(arrival_rate):
         
         # Pop the next event with a heap operation
         event = heappop(future_event_list)
+
         
         # Event attributes
         event_time = event[0]
@@ -118,6 +119,16 @@ def simulate(arrival_rate):
     
     # Average residence time
     residence_times = [departure_times[i] - arrival_times[i] for i in range(len(departure_times))]
+    
+    print(residence_times)
+        
+    print()
+        
+
+    #print("len of departure times ", len(departure_times))
+    #print("len of arrival times ", len(arrival_times))
+    #print()
+    
     average_residence_time = sum(residence_times) / len(residence_times)
     
     return average_residence_time
@@ -127,6 +138,8 @@ def simulate(arrival_rate):
 def main():
     
     """ Simulate for different utilization levels """
+    
+    # print(simulate(95/100))
     
     for u in range(50, 100, 5):
         
