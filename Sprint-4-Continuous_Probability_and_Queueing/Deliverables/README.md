@@ -1,5 +1,13 @@
 # Sprint 4 &ndash; Deliverables
 
+## Honor Code
+
+“On my honor, I have not given, nor received, nor witnessed any unauthorized assistance on this work."
+
+## Team Members
+
+Randy, Christian, Ryan, Matthew
+
 ## Yet More Lightbulbs
 
 Lightbulbs are the urns of the exponential distribution.
@@ -10,6 +18,17 @@ for more than 3000 hours?
 Assume that the bulbs are independent.
 
 The answer is about .04978.
+
+```
+E[X] = 2000
+λ = 1/2000
+x = 3000
+
+P(X > 3000) = e^(-λ/x) = e^-(3000/2000) = e^-1.5 = .2231301601
+P(both bulbs living over 3000) = P(X > 3000)^2 = .0497870784
+                                            about .049787
+
+```
 
 ## The Non-Persistence of Memory
 
@@ -22,6 +41,18 @@ Suppose I've got some of the same type lightbulbs as in the previous problem, bu
 Tip: use the memoryless property to reason about the future behavior of the exponential lifetime.
 
 The answer is about .2865.
+
+```
+E[X] = 2000
+λ = 1/2000
+B1 - 2000 more hours
+B2 - 500 more hours
+ccdf: P(X > x) = e ^ (-λx)
+
+P(B1 lasts > 2000) = e^(-1/2000)(2000) = e^(-1) = .3678794412
+P(B2 lasts > 500) = e^(-1/2000)(500) = .7788007831
+P(Both > 3000) = P(B1) * P(B2) = .2865
+```
 
 ## Check My Math
 
@@ -38,6 +69,15 @@ Tip: use Little's Law to derive the system throughput, then check the utilizatio
 
 Answer: Yes, I did. The number you're looking for is 1.2.
 
+```
+λ = 120
+s̄ = .5s * 2 = .1s
+U = λ * s = 120 * .1s = 1.2s
+
+With the utilization being greater than 1 it shows that the system is overloaded.  Therefore, there
+must have been some error in the data collection.
+```
+
 
 ## Unbalanced Server Loads
 
@@ -50,6 +90,13 @@ Tip: Start by calculating the throughput at server B using the Utilization Law.
 
 The answer should be about 222 µs.
 
+```
+.6 / .4 = (.4 * λ) / .4
+1.5/250 = (250 * λ) / 250 = .006
+
+s(A) = .8 / (.006 * .6) = (.006 * s(A)) / (.006 * .6) = 222.2222
+Average server time s(A) = 222.22 µs
+```
 
 ## The M/M/1 Queue
 
