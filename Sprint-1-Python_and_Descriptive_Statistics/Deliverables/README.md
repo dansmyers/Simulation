@@ -2,7 +2,11 @@
 
 ## Honor Code
 
+<<<<<<< HEAD
 On my honor I have not given, recieved, or witnessed any unauthorized assistance on this work. 
+=======
+On my honor I have not givre, recieved, or witnessed any unauthorized assistance on this work. 
+>>>>>>> Update README.md
 ## Team Members
 
 Alejandra, Alexander, Jenny
