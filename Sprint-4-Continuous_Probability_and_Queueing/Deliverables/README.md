@@ -101,14 +101,16 @@ Practice this algorithm by filling in the table below, then calculate the averag
 ```
 arrival_time   service_time   enter_service_time   departure_time   residence_time
 ------------   ------------   ------------------   --------------   --------------
-     1              3                 1                  4                3             
+     1              3                 1                  4                3
      3              2                 4                  6                3
-     5              4
-     7              1
-     8              1            
-    13              2                     
-    14              1     
-    17              3    
+     5              4                 6                 10                5
+     7              1                10                 11                4
+     8              1                11                 12                4
+    13              2                13                 15                2
+    14              1                15                 16                2
+    17              3                17                 20                3
+
+    average_residence_time = 3.25
 ```
 
 
