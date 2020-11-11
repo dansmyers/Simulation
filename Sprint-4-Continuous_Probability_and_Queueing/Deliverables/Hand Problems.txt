@@ -1,0 +1,73 @@
+Yet More Urns
+=============
+
+E[B] = 2,000
+λ = 1/2,000
+
+P(B > 3,000) = e^(-3,000 / 2,000) = e^(-1.5) = 0.22313016014
+
+P(Both bulbs living over 3,000h) = P(B > 3,000)^2 = 0.04978706836
+
+>> The probability of both bulbs surviving over 3,000 hours is 0.04978706836
+
+_________________________________________________________________________
+
+The Non-Persistence of Memory
+=============================
+
+E[B] = 2,000
+λ = 1/2,000
+
+Bulb 1 @ 1,000 -> Needs 3,000 - 1,000 = 2,000 more hours
+Bulb 2 @ 2,500 -> Needs 3,000 - 2,500 = 500 more hours
+
+Using CCDF:
+P(B1 lives another >2,000h) = e^((-1 / 2000) * 2000) = e^(-1) = 0.36787944117
+P(B2 lives another >500h) = e^((-1 / 2,000) * 500 = e^(-0.25) = 0.77880078307
+
+
+P(Both live over 3,000h) = P(B1) * P(B2) = 0.28650479685855
+
+_________________________________________________________________________
+
+Check My Math
+=============
+
+Conservation Law: Arrival Rate = Output Rate
+Therefore:
+λ = 120
+
+One job requires two disk accesses on average,
+Therefore:
+s̄ = 0.05s * 2 = 0.1s
+
+Utilization Law: U = λ * s̄
+Therefore:
+Utilization = 120 * 0.1 = 1.2
+
+>> There is a mistake in the data collected, as the utilization can not
+   be greater than one in a balanced system. The utilization of 1.2
+   indicates that the system is overloaded
+
+_________________________________________________________________________
+
+Unbalanced Server Loads
+=======================
+________
+  60%   |___A (U = .8; s̄ = ?)
+________|
+
+________
+  40%   |___B (U = .6; s̄ = 250μs)
+________|
+
+
+0.6 / 0.4 = (0.4 * λ) / 0.4
+Therefore,
+1.5 / 250 = (250 * λ) / 250 = 0.006
+
+s̄(A):
+0.8 / (0.006 * 0.6) = (0.006 * s̄(A)) / (0.006 * 0.6) = 222.22
+
+
+>> The average service time at server A is 222.22μs
