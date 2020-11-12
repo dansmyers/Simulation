@@ -77,30 +77,43 @@ def simulate(arrival_rate, avg_service_time, n):
 def main():
     
     avg_service_time = 1.0
-    n = 5000
+    n = 1000
     arrival_rate = [0.05, .10, .15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
     result = [] 
     utilization = [0] * (len(arrival_rate))
+    mean_residence_times = []
+    UCLs = []
+    LCLs = []
     
-    for i in range(0, len(arrival_rate)):
-        result.append(simulate(arrival_rate[i], avg_service_time, n))
-        utilization[i] = arrival_rate[i] * avg_service_time
         
-    print(result)
+    for i in range(0, len(arrival_rate)):
+        for p in range(0,5):
+            result.append(simulate(arrival_rate[i], avg_service_time, n))
+        utilization[i] = arrival_rate[i] * avg_service_time 
+        Y_bar = sum(result)/5
+        mean_residence_times.append(Y_bar)
+
+        #Calc std deviation
+        s = (sum([((x - Y_bar) ** 2) for x in result]) / 5) ** (1/2)
+        
+        UCL = Y_bar + 2.776 * s / (5 ** (1/2))
+        LCL = Y_bar - 2.776 * s / (5 ** (1/2))
+        
+        result = [] 
+    
+    plt.figure()
+    fig, ax = plt.subplots()
+    ax.plot(mean_residence_times)
+    ax.fill_between(mean_residence_times, LCL, UCL, color='a', alpha=.1)
+    #Save figure on file
+    plt.savefig("CI.pdf", bbox_inches="tight")
+        
+    print(s)   
+    print(mean_residence_times)
     #Create a new figure, always do this before calling a plotting function
     plt.figure()
     
-    plt.plot(utilization, result)
-    #Set title ad axis label
-    plt.title("M/M/1 Simulation")
-    plt.xlabel("utilization")
-    plt.ylabel("avg. residence time")
-    
-    #Save figure on file
-    plt.savefig("MM1.pdf", bbox_inches="tight")
+
   
 main()      
-    
-    
-    
     

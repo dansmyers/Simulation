@@ -3,6 +3,7 @@
 # Input: mu, the parameter of the exponential distribution
 # Output: a value x drawn from the exponential distribution with rate mu
 from math import log 
+import math
 from random import random
 import matplotlib
 matplotlib.use('Agg')
@@ -56,28 +57,33 @@ def simulate(arrival_rate, avg_service_time, n):
     enter_service_times = [0] * n
     departure_times = [0] * n
     residence_times = [0] * n
-    # Setup for first arrival
-    enter_service_times[0] = arrival_times[0]
-    departure_times[0] = enter_service_times[0] + service_times[0]
-    
-    # Loop over all other arrivals
-    for i in range(1, n):
+    all_avg_residence_times = []
+    for p in range(0,5):
+        # Setup for first arrival
+        enter_service_times[0] = arrival_times[0]
+        departure_times[0] = enter_service_times[0] + service_times[0]
         
-        # TODO: calculate enter_service_times[i]
-        enter_service_times[i] = max(arrival_times[i], departure_times[i - 1])
-        # TODO: calculate departure_times[i]
-        departure_times[i] = enter_service_times[i] + service_times[i]
-        # Calculate residence times
-        # TODO: calculate list of residence times
-        residence_times[i] = departure_times[i] - arrival_times[i]
-    # TODO: return average residence time
-    avg_residence_time = sum(residence_times)/n
-    return avg_residence_time
+        # Loop over all other arrivals
+        for i in range(1, n):
+            # TODO: calculate enter_service_times[i]
+            enter_service_times[i] = max(arrival_times[i], departure_times[i - 1])
+            # TODO: calculate departure_times[i]
+            departure_times[i] = enter_service_times[i] + service_times[i]
+            # Calculate residence times
+            # TODO: calculate list of residence times
+            residence_times[i] = departure_times[i] - arrival_times[i]
+        # TODO: return average residence time
+        avg_residence_time = sum(residence_times)/n
+        all_avg_residence_times.append(avg_residence_time)
+    print(all_avg_residence_times)
+    return all_avg_residence_times
+    
+    
     
 def main():
     
     avg_service_time = 1.0
-    n = 5000
+    n = 1000
     arrival_rate = [0.05, .10, .15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
     result = [] 
     utilization = [0] * (len(arrival_rate))
@@ -85,8 +91,8 @@ def main():
     for i in range(0, len(arrival_rate)):
         result.append(simulate(arrival_rate[i], avg_service_time, n))
         utilization[i] = arrival_rate[i] * avg_service_time
+        Y_bar = sum(result[i])/5
         
-    print(result)
     #Create a new figure, always do this before calling a plotting function
     plt.figure()
     
@@ -99,8 +105,4 @@ def main():
     #Save figure on file
     plt.savefig("MM1.pdf", bbox_inches="tight")
   
-main()      
-    
-    
-    
-    
+main()
