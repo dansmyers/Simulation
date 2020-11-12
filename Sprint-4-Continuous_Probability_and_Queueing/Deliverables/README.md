@@ -1,4 +1,4 @@
-Honor Code Statment "On my honor I have not given nor recieved not witnessed any unauthorized asistance on this work."
+Honor Code Statment "On my honor I have not given nor recieved not witnessed any unauthorized assistance on this work."
 
 I have worked on this project with Jacob and Maria.
 
