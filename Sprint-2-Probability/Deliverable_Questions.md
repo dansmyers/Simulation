@@ -73,7 +73,11 @@ print(total)
 ```
 total = 119.85
 
+
 120 chocolate frogs to get all 30 cards
+
+Hermione made it to Hogwarts!
+
 
 ### Hat Problem
 ```
@@ -235,7 +239,12 @@ There are a total of 40 students in Hermoine's year at Hogwarts.
 Birthdays are important in the Wizarding World. Sharing a birthday with another witch or wizard can create a magical bond between the two of you, leading to all sorts of ridiculous hijinks. This is why wizard twins are always crazy.
 Tip: Assume that there are 365 possible birthdays (wizards can't be born on Leap Days) and that wizards are equally likely to be born on any day of the year.
 Tip-Tip:
-Suppose there are only two Slytherin students: Hermione and her best friend Victoria Potter, the Girl-Who-Lived.
+
+
+Suppose there are only two students: Hermione and her best friend Victoria Potter, the Girl-Who-Lived.
+
+```
+
 P(Both are born on two different days) = (365 / 365) * (364 / 365)
 Hermoine's birthday can be on any day, but Victoria's must occur randomly on one of the other 364 days.
 What if there are three students? How about more?

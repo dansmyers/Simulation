@@ -12,6 +12,7 @@ corresponded with Isaac Newton regarding a wager:
 >
 >- Six fair dice are tossed independently and at least one six appears.
 
+
 1-(5/6)^6 
 = .6651
 
@@ -27,6 +28,11 @@ corresponded with Isaac Newton regarding a wager:
 1-( (5/6)^18 + (1/6)(5/6)^17 + (1/6)^2(5/6)^16 )
 = .59735
 
+=======
+>- Twelve fair dice are tossed independently and at least two sixes appear.
+>- Eighteen fair dice are tossed independently and at least three sixes appear.
+
+
 What is the answer to Pepys' question? Calculate your answer exactly using a discrete probability distribution, not a simulation model.
 
 Tip: notice that the problem is phrased as *at least* **not** *exactly*.
@@ -37,10 +43,13 @@ I have an urn that contains 100 balls. I know that some are black and some are r
 
 My experiment shows that the expected number of draws to get one red ball is 20. What are reasonable estimates for the number of black and red balls in the urn?
 
+
 E[20] = i/p
 p = 1/20 = .05
 P(red) = .05  P(black) = .95
 red ~ 5 balls, black ~ 95 balls
+
+=======
 
 ## Dragon Dice
 
@@ -54,6 +63,7 @@ Hermione picks a number 1-6 and rolls three fair dice. If her number comes up *k
 
 What is Hermione's expected outcome from playing Dragon's Dice? Solve this problem analytically.
 
+
 P(0) = (3 : 0) * (1/6)^0 * (5/6)^3 =.5787
 P(1) = (3 : 1) * (1/6)^1 * (5/6)^2 = .34723
 P(2) = (3 : 2) * (1/6)^2 * (5/6)^1 = .06945
@@ -62,6 +72,8 @@ P(3) = (3 : 3) * (1/6)^3 * (5/6)^0 = .00463
 (0 * .5787) + (1 * .34723) + (2 * .06945) + (3 * .00463) / (.5787+.34723+.06945+.00463)
 
 = .5
+=======
+
 
 ## *Les Poissons*! *Les Poissons*! How I Love *les Poissons*!
 
