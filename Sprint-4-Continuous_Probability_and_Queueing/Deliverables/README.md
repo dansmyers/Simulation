@@ -1,5 +1,10 @@
 # Sprint 4 &ndash; Deliverables
 
+## Honor Code
+On my honor, I have not given, nor received, nor witnessed any unauthorized assistance on this
+work. Hiroki Sato 11/11/20
+## Team Member
+Christian Huber, Noah Harvey, Fritz Paz, Hiroki Sato 
 ## Yet More Lightbulbs
 
 Lightbulbs are the urns of the exponential distribution.
