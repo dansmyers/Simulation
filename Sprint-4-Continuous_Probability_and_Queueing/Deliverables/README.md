@@ -1,5 +1,10 @@
 # Sprint 4 &ndash; Deliverables
 
+```
+Mariah Haskell and Jenny Golsher
+On my honor I have not given, recieved, nor witnessed any unauthorized assistance on this work.
+```
+
 ## Yet More Lightbulbs
 
 Lightbulbs are the urns of the exponential distribution.
