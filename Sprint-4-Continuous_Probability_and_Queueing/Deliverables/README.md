@@ -9,6 +9,21 @@ for more than 3000 hours?
 
 Assume that the bulbs are independent.
 
+```
+Expected lifetime of an average bulb = 2000
+E[b] = 2000
+
+Lambda = 1 / 2000
+
+Therefore: 
+
+P (b > 3000) = e^(-3000 / 2000) 
+    = e^(-3/2) 
+    = .2231
+    = (.2231)^2
+    = .04977361
+```
+
 The answer is about .04978.
 
 ## The Non-Persistence of Memory
@@ -22,6 +37,33 @@ Suppose I've got some of the same type lightbulbs as in the previous problem, bu
 Tip: use the memoryless property to reason about the future behavior of the exponential lifetime.
 
 The answer is about .2231.
+
+```
+Expected value for bulb lifetime from prev problem:
+E[b] = 2000
+
+lambda = 1 / 2000
+
+CCDF Formula = P(B > b) = e^((-lambda)x)
+
+Bulb 1 currently @ 1000
+Lifetime to go (3000 more hours) = current - 3000 = 2000
+Bulb 2 currently @ 2500
+Lifetime to go (3000 more hours) = current - 3000 = 500
+
+P(Bulb1 lasts additional 2000h) = 
+    e^((-1/2000)(2000)) = e^(-1)
+
+P(Bulb2 lasts additional 500h) =
+    e^((-1/2000)(500)) = e^(-.25)
+
+Therefore:
+P (Bulb1 & Bulb2 lifetimes >= 3000h) = 
+    e^(-1 * -.25) = e^(1.25) = 
+    (0.36791758646)*(0.77882097068) = 
+    0.28654193181 = 0.2865
+
+```
 
 ## Check My Math
 
@@ -38,6 +80,20 @@ Tip: use Little's Law to derive the system throughput, then check the utilizatio
 
 Answer: Yes, I did. The number you're looking for is 1.2.
 
+```
+LAMBDA = 120
+Sbar = 5ms = .005s * avg disk accesses
+           = .01
+
+Littles Law: 
+    avg num residents in system = (throughput) * (average residence time)
+    N = LAMBDA * R
+    N = (120 * .01) = 1.2
+
+Avg number of residents in a stable system is < 1, indicating an overload   
+
+```
+
 
 ## Unbalanced Server Loads
 
@@ -49,6 +105,17 @@ B can process one request in an average of 250 µs. Calculate the average servic
 Tip: Start by calculating the throughput at server B using the Utilization Law.
 
 The answer should be about 222 µs.
+
+```
+sbar (b) = 250
+Utilization = U = lambda*Sbar
+Server A[60%] U = 80% (.80), lambda = .0024 (.60/.40) = .0036
+Server B[40%] U = 60% (.60), lambda = .6/250 = (.0024)
+
+Therefore:
+    Sbar A = .08/(.0036) = 222.22222222 
+
+```
 
 
 ## The M/M/1 Queue
@@ -103,17 +170,26 @@ arrival_time   service_time   enter_service_time   departure_time   residence_ti
 ------------   ------------   ------------------   --------------   --------------
      1              3                 1                  4                3             
      3              2                 4                  6                3
-     5              4
-     7              1
-     8              1            
-    13              2                     
-    14              1     
-    17              3    
+     5              4                 6                  10               5
+     7              1                 10                 11               4
+     8              1                 11                 12               4
+    13              2                 13                 15               2
+    14              1                 15                 16               2
+    17              3                 17                 20               3
+```
+
+```
+    Average Residence Time = (3 + 3 + 5 + 4 + 4 + 2 + 2 + 2 + 3) / (8) 
+        = 3.25
 ```
 
 
 ## Simulating M/M/1
 
+```
+Please see m-m-1.py
+```
+```
 Write a Python program that implements the single-server queue simulation algorithm. Use the pseudocode below as a starting point for your program. I've given you some `TODO` notes where you need to fill in code.
 
 ```
