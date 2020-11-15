@@ -1,6 +1,6 @@
 """
 
-This program simulates a round of baccarat
+This program simulates the game of bacarat and finds the probability of each hand occurring. It also includes a calculation of house edges for each hand
 Jacob Buckelew
 CMS380 Fall 2020
 
@@ -78,7 +78,6 @@ def simulate():
 	
 	# In an outer loop, generate the 4 cards. 
 	# Inside the foor loop , use a while loop that we will only enter if the randomint continues to be at an index in the array thats element is 0.
-	
 	
 	values = []
 	result = ''
@@ -163,13 +162,14 @@ def main():
 	player_fractions = []
 	bank_fractions = []
 	tie_fractions = []
-	house_edge_values = []
+	house_edge_player_values = [0] * MAX_TRIALS
+	house_edge_bank_values = [0] * MAX_TRIALS
+	
 	
 	for i in range(1000):
 		tie_fractions.append(0)
 		bank_fractions.append(0)
 		player_fractions.append(0)
-		house_edge_values.append(0)
 		for trial in range(MAX_TRIALS):
 			player_successes.append(0)
 			bank_successes.append(0)
@@ -181,27 +181,31 @@ def main():
 				bank_successes[trial] = bank_successes[trial] + 1
 			else:
 				player_successes[trial] = player_successes[trial] + 1
-	
-		player_fractions[i] = sum(player_successes) / MAX_TRIALS
+		
+		#house_edge_player_values[i] = (((sum(bank_successes))/((MAX_TRIALS - sum(tie_successes)))) - ((sum(player_successes))/(MAX_TRIALS - sum(tie_successes)))) * 100
+		#print(house_edge_player_values)
+		house_edge_player_values[i] = sum(player_successes) / (MAX_TRIALS - sum(tie_successes))
+		house_edge_bank_values[i] = sum(bank_successes) / (MAX_TRIALS - sum(tie_successes))
+		player_fractions[i] = sum(player_successes) / (MAX_TRIALS)
 		bank_fractions[i] = sum(bank_successes) / MAX_TRIALS
 		tie_fractions[i] = sum(tie_successes) / MAX_TRIALS
-		house_edge_values[i] = ((sum(bank_successes)/(MAX_TRIALS - sum(tie_successes))) - (sum(player_successes))/(MAX_TRIALS - sum(tie_successes))) * 100 
 		player_successes = []
 		bank_successes = []
 		tie_successes = []
 		
-	average_house_edge = (sum(house_edge_values)/ 1000)
-	
-	#house_edge = ((bank_successes/(MAX_TRIALS - tie_successes)) - (player_successes/(MAX_TRIALS - tie_successes))) * 100 
-	
+	player_house_edge = ((sum(house_edge_bank_values)/1000)- (sum(house_edge_player_values)/1000)) * 100
+	bank_house_edge = ((sum(house_edge_player_values)/1000)- ((sum(house_edge_bank_values)/1000) * .95)) * 100
 	average_player_fraction = (sum(player_fractions)/1000)
 	average_bank_fraction = (sum(bank_fractions)/1000)
 	average_tie_fraction = (sum(tie_fractions)/1000)
+	tie_house_edge = ((1 / (average_tie_fraction)) - ((1 / (average_tie_fraction)) - 1))/(1 / (average_tie_fraction))
 	print("Player Fraction: ", average_player_fraction)
 	print("Bank Fraction: ", average_bank_fraction)
 	print("Tie Fraction: ", average_tie_fraction)
+	print("Player House Edge: ", player_house_edge)
+	print("Bank House Edge: ", bank_house_edge)
+	print("Tie House Edge: ", tie_house_edge)
 	
-	print("House edge:", average_house_edge)
 	
 
 
