@@ -1,0 +1,11 @@
+1)	Using CCDF for exponential distribution and lambda = 1/2000 we get (e^(-3000/2000))^2 which approximately equals .04978.
+2)	Using the memoryless property we get (e^(-1))(e^(-1/4)) which approximately equals .2865
+3)	Little’s Law says throughput is 120 / 1 = 120. Utilization U = 120 * .005 * 2 = 1.2. This gives a utilization greater than 1 which is a mistake.
+4)	Utilization of B = .6 = lambda* 250. Lambda = .0024. Utilization of A = .8 = .0036 * s. s is therefore approximately equal to 222.
+5)	6,10,5,
+10,11,6,
+11,12,4,
+13,15,2,
+15,16,3,
+17,20,3
+Avg residence time is 3.625 seconds.
