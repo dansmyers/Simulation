@@ -22,9 +22,9 @@ Tip:
 
 You'll need to deal with a geometric summation when it's time to solve for *π*<sub>0</sub>. You can look up the result that you need.
 
-### M/M/*Infinity*
+### M/M/*&infin;*
 
-The M/M/*Infinity* model is an *infinite-server* queueing system: every customer that arrives gets to enter service immediately without ever needed to wait in a line. Its main application is modeling an exponential delay in a system, where customers pause before continuing. Any number of customers may be waiting at the same time.
+The M/M/*&infin;* model is an *infinite-server* queueing system: every customer that arrives gets to enter service immediately without ever needed to wait in a line. Its main application is modeling an exponential delay in a system, where customers pause before continuing. Any number of customers may be waiting at the same time.
 
 Use Markov chain analysis to show that the distribution of the number of customers in the M/M/*Infinity* system is Poisson distributed:
 
