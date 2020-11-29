@@ -28,7 +28,7 @@ The M/M/*Infinity* model is an *infinite-server* queueing system: every customer
 
 Use Markov chain analysis to show that the distribution of the number of customers in the M/M/*Infinity* system is Poisson distributed:
 
-<img src="https://latex2png.com/pngs/51ec7168273cc89d298729b77e44666a.png" width="10%" />
+<img src="poisson_dist.png" width="10%" />
 
 Tips:
 
