@@ -36,7 +36,7 @@ Suppose I've got some of the same type lightbulbs as in the previous problem, bu
 
 Tip: use the memoryless property to reason about the future behavior of the exponential lifetime.
 
-The answer is about .2231.
+The answer is about .2865.
 
 ```
 Expected value for bulb lifetime from prev problem:
