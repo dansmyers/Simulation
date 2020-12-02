@@ -1,2 +1,0 @@
-
-Problem - find the lowest residence time in the queue
