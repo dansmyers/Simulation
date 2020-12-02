@@ -1,0 +1,14 @@
+Ryan King
+Sprint 5 Write Up
+
+For a discrete event M/M/1 queue with a priority queue, it seems like the fraction of customers that are priority does not have an effect on the average waiting time of all customers, so overall average cannot be a criteria for determining a good f value. Instead, the best f value should be decided by maximizing the amount of priority customers while ensuring reasonable waiting times are for both groups.
+
+For a .95 utilization:
+Having no priority queue will lead to an average wait time of 20 minutes for regular cusotmers. The regular customer waiting time will increase steadily until f values are greater than .75, where the waiting time grows out of control, initially over one hour and up to as much as 6 hours. The fastpass waiting time will be fairly insignificant except for in the case of extremely high f values. 
+
+I would argue that an f value of about .4 would be best for high utilization. This value would allow for a large amount of prioirty customers who could move through very quickly averaging about 1.5 minutes of waiting each. Regular customers would have to wait only 10 minutes longer than they would if there were no priority line, approx. 30 minutes.
+
+For a .5 utilization:
+Having no priority queue results in an average waiting time of about 2 minutes. No matter what the f value is, the time to wait will be insignificant for both groups, and the avg time of priority customers will always be about half of non priority customers. Nonetheless, we can still try and optimize this.
+
+I would say that an f value of about .6 would be best. The priority customers would wait about half a minute less than the overall average, and the regular customers would wait about a half a minute greater than the overall average. Additionally, the majority of customers will be waiting for the shorter average time. I think this would be the best f value, though ulitimately with such a low utilization the f value wouldn't make much of a difference.
