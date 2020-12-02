@@ -1,0 +1,8 @@
+Fritz Stapfer Paz
+12/2/2020 - Sprint 5
+
+Conclusion based on Simulation:
+
+Based on the results from the simulation, I believe the ideal ratio of high-priority customers (FastPass holders) is 60%. 
+Higher ratios make customers in the high priority queue start seeing considerably higher residence rates at 95% utilization. 
+At 50% utilization residence times are low for all ratios of FastPass holders, therefore it does not impact the decision.
