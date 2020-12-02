@@ -1,6 +1,9 @@
 """
+<<<<<<< HEAD
 Hiroki Sato 
 09/29/20
+=======
+>>>>>>> Commit the modifications
 
 Deliverable Problem No.3: Class size
 
@@ -19,7 +22,11 @@ import csv
 from math import sqrt
 
 
+<<<<<<< HEAD
 # Helper functions: mean, and median
+=======
+# Helper functions: mean, median, variance and standard standard deviation
+>>>>>>> Commit the modifications
 def median(vs):
     
     vs.sort()
@@ -35,6 +42,22 @@ def mean(vs):
 
     return sum(vs)/len(vs)
 
+<<<<<<< HEAD
+=======
+def variance(vs):
+    
+    m = mean(vs)
+    
+    vs = [(x-m)**2 for x in vs]
+    
+    return sum(vs)/len(vs)
+
+def std_deviation(vs):
+    
+    v = variance(vs)
+    return sqrt(v)
+
+>>>>>>> Commit the modifications
 # Create two dictionaries we will use as hashmap
 students_per_course = dict()
 courses_per_student = dict()
@@ -85,7 +108,11 @@ plt.figure()
 plt.hist(size_list,25)
 plt.title('Rollins Class Size Histogram')
 plt.xlabel('Size of a Class')
+<<<<<<< HEAD
 plt.ylabel('Frequency')
+=======
+plt.ylabel('Number of Students')
+>>>>>>> Commit the modifications
 plt.savefig('class_size_hist.pdf',bbox_inches='tight')
 
 # Create a boxplot

@@ -1,6 +1,9 @@
 """
+<<<<<<< HEAD
 Hiroki Sato 
 09/29/20
+=======
+>>>>>>> Commit the modifications
 
 Deliverable problem No.4 : Campus connection
 
@@ -99,8 +102,15 @@ for student in courses_per_student:
 num_unique_student = [len(unique_students[s]) for s in unique_students]
 
 # Perform basic statistical analysis and print them out
+<<<<<<< HEAD
 print("The median of the number of unique students to each individual student is: %.2f" %  median(num_unique_student))
 print("The mean of the number of unique students to each individual student is: %.2f" % mean(num_unique_student))
+=======
+print("The median of the number of unique student to each individual student is: %.2f" %  median(num_unique_student))
+print("The lowest number of unique students a student interacted is: " + str(num_unique_student[0]))
+print("The highest number of unique students a student interacted is: " + str(num_unique_student[-1]))
+print("The mean of the number of unique student to each individual student is: %.2f" % mean(num_unique_student))
+>>>>>>> Commit the modifications
 print("The variance of the distribution of the number of unique student to each individual student is: %.2f" % variance(num_unique_student))
 print("The standard deviation of the distribution of the number of student to eahc individual student is: %.2f" % std_deviation(num_unique_student))
 
@@ -111,4 +121,15 @@ plt.hist(num_unique_student,50)
 plt.title('Rollins Campus Connection Histogram')
 plt.xlabel('Number of Unique Student')
 plt.ylabel('Frequency')
+<<<<<<< HEAD
 plt.savefig('campus_connection_hist.pdf',bbox_inches='tight')
+=======
+plt.savefig('campus_connection_hist.pdf',bbox_inches='tight')
+
+# 2. Creating a Boxplot
+plt.figure()
+plt.boxplot(num_unique_student,vert=False)
+plt.title('Rollins Campus Connection Boxplot')
+plt.xlabel('Number of Unique Students')
+plt.savefig('campus_connection_boxplot.pdf',bbox_inches='tight')
+>>>>>>> Commit the modifications
