@@ -1,3 +1,6 @@
+# Low Priority Queue Write Up
+
 For this double queueing system, I believe that for the low ulitization example the number of fast passes should be the smallest number possible. This is because the relative wait times between the two grow at about the same rate. At the maximum number of wait times the fast pass holders are waiting a proportional amount of time more to the regular line. To minimize the wait time for everyone I believe that the smartest choice is to give out the smallest number of fast passes possible so everyone is able to board the ride as soon as possible.
 
+# High Priority Queue Write Up
 On the other hand I believe that for the high ulitization about 50% is the best option. The fast pass holders have almost the same wait time regardless of how many people hold a fast pass. On the other hand the amount of time a regular person holds a fast pass increases rapidly as the number of fastpass holders increases. The midpoint of this increase is about 45% - 50% before the wait times for the regular people increase sharply. I believe that 45% - 50% of fastpass holders will give the optimal wait time for the regular riders while maximumizing the amount of fastpasses dispersed. 

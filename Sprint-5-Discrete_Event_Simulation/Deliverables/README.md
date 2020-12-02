@@ -1,5 +1,10 @@
 # Simulating Disney's FastPass+ System
 
+# Honor Code and Collaboration Statement
+"On my honor I have not given nor recieved or witnessed any unauthorized assistance on this work".
+
+I have worked on this project with Jacob, Maria, Mariah, and Hiroki.
+
 ## Description
 
 In this project, you'll use the *discrete-event simuation* strategy to model a version of Disney's FastPass+ system.
