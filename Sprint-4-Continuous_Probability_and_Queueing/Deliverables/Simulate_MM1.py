@@ -43,6 +43,7 @@ def plot_main(utilization,residence_times):
     plt.plot(utilization, residence_times)
     plt.savefig('Exponential_Queuing.pdf', bbox_inches='tight')
 
+
 # plot three different lines average residence time, upper confidence interval, lower confidence interval
 
 def plot_confidence_intervals(utilization, residence_times, UCI, LCI):
@@ -56,8 +57,6 @@ def plot_confidence_intervals(utilization, residence_times, UCI, LCI):
     plt.plot(utilization, UCI,color='red')
     plt.plot(utilization,LCI, color='blue')
     plt.savefig('Confidence_intervals.pdf', bbox_inches='tight')
-
-
 
 
 
@@ -110,8 +109,8 @@ def simulate(arrival_rate, avg_service_time, n):
         else:
             arr_time = arrival_times[x - 1] + interarrivals[x]
             arrival_times.append(arr_time)
-    # print("arrival_times")
-    # print(arrival_times[0:5])
+    # print("arrival_times")        # debugging 
+    # print(arrival_times[0:5])     # debugging
 
     # Initialize other lists
     enter_service_times = [0] * n
@@ -162,6 +161,8 @@ def main():
 
 
 # the function for the last question
+# replicate the 1000-trial simulation 5 times to get the average of average,
+# and plot the upper confidence interval and lower confidence interval
 def replication():
     # we run 5 replication of the simulation with n = 1000
     avg_service_time = 1.0
@@ -210,5 +211,6 @@ def replication():
         
         
 if __name__ == '__main__':
-     # main()
+     main()
      replication()
+     
