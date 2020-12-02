@@ -1,9 +1,14 @@
 """
 <<<<<<< HEAD
+<<<<<<< HEAD
 Hiroki Sato 
 09/29/20
 =======
 >>>>>>> Commit the modifications
+=======
+Hiroki Sato 
+09/29/20
+>>>>>>> 53bc716e619a20ed752dbb534be33d9748bcd498
 
 Deliverable problem No.4 : Campus connection
 
@@ -103,6 +108,7 @@ num_unique_student = [len(unique_students[s]) for s in unique_students]
 
 # Perform basic statistical analysis and print them out
 <<<<<<< HEAD
+<<<<<<< HEAD
 print("The median of the number of unique students to each individual student is: %.2f" %  median(num_unique_student))
 print("The mean of the number of unique students to each individual student is: %.2f" % mean(num_unique_student))
 =======
@@ -111,6 +117,10 @@ print("The lowest number of unique students a student interacted is: " + str(num
 print("The highest number of unique students a student interacted is: " + str(num_unique_student[-1]))
 print("The mean of the number of unique student to each individual student is: %.2f" % mean(num_unique_student))
 >>>>>>> Commit the modifications
+=======
+print("The median of the number of unique students to each individual student is: %.2f" %  median(num_unique_student))
+print("The mean of the number of unique students to each individual student is: %.2f" % mean(num_unique_student))
+>>>>>>> 53bc716e619a20ed752dbb534be33d9748bcd498
 print("The variance of the distribution of the number of unique student to each individual student is: %.2f" % variance(num_unique_student))
 print("The standard deviation of the distribution of the number of student to eahc individual student is: %.2f" % std_deviation(num_unique_student))
 
@@ -121,6 +131,7 @@ plt.hist(num_unique_student,50)
 plt.title('Rollins Campus Connection Histogram')
 plt.xlabel('Number of Unique Student')
 plt.ylabel('Frequency')
+<<<<<<< HEAD
 <<<<<<< HEAD
 plt.savefig('campus_connection_hist.pdf',bbox_inches='tight')
 =======
@@ -133,3 +144,6 @@ plt.title('Rollins Campus Connection Boxplot')
 plt.xlabel('Number of Unique Students')
 plt.savefig('campus_connection_boxplot.pdf',bbox_inches='tight')
 >>>>>>> Commit the modifications
+=======
+plt.savefig('campus_connection_hist.pdf',bbox_inches='tight')
+>>>>>>> 53bc716e619a20ed752dbb534be33d9748bcd498

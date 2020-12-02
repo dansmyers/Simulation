@@ -1,9 +1,14 @@
 """
 <<<<<<< HEAD
+<<<<<<< HEAD
 Hiroki Sato 
 09/29/20
 =======
 >>>>>>> Commit the modifications
+=======
+Hiroki Sato 
+09/29/20
+>>>>>>> 53bc716e619a20ed752dbb534be33d9748bcd498
 
 Deliverable Problem No.3: Class size
 
@@ -23,10 +28,14 @@ from math import sqrt
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Helper functions: mean, and median
 =======
 # Helper functions: mean, median, variance and standard standard deviation
 >>>>>>> Commit the modifications
+=======
+# Helper functions: mean, and median
+>>>>>>> 53bc716e619a20ed752dbb534be33d9748bcd498
 def median(vs):
     
     vs.sort()
@@ -43,6 +52,7 @@ def mean(vs):
     return sum(vs)/len(vs)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 def variance(vs):
     
@@ -58,6 +68,8 @@ def std_deviation(vs):
     return sqrt(v)
 
 >>>>>>> Commit the modifications
+=======
+>>>>>>> 53bc716e619a20ed752dbb534be33d9748bcd498
 # Create two dictionaries we will use as hashmap
 students_per_course = dict()
 courses_per_student = dict()
@@ -109,10 +121,14 @@ plt.hist(size_list,25)
 plt.title('Rollins Class Size Histogram')
 plt.xlabel('Size of a Class')
 <<<<<<< HEAD
+<<<<<<< HEAD
 plt.ylabel('Frequency')
 =======
 plt.ylabel('Number of Students')
 >>>>>>> Commit the modifications
+=======
+plt.ylabel('Frequency')
+>>>>>>> 53bc716e619a20ed752dbb534be33d9748bcd498
 plt.savefig('class_size_hist.pdf',bbox_inches='tight')
 
 # Create a boxplot
