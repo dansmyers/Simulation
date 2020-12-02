@@ -1,0 +1,23 @@
+Find the lowest residence time in the queue
+customers board 1 per min,
+Service time = 1 min 
+
+given: utilization, max arrival rate, 
+
+We should get avg res time of 20 min
+
+2 residence times, one for FP+ and one for plebs
+
+duplicate the simulation data lists for fastpass customers
+add another arrival for Fastpass people
+
+
+NEXT STEP: Make sure we do same logic for heappush for tge arrival events
+Make sure the pop is only popped if the fp event list is empty
+Departure sorting out-- check if the event that we are dealing with is a fp and heappush the departurure onto the correct list
+-Fix departure events to be right... figure out a way to get current event in arrival-- if arrival,
+heappop futrure event list and then say like "eventtype= whatever"
+
+
+
+Graph

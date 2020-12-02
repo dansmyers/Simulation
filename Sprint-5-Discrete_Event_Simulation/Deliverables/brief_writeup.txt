@@ -1,0 +1,10 @@
+The choice of f for the high versus the low utilization points
+should be placed at the point where the high and low priority wait
+times begin to increase rapidly. On both graphs and for all four lines,
+they begin increasing slowly and as time goes on, the increase
+becomes much higher. I think the value of f should be placed just
+before the slope becomes the steepest. For the high utilization
+graph, around 60% and for the low utilization graph around 80%. That 
+way the high priority fastpass people will still have short wait times
+and the low priority people won't wait so long that it becomes
+miserable.
