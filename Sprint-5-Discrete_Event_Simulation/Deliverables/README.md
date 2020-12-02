@@ -1,5 +1,9 @@
 # Simulating Disney's FastPass+ System
 
+"On my honor, I have not given, nor received, nor witnessed any unauthorized assistance on this work" Jacob Buckelew
+
+Jacob, Griffin, Maria
+
 ## Description
 
 In this project, you'll use the *discrete-event simuation* strategy to model a version of Disney's FastPass+ system.
