@@ -1,0 +1,18 @@
+Jacob Buckelew
+CMS380 Fall 2020
+
+
+High U:
+
+When utilization is high, the average residence times for each iteration of different values of f tend to be much higher than the average residence times in a system with a low utilization. This makes sense since the server will typically be busier at a high utilization and be processing more people as the arrival rate is higher. Thus, the average residence times for low priority customers rises very dramatically as the fraction of fastpasses increases because they will have to continuously wait for the flood of fastpass customers that arrive at a high rate. The average residence times of the fastpass customers are quite low since they will get heavy priority in the high utilization scenario since low priority customers will barely have a chance to enter service in some cases. A good f value for this queue is one that minimizes the average residence time of low priority customers the most in order to ensure average residence times that are as low as possible and to not ruin the theme park experience. In this case, f should probably be less than .10, so perhaps .05. This means that low priority customers will only have to wait at their lowest possible average residence time which is around 20, while fast pass customers will barely have any wait at all but will be much limited in numbers. 
+
+
+
+
+
+
+Low U:
+
+When utilization is low, the average residence times for each iteration of different values of f tend to be lower than the average residence times at those values of f when utilization is high. This makese sense since the server is not very busy with lots of customers since the arrival rate is much lower. The low priority average residence times are higher than the fastpass residence times as they should be since they will most likely need to wait more often than fastpass customers. As f increases, the average residence time continues to increase for low priority quite dramatically and the average residence times for high priority rises steadily. A good f value for this scenario could be anything around .10 as the residence times for both low priority and high priority customers are around their lowest points in the simulation. At this point, low priority customers barely have any sort of wait time at all at 1.50 and the time for low priority customers is only slightly larger at around 2.0.
+
+
