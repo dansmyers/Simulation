@@ -35,8 +35,7 @@ def plot(FastPass_frac, avg_res_times_high, avg_res_times_low):
     axis.set_title('Average Residence time for give fraction of Fast Passes\n.50 utilization rate')
     axis.legend()
     fig.savefig('FastPass_Resident_Time_.50.pdf', bbox_inches='tight')
-    
-    
+
 
 
 
@@ -65,7 +64,7 @@ def plot(FastPass_frac, avg_res_times_high, avg_res_times_low):
 def simulate(arrival_rate, f):
     
     # stopping condition
-    max_time = 100000
+    max_arrival = 50000
     
     # Basic parameters
     time = 0.0
@@ -105,7 +104,7 @@ def simulate(arrival_rate, f):
     heappush(future_event_list,new_event)
     
     # while len(future_event_list) > 0 and time < max_time:
-    while len(future_event_list) > 0 and time < max_time:
+    while len(future_event_list) > 0 and time < max_arrival:
         
         # pop the event in the future_event_list to carry out the event
         event = heappop(future_event_list)
@@ -240,7 +239,7 @@ def replicate(utilization):
     
     sim_r_avg_high = []
     sim_r_avg_low = []
-    FastPass_frac = [x / 100.00 for x in range (10,100,10)]
+    FastPass_frac = [x / 100.00 for x in range (5,100,5)]
 
 
     for f in FastPass_frac:
@@ -248,7 +247,7 @@ def replicate(utilization):
         sim_residence_time_high = []
         sim_residence_time_low = []
         
-        for trial in range(20):
+        for trial in range(40):
             
             residence_times = simulate( utilization , f)
             sim_residence_time_high.append(residence_times[0])
@@ -271,6 +270,7 @@ def replicate(utilization):
 
 
 if __name__ == '__main__':
+    
     replicate(.50)
 
 
