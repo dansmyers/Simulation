@@ -146,7 +146,6 @@ def simulate(arrival_rate, f):
                 # Generate new departure event
                 service_time = rand_exp(service_rate)
                 new_event = (time + service_time, 'departure', "r")
-                
                 heappush(future_event_list, new_event)
                 
               
@@ -244,8 +243,6 @@ def plot(u, name):
         fp_sim_residence_avg.append(sum(fp_sim_residence_times) / len(fp_sim_residence_times))
         r_sim_residence_avg.append(sum(r_sim_residence_times) / len(r_sim_residence_times))
         
-        # print for debugging
-        print(f)
         
         
     plt.figure()

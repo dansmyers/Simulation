@@ -1,0 +1,3 @@
+Based on the findings in the first graph (50.pdf), I would say that since the average residence times increase by only a very small amount in total the percentage of fast passes doesn't really matter too much. However, the best possible amount, statistically speaking, of fast passes to give out looks to be about 10% for a Utilization of 50%.
+
+For the higher Utilization rate of 95% the best percentage of fast passes to give out would be around 60%. After that point the waiting times for regular customers would begin to become much too large. The residence times grow exponentially for regular riders when there is a high Utilization rate. 
