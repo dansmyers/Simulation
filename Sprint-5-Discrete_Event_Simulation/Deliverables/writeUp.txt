@@ -1,0 +1,9 @@
+At 95% utilization, wait times for customers with no passes 
+increased to over an hour with a pass fraction much over half.
+Assuming that an hour is the upper limit of how long we want
+customers without passes to wait, .5 would be the fraction of 
+passes I would give out at 95% utilization.
+At 50% utilization wait times for customers without passes never 
+went over 5 minutes.  Assuming we want to sell as many passes as 
+possible, I would try to sell a fraction of passes nearing 1.0
+with 50% utilization.
