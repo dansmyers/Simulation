@@ -1,1 +1,188 @@
+from heapq import heappush, heappop
+import random
+import math
 
+import matplotlib
+matplotlib.use('Agg')
+from matplotlib import pyplot as plt
+
+def rand_exp(mu):
+	
+	rand = random.uniform(0, 1)
+	
+	num = - math.log(rand)/mu
+	
+	return num
+	
+def create_event(event_type, mu, time):
+	e = (rand_exp(mu) + time, event_type)
+	return e
+
+def priority(f):
+	rand = random.uniform(0, 1)
+	if rand < f:
+		return True
+	else:
+		return False
+
+
+def simulate(f, arrival_rate, service_time, num_of_customers):
+	
+	fp_arrivals = []
+	reg_arrivals = []
+	
+	fp_est = []
+	reg_est = []
+	
+	fp_departures = []
+	reg_departures = []
+	
+	num_in_fp = 0
+	num_total = 0
+	
+	events = []
+	
+	time = 0
+	
+	heappush(events, create_event('a', arrival_rate, time))
+	
+	while len(events) != 0:
+		
+		
+		event = heappop(events)
+		time = event[0]
+		
+		if event[1] == 'a':
+			
+			#Arrival has f probability of having fastpass
+			if priority(f):
+				num_in_fp = num_in_fp + 1
+				fp_arrivals.append(time)
+			else:
+				reg_arrivals.append(time)
+			num_total = num_total + 1
+				
+			#If no one is in line, this person can enter service immediately and be given a deprture time
+			if num_total == 1:
+				heappush(events, create_event('d', service_time, time))
+				if num_in_fp > 0:
+					fp_est.append(time)
+				else:
+					reg_est.append(time)
+					
+			#If there is another person left in the simulation, give them an arrival time
+			if num_of_customers > 0:
+				heappush(events, create_event('a', arrival_rate, time))
+				
+				num_of_customers = num_of_customers - 1
+		
+		elif event[1] == 'd':
+			
+			#The element in service departs
+			if num_in_fp > 0:
+				fp_departures.append(time)
+				num_in_fp = num_in_fp - 1
+			else:
+				reg_departures.append(time)
+			num_total = num_total - 1
+			
+			#If anyone else is in line they enter service, and are given a departure time
+			if num_in_fp > 0:
+				fp_est.append(time)
+				heappush(events, create_event('d', service_time, time))
+			elif num_total > 0:
+				reg_est.append(time)
+				heappush(events, create_event('d', service_time, time))
+				
+	total_res_time_fp = 0
+	total_res_time_reg = 0
+	#Print results to terminal
+	for i in range(len(fp_arrivals) - 1):
+	#	print("Fastpass Customer " + str(i))
+	#	print("Residence time: " + str(fp_departures[i]-fp_arrivals[i]) + "\n")
+		total_res_time_fp = total_res_time_fp + (fp_departures[i]-fp_arrivals[i])
+		
+	for i in range(len(reg_arrivals) - 1):
+	#	print("Regular Customer " + str(i))
+	#	print("Residence time: " + str(reg_departures[i]-reg_arrivals[i]) + "\n")
+		total_res_time_reg = total_res_time_reg + (reg_departures[i]-reg_arrivals[i])
+	
+	if len(fp_arrivals) > 0:
+		avg_r_time_fp = total_res_time_fp/len(fp_arrivals)
+	#	print("Average Fastpass Residence Time: " + str(avg_r_time_fp))
+	else:
+		avg_r_time_fp = 0;
+	avg_r_time_reg = total_res_time_reg/len(reg_arrivals)
+	#print("Average Regular Residence Time: " + str(avg_r_time_reg))
+	
+	avg_r_time = (total_res_time_reg + total_res_time_fp)/(len(fp_arrivals) + len(reg_arrivals))
+	#print("Average Resident Time: " + str(avg_r_time))
+	
+	return (avg_r_time, avg_r_time_fp, avg_r_time_reg, avg_r_time_fp/avg_r_time_reg)
+	
+
+
+r_t_avg = []
+r_t_avg_fp = []
+r_t_avg_reg = []
+res_time_ratio = []
+x_axis = []
+
+for i in range(0, 100):
+	temp = simulate(.01 * i , .5, 1, 50000)
+	
+	r_t_avg.append(temp[0])
+	r_t_avg_fp.append(temp[1])
+	r_t_avg_reg.append(temp[2])
+	res_time_ratio.append(temp[3])
+	
+	x_axis.append(i * .01)
+
+plt.plot(x_axis, r_t_avg)
+#plt.legend("O")
+plt.plot(x_axis, r_t_avg_fp)
+#plt.legend("F")
+plt.plot(x_axis, r_t_avg_reg)
+#plt.legend("R")
+
+plt.title('Average Residence Time for Different F values')
+plt.ylabel('Residence Time')
+plt.xlabel('Fastpass Probability')
+
+plt.savefig('Low_Load.pdf', bbox_inches= 'tight')
+
+for i in range(0, 100):
+	print(round(i * .01, 2),  "    Fastpass average:    ",  round(r_t_avg_fp[i], 4), "Regular average:   ", round(r_t_avg_reg[i], 4))
+
+# r_t_avg = []
+# r_t_avg_fp = []
+# r_t_avg_reg = []
+# res_time_ratio = []
+# x_axis = []
+
+# for i in range(0, 100):
+# 	temp = simulate(.01 * i , .95, 1, 50000)
+	
+# 	r_t_avg.append(temp[0])
+# 	r_t_avg_fp.append(temp[1])
+# 	r_t_avg_reg.append(temp[2])
+# 	res_time_ratio.append(temp[3])
+	
+# 	x_axis.append(i * .01)
+
+# # plt.plot(x_axis, r_t_avg)
+# # #plt.legend("O")
+# # plt.plot(x_axis, r_t_avg_fp)
+# # #plt.legend("F")
+# # plt.plot(x_axis, r_t_avg_reg)
+# # #plt.legend("R")
+
+# # plt.title('Average Residence Time for Fastpass Probabilities')
+# # plt.ylabel('Residence Time')
+# # plt.xlabel('Fastpass Probability')
+
+# # plt.savefig('High_Load.pdf', bbox_inches= 'tight')
+
+# for i in range(0, 100):
+# 	print(round(i * .01, 2),  "    Fastpass average:    ",  round(r_t_avg_fp[i], 4), "Regular average:   ", round(r_t_avg_reg[i], 4))
+	
