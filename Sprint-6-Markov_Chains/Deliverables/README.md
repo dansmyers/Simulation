@@ -1,9 +1,14 @@
 # Sprint 6 Deliverables
 
-## Make Randomized Text Great Again
+<img src="https://imgs.xkcd.com/comics/twitter_bot_2x.png" width="75%" />
 
-Creating randomized text generators is a fun application of Markov chains. For example [this Reddit account](https://www.reddit.com/user/FloridaMan_SS/posts/), which creates random
-Florida Man posts using a Markov model created from the r/FloridaMan subreddit.
+## Description
+
+This project will let you play around with Markov models that create randomized text outputs. We'll look at a few different techniques, then you'll be able to build your own
+model.
+
+Creating randomized text generators is a fun application of Markov chains. For example [this Reddit account](https://www.reddit.com/user/FloridaMan_SS/posts/), which creates 
+random Florida Man posts using a Markov model created from the r/FloridaMan subreddit.
 
 The model starts by picking a random starting word, then randomly choosing the next word, in such a way that words pairs occurring more
 frequently in the source text are more likely to be chosen by the generator. This process then repeats, randomly choosing the next word
@@ -11,10 +16,22 @@ based on the current word.
 
 If you'd like, you can think of it as writing using only the autocomplete feature of your phone.
 
+In addition to the subreddit above, here are some other good examples:
+
+- https://kingjamesprogramming.tumblr.com/
+
+- The [snarXiv](http://snarxiv.org/) for randomized high-energy physics papers
+
+- Lots and lots and lots of Twitter bot accounts.
+
+Text generation is another area that has been affected by the introduction of deep-learning neural network models. The current top-of-the-pile is GPT-3, which came out in mid-2020. [It can be frighteningly good](https://www.theguardian.com/commentisfree/2020/sep/08/robot-wrote-this-article-gpt-3).
+
+## Make Randomized Text Great Again
+
 Clone this public repo:
 
 ```
-git clone cms380-f18-lab-2
+git clone https://github.com/rollinscs/cms380-f18-lab-2
 ```
 
 The lab instructions tell you how to use a tool named `markovify` to generate random sentences. Work through the examples it contains and 
@@ -41,27 +58,26 @@ Play around with the predictive keyboard on Botnik's website. Record your best c
 
 ## Make Your Own Predictions
 
-Create your own predictive text model and curate some examples of its output. Your goal is to produce a good quality **long-form** piece of Markov-generated text and then publish it on the Internet.
-
-Making random sentences or tweet-sized chunks is easy, so I want you to experiment with making a work that's at least one-half to one page in length.
+For your main project, let's create some original predictive text.
 
 I want you to do four things:
 
 1. Write or find a good tool for text-generation. `markovify` and Botnik's predictive keyboards are options, but I encourage you to do a little bit of research before you commmit to a tool. If you want to experiment with writing your own code, I've included an example haiku-generation program in the repo.
 
-2. Find a good data source and get it into a form that works with your tool.
+2. Pick an interesting author. This could be a poet, fiction, or non-fiction writer. Choose someone with a unique style. If you want to choose a group of writer that are
+closely related to each other, as a school or movement, then that's fine too.
 
-3. Understand the tool and its parameters well enough to generate some creative high-quality outputs. **It's okay to lightly edit the random outputs as part of the creative process**.
+3. Find a body of works by your author(s) and mash them up using the predictive text generation tool you chose in step (1). 
 
-4. Publish the results of your work on [GitHub Pages](https://pages.github.com/). This is easy to do: create a new repo to host your work, adjust some settings, and GitHub will automatically host your repo as a web page. I'm asking you to do this so you can practice creating sites via GitHub, which can be a nice low-maintenance way to build a personal site or feature your projects.
+4. Curate your tool's output to produce interesting results. Obviously, coming up with ridiculous sentences is fun and not too hard. It's more difficult to find things that
+cross the barrier from the absurd to the sublime, which is where you want to be. **It's okay to edit your randomized outputs as part of the creative process**.
 
-Some ideas for data sources:
+What makes a good data source?
 
-- Tweets of all kinds (but Trump is too easy)
-- Project Gutenberg and Wikisource for historical texts and literature
-- Wikipedia articles
-- Media pieces about a topic, or written by a particular writer or group of writers
-- Recipes
-- Poetry
-- Song lyrics (you know how much I love mashups)
-- Academic articles (see, for example, the [snarXiv](http://snarxiv.org/))
+- Breaks nicely into medium-length chunks, like poems.
+
+- Unique style or sense of phrasing. Again, poets are great for this.
+
+- You don't have to use the entire body of works by an author. For example, picking all the works of Shakespeare might be too much, but you could work with the text of his sonnets.
+
+- Song lyrics could be fun, but it needs to be from a writer with a large enough body of work and clear enough voice to create interesting results.
