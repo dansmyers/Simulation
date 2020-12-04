@@ -221,8 +221,6 @@ def simulate(arrival_rate, f):
 def plot(u, name):
     
     fast_passes = []
-    fp_sim_residence_times = []
-    r_sim_residence_times = []
     
     fp_sim_residence_avg = []
     r_sim_residence_avg = []
@@ -230,6 +228,8 @@ def plot(u, name):
     for f in range(5, 95, 5):
         
         fast_passes.append(f)
+        fp_sim_residence_times = []
+        r_sim_residence_times = []
         
         # At each fraction of fast passes run 20 simulations and record the average
         
@@ -242,7 +242,6 @@ def plot(u, name):
         
         fp_sim_residence_avg.append(sum(fp_sim_residence_times) / len(fp_sim_residence_times))
         r_sim_residence_avg.append(sum(r_sim_residence_times) / len(r_sim_residence_times))
-        
         
         
     plt.figure()
