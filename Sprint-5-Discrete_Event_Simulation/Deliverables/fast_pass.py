@@ -208,7 +208,7 @@ def simulate(arrival_rate, f):
     fp_average_residence_time = sum(fp_residence_times) / len(fp_residence_times)
     
     
-    return r_average_residence_time, fp_average_residence_time
+    return fp_average_residence_time, r_average_residence_time
     
 
 #--- PLot function
@@ -222,12 +222,15 @@ def plot(u, name):
     
     fast_passes = []
     
+    # Lists to store average
     fp_sim_residence_avg = []
     r_sim_residence_avg = []
     
     for f in range(5, 95, 5):
-        
+        # Add x values
         fast_passes.append(f)
+        
+        # Lists to store simulated times
         fp_sim_residence_times = []
         r_sim_residence_times = []
         
@@ -236,8 +239,8 @@ def plot(u, name):
         for i in range(20):
             temp = simulate(u, f / 100)
         
-            fp_sim_residence_times.append(temp[1])
-            r_sim_residence_times.append(temp[0])
+            fp_sim_residence_times.append(temp[0])
+            r_sim_residence_times.append(temp[1])
         
         
         fp_sim_residence_avg.append(sum(fp_sim_residence_times) / len(fp_sim_residence_times))
