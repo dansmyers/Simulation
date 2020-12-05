@@ -257,44 +257,29 @@ def main():
 	"""
 	
 	total_simulations = 1000
-	player_wins = []
-	banker_wins = []
-	games_tied = []
+	player_wins = 0
+	banker_wins = 0
+	games_tied = 0
 	house_average = []
-	total_average = 0
 	
 	for i in range(total_simulations):
-		player_wins.append(0)
-		banker_wins.append(0)
-		games_tied.append(0)
-		house_average.append(0)
-	
-		for j in range(total_simulations):
-			baccarat_round_outcome = simulate()
-			
-			if baccarat_round_outcome == "banker":
-				banker_wins[i] += 1
-			elif baccarat_round_outcome == "player":
-				player_wins[i] += 1
-			elif baccarat_round_outcome == "neither":
-				games_tied[i] += 1
-			
-		house_average[i] = (banker_wins[i] / (total_simulations - games_tied[i])) - (player_wins[i] / (total_simulations - games_tied[i])) * 100
-			
-	print("Player wins: ", player_wins)
-	print("Banker wins: ", banker_wins)
-	print("Games tied ", games_tied)
-	# print("Player win fraction", player_wins / total_simulations)
-	# print("Banker win fraction", banker_wins / total_simulations)
-	# print("Tied Games fraction", games_tied / total_simulations)
-	print("Player house edge ", house_average)
-	
-	for i in house_average:
-		total_average += i
 		
-	total_average = total_average / total_simulations
+		outcome = simulate()
 	
-	print(total_average)
+		if(outcome == "banker"):
+			banker_wins += 1
+		elif(outcome == "player"):
+			player_wins += 1;
+		elif(outcome == "neither"):
+			games_tied += 1
+		else:
+			print("what the fuck?")
+		
+	print("player win percentage: " , (player_wins / total_simulations) * 100)
+	print("banker win percentage ", (banker_wins / total_simulations) * 100)
+	print("games tied pergentage ", (games_tied / total_simulations) * 100)
+	
+	
 
 main()
 
