@@ -1,4 +1,4 @@
-### Implementation of an M/M/1 queue using the discret-event advance strategy
+### Implementation of an M/M/2 queue using the discret-event advance strategy
 #
 # CMS 380
 
@@ -35,6 +35,7 @@ def simulate(arrival_rate):
     service_rate = 1.0
     time = 0.0
     num_in_queue = 0
+    num_in_priority = 0
     
     # Simulation data lists
     arrival_times = []
