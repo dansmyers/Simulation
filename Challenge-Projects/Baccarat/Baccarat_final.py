@@ -4,6 +4,7 @@ CMS 380, Fall 2020 / Challenge Projects / Baccarat
 This script simulates the game "Baccarat" in order to
 estimate the probability of winning for the player and
 banker bets.
+(I also got some help from Noah regarding the String operations)
 """
 
 import matplotlib
