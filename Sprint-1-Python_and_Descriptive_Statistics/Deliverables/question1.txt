@@ -16,14 +16,18 @@ Ordered list:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> revised files for comments and clarity
+=======
+>>>>>>> a048fa5055ebd8dcd096be7dfa0bf6d4fae964e5
 2.5
 3.5
 4.4
 4.4
 6.7
 6.7
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 ---2.5
@@ -35,6 +39,8 @@ Ordered list:
 >>>>>>> cc added
 =======
 >>>>>>> revised files for comments and clarity
+=======
+>>>>>>> a048fa5055ebd8dcd096be7dfa0bf6d4fae964e5
 8.2
 8.3
 8.7
@@ -45,6 +51,9 @@ Five number summary:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a048fa5055ebd8dcd096be7dfa0bf6d4fae964e5
 2.5, 4.4, 6.7, 8.7, 9.5 
 
 Mean of the list: (2.5 + 3.5 + 4.4 + 4.4 + 6.7 + 6.7 + 8.2 + 8.3 + 8.7 + 9.1 + 9.5) = 6.5
@@ -55,6 +64,7 @@ Variance calculation:
 ((2.5 - 6.5)^2 + (3.5 - 6.5)^2 + (4.4 - 6.5)^2 + (4.4 - 6.5)^2 + (6.7 - 6.5)^2 + (6.7 - 6.5)^2 + (8.2 -  6.5)^2 + (8.3 - 6.5)^2 + (8.7 - 6.5)^2 + (9.1 - 6.5)^2 + (9.5 - 6.5)^2 ) / 11 = 5.5
 
 Variance is  5.5
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 lowest element, 1st quartile, median, 2nd quartile, largest element 
@@ -74,5 +84,7 @@ Variance calculation:
 >>>>>>> cc added
 =======
 >>>>>>> finalized revision
+=======
+>>>>>>> a048fa5055ebd8dcd096be7dfa0bf6d4fae964e5
 
 

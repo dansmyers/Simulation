@@ -1,6 +1,9 @@
 """ 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a048fa5055ebd8dcd096be7dfa0bf6d4fae964e5
 This script uses enorllment data to understand how densely connected is the Rollins campus
     
 CMS 380, Fall 2020
@@ -11,6 +14,7 @@ Maria Morales
 import csv
 # Imports the functions from method_definitions.py to be used for distribution calculation
 from method_definitions import *
+<<<<<<< HEAD
 =======
 Use enorllemt data to understand campus connetcivity
 =======
@@ -30,12 +34,15 @@ from more_calculations import *
 # Imports the functions from method_definitions.py to be used for distribution calculation
 from method_definitions import *
 >>>>>>> revised files for comments and clarity
+=======
+>>>>>>> a048fa5055ebd8dcd096be7dfa0bf6d4fae964e5
 
 # Set up matplotlib and configure it to be used on Mimir 
 import matplotlib
 matplotlib.use('Agg') # Required because we are using a remote environment
 from matplotlib import pyplot as plt
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 # Create a dictionary to store the cids for each student
@@ -45,6 +52,9 @@ from matplotlib import pyplot as plt
 =======
 # Create a dictionary to store the cids for each student
 >>>>>>> revised files for comments and clarity
+=======
+# Create a dictionary to store the cids for each student
+>>>>>>> a048fa5055ebd8dcd096be7dfa0bf6d4fae964e5
 courses_per_student = {}
 
 # Second dictionary to store the students in each course 
@@ -58,10 +68,14 @@ f = open('enrollments.csv', 'r')
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a048fa5055ebd8dcd096be7dfa0bf6d4fae964e5
 # Create a csv reader to process the file
 reader = csv.reader(f)
 
 # Use the for loop to iterate through all lines in the file
+<<<<<<< HEAD
 =======
 # Cerate a csv reader to process the file
 reader = csv.reader(f)
@@ -74,10 +88,13 @@ reader = csv.reader(f)
 
 # Use the for loop to iterate through all lines in the file
 >>>>>>> finalized revision
+=======
+>>>>>>> a048fa5055ebd8dcd096be7dfa0bf6d4fae964e5
 for line in reader:
     r_number = line[0]
     cid = line[1]
     
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -86,12 +103,15 @@ for line in reader:
 >>>>>>> cc added
 =======
 >>>>>>> revised files for comments and clarity
+=======
+>>>>>>> a048fa5055ebd8dcd096be7dfa0bf6d4fae964e5
     # If this is the frist time we've seen the student r_number, make an entry for it in the dictionary
     if r_number not in courses_per_student:
         courses_per_student[r_number] = [] # Makes a brand new empyt lists of courses associated with this student
         
     # If this is the first time we've seen the course ID, make an entry for it in the  dictionary
     if cid not in students_per_course:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         students_per_course[cid] = [] # Makes a brand new empty list of students associated with this course
@@ -101,11 +121,15 @@ for line in reader:
 =======
         students_per_course[cid] = [] # Makes a brand new empty list of students associated with this course
 >>>>>>> finalized revision
+=======
+        students_per_course[cid] = [] # Makes a brand new empty list of students associated with this course
+>>>>>>> a048fa5055ebd8dcd096be7dfa0bf6d4fae964e5
     
     # Append the course id so that it adds to the list of courses associated with that student
     courses_per_student[r_number].append(cid)
     # Append the student ID so that it adds to the list of students associated with that course
     students_per_course[cid].append(r_number)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -125,11 +149,14 @@ for cid in students_per_course:
 >>>>>>> cc added
 =======
 >>>>>>> revised files for comments and clarity
+=======
+>>>>>>> a048fa5055ebd8dcd096be7dfa0bf6d4fae964e5
 
 # Count the total number of students in each course and append it to the list
 for cid in students_per_course:
     class_size.append(len(students_per_course[cid]))
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -143,6 +170,9 @@ print(class_size)
 =======
 
 >>>>>>> finalized revision
+=======
+
+>>>>>>> a048fa5055ebd8dcd096be7dfa0bf6d4fae964e5
 print('The mean class size: ',calc_mean(class_size))
 print('The median class size: ', calc_median(class_size))
 
@@ -152,6 +182,7 @@ plt.figure()
 # Plot a histogram of the data of total students per course 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 plt.hist(class_size, 20)
 =======
 plt.hist(class_size, 25)
@@ -159,6 +190,9 @@ plt.hist(class_size, 25)
 =======
 plt.hist(class_size, 20)
 >>>>>>> revised files for comments and clarity
+=======
+plt.hist(class_size, 20)
+>>>>>>> a048fa5055ebd8dcd096be7dfa0bf6d4fae964e5
 
 # Set title and axes labels 
 plt.title('Class size distribution')
@@ -182,12 +216,16 @@ plt.savefig('class_size_boxplot.pdf', bbox_inches='tight')
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a048fa5055ebd8dcd096be7dfa0bf6d4fae964e5
 # INTERACTIONS
 # This part of the script is used to determine how many  unique students does each  Rollins student interact with in classes
 
 # Number of unique student ids for the student
 student_interactions = []
 # Total number of unique student interactions
+<<<<<<< HEAD
 =======
 # INTERACTIONS
 # This part of the script is used to determine how many  unique students does each  Rollins student interact with in classes
@@ -199,6 +237,8 @@ student_interactions = []
 =======
 # Total number of unique student interactions
 >>>>>>> finalized revision
+=======
+>>>>>>> a048fa5055ebd8dcd096be7dfa0bf6d4fae964e5
 total_interactions = []
 
 # For each student look up their  list of courses
@@ -219,6 +259,7 @@ for r_number in courses_per_student:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 print('The average number of unique student interactions: ', calc_mean(total_interactions))
 =======
 print('The mean student interactions: ', calc_mean(total_interactions))
@@ -226,6 +267,9 @@ print('The mean student interactions: ', calc_mean(total_interactions))
 =======
 print('The average number of unique student interactions: ', calc_mean(total_interactions))
 >>>>>>> finalized revision
+=======
+print('The average number of unique student interactions: ', calc_mean(total_interactions))
+>>>>>>> a048fa5055ebd8dcd096be7dfa0bf6d4fae964e5
 
 # Create a new figure for the histogram
 plt.figure()
@@ -255,6 +299,7 @@ plt.savefig('unique_student_interactions_boxplot.pdf', bbox_inches='tight')
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> cc added
@@ -264,4 +309,7 @@ plt.savefig('unique_student_interactions_boxplot.pdf', bbox_inches='tight')
 =======
 
 >>>>>>> finalized revision
+=======
+
+>>>>>>> a048fa5055ebd8dcd096be7dfa0bf6d4fae964e5
 

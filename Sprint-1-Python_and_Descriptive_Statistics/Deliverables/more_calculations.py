@@ -3,13 +3,19 @@ For this Python script I worked with Jacob and Griffin.
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> revised files for comments and clarity
+=======
+>>>>>>> a048fa5055ebd8dcd096be7dfa0bf6d4fae964e5
 This script calculates and prints the mean, meadian, variance, and standard deviation of the data set defined in the data.txt file. It also saves, as PDFs, a box plot and a 20-bin histogram calculated from the values.
 
 CMS380, Fall 2020 
 Maria Morales
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a048fa5055ebd8dcd096be7dfa0bf6d4fae964e5
 """
 
 import math
@@ -27,6 +33,7 @@ data_values = []
 
 for value in file:
     value = value.strip() # Remove whitespace from the lines
+<<<<<<< HEAD
 =======
 This script calculates and prints the mean, meadian, variance, and standard deviation of a dataset defined in the data.txt file. It also saves, as PDFs  a box plot and a 20-bin histogram calculated from the  values.
 =======
@@ -53,11 +60,14 @@ for value in file:
 =======
     value = value.strip() # Remove whitespace from the lines
 >>>>>>> revised files for comments and clarity
+=======
+>>>>>>> a048fa5055ebd8dcd096be7dfa0bf6d4fae964e5
     # Cast to a float and then append to the list
     data_values.append(float(value))
 
 
 """
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 Function to calculate and return the mean of an input list
@@ -67,6 +77,9 @@ Calculate and return the mean of input list x
 =======
 Function to calculate and return the mean of an input list
 >>>>>>> revised files for comments and clarity
+=======
+Function to calculate and return the mean of an input list
+>>>>>>> a048fa5055ebd8dcd096be7dfa0bf6d4fae964e5
 """
 def calc_mean(x):
     number_of_values = len(x)
@@ -81,6 +94,7 @@ def calc_mean(x):
 """
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Function to calculate and return the median of an input list
 =======
 Calculate and return the median of input list x 
@@ -88,6 +102,9 @@ Calculate and return the median of input list x
 =======
 Function to calculate and return the median of an input list
 >>>>>>> revised files for comments and clarity
+=======
+Function to calculate and return the median of an input list
+>>>>>>> a048fa5055ebd8dcd096be7dfa0bf6d4fae964e5
 """    
 def calc_median(x):
     number_of_values = len(x)
@@ -102,6 +119,7 @@ def calc_median(x):
 """
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Function to calculate and return the variance of an input list
 =======
 Calculate and return the variance of input list x 
@@ -109,6 +127,9 @@ Calculate and return the variance of input list x
 =======
 Function to calculate and return the variance of an input list
 >>>>>>> revised files for comments and clarity
+=======
+Function to calculate and return the variance of an input list
+>>>>>>> a048fa5055ebd8dcd096be7dfa0bf6d4fae964e5
 """        
 def calc_variance(x):
     number_of_values  = len(x)
@@ -123,6 +144,7 @@ def calc_variance(x):
 """
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Function to calculate and return the standard deviation of an input list
 =======
 Calculate and return the standard deviation of input list x 
@@ -130,12 +152,16 @@ Calculate and return the standard deviation of input list x
 =======
 Function to calculate and return the standard deviation of an input list
 >>>>>>> revised files for comments and clarity
+=======
+Function to calculate and return the standard deviation of an input list
+>>>>>>> a048fa5055ebd8dcd096be7dfa0bf6d4fae964e5
 """
 def calc_standard_deviation(x):
     variance = calc_variance(x)
     
     return math.sqrt(variance)
     
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -151,6 +177,11 @@ Save (as PDFs) a box plot and a 20-bin histogram calculated from the values.
 # Save (as PDFs) a box plot and a 20-bin histogram calculated from the values.
 
 >>>>>>> revised files for comments and clarity
+=======
+
+# Save (as PDFs) a box plot and a 20-bin histogram calculated from the values.
+
+>>>>>>> a048fa5055ebd8dcd096be7dfa0bf6d4fae964e5
 
 # Create a new  figure
 plt.figure()
@@ -180,6 +211,7 @@ plt.savefig('more_calculations_boxplot.pdf', bbox_inches='tight')
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
     
@@ -190,6 +222,9 @@ test = [4, 5, 8, 9, 10]
 =======
 
 >>>>>>> revised files for comments and clarity
+=======
+
+>>>>>>> a048fa5055ebd8dcd096be7dfa0bf6d4fae964e5
 
 print('The mean of the data set:', calc_mean(data_values))
 print('The median of the data set: ', calc_median(data_values))

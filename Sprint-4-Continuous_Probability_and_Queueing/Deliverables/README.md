@@ -1,11 +1,23 @@
 # Sprint 4 &ndash; Deliverables
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> a048fa5055ebd8dcd096be7dfa0bf6d4fae964e5
 =======
 ## Maria, Griffin, Jacob
 "On my honor, I have not  given, nor received, nor witnessed, any unathorized assistance on this work."
 
 >>>>>>> Sprint 4 deliverables
+<<<<<<< HEAD
+=======
+=======
+## Maria, Griffin, Jacob
+"On my honor, I have not  given, nor received, nor witnessed, any unathorized assistance on this work."
+
+>>>>>>> 608c3a3858e3e66ce9bcb992c1762736a746852b
+>>>>>>> a048fa5055ebd8dcd096be7dfa0bf6d4fae964e5
 ## Yet More Lightbulbs
 
 Lightbulbs are the urns of the exponential distribution.
@@ -28,10 +40,20 @@ Suppose I've got some of the same type lightbulbs as in the previous problem, bu
 Tip: use the memoryless property to reason about the future behavior of the exponential lifetime.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> a048fa5055ebd8dcd096be7dfa0bf6d4fae964e5
 The answer is about .2865.
 =======
 The answer is about .2231.
 >>>>>>> Sprint 4 deliverables
+<<<<<<< HEAD
+=======
+=======
+The answer is about .2231.
+>>>>>>> 608c3a3858e3e66ce9bcb992c1762736a746852b
+>>>>>>> a048fa5055ebd8dcd096be7dfa0bf6d4fae964e5
 
 ## Check My Math
 
