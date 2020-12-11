@@ -2,6 +2,14 @@
 
 <img src="https://imgs.xkcd.com/comics/twitter_bot_2x.png" width="75%" />
 
+## Honor Code
+
+“On my honor, I have not given, nor received, nor witnessed any unauthorized assistance on this work."
+
+## Team Members
+
+Randy, Christian, Ryan, Matthew
+
 ## Description
 
 This project will let you play around with Markov models that create randomized text outputs. We'll look at a few different techniques, then you'll be able to build your own
@@ -36,6 +44,18 @@ git clone https://github.com/rollinscs/cms380-f18-lab-2
 
 The lab instructions tell you how to use a tool named `markovify` to generate random sentences. Work through the examples it contains and 
 record your five best random tweets.
+
+```
+The election is about to lose it.
+
+What ever happened to the people of New York.
+
+Very calm and reason a real dummy never writes fairly about me.
+
+Deputy A.G. Rod Rosenstein as “Mr. Magoo” and Rod Rosenstein stated at the United States.
+
+It is not that it is that some things are increased by being increased.
+```
 
 ## Predictive Keyboards
 
