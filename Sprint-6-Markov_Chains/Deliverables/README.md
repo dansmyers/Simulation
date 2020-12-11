@@ -76,6 +76,10 @@ P90X workout DVDs
 
 Play around with the predictive keyboard on Botnik's website. Record your best creative work.
 
+```
+I ca n't find songs i feel completely well whatever never mind -- Nirvana original lyrics to Smells like Teen Spirit
+```
+
 ## Make Your Own Predictions
 
 For your main project, let's create some original predictive text.
