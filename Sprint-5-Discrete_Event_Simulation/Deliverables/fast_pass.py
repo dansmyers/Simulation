@@ -52,7 +52,7 @@ def is_fast_pass(f):
 def simulate(arrival_rate, f):
 
     # Stopping condition
-    max_num_arrivals = 10000
+    max_num_arrivals = 50000
 
     # Basic parameters
     service_rate = 1.0
@@ -197,15 +197,15 @@ def simulate(arrival_rate, f):
     #
     # Calculate statistics
     
-    # Regular Average residence time
-    r_residence_times = [r_departure_times[i] - r_arrival_times[i] for i in range(len(r_departure_times))]
-    
-    r_average_residence_time = sum(r_residence_times) / len(r_residence_times)
-    
     # Fast pass average residence time
     fp_residence_times = [fp_departure_times[i] - fp_arrival_times[i] for i in range(len(fp_departure_times))]
     
     fp_average_residence_time = sum(fp_residence_times) / len(fp_residence_times)
+    
+    # Regular Average residence time
+    r_residence_times = [r_departure_times[i] - r_arrival_times[i] for i in range(len(r_departure_times))]
+    
+    r_average_residence_time = sum(r_residence_times) / len(r_residence_times)
     
     
     return fp_average_residence_time, r_average_residence_time
@@ -226,7 +226,7 @@ def plot(u, name):
     fp_sim_residence_avg = []
     r_sim_residence_avg = []
     
-    for f in range(5, 95, 5):
+    for f in range(1, 95, 1):
         # Add x values
         fast_passes.append(f)
         
@@ -245,7 +245,7 @@ def plot(u, name):
         
         fp_sim_residence_avg.append(sum(fp_sim_residence_times) / len(fp_sim_residence_times))
         r_sim_residence_avg.append(sum(r_sim_residence_times) / len(r_sim_residence_times))
-        
+        print(f)
         
     plt.figure()
     plt.title("Simulated Fast Pass")
