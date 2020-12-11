@@ -198,7 +198,7 @@ def main():
 	average_player_fraction = (sum(player_fractions)/1000)
 	average_bank_fraction = (sum(bank_fractions)/1000)
 	average_tie_fraction = (sum(tie_fractions)/1000)
-	tie_house_edge = ((1 / (average_tie_fraction)) - ((1 / (average_tie_fraction)) - 1))/(1 / (average_tie_fraction))
+	tie_house_edge = ((1 / (average_tie_fraction)) - ((1 / (average_tie_fraction)) - 1))/(1 / (average_tie_fraction)) * 100
 	print("Player Fraction: ", average_player_fraction)
 	print("Bank Fraction: ", average_bank_fraction)
 	print("Tie Fraction: ", average_tie_fraction)
