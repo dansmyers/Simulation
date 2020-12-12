@@ -83,18 +83,18 @@ def simulate(deck):
         
 
 # Run through Banker hand
-        if player_third_card == -10 and banker < 6:
-            banker = (banker + deck.pop()) % 10
-        elif banker <= 2:
-            banker = (banker + deck.pop()) % 10
-        elif banker == 3 and player_third_card != 8:
-            banker = (banker + deck.pop()) % 10
-        elif banker == 4 and player_third_card >= 2 and player_third_card <=7:
-            banker = (banker + deck.pop()) % 10
-        elif banker == 5 and player_third_card >= 4 and player_third_card <=7:
-            banker = (banker + deck.pop()) % 10
-        elif banker == 6 and (player_third_card == 6 or player_third_card == 7):
-            banker = (banker + deck.pop()) % 10
+    if player_third_card == -10 and banker < 6:
+        banker = (banker + deck.pop()) % 10
+    elif banker <= 2:
+        banker = (banker + deck.pop()) % 10
+    elif banker == 3 and player_third_card != 8:
+        banker = (banker + deck.pop()) % 10
+    elif banker == 4 and player_third_card >= 2 and player_third_card <=7:
+        banker = (banker + deck.pop()) % 10
+    elif banker == 5 and player_third_card >= 4 and player_third_card <=7:
+        banker = (banker + deck.pop()) % 10
+    elif banker == 6 and (player_third_card == 6 or player_third_card == 7):
+        banker = (banker + deck.pop()) % 10
                 
     
 # Compare hands and return results
