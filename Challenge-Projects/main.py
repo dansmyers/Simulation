@@ -26,7 +26,7 @@ def main():
             shoe = []
             shoe = shuffle()
 
-    print ('Player Wins = ' + str(player_wins) + ', Banker Wins ' + str(banker_wins) + ', Ties ' + str(ties))
+    print ('Player Wins = ' + str(player_wins/100000) + ', Banker Wins ' + str(banker_wins/100000) + ', Ties ' + str(ties/100000))
 
 
 def shuffle():
