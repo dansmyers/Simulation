@@ -31,6 +31,10 @@ def main():
 
 def shuffle():
     deck = []
+    # The deck will contain only the point values of the cards.
+    # By Baccarat rules, there are 4 aces worth 1 point, 16 face cards and tens
+    # worth 0 point, and 32 other cards worth their numerical value.
+    # 8 decks are suffled together to create a shoe.
     for n in range(8):
         for i in range (32):
             deck.append((i % 8) + 2)
