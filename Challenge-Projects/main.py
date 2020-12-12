@@ -55,9 +55,10 @@ def shuffle():
 def simulate(deck):
     
     # Initialize Banker and Player
+    # player_third_card is initialized to -10 to signify that it doesn't exist.
     banker = 0
     player = 0
-    player_third_card = -1
+    player_third_card = -10
     
 # Deal out two hands of two cards
     player = (player + deck.pop()) % 10
@@ -76,13 +77,13 @@ def simulate(deck):
     
 
 # Run through Player hand
-    if player < 6:
+    if player <= 5:
         player_third_card = deck.pop()
         player = (player + player_third_card) % 10
         
 
 # Run through Banker hand
-        if player_third_card == -1 and banker < 6:
+        if player_third_card == -10 and banker < 6:
             banker = (banker + deck.pop()) % 10
         elif banker <= 2:
             banker = (banker + deck.pop()) % 10
