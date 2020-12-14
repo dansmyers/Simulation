@@ -1,0 +1,3154 @@
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 1
+FORKLIFT
+OPERATOR
+MANUAL
+TLILIC2001A
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 2
+THIS MANUAL
+IS USED IN CONJUNCTION
+WITH THE
+TRANSPORT TRAINING CENTRE’S
+FORKLIFT OPERATOR AUTHORISATION
+TRAINING COURSE
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 3
+CONTENTS
+COURSE AIM ............................................................................................................................................................... 5
+INTRODUCTION .......................................................................................................................................................... 5
+LEGISLATION .............................................................................................................................................................. 6
+PERSONS PERFORMING HIGH RISK WORK ....................................................................................................... 7
+UNDER THE WORKCOVER ACT............................................................................................................................ 8
+AUTHORISATION OF OPERATORS....................................................................................................................... 8
+TRAINING OF OPERATORS ....................................................................................................................................... 8
+GENERAL RULES ........................................................................................................................................................ 9
+TRAFFIC MANAGEMENT PLANS ............................................................................................................................. 10
+SEPARATE PEDESTRIANS AND FORKLIFTS ..................................................................................................... 10
+IDENTIFY THE HAZARD ....................................................................................................................................... 10
+ASSESS THE RISK ................................................................................................................................................ 10
+CONTROL THE RISK ............................................................................................................................................. 11
+REVIEW CONTROL MEASURES .......................................................................................................................... 11
+PRACTICAL ISSUES TO CONSIDER FOR YOUR TRAFFIC MANAGEMENT PLAN ......................................... 11
+RECORD YOU TRAFFIC MANAGEMENT PLAN .................................................................................................. 12
+WORKPLACE HAZARDS ........................................................................................................................................... 13
+HAZARDS – CONTROLS AND PLANNING .......................................................................................................... 13
+EXAMPLES OF COMMON HAZARDS .................................................................................................................. 14
+HIERARCHY OF RISK CONTROL TABLE ............................................................................................................ 15
+POLICIES AND SAFE WORK PROCEDURES ..................................................................................................... 16
+INCIDENT REPORTING ........................................................................................................................................ 16
+OVERHEAD POWERLINES ................................................................................................................................... 18
+WHAT IS MEANT BY A FORKLIFT TRUCK? ........................................................................................................ 19
+LOAD LENGTH, FORK LENGTH & SPACING ...................................................................................................... 23
+FORK HEIGHT TERMINOLOGY ............................................................................................................................ 24
+LIFT TRUCK STEERING FEATURES ................................................................................................................... 25
+REAR WHEEL STEERING ..................................................................................................................................... 26
+TYPES OF PROPULSION ......................................................................................................................................... 27
+BATTERY ............................................................................................................................................................... 27
+TYRES ........................................................................................................................................................................ 28
+CONTROLS AND INSTRUMENTS ............................................................................................................................ 29
+PRINCIPLES OF OPERATION .................................................................................................................................. 30
+LONGITUDINAL (FORWARD) STABILITY ............................................................................................................ 33
+LATERAL (SIDEWAYS) STABILITY ...................................................................................................................... 33
+STABILITY - SUMMARY ........................................................................................................................................ 34
+STABILITY TRIANGLE ........................................................................................................................................... 35
+LOAD CENTRE DEFINITION ................................................................................................................................. 36
+MANUFACTURER’S DATA PLATES ..................................................................................................................... 37
+LOAD CENTRE AND LIFTING CAPACITY ............................................................................................................ 38
+LPG CYLINDER EXCHANGE PROCEDURE ........................................................................................................ 39
+ATTACHMENTS COMMONLY USED ON FORKLIFTS ........................................................................................ 40
+SLINGS ................................................................................................................................................................... 44
+BASIC DE-STACKING RULES .............................................................................................................................. 46
+BASIC STACKING RULES ..................................................................................................................................... 47
+REACH TRUCK INTRODUCTION ............................................................................................................................. 48
+REACH TRUCK LOAD TABLE AND LOAD CENTRE ........................................................................................... 48
+REACH TRUCK DE-STACKING ............................................................................................................................ 49
+REACH TRUCK STACKING .................................................................................................................................. 50
+LOADING AND STACKING WITH REACH TRUCKS ............................................................................................ 50
+FORKLIFT TRUCK OPERATION - PRE-SHIFT CHECKS ........................................................................................ 51
+RULES FOR SAFE OPERATION OF FORKLIFTS ................................................................................................ 52
+SEAT BELTS .......................................................................................................................................................... 56
+CALCULATION ........................................................................................................................................................... 57
+EXAMPLE OF CALCULATION ASSESSMENTS - 1 ............................................................................................. 59
+EXAMPLE OF CALCULATION ASSESSMENTS - 2 ............................................................................................. 59
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 4
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 5
+COURSE AIM
+To train suitable personnel in the basic skills and knowledge to enable them to operate Forklift Trucks safely and
+efficiently in accordance with the National Load Shifting Guidelines.
+This course will enable the operator to achieve a satisfactory standard in regard to:–
+• Pre-operation inspection.
+• Safety practices and rules.
+• Basic information on the Forklift truck such as its design features, centre of gravity, capacity, stability and
+limitations.
+• Control positions and functions.
+• Basic manoeuvres of a Forklift with regard to rear end swing.
+• Safe lifting, carrying and lowering of loads of different weights and dimensions and at varying heights.
+The Transport Training Centre uses the Standards Association of Australia Guidelines for the operation of
+Industrial Trucks. AS2359.2
+These Guidelines are based on industry standards and are the minimum under the various Acts and
+Regulations.
+On successful completion of this course, trainees will be able to operate a Forklift Truck in
+accordance with the standards identified in the National Load Shifting Guidelines.
+INTRODUCTION
+WHAT THIS COURSE IS DESIGNED TO DO.
+The Transport Training Centre’s forklift course is carefully designed to give all trainees a better understanding of
+the operation of forklift trucks, the problems that may be encountered and, how to minimise the risks to the
+operator, other personnel and the PCBU (employer). The practical component will enhance your knowledge and,
+give you ideas and information that will assist you to become a better and safer forklift operator.
+An advantage will be gained by all trainees by actively participating in class discussions. Operators with previous
+experience are encouraged to put forth ideas which may also benefit those trainees who are being exposed to load
+shifting equipment for the first time. There are always new things to learn.
+IMPORTANCE OF THE COURSE
+The objective of this course is to prevent injury and minimise property damage through accidents involving
+industrial trucks. Reckless driving, lack of skill and poor operating knowledge can cause and, continues to cause
+extensive damage to property, injuries and permanent disabilities and loss of life. Through training we can reduce
+the tragedy and personal suffering from accidents, lower costly waste and, improve the efficiency of the workplace.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 6
+LEGISLATION
+QUALIFICATION OF OPERATORS
+Operators of industrial trucks shall have the following qualifications:
+1. Must be a minimum of 18 years of age.
+2. Not have any physical disabilities which could impair the safe operation of an industrial
+truck or endanger the safety of others.
+3. Be especially trained in the operation of every type of industrial truck that will be used.
+4. Be sufficiently fluent in the use of the English language for communication purposes.
+5. Have adequate knowledge of this standard to allow for the implementation of its
+requirements.
+6. Conform to any relevant requirements of the Statutory Authority SAFEWORK SA.
+NOTE:- The Statutory Authority may require the licensing of operators of some types of
+powered industrial trucks.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 7
+PERSONS PERFORMING HIGH RISK WORK
+National Standard for Licensing Persons Performing High Risk Work on 6 April 2006
+require that any person in industrial, commercial or construction workplaces and who is
+required to operate a forklift truck must have either, attended and passed an approved course
+of basic training in the safe operation of forklift trucks, or, since 3rd April 1995 been trained on
+site and under the supervision of a qualified forklift operator and assessed as competent to
+operate the equipment by an accredited assessor.
+The National Standard for Licensing Persons Performing High Risk Work, April 2006 (the
+National Standard) aims to facilitate the operation of a nationally uniform, competency-based
+licensing system for persons performing certain types of high risk work.
+RESPONSIBILITIES OF HRW APPLICANTS UNDER WHS
+• Very clear and specific.
+• Apply to all HRW (High Risk Work) categories.
+• When applying must:
+o Give correct full name, photograph & identity evidence
+o Must not give misleading or false information
+o If already have a licence / certificate - must produce
+o Make a declaration if:
+ a) have same licence from another state
+ b) if refused a license from SA or another state
+ c) guilty of any offense against WHS regs.& details
+HRW LICENSE RULES
+• Until person is competent/licenced, PCBU (employer) CAN NOT permit a that person to
+perform HRW.
+• Until successfully assessed, applicants undergoing formal /informal learning are
+considered trainees.
+• If successful in assessment, will receive Notice of Satisfactory Assessment & Tax Invoice
+for SWSA – valid for 60 days only,(late payments not accepted)
+• HRW licences have to be renewed every 5 years
+• If no longer competent / hold no licence, HRW operator must cease that HRW activity.
+HRW LICENCE HOLDER RESPONSIBILITIES
+• Own Health and Safety & Health and Safety of Others
+• Use and Maintain Plant Safely & use PPE correctly.
+• Doing HRW?
+o Take reasonable precautions
+o Exercise proper diligence & care
+• Failing to work safely / proper diligence – Penalties?
+o Licence suspended / cancelled
+o Renewal of licence refused – if occurred at renewal
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 8
+UNDER THE WORKCOVER ACT
+Serious or wilful misconduct by any party could invalidate any claim. Therefore neglect by an PCBU (employer) to
+ensure that all workers are trained and certified could, in the event of an incident, cause complications. Additional
+information can be obtained from the office of the Department for Administration and Information Services –
+Safework SA.
+AUTHORISATION OF OPERATORS
+GENERAL
+The PCBU (employer) shall ensure that only persons who are qualified are authorised to operate industrial trucks.
+Where appropriate, the PCBU (employer) should provide each authorised operator with a certificate of
+authorisation.
+CERTIFICATE OF AUTHORISATION
+Each Certificate of Authorisation should bear the following information in a legible manner:-
+1. Operator’s name
+2. Types of industrial trucks and attachments which the operator is authorised to use, including any
+limitations which may apply.
+3. Signature of issuing officer.
+CONDITIONS OF ISSUE
+Each Certificate of Authorisation should be issued under the following conditions:
+1. Wherever operating or in control of an industrial truck, the operator shall either carry the certificate on their
+person or display the certificate on the industrial truck.
+2. The operator shall be personally responsible for safe custody of the certificate, shall not lend it, shall guard
+against its loss, theft or damage, and shall not alter deface, destroy or tamper with it in any way.
+3. Any loss of the certificate shall be immediately reported to Safework SA.
+4. The certificate shall be surrendered to the issuing officer on demand.
+TRAINING OF OPERATORS
+New operators, including those with previous experience, shall be instructed on the following items for each
+type of industrial truck to be used:
+(a) PCBUs’ (employer) policies and operational procedures.
+(b) Safety practices and rules.
+(c) Operating conditions in all areas of operation, including any special or hazardous conditions.
+(d) Basic information of the particular industrial truck, such as its design features, centre of gravity, capacity,
+stability and limitations.
+(e) Control positions and functions.
+(f) Servicing, maintenance and repair responsibilities.
+The operator should also have supervised practice either, on a remote operating course designed to simulate
+actual conditions, or, in the workplace. This should be followed by oral, written and, operational performance
+tests, on-the-job evaluations, and refresher courses as required by the PCBU (employer).
+Every worker who has successfully completed a course of training should be provided with a Statement of
+Attainment by the training organisation.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 9
+GENERAL RULES
+When operating a powered industrial truck, the operator shall observe the following general rules.
+1. Be qualified in accordance with the appropriate standard.
+2. Be authorised in accordance with the appropriate Act and Regulations by being in possession of a
+current certificate of competency.
+3. In the event of a fault being revealed at any time or if the industrial truck becomes unsafe in any way:
+a. report the matter immediately to your supervisor, and
+b. if the fault or condition is immediately dangerous, do not use the industrial truck until it is rectified.
+4. Do not operate an industrial truck with a leak in the fuel system.
+5. Do not make repairs, alterations or adjustments to any industrial truck unless authorised.
+6. For industrial trucks powered by an electric motor, know the location of the emergency isolator and
+know how to operate it.
+7. Report the occurrence of any new hazard.
+8. Report all accidents, including those with personnel, buildings, structures, equipment and stock.
+9. Observe all safe practices.
+10. Safeguard pedestrians at all times.
+11. During emergency situations, yield right of way to all emergency vehicles.
+12. Do not allow anyone to stand or pass under elevated forks or attachments, whether loaded or empty.
+13. Do not allow any person to travel on an industrial truck or attachment or load, except on
+equipment which has been specifically designed to carry a rider and which has been approved.
+14. Do not put any portion of the body between the uprights of the mast or outside the outline of any
+rider industrial truck.
+15. Do not allow an internal combustion engine to be idled unnecessarily in enclosed or semienclosed areas, as this may result in an accumulation of fumes and gases.
+16. Turn on sufficient lighting to promote adequate visibility.
+17. Avoid contact with overhead installations, such as electrical systems, pipes and sprinkler
+systems.
+18. Do not use an industrial truck for any purpose for which it is not designed or equipped, such as
+pushing a load or any other object.
+19. Use only designated and approved industrial trucks for special or hazardous operating conditions.
+20. Carry only loads which are safely arranged and which are within the rated capacity of the
+industrial truck and attachment combination.
+21. Do not use supplementary counterweights or additional personnel to increase the rated capacity
+of any industrial truck.
+22. Take care when securing, manipulating, positioning and transporting a load, particularly when
+attachments are being used.
+23. When the industrial truck is equipped with attachments which are unloaded, operate it as if it were
+partially loaded.
+24. When unloading loads or pallets or parking an industrial truck, do not obstruct emergency exits,
+aisles, access to stairways or any safety equipment (including fire equipment), which shall be kept
+clear at all times.
+25. Do not operate an industrial truck unless a data plate is fitted.
+26. Do not operate an industrial truck on a public road unless the industrial truck is registered, has
+lights, turning indicators and warning devices fitted and, you have the appropriate class of driver’s
+licence covering the Gross Vehicle Mass of the industrial truck.
+27. Do not operate an industrial truck within 3 metres of low voltage power lines or within 8 metres of
+a high voltage tower and use spotter & 6.4 metres low voltage and 10 metres high voltage without
+a Spotter. Also check with Statutory Authorities.
+28. Always approach rail lines and speed humps at a 45o
+ angle and slow down.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 10
+TRAFFIC MANAGEMENT PLANS
+SEPARATE PEDESTRIANS AND FORKLIFTS
+The best way to reduce the risk of forklift-related injuries is to separate pedestrians and forklifts.
+Separating pedestrians and forklifts is the most important aim of your traffic management plan.
+A traffic management plan is a set of rules for managing the safest and most efficient movement of traffic in your
+workplace. It contains practical, workable controls and covers all vehicles in your workplace, not just forklifts. It
+should also be specific to the workplace.
+Everyone affected by the plan must understand it and follow it. Don’t wait until an injury or death occurs at your
+workplace before separating pedestrians and forklifts.
+DEVELOP YOUR TRAFFIC MANAGEMENT PLAN
+PCBUs (employers) and supervisors should develop a traffic management plan by consulting with workers and
+others in your workplace, and by using the principles of hazard management:
+IDENTIFY THE HAZARD
+— associated with the movement of forklifts, other vehicles and pedestrians.
+• Study the way forklifts, other vehicles and pedestrians move or need to move around in all areas of your
+workplace.
+• Identify the places where there is the potential for a collision to occur.
+• Consider the physical structure of your workplace. Look at floor surfaces, exits, driveways and
+housekeeping standards.
+• Ask your workers about any problems they have noticed.
+• Review your incident and injury records (including ‘near misses’), as well as manufacturers’ information.
+‘Practical issues to consider for your traffic management plan’ can help you decide what needs to be in your traffic
+management plan.
+ASSESS THE RISK
+— caused by these hazards. PCBUs, supervisors and operators should ask these questions:
+What is the potential impact of the hazard?
+• How severe could an injury be?
+• What is the worst possible damage the hazard could cause to someone’s health?
+• Would it require simple first aid only? Or could it cause permanent ill health or disability? Or could
+it kill? How likely is the hazard to cause someone harm?
+• Could it happen at any time or would it be a rare event?
+• How frequently are employees exposed to the hazard? You should also consider how many
+people are exposed to the hazards
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 11
+CONTROL THE RISK
+— the most effective way to control risks is to eliminate them in the first place. If it is not practical to
+control risks by eliminating them, consider other measures that can minimise them. When considering
+potential control measures and deciding which to use, follow the priority order set out in the Hierarchy of
+Control:
+(1) elimination (most effective control) — e.g. consider options to eliminate the use of forklifts
+(2) substitution — e.g. use a safer type of forklift
+(3) isolation — e.g. provide an overhead pedestrian walkway
+(4) engineering/redesign — e.g. use speed limiting devices on forklifts
+(5) administration — e.g. training and/or warning signs
+(6) personal protective equipment (least effective control) — e.g. high visibility vests.
+Once you have considered potential control measures in the correct order, implement the most effective
+controls practical, or a combination of controls. For example, can you eliminate risks by removing forklifts
+from your workplace completely? If that is not practical, can you replace them with more people-friendly
+load shifting equipment (such as a pallet jack or conveyor system)?
+Other control measures might include creating more efficient routes and traffic flows; creating ‘no go’
+zones; and using signs and barriers.
+REVIEW CONTROL MEASURES
+— Review your control measures to ensure they have been implemented and are not creating new
+hazards. Repeat the hazard management process at regular intervals and also whenever there is a
+change at your workplace or after a near miss or incident.
+For more detailed information about the principles of hazard management, call your local
+workplace safety authority.
+PRACTICAL ISSUES TO CONSIDER FOR YOUR TRAFFIC MANAGEMENT PLAN
+• Designate exclusion zones for pedestrians and forklifts. Use impact barriers to separate pedestrians and
+forklifts. Less permanent or less sturdy barriers, such as bollards or expandable fences may be adequate
+for temporary demarcation. If less sturdy barriers are used, factor in the likely stopping distances by
+considering the weight of the forklift and its expected load and the likely speed of the forklift.
+• Audio visual warnings can supplement controls in areas of partial separation. A mix of high volume alarms
+and horns coupled with flashing lights best warn pedestrians of approaching forklifts. Flashing lights are
+imperative in areas of high levels of ambient workplace noise.
+• Consider using proximity devices.
+• Safety intersections and blind corners can be managed with devices that ensure pedestrians slow down or
+stop, such as swinging or interlocked gates and chicanes. These controls can be enhanced by the addition
+of overhead mirrors. Avoid placing bins, racks or storage units that obstruct a forklift operator’s view at
+intersections or around corners.
+• Use signs, containment fences, boom gates and even overhead walkways. Install signs that indicate who
+must give way. Implement and enforce procedures that cover when and how pedestrians and forklifts must
+give way to each other.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 12
+• Create ‘no go’ zones for forklifts (pedestrian-only areas): e.g. around tearooms, time clocks,
+amenities and entrances. Create clearly marked pedestrian crossings.
+• Assess traffic destination, flow, volume and priorities (such as rail traffic).
+• Consider high-visibility or reflective clothing for pedestrians and workers operating forklifts, and
+high-visibility markings for forklifts. However, this is no substitute for physically separating
+pedestrians and forklifts. Make sure that any high-visibility clothing does not blend in with other
+brightly coloured objects in your workplace.
+• Consider speed limits and speed-limiting devices.
+• Examine the forklift and its characteristics: movement, stability, attachments, and braking
+distances.
+• Examine the loads being moved: their height and type.
+• Look at security measures.
+• Be alert for black spots caused by stationary equipment and vehicles. Black spots must be
+controlled.
+• Make sure roads are well formed, and clearly marked. Consider making roads two-way
+carriageways.
+• This list is not exhaustive, and does not replace the principles of hazard management.
+RECORD YOU TRAFFIC MANAGEMENT PLAN
+You should now be able to identify traffic flow, speed limits, parking areas, manoeuvring and loading
+areas, ‘no go’ zones, pedestrian crossings, required ‘give ways’, and areas requiring actions in your
+workplace.
+Detail this information in a site map, and display it in your workplace. Everyone in your workplace,
+including contractors and visitors, must know your traffic management plan. Use induction and training
+sessions, and post information at workplace entrances and notice boards.
+Creating a site map can help you analyse the workplace while developing the traffic management plan.
+Once the plan is developed, the finalised site map will help reinforce and communicate the traffic
+management plan. Review and monitor the traffic management plan at pre-determined and regular
+intervals.
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 13
+WORKPLACE HAZARDS
+HAZARDS – CONTROLS AND PLANNING
+Before commencing work on a site it is important to communicate with workplace personnel and
+WHS/HSR officers.
+You need to consult with the following people before starting to work:
+• Supervisors
+• Colleagues
+• Managers who are authorised to take responsibility for the workplace or operations.
+• Safety/HSR Officers
+• Site engineers, where applicable
+• Any others?
+To make sure that any workplace policies and/or site specific procedures are known & adhered
+to.
+You are about to commence forklift operations. What are possible hazards that you need to
+consider and plan for?
+• Pedestrians and Personnel
+• Plant and Equipment
+• Buildings
+• Obstructions
+• Electrical Power Lines / Overhead Power Lines
+• Potential non weight bearing surfaces, eg wood floors, dirt areas
+• Wind and bad weather conditions
+• Lighting / Illumination
+• Wet and Slippery Surfaces
+• Overhead Obstructions
+• Surrounding Structures
+• Ground Conditions
+• Dangerous Material
+• Vehicle Traffic
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 14
+EXAMPLES OF COMMON HAZARDS
+Hazard Potential harm
+Manual tasks Overexertion or repetitive movement can cause muscular strain
+Gravity Falling objects, falls, slips and trips of people can cause fractures, bruises,
+lacerations, dislocations, concussion, permanent injuries or death
+Electricity Potential ignition source.
+Exposure to live electrical wires (for example, Overhead powerlines) can
+cause shock, burns or death from electrocution
+Machinery and equipment Being hit by moving vehicles (for example, forklift or orderpicker), or being
+caught by moving parts of machinery can cause fractures, bruises,
+lacerations, dislocations, permanent injuries or death
+Hazardous chemicals Chemicals (such as acids, hydrocarbons, heavy metals) and dusts (such
+as asbestos and silica) can cause respiratory illnesses, cancers or
+dermatitis
+Extreme temperatures Heat can cause burns, heat stroke or fatigue
+Cold can cause hypothermia or frost bite
+Noise Exposure to loud noise can cause permanent hearing damage
+Radiation Ultra violet, welding arc flashes, micro waves and lasers can cause burns,
+cancer or blindness
+Biological Micro-organisms can cause hepatitis, legionnaires’
+disease, Q fever, HIV/AIDS or allergies
+Psychosocial hazards Effects of work-related stress, bullying, violence and work-related fatigue
+Other than site hazards what are things you need to consider when planning the task?
+• Site Specific issues
+• Communications (safe and adequate)
+• Access to where you are going
+• Location of task
+• Specifics of task
+• Permits required for the task
+• Equipment required for the task
+• Availability of equipment
+• Capacity of forklift
+• Characteristics of the load – weight, vol, nature (DG)
+• Doorways
+• Blind corners
+• Personal protective equipment
+• Temperature controls
+• Vehicle Traffic
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 15
+Before commencing a task or as soon as a hazard is identified during an operation the hierarchy of risk control is
+used as a logical sequence of steps that should be considered to control hazards in the workplace.
+HIERARCHY OF RISK CONTROL TABLE
+Until you have a better method of control…
+Other hazards within the workplace have specific requirement, for example overhead
+powerlines, you must observe the following distances when conducting forklift operations near
+uninsulated power lines?
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 16
+POLICIES AND SAFE WORK PROCEDURES
+Policies and safe work procedures ensure everyone who uses forklifts understands how to do
+so safely and correctly.
+Policies should cover the hazard management process; selecting a forklift; training and
+licences; incident reporting and investigation. Safe work procedures (or operating procedures)
+should cover many of the topics discussed in this guide, for example, checking the forklifts and
+the workplace, using attachments, operating the forklift, carrying loads, and maintenance. Other
+issues you should consider include fatigue, manual handling, refuelling, and battery charging.
+As with your traffic management plan, everyone in your workplace, including contractors and
+visitors, must know your policies and safe work procedures.
+Provide contract staff with the same level of training on traffic management as direct workers.
+Manage visitors so there is no possibility of them entering forklift operating areas. If this is not
+possible inform them of ‘no-go’ areas or ensure visitors are accompanied by a worker. You
+could use induction and training sessions, and post information at workplace entrances and
+notice boards.
+You should also review these regularly to ensure they remain appropriate and also ensure
+people are complying with them.
+INCIDENT REPORTING
+Develop and implement an incident reporting procedure. Incidents involving forklifts must be
+reported immediately to the manager or supervisor.
+Reporting incidents allows you to:
+• find out what went wrong and why
+• improve work practices or the physical environment
+• prevent similar incidents happening again. Near misses must also be recorded and
+followed up. Reporting near misses can give you the chance of preventing a severe
+accident, so treat them seriously. You may use the principles of hazard management in
+this process.
+It is important that if someone is killed or seriously injured — or could have been killed
+or seriously injured at your workplace — Safework SA must be notified.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 17
+COMMUNICATION
+Involving workers in Health and Safety matters is a legal requirement and makes good business
+sense. When management works with workers to achieve shared objectives workers are more
+likely to understand decisions and actively support them.
+
+Workers have a good understanding of high-risk activities in their work areas. By setting up a
+communication system, where management and employees have a genuine opportunity to
+exchange views, informed decisions can be made based on shared information. Effective
+worker involvement and cooperation assists in preventing incidents, injuries and ill health. For
+example communication could be used to alert workers of:
+• Emergency situation
+• The nature of the emergency
+• Unsafe work areas or zones
+• Information to emergency services i.e. ambulance, police or fire services personnel
+The PCBU (person conducting a business or undertaking) should actively consider
+arrangements for establishing formal consultative methods. For example, in larger organisations
+consider health and safety representatives and safety committees. These arrangements should
+be developed in consultation with workers, documented and communicated to everybody. For
+smaller organisations, less formal systems such as regular 'toolbox' or safety communications
+meetings can be considered. Some organisations combine formal and informal communication
+methods very effectively. Communication methods could be:
+• Visual Communication – WHS specially designed signs, electronic communication,
+documents, and even presentation
+• Written Communication – KPI reports, evaluations, emails, instant messages, physical
+and electronic memos, training materials, and other types of documents i.e. Safety Data
+Sheets
+• Verbal Communication – Toolbox meetings, instructions and public address messages
+(i.e. fire drills). Verbal communication would also involve active listening by workers
+and supervisors to ensure the message is clear and understood
+• Feedback Communication – Questioning to confirm understanding of workplace
+communication and/or safe procedures
+Any proposed changes to the work environment, work processes or the WHS management
+system must be discussed with workers. PCBUs (Employers) must involve workers, so that
+potential health and safety issues can be identified and resolved. Workers have the practical
+experience that is valuable in ensuring that workplace changes are implemented effectively and
+do not create further risks.
+Training must be provided to all staff to ensure the communication you have established is
+effective.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 18
+OVERHEAD POWERLINES
+The following distances MUST be observed when performing any work under or near to
+overhead power lines.
+• Low Voltage with a spotter: 3 m
+• Low Voltage without a spotter: 6.4 m
+• High Voltage with a spotter: 8 m
+• High Voltage without a spotter: 10 m
+If you are required to work closer than these minimum distances, the following controls could be
+used to do this safely?
+Controls include, but not limited to:
+• Must seek an exemption from the relevant authority.
+• Where possible have the electricity power shut off.
+• If this is not possible, the power lines must be insulated.
+• Depending on legislation of the state/territory, the use of a spotter within the exclusion
+zone may be appropriate.
+What is the best method to determine the voltage of over head power lines?
+• Refer to the local power authority for advice
+What should you do if the forklift truck you are operating comes into contact with power lines?
+• If possible & without danger to self:
+o Attempt to break the forklift’s contact with the power line by moving the forklift or
+moving / lowering the mast.
+• If NOT possible:
+o You should remain on the forklift if it is safe to do so
+o Do not touch any metal parts of the forklift
+o Call for assistance!
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 19
+WHAT IS MEANT BY A FORKLIFT TRUCK?
+The Regulations define the term “Forklift Truck” as a powered industrial truck:–
+(a) equipped with an elevated load carriage designed to permit tiering of one load on
+another;
+(b) equipped with forks or other load handling means;
+(c) capable of self loading; and,
+(d) on which the operator must ride to operate.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 20
+YOUR FORKLIFT TRUCK IS MADE UP OF:
+1. Mast
+2. Back rest extension (load guard)
+3. Load forks
+4. Fork carriage
+5. Drive axle and wheels
+6. Steer axle and wheels
+7. Overhead guard
+8. Tilt cylinder
+9. Counter balance (counterweight)
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 21
+OTHER TYPES OF FORKLIFTS IN GENERAL USE
+The following require training in use and some may require an Operator’s Certificate.
+A. Straddle Truck D. Counter Balanced Stand-up
+B. Reach Truck E. Walkie Straddle
+C. Order Picker F. Walkie Reach
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 22
+FORKS
+TYPES OF FORKS
+The Pallet is the most common type of fork is use. It is designed to handle pallets or skids.
+These forks are sometimes tapered on the bottom face so they can be used to chisel under
+certain types of loads.
+The Polished and Tapered fork is primarily used for chiselling operations. It is a thin fork that
+has a very smooth finish. These forks can be tapered either top or bottom depending on the
+intended chiselling operation. This fork can also be used for handling pallets or skids.
+The Plywood fork is primarily used in the timber business. It is wider and thinner than a
+regular fork and enables the operator to “chisel” between laminated timber sheets.
+LENGTHS OF FORKS
+The forks that are used should always be shorter than the load being handled. For example, a
+standard pallet is 1200mm in length, therefore, the forks to be used should be approximately
+1000mm in length. Fork length should always be shorter than the load length. Forks which
+protrude beyond the load may cause damage; however, if the forks are too short then load
+stability will be at risk. If ever faced with the situation where the forks are longer than the load,
+the operator should endeavour to travel in reverse with the forks trailing.
+As a general rule forks should always extend at least 75% of the distance under the load.
+FORK EXTENSIONS (SLIPPERS)
+Fork extensions are generally used to handle long loads. The slide over the regular forks and
+give added length.
+Fork extensions are an attachment and their weight should be taken into account as part of the
+load being carried by the forklift. Using fork extensions eliminates the necessity to have more
+than one pair of forks.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 23
+LOAD LENGTH, FORK LENGTH & SPACING
+SPACING
+When picking up a wide load, the forks should be evenly spread out toward the sides of the
+load.
+The key points are to use the proper length of forks spaced correctly for the load. In most
+cases load handling is performed with pallets.
+ (1200mm x 1200mm for a standard Chep or Loscam Pallet).
+The distance between the forks should be adjusted to be approximately between two thirds or
+three quarters of the overall width of the pallet to give the strongest support and to enable
+greater ease of manoeuvrability especially when stacking or de-stacking in confined areas.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 24
+FORK HEIGHT TERMINOLOGY
+A. The Collapsed Height is the
+distance from the floor to the top
+of the mast when the forks are in
+their lowest position.
+B. Free Lift is the distance the
+forks may be raised before the
+Collapsed Height is increased.
+C. The Maximum Fork Height is
+the distance from the floor to the
+top of the forks when the mast is
+fully raised.
+D. Overall Extended Height
+is the distance from the floor to
+the top of the load back rest
+extension when the mast is
+fully raised.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 25
+LIFT TRUCK STEERING FEATURES
+REAR END STEERING
+A. This allows the Truck to turn much sharper than those steered by the front wheels.
+B. Tail swing is a characteristic of Forklift Trucks. This is the direct result of being steered
+by the rear wheels. Operators need to become accustomed to this peculiarity in order to
+avoid accidents.
+WILL NOT SELF CENTRE
+A. Before boarding the machine check the position of the rear wheels.
+B. One hand must be on the steering wheel at all times during operation.
+C. Travel at a safe speed to enable manoeuvres to be carried out safely.
+POWER STEERING
+A. Turn steering only when the forklift is moving.
+B. If the forklift is fitted with pneumatic tyres ensure that they are inflated to
+recommended pressures.
+Never switch the engine off whilst the vehicle is in motion. Loss of engine power will result in
+loss of power steering function.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 26
+REAR WHEEL STEERING
+The ability to drive an ordinary motor vehicle does not necessarily mean that a person is
+capable of handling a forklift truck. The effect of rear wheel steering is similar to driving an
+ordinary vehicle in reverse.
+SPECIAL STEERING CHARACTERISTICS
+Rear wheel steering also imposes different steering characteristics. When an ordinary vehicle is
+turning, the rear wheels will “track” inside the turning arc of the front wheels. With rear wheel
+steering, the rear wheels will “track” outside the front wheel arc. This action induces the
+characteristic of rear end swing.
+REAR END SWING
+The tendency for the rear end to swing outside the arc of forward movement will become
+apparent when observing the progress of the front of the vehicle. Rear end swing is a major
+contributor to a considerable number of accidents involving forklift trucks. Novice drivers need
+to be particularly careful of this feature.
+Additionally, rear wheel steered vehicles will not revert
+from a turning arc to a straight course if the steering
+wheel is released. The tendency is for the turn to be
+continued in a decreasing circular movement until
+maximum lock is reached.
+THE SPEED OF REAR END SWING WILL BE APPROXIMATELY
+3 TIMES THE FORWARD SPEED OF THE FORKLIFT
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 27
+TYPES OF PROPULSION
+There are two distinct types of propulsion for forklifts: Internal Combustion Engines and Battery
+Electric.
+INTERNAL COMBUSTION
+The internal combustion engine in a forklift works on the very same principles as those in a
+normal motor vehicle. The variety of fuel sources are also similar to those of a normal motor
+car and include petrol, diesel, LPG and CNG (compressed natural gas).
+Gas powered vehicles are more often used indoors whereas those powered by petrol or diesel
+are often larger and are used in outdoor environments. Petrol emits more toxic fumes (carbon
+monoxide) than those using either LPG, CNG or diesel. Even with the advent of catalytic
+mufflers these engines should not be idled unnecessarily in confined spaces.
+More forklifts use the internal combustion engine rather than
+battery power because of its greater versatility as a power
+source. Considering that an internal combustion engine develops
+more torque than a battery powered vehicle, it yields more
+power. As a consequence, internal combustion engine forklifts
+will have a higher grade climbing ability than a comparable
+battery powered machine. Large outdoor forklifts always use
+internal combustion engine due to their power requirements.
+BATTERY
+The major differences apparent in battery operated forklifts is that they are fume free, quiet
+and, can be built to a smaller scale and should be maintained as to manufacturer’s
+specifications.
+Being fume free means they are ideally suited for use in
+operations such as food processing or, manufacturing plants
+where people are working in confined or poorly ventilated
+areas. Their quietness is beneficial when used in an area
+where noise would create a disturbance to workers. In contrast
+to the internal combustion engine, the battery operated forklift
+has fewer parts and can be built more compactly.
+Lead acid batteries should be stored in a cool well ventilated area away from ignition sources
+(eg welding, smoking etc.). A spill tray should be installed under the battery to contain any
+spill. If installed batteries are at risk of metal tools or other conductive materials touching
+terminals, then the terminals should be insulated.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 28
+TYRES
+There are four basic types of tyres used on forklifts.
+• Pneumatic Tyres: Similar to those used on motor vehicles which are inflated with air.
+• Semi-Pneumatic Tyres: Hollow centred tyres that operate at atmospheric pressure.
+• Solid Tyres: A ring of solid rubber, neoprene or other rubber like material around the
+wheel rim.
+• Cushion Tyres: A solid tyre, but with a different tread and profile configuration to give it
+some of the shock absorbing qualities not found in a solid tyre.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 29
+CONTROLS AND INSTRUMENTS
+HOUR METER
+A most important instrument for which there are two reasons:-
+1. Service intervals can be determined by worked hours on the machine. Similar to using
+odometer readings for the servicing of motor vehicles.
+2. Refuelling and even records of operating costs can be determined through hours worked.
+CONTROLS
+Some forklift truck controls are similar to, and operate in the same way as those found in a car:-
+accelerator, brake, hand brake for parking.
+Forklifts fitted with gear boxes giving a range of forward and reverse gears should always begin
+travelling in the lowest gear possible. Low gear should also be used on ramps and when load
+positioning.
+INCHING
+The majority of forklift trucks are equipped with power shift transmissions. In this case a clutch is
+not required to change gear. The third pedal provided on some forklifts, mounted in the normal
+position for a clutch, is an “inching pedal” (“clutch brake”). Use of this pedal by the operator
+enables the truck to “inch” or move very slowly when operating in confined spaces or when fine
+manoeuvring is required. The pedal is pressed part way in to “inch”. Depressing the pedal past
+the inching position will apply the brake.
+By using the inching pedal the operator is able to control the speed of the machine as well as
+being able to neutralise the transmission and stop the machine. Once fully depressed, the
+inching pedal will hold the machine (maximum braking), and neutralise the transmission without
+having to move the gear selector. The accelerator can then be used for better hydraulic
+response when initiating stacking, de-stacking and other static load shifting operations.
+VERSATILITY
+Forklift trucks can be made extremely versatile by adding to or replacing the forks with
+attachments. Clamps, revolving carriages, booms, jibs and even shovels form just a few of the
+attachments available. The most common attachment is the “side shift” which allows movement
+of the forks up to 100mm (4 inches) left or right of centre of the mast.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 30
+PRINCIPLES OF OPERATION
+INTRODUCTION
+The purpose of the following section is to explain the PRINCIPLES which govern the operation
+of forklift trucks.
+In particular we shall be considering the concepts of:
+• PIVOT POINT
+• LOAD RATING
+• LONGITUDINAL STABILITY
+• LATERAL STABILITY
+• CENTRE OF GRAVITY
+• STABILITY TRIANGLE
+An understanding of these principles is essential to gain an appreciation of the capabilities and
+limitations of the forklift.
+Most importantly, knowing these principles, will allow the operator to anticipate dangerous
+situations and thus maintain a safer operation.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 31
+PRINCIPLES OF OPERATION
+FULCRUM OF BALANCE
+The same principles that apply to a see-saw apply to a forklift. In diagrams A & B, equal weights
+are placed an equal distance apart from the pivot point, the result is that they remain balanced.
+This is SAFE. Note:- the pivot point of the forklift is at the front wheels.
+The counterweight of the forklift must always be greater than the load. In the following
+diagrams, counterweight C is greater than load D. This is SAFE.
+In diagrams E & F a heavier load has been placed at one end. As a consequence a loss of
+balance will occur. This is UNSAFE.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 32
+UNDERCUTTING THE LOAD
+In the diagrams below, equal weights have been placed each side of the pivot point, however
+one of the weights has been placed further away from the pivot point than the other. When
+operating a forklift this is called undercutting the load. This is UNSAFE.
+Even if the weight of the load is less than the counterweight, by moving the load further away
+from the pivot point, we can cause the forklift to tip forward. This is UNSAFE.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 33
+LONGITUDINAL (FORWARD) STABILITY
+There are several causes of forward instability. Overloading the forklift should never occur. This
+is a highly dangerous practice and will invariably cause the forklift to tip forward. Other causes
+of forward loss of balance can be cited as:
+• Tilting the mast forward with the load raised high (diagram A). Undercutting the load
+(diagram B)
+• Travelling downhill or down a ramp with the load leading (diagram C)
+Violent braking is another cause of forward instability and should be avoided at all costs
+LATERAL (SIDEWAYS) STABILITY
+Causes of sideways instability are:
+• Travelling over uneven ground, pot holes etc., (diagram 1).
+• Having the load unevenly balanced (diagram 2).
+• Turning too fast (diagram 3)*.
+* The most potential for disaster is turning too quickly. With rear end steering and moving at an
+approximate speed of 10kph, turning the steering will cause the rear to accelerate to 3 times the
+forward speed of the machine ie. 30kph. This can easily cause the forklift to tip sideways.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 34
+STABILITY - SUMMARY
+FORWARD STABILITY
+Is affected by: 1. Overloading
+2. Sudden stops
+3. Rough operation of controls
+4. Exceeding load centre
+5. Negotiating inclines
+6. Collision with overhead obstructions
+SIDE STABILITY
+Is affected by: 1. Turning too fast
+2. Turning on an incline
+3. Incorrect tyre pressure
+4. Ground obstructions
+5. Unbalanced loads
+Loads carried high with too much tilt and side-shift
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 35
+STABILITY TRIANGLE
+One of the most important concepts to understand about forklifts is that even though they have
+4 wheels, they are only suspended at 3 points. The rear steering axle is mounted to the truck by
+means of a pivot pin in the centre of the axle. This method of suspension allows for some
+flexibility when travelling over rough ground.
+Diagram A shows an imaginary triangle drawn between the two front wheels and the pivot pin in
+the rear axle. The area within the lines is referred to as the Stability Triangle/Pyramid.
+The centre of gravity of an object is the point within that object from which it could be
+suspended in mid-air perfectly balanced. Whenever operating a forklift, the centre of gravity
+must remain within the boundaries of the stability triangle, if not, the forklift will tip over.
+Diagrams 1 to 6 describe what happens to the centre of gravity during normal operation. Some
+forklifts have more degree of tilt than others and it should be noted that full backward or forward
+tilt should only be used under prescribed circumstances.
+EMPTY MAXIMUM MAST TILTED
+LOAD BACK
+
+MAST LOAD RAISED TRUCK
+TILTED HIGH & MAST TILTED CORNERING
+FORWARD BACK EXCESSIVELY OR UNEVEN LOAD
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 36
+LOAD CENTRE DEFINITION
+Load Centre: The distance measured from the vertical face of the forks to the centre of gravity
+of the load. Providing that the weight of the load is evenly distributed and the load is
+against the backrest a more simple definition of load centre is Half the Length of the
+Load.
+In Diagram A the load length measures 1200mm (standard pallet) so the load centre is 600mm.
+In Diagram B the load measures 1400mm, therefore, the load centre is 700mm.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 37
+MANUFACTURER’S DATA PLATES
+DATA PLATES
+The data plate attached to the forklift is an integral part of the safe operation of the forklift. After
+studying the information you are made aware of the forklift’s maximum lifting capacity, load
+centre and, maximum stacking height.
+The data plate above describes that the machine can lift a maximum of 2150kg to a maximum
+height of 3700mm providing the load centre does not exceed 600mm. When an attachment has
+been added the data plate will show a reduced lifting capacity. The attachment (in this case a
+“sideshift”) which has been added weighs 325kg. In consideration that this weight has been
+added forward of the pivot point (the front wheels) the capacity of the forklift is reduced by the
+weight of the attachment. The revised lifting capacity is calculated in the following manner:
+Rated capacity 2150kg
+Less - weight of attachment - 325kg
+Reduced capacity = 1825kg
+If a data plate is missing or unreadable, tag and report. Do not use.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 38
+LOAD CENTRE AND LIFTING CAPACITY
+ 1. 2. 3.
+LIFT CAPACITY DECREASES AS THE LOAD CENTRE INCREASES
+In Diagram 1 a forklift rated for lifting 2000kg with a 600mm load centre can safely lift the load,
+providing the load is evenly distributed. In Diagram 2 the load centre has increased to 750mm
+so the lifting capacity is reduced to 1700kg. In Diagram 3 the load centre has been increased
+even further to 900mm so the lifting capacity is further reduced to 1400kg.
+LOAD RATING GRAPH
+The graph shows how the load capacity decreases as the load centre increases. The forklift
+described on the graph can lift 3000kg as long as the load centre is 600mm or less. As the load
+centre increases beyond 600mm, the lifting capacity is reduced, e.g. for a 750mm load centre
+the lifting capacity is reduced to 2250kg. For a 900mm load centre the lifting capacity is further
+reduced to 1750kg.
+Under no circumstances can a forklift lift a greater load than the
+stated maximum
+- even if the load centre is less than that stated!
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 39
+LPG CYLINDER EXCHANGE PROCEDURE
+NOTE: Gloves and eye protection should be worn at all times when handling LPG
+containers.
+PREPARATION
+1. Park correctly in a designated area.
+2. Lower forks to the ground with the tips down.
+3. Apply the parking brake.
+4. Switch engine and all electrics off.
+5. No smoking.
+CYLINDER REMOVAL
+1. Put on gloves and eye protection.
+2. Turn off cylinder supply valve (hand tight).
+If exchanging the cylinder before it has run out of gas, restart the engine and allow it to
+run until all of the gas in the supply line has been exhausted. When the engine stops turn
+off the ignition.
+3. Disconnect the supply hose at the quick release coupling.
+4. Release the cylinder clamps.
+5. Remove the cylinder and place in a designated area.
+REPLACEMENT
+1. Check new cylinder is full by laying it horizontally to read the gauge.
+2. Lift cylinder onto the cradle.
+3. Position cylinder correctly with “top” pointing up.
+4. Lock the cylinder clamps.
+5. Connect the supply hose (hand tight).
+6. Open the supply valve slowly to avoid air locks.
+7. Check for leaks by smell or look for frosting at coupling joints.
+If a leak is detected, close the supply valve immediately and seek help
+TAG FIRST THEN REPORT
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 40
+ATTACHMENTS COMMONLY USED ON FORKLIFTS
+Paper Roll Clamps
+Choice of Fixed frames or Swing
+frames to match your equipment
+to your paper handling
+requirement. Heavy duty drive
+train delivers high torque and fast
+smooth rotation for quicker cycle
+times and speedier loading and
+unloading.
+Double Pallet Handlers
+High tensile steel construction.
+Eliminates load sag and increases
+stability and cycle times. Load backrests
+are available to suit specific load types
+and maximise operator safety.
+Weight Gauges
+An economical way to check load
+weight. Large, easy to read face.
+Low maintenance. Eliminates the
+need for complicated systems.
+Fork Extensions
+Ideal for double depth stacking or moving
+non-standard size pallets. Heavy duty
+retaining pin keeps them in position.
+Crane Mounted Pallet Forks
+Often used with truck mounted
+cranes to load and unload
+palletised goods where a lift truck
+is not available, i.e. a building site.
+Wide Fork Frames
+For handling long and awkward sized
+goods such as beams and pipes. High
+tensile steel construction for superior
+load stability.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 41
+Mechanical Attachments
+With a range of 30 Cascade
+Australia mechanical attachments
+to choose from, you can tailor your
+lift truck precisely to the task
+requirements. All are designed to
+AS2359 standards.
+Carpet Probes
+Moving carpet and vinyl is easy with Cascade
+Carpet Probes.
+360 Degree Rotators
+High capacity. Low weight design.
+Highly durable ring gear and drive
+group.
+Carton Clamps
+High visibility frame. Padded contact arms with
+narrow profile polyurethane filler blocks and
+longer entry ramps allow easy knifing between
+loads. Articulated contact pads for uniform force
+across load.
+180 Degree Rotators
+An alternative to traditional 360
+degree rotators for low volume
+applications with faster rotate
+speeds. Non-lube bearings ensure
+clean operation.
+Dedicated Push Pulls
+Unique gripper jaw extends over platen tips and
+incorporates a tilting faceplate which eases the
+engaging of slip-sheets and prevents the load
+from being dislodged. Low wear moving parts
+such as arms and bearings ensure long service
+life.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 42
+180 Degree Bin Rotators with
+Hold Down
+Includes positive lock down to
+prevent product movement during
+rotation.
+Quick Release Push Pulls
+High capacity, low weight construction increases net lift
+truck capacities. All the features of the Dedicated Push
+Pull with Quick Release for extra flexibility.
+Forward Bin Tipper
+Highly useful attachment for easy
+tipping of loose and liquid materials
+into containers and hoppers.
+Safety Work Platforms
+Ideal for maintenance work and high stack carton and
+parts picking. Robust with swing door access.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 43
+JIB ATTACHMENTS - USING THE FORKLIFT AS A CRANE
+To further increase the versatility of a forklift truck, the use of a Jib attachment enables the
+forklift to be used as a crane.
+Before attempting to operate the forklift in this fashion it is important that the operator observe
+certain safe practices and be aware of the operating requirements associated with any
+equipment used in conjunction with the crane function.
+1. Before attempting to lift a load using a jib attachment, the operator must ensure that the
+attachment is:–
+• in good order and condition;
+• is correctly secured to the forklift;
+• is fitted with a swivel hook (not a fixed hook); and
+• is of suitable capacity for the lifting operation to be performed (the Safe Working Load
+must be marked clearly at each hook position on the attachment).
+2. When travelling with a load on the jib (hung load) the operator must ensure that
+• the mast of the forklift is kept vertical or on back tilt at all times;
+• the load is kept as low to the ground as possible;
+• the jib attachment is kept as low to the ground as possible by using slings which are as
+short as practicable to allow the task to be carried out safely; and
+• when travelling and changing direction, forklift speed must be slow.
+3. Only equipment which is specifically designed for the purpose should be used with a jib
+attachment. NEVER hook or wrap slings around the tines of a forklift.
+4. The operator must ensure that any slings or other fittings which are to be used are of a
+capacity suitable for the task. The capacity of synthetic webbing slings is easily determined
+by a colour coding method, as well as by the information tag attached to the sling by the
+manufacturer. The capacity of flexible steel wire ropes and chains appears on the tag affixed
+to the sling or is stamped on the ferrule.
+5. The operator must ensure that all lifting gear is in good condition. All fittings must be
+inspected for wear and damage. The maximum amount of wear permissible in a shackle is
+10%. The shackle must be discarded at that point.
+6. Loads must be correctly slung and must be secure before lifting.
+7. The forklift must be on solid level terrain before lifting.
+8. The operator must lift the load slowly and smoothly avoiding rough operation of controls
+which could destabilise the forklift.
+9. Ensure that the fork is centred directly over the load to minimise the possibility of the load
+swinging. Once the load begins to swing the stability of the forklift is adversely affected.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 44
+10. Where the load needs to be guided, tag lines made of dry, natural fibre rope of a minimum
+diameter of 16mm should be used.
+11. If at any stage the operator detects that the load has become unstable, the load should be
+lowered immediately.
+12. Loads should NEVER be raised over or near other people.
+13. The pin of a shackle should always be “moused” (secured or tied in or secured to prevent it
+from unscrewing during use).
+LOAD FACTORS
+The WLL of a sling is the maximum weight which can be lifted when the sling is vertical (a
+straight lift). The load factor of a straight lift is 1. By altering the method of slinging, or, by
+adjusting the angle between the legs of slings will affect the lifting capacity of the sling.
+SLINGS
+CARE OF SLINGS
+1. When not in use, slings should never be allowed to remain on the ground, on wet and damp
+surfaces, near substances which could cause corrosion or wear that may absorb rust, other
+oxidants, or ashes.
+2. Slings should not be dragged from beneath loads.
+3. If slings will be contacting sharp edges etc., adequate packing should be used to prevent
+damage.
+4. Slings should never be overloaded or shock loaded.
+5. Slings should never be exposed to excessive heat.
+6. Slings should never be left exposed to the weather and must be kept away from salt water.
+7. Operators should take care to prevent twists from developing, and should never knot or
+cross twist kink any sling.
+8. Slings should be inspected EVERY time before use and operators should inspect for:
+• Broken wires or fibres
+• Kinks
+• High stranding
+• Core slippage
+• Excessive wear and corrosion
+• Crushed or jammed strands
+• Signs of stretching
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 45
+INSPECTION OF SLINGS
+CHAINS:
+• Stretched, gouged, pitted or cut links
+• Links locked or do not move freely
+• Knots, twists and kinks
+• Links crushed or worn more than 10% of their original diameter
+• Cracked links
+Most wear is likely to appear at the ends of each link or on the outer side of each link from being
+dragged.
+SYNTHETIC SLINGS:
+• Damage to stitching, sleeve or protective coating
+• Damage to eyes or to end fittings
+• Abrasions, cuts and tears
+• Variation in sling thickness
+• Ensure labels are present
+FIBRE ROPES:
+• Knots, cuts or an excessive amount of broken fibres
+• Rot due to moisture or sun baking
+• Disintegration due to contact with corrosive chemicals
+• High stranding
+Should any of the above be found in the condition of the sling, then the sling should be taken
+out of service immediately and either be repaired (where possible), or dis-carded from use. To
+ensure that faulty equipment is not used by unsuspecting par-ties, all equipment withdrawn
+from service should be clearly marked.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 46
+BASIC DE-STACKING RULES
+1. Approach the stack slowly, square and centre and
+stop half to 1 metre from the stack. At this point bring
+the mast to the vertical.
+2. Left foot on inching brake (if equipped) - right foot
+covering the accelerator (RPM may be required for
+better hydraulic response). Raise forks to a position
+permitting clear entry into the pallet or dunage.
+3. Fully engage the forks by moving forward into the
+pallet until the front face of the forks “kiss” the deck
+board. (Slight forward tilt may assist).
+4. Lift the load until clear of the stack (approx 100mm)
+and apply just enough back tilt to stabilise the load. Do
+not apply backward tilt before lifting.
+5. When the load is clear of the stack or rack look behind
+to make sure the way is clear before reversing. Move
+slowly backwards only as far as is necessary to clear
+the face of the stack. (Approx half to 1 metre).
+6. Lower the load gently to the correct travelling height,
+approx. 100-150mm before applying further back tilt to
+cradle the load before moving off.
+7. Extreme care must be taken to avoid jerking the
+controls when tilting a load backward or forward -
+especially when the load is at height.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 47
+BASIC STACKING RULES
+1. Approach stack slowly, square and centre with load low,
+approx. 100-150mm high and tilted back to cradle the load
+against the backrest.
+2. Stop approximately half to 1 metre from the stack and
+reduce the excessive back tilt.
+3. Left foot on inching brake right foot covering the accelerator
+(RPM may be required for better hydraulic response). Raise
+the load to just above the required stacking height.
+4. When the load is clear of the top, move forward into or over
+the stack and stop approximately 200mm from the bottom
+of the stack or rack.
+5. Bring the mast to the vertical (the mast will then be close to
+the stack and the forks should be in the horizontal position)
+then gently lower the load onto the stack or rack.
+6. When the load is securely stacked, lower the forks until
+clear of the pallet. Look behind before reversing.
+7. When clear of the rack (half to 1 metre) lower the forks to
+the correct travelling height, approx 100-150mm before
+moving off.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 48
+REACH TRUCK INTRODUCTION
+A reach truck is a forklift with a load carriage which moves longitudinally relative to the truck,
+away from the truck to pick up or deposit a load and toward the truck to enable the centre of
+gravity of the load to be within the wheelbase of the truck whilst travelling.
+Reach trucks are designed for narrow aisle work where manoeuvring space is generally more
+restricted. Therefore, even greater care needs to be taken to avoid damaging racks, loads and,
+the truck itself.
+The data plate or rating plate on these trucks shows the maximum load that can be safely lifted
+by the forklift when the mast or fork carriage is fully extended forward.
+Loads in excess of this rating will cause the rear wheels to lift off the ground which in turn will
+affect steering, braking and traction. This will endanger the operator and other persons in the
+vicinity.
+Reach trucks are designed to operate on clean, smooth and level floors. They have no
+suspension, nor do they have the shock absorbing qualities of pneumatic tyres. They must not
+be driven over floor hazards, broken pallets and other obstructions on floors.
+All rules of operating counterbalanced trucks apply equally to non-counterbalanced trucks,
+especially those rules which apply to loads when the forks are “reached” forward of the
+stabilising wheels. There are additional special rules which must be observed when using reach
+trucks.
+It is important to remember that a forklift can lift its recommended maximum load only if the
+centre of gravity of the load does not extend beyond its rated load centre and is not lifted to a
+height greater than that shown on the data plate.
+Note: The data plate for a reach truck refers to the capacity of the unit with the forks
+REACHED FORWARD.
+REACH TRUCK LOAD TABLE AND LOAD CENTRE
+The table below shows a reach truck with a rated capacity of 1800kg with a load centre of
+600mm. As can be seen by the load table, if the load centre extends beyond the 600mm rating,
+the safe working load is reduced.
+LOAD TABLE - 1800kg AT 600mm LOAD CENTRE
+Load Centre Lifting Capacity
+600mm 1800kg
+640mm 1690kg
+660mm 1640kg
+680mm 1590kg
+710mm 1520kg
+730mm 1480kg
+810mm 1330kg
+860mm 1260kg
+910mm 1190kg
+990mm 1090kg
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 49
+REACH TRUCK DE-STACKING
+1. Stop at the face of the stack and bring the mast to the
+vertical position. If necessary, adjust the fork spread to suit
+the width of the load and ensure that the weight of the load
+is within the rated capacity of the machine.
+2. Raise the forks to a position allowing clear entry into the
+pallet or dunage strips.
+3. Drive forward to bring the truck closer to the stack. Fully
+insert the fork arms by reaching forward.
+4. Lift the load until it is clear of the stack and carefully apply
+enough backward tilt to stabilise the load.
+5. When the load is clear of the top of the stack, reach back. If
+necessary move the truck back sufficiently to clear the face
+of the stack.
+Ensure the way is clear before moving off and, take care
+not to dislodge loads in adjacent stacks.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 50
+REACH TRUCK STACKING
+Reach trucks should never be driven, whether loaded or not, with
+the reach mechanism extended. The brake should be applied
+before operating the reach mechanism. No one should ever step
+over the reach legs or put any part of the body between the mast
+and power unit if the truck is capable of being operated. The
+reach mechanism should not be used for pushing or dragging
+loads and, the load should be carried on the forks and not resting
+on the reach legs unless the truck is specifically designed for this
+purpose.
+LOADING AND STACKING WITH REACH TRUCKS
+1. Approach the stack with the load low, reached back
+and tilted backwards to cradle the load.
+2. Stop at the face of the stack, apply the brakes and
+reduce the excessive backtilt.
+3. Raise the load to the required stacking height.
+4. When the load is clear of the top of the stack, drive
+forward if necessary, re-apply the brakes then reach
+forward taking care not to disturb other loads in
+adjacent stacks.
+5. When the load is over the stack, bring the mast to the
+vertical position and lower the load onto the stack.
+6. When the load is securely stacked, lower the arms
+until free of the pallet and reach back. At this position,
+slight forward tilt might be of assistance, otherwise it
+should seldom be necessary to use forward tilt. If the
+fork arms are not fully clear of the stack, the truck
+should be moved back a short distance, after ensuring
+the way is clear.
+7. When the fork arms are clear of the stack, re-apply the
+brakes if the truck has been moved. Tilt the fork arms
+backwards and lower them to just above ground level
+before moving off.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 51
+FORKLIFT TRUCK OPERATION - PRE-SHIFT CHECKS
+BEFORE COMMENCING OPERATION ALWAYS CHECK: OK Comments
+1. That the manufacturer’s Data and Load Capacity Plate is
+attached to the vehicle.
+
+2. That tyre condition is good and in the case of pneumatic tyres
+that inflation pressures are correct
+
+3. That brakes, both hand and foot, are functioning correctly.
+4. That the steering mechanism is in proper working order
+5. That the hydraulic lifting mechanism is in correct working
+condition
+
+6. Fuel level.
+7. Engine and hydraulic oil levels
+8. Battery and radiator water levels
+9. Radiator hoses and radiator core for obstructions
+10. For any fuel or oil leaks
+11. That the horn and any other warning devices are in working order
+12. The overhead and load guard for faults
+13. The fork carriage
+14. All load bearing parts and components
+• Are ‘no go’ zones clearly marked with signs and fences?
+• Is there sufficient lighting and ventilation for you to work safely?
+• Is there a lot of noise (from other machines) that may impair your ability to hear?
+• Are road surfaces even and clear of obstructions? (Are there features such as
+ramps and rail tracks?)
+• Are there overhead features such as low doorways, fittings, cables and power
+lines?
+• Are there any other obstructions?
+• Are there wet and dry areas? (Any spills?)
+• Are loading docks clear? (Do they have edge protection?)
+• Is there sufficient room or capacity on storage racking?
+• Are forklift operating paths clear? (Are they wide enough?)
+• Are there any congested areas?
+• Are there any blind spots?
+• Is there any interaction with pedestrians or other traffic?
+
+SHOULD ANY DEFECTS BE FOUND
+TAG THE FORKLIFT
+THEN REPORT THEM IMMEDIATELY TO YOUR SUPERVISOR.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 52
+RULES FOR SAFE OPERATION OF FORKLIFTS
+Rules listed are based on sound operating practices. Workplace conditions may make it
+advisable to add other operating rules specific to individual situations.
+• Always wear seat belts, where provided
+• Keep the forks down
+• Push the forks all the way under the load
+• Never lift unstable loads
+• Always tilt the load back before travelling
+• Keep left
+• Never follow other vehicles too closely
+• Operator must face in the direction of travel
+• Never leave an internal combustion engine powered vehicle running unattended
+• Do not drive with wet or greasy hands
+• Always slow down for wet or slippery floors
+• Do not ride the clutch or inching control
+• Always complete daily maintenance checks
+• Always turn in daily maintenance check list
+• Do not pump the accelerator during operation
+• Report all mechanical deficiencies
+• Refuel only in designated areas
+• Clean up any and all fuel spills
+• When working in public areas ensure safety by barricading area or use of traffic control
+methods
+• Ensure all permits are obtained for required worksites
+• Do not carry passengers in unauthorised ways
+• Slow down and sound horn at intersections
+• Never do wheel spinning starts and reversals
+• Do not come to tyre skidding stops
+• Always travel in reverse if vision is obscured by the load
+• Always look in direction of travel
+• Never turn sideways on a ramp or incline
+NEVER OVERLOAD
+• Ensure load is against load guard and goods cannot fall on operator
+• Do not carry double tiered loads
+• Check floor loadings in trucks and rail cars before entering with the fork-lift
+• Keep unauthorised persons away from the forklift 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 53
+• Never drive too close to the edge of loading docks
+• Never rotate attachments when moving as it can destabilise forklift
+• Do not damage overhead installations
+• Make sure dock plates and bridge plates are secure before use
+• Ensure trucks and freight cars have wheels blocked to prevent rolling
+• Do not run into other goods, fixtures or fittings
+• Do not ram into stacked goods
+• Space the forks to fit the load
+• Ensure pallets are evenly loaded
+• Restack unstable pallets before lifting
+• Replace or stack damaged pallets on a sound one
+• Never work within 3 metres of low voltage lines and 8 metres of high voltage power lines
+with a Spotter & 6.4 metres low voltage and 10 metres high voltage without a Spotter.. Also
+check with Statutory Authorities.
+• Never carry loads off centre
+• Always come to a complete stop before reversing direction of travel
+• Approach rail lines at a 45˚ angle and slow down
+• Never have any part of the body outside the outline of the machine
+• Never use the forklift as a personnel elevator except when using approved equipment
+• Do not smoke or allow the engine to run whilst refuelling
+• Lower the forks to the ground with the tips down when parked
+• Put the gear lever in neutral before leaving the seat
+• Do not cause damage to building structures such as doors, beams, walls and buildings
+• Always apply the hand brake when parking
+• When using more than one forklift to lift a load ensure that operators are experienced,
+someone is in charge of the lift, minimise distance load is moved, machines are of similar
+capacity and suitable for the job
+• Give way to all emergency vehicles (Police, Fire, Ambulance, SES)
+• Never park a forklift in front of emergency exits, fire fighting appliances, first aid stations or
+on walkways or in flood prone areas
+FINISHING WORK
+• Before getting off the forklift, lower the fork arms to ground level, ensure the parking brake is
+engaged, and the controls are in neutral.
+• If the forklift is liquefied petroleum gas (LPG) powered, turn off the LPG at the cylinder.
+• Do not park the forklift near a source of ignition, near a doorway, or near a pit.
+• Park the forklift in a well-lit area under cover and on a level and even surface. Make sure the
+forklift is at least three metres away from a power line or rail line.
+• Remove the ignition key and secure the forklift at all times when not in use. (This will
+stop unauthorised people from using the forklift.) 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 54
+RULES FOR SAFE OPERATION OF FORKLIFTS
+Only properly trained and authorized drivers should operate forklift trucks.
+Are you qualified to be a forklift truck operator?
+Are you familiar with the forklift truck you operate?
+DON’T OVERLOAD
+Check load weights and handle only within the rated capacity of
+your forklift truck
+Before picking up a load, be sure of where the load centre is
+located
+Safe operation requires understanding and observing the fork-lift
+trucks rated load capacity
+GO SLOW AND SOUND HORN AT CORNERS
+Go slow whenever vision is limited or obstructed.
+If your plant has traffic mirrors, use them.
+Observe stop signs, stop your forklift truck completely,
+sound the horn if necessary and then proceed with
+extreme caution.
+ALWAYS USE LOAD BACKREST EXTENSION and OVER-HEAD GUARD FOR HIGH
+STACKING
+Be especially alert for falling objects when high stacking.
+Make sure no loose articles are lying on top of the load
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 55
+RULES FOR SAFE OPERATION OF FORKLIFTS
+SLOW DOWN FOR SLIPPERY AREAS
+It is very easy to lose control in slippery conditions.
+Driving a forklift truck is not trying to win a
+Safari Rally, although the conditions may
+sometimes be rather similar!
+WATCH SIDE CLEARANCE
+Watch your side clearance, especially with wide loads.
+Where possible, drive in the centre of the aisle to avoid
+endangering personnel and equipment.
+WATCH REAR END SWING
+Because the rear wheels steer your truck, the rear end
+swings wide when you turn.
+Use care in aisles and other tight places.
+DON’T CARRY PASSENGERS
+Don’t use your forklift truck for moving loads for
+which it was not designed.
+There is NO safe place on a forklift truck for a
+passenger to ride, and they could fall off
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 56
+RULES FOR SAFE OPERATION OF FORKLIFTS
+AVOID RUNNING OVER LOOSE OBJECTS
+Remove hazardous, loose objects rather than driving over
+or around them.
+Avoid holes and bumps that might disturb your load.
+DO NOT PERMIT ANYONE TO STAND UNDER ELEVATED FORKS
+Never stand or pass, or permit anyone else to stand or
+pass under the elevated forks whether empty or
+loaded.
+Load could fall, hydraulic or mechanical failure or
+operator error
+SEAT BELTS
+Ensure seatbelts are correctly fitted and worn (for example, by installing intelligent systems, the
+forklift can only be started if the seatbelt is fastened).
+Monitoring/supervision of these intelligent systems should be such that they cannot be easily
+defeated. Seatbelts may be retro-fitted, but only in accordance with the manufacturer’s
+specifications.
+Tipping over is the biggest danger for a worker using a forklift! If a worker jumps from a tipping
+forklift, the chances of serious injury are high. Seatbelts save lives and must be worn.
+A forklift can tip over by rolling or overturning sideways; or by pitching forward when the back
+wheels lift off the ground.
+Forklifts can tip over if you:
+• accelerate quickly in reverse;
+• brake too quickly, especially on a loaded forklift;
+• brake or accelerate while cornering;
+• brake or accelerate down a slope;
+• carry a load facing down a slope;
+• carry an unevenly balanced load;
+• collide with another vehicle;
+• drive across inclines or uneven ground, such as potholes (particularly with a height
+difference greater than 20mm across the front wheels);
+• drive with the fork arms raised too high (loaded or unloaded);
+• strike low doors or overhead structures;
+• turn too fast; or
+• use a forklift that is not designed to tow (pushing or pulling)
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 57
+CALCULATION
+LENGTH
+You can measure how long things are, or how tall, or how far apart they are. Those are all
+examples of length measurements.
+Example: This fork is 20 centimeters long. These are the most common measurements:
+• Millimeters
+• Centimeters
+• Meters
+• Kilometers
+AREA
+The formula is:
+Area = w × h
+w = width
+h = height
+Example: What is the area of this rectangle?
+We know w = 5 and h = 3, so:
+Area = 5 × 3 = 15
+Mass (Weight)
+Mass: how much matter is in an object.
+We measure mass by weighing, but Weight and Mass are not really the same thing.
+These are the most common measurements:
+• Grams
+• Kilograms
+• Tonnes
+Grams are the smallest, Tonnes are the biggest.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 58
+Grams
+A paperclip weighs about 1 gram.
+Grams are often written as g (for short), so "300 g" means "300 grams".
+A loaf of bread weighs about 700 g (for a nice sized loaf)
+Kilograms
+Once you have 1,000 grams, you have 1 kilogram.
+1 kilogram = 1,000 grams
+A dictionary has a mass of about one kilogram.
+Kilograms are great for measuring things that can be lifted by people (sometimes very strong
+people are needed of course!).
+Kilograms are often written as kg (that is a "k" for "kilo" and a "g" for "gram), so
+"10 kg" means "10 kilograms".
+When you weigh yourself on a scale, you would use kilograms. An adult weighs
+about 70 kg.
+But when it comes to things that are very heavy, we need to use the tonne.
+Tonne
+Once you have 1,000 kilograms, you will have 1 tonne.
+1 tonne = 1,000 kilograms
+Tonnes (also called Metric Tons) are used to measure things that are
+very heavy.
+Things like cars, trucks and large cargo boxes are weighed using the
+tonne.
+This forklift weighs about 2.5 tonnes.
+Tonnes are often written as t (for short), so "2.5 t" means "2.5 tonnes".
+Final thoughts about measuring weight:
+1 kilogram = 1,000 grams
+1 tonne = 1,000 kilograms
+Weight or Mass?
+We have used the word "weight" only because that is what people commonly say.
+But we really should use is "Mass". 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 59
+EXAMPLE OF CALCULATION ASSESSMENTS - 1
+The load to be moved is cartons that are stacked on a pallet:
+• Four to a layer
+• Five layers on the pallet
+• The pallet is standard size and weighs 30 kg
+• Each carton is 25 kg
+
+What is the combined weight of the cartons and pallet?
+ Show all calculations.
+EXAMPLE OF CALCULATION ASSESSMENTS - 2
+The load to be moved is a rectangular block of concrete. The dimensions of the
+load are:
+• Height 1 meters
+• Width 1 metres
+• Length 1 metres
+Solid concrete has a mass of 2,400 kg per cubic metre
+Calculate the approximate weight (mass) of the load in tonnes.
+ Show all calculations.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 60
+NOTE: 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 1
+FORKLIFT
+OPERATOR
+MANUAL
+TLILIC2001A
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 2
+THIS MANUAL
+IS USED IN CONJUNCTION
+WITH THE
+TRANSPORT TRAINING CENTRE’S
+FORKLIFT OPERATOR AUTHORISATION
+TRAINING COURSE
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 3
+CONTENTS
+COURSE AIM ............................................................................................................................................................... 5
+INTRODUCTION .......................................................................................................................................................... 5
+LEGISLATION .............................................................................................................................................................. 6
+PERSONS PERFORMING HIGH RISK WORK ....................................................................................................... 7
+UNDER THE WORKCOVER ACT............................................................................................................................ 8
+AUTHORISATION OF OPERATORS....................................................................................................................... 8
+TRAINING OF OPERATORS ....................................................................................................................................... 8
+GENERAL RULES ........................................................................................................................................................ 9
+TRAFFIC MANAGEMENT PLANS ............................................................................................................................. 10
+SEPARATE PEDESTRIANS AND FORKLIFTS ..................................................................................................... 10
+IDENTIFY THE HAZARD ....................................................................................................................................... 10
+ASSESS THE RISK ................................................................................................................................................ 10
+CONTROL THE RISK ............................................................................................................................................. 11
+REVIEW CONTROL MEASURES .......................................................................................................................... 11
+PRACTICAL ISSUES TO CONSIDER FOR YOUR TRAFFIC MANAGEMENT PLAN ......................................... 11
+RECORD YOU TRAFFIC MANAGEMENT PLAN .................................................................................................. 12
+WORKPLACE HAZARDS ........................................................................................................................................... 13
+HAZARDS – CONTROLS AND PLANNING .......................................................................................................... 13
+EXAMPLES OF COMMON HAZARDS .................................................................................................................. 14
+HIERARCHY OF RISK CONTROL TABLE ............................................................................................................ 15
+POLICIES AND SAFE WORK PROCEDURES ..................................................................................................... 16
+INCIDENT REPORTING ........................................................................................................................................ 16
+OVERHEAD POWERLINES ................................................................................................................................... 18
+WHAT IS MEANT BY A FORKLIFT TRUCK? ........................................................................................................ 19
+LOAD LENGTH, FORK LENGTH & SPACING ...................................................................................................... 23
+FORK HEIGHT TERMINOLOGY ............................................................................................................................ 24
+LIFT TRUCK STEERING FEATURES ................................................................................................................... 25
+REAR WHEEL STEERING ..................................................................................................................................... 26
+TYPES OF PROPULSION ......................................................................................................................................... 27
+BATTERY ............................................................................................................................................................... 27
+TYRES ........................................................................................................................................................................ 28
+CONTROLS AND INSTRUMENTS ............................................................................................................................ 29
+PRINCIPLES OF OPERATION .................................................................................................................................. 30
+LONGITUDINAL (FORWARD) STABILITY ............................................................................................................ 33
+LATERAL (SIDEWAYS) STABILITY ...................................................................................................................... 33
+STABILITY - SUMMARY ........................................................................................................................................ 34
+STABILITY TRIANGLE ........................................................................................................................................... 35
+LOAD CENTRE DEFINITION ................................................................................................................................. 36
+MANUFACTURER’S DATA PLATES ..................................................................................................................... 37
+LOAD CENTRE AND LIFTING CAPACITY ............................................................................................................ 38
+LPG CYLINDER EXCHANGE PROCEDURE ........................................................................................................ 39
+ATTACHMENTS COMMONLY USED ON FORKLIFTS ........................................................................................ 40
+SLINGS ................................................................................................................................................................... 44
+BASIC DE-STACKING RULES .............................................................................................................................. 46
+BASIC STACKING RULES ..................................................................................................................................... 47
+REACH TRUCK INTRODUCTION ............................................................................................................................. 48
+REACH TRUCK LOAD TABLE AND LOAD CENTRE ........................................................................................... 48
+REACH TRUCK DE-STACKING ............................................................................................................................ 49
+REACH TRUCK STACKING .................................................................................................................................. 50
+LOADING AND STACKING WITH REACH TRUCKS ............................................................................................ 50
+FORKLIFT TRUCK OPERATION - PRE-SHIFT CHECKS ........................................................................................ 51
+RULES FOR SAFE OPERATION OF FORKLIFTS ................................................................................................ 52
+SEAT BELTS .......................................................................................................................................................... 56
+CALCULATION ........................................................................................................................................................... 57
+EXAMPLE OF CALCULATION ASSESSMENTS - 1 ............................................................................................. 59
+EXAMPLE OF CALCULATION ASSESSMENTS - 2 ............................................................................................. 59
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 4
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 5
+COURSE AIM
+To train suitable personnel in the basic skills and knowledge to enable them to operate Forklift Trucks safely and
+efficiently in accordance with the National Load Shifting Guidelines.
+This course will enable the operator to achieve a satisfactory standard in regard to:–
+• Pre-operation inspection.
+• Safety practices and rules.
+• Basic information on the Forklift truck such as its design features, centre of gravity, capacity, stability and
+limitations.
+• Control positions and functions.
+• Basic manoeuvres of a Forklift with regard to rear end swing.
+• Safe lifting, carrying and lowering of loads of different weights and dimensions and at varying heights.
+The Transport Training Centre uses the Standards Association of Australia Guidelines for the operation of
+Industrial Trucks. AS2359.2
+These Guidelines are based on industry standards and are the minimum under the various Acts and
+Regulations.
+On successful completion of this course, trainees will be able to operate a Forklift Truck in
+accordance with the standards identified in the National Load Shifting Guidelines.
+INTRODUCTION
+WHAT THIS COURSE IS DESIGNED TO DO.
+The Transport Training Centre’s forklift course is carefully designed to give all trainees a better understanding of
+the operation of forklift trucks, the problems that may be encountered and, how to minimise the risks to the
+operator, other personnel and the PCBU (employer). The practical component will enhance your knowledge and,
+give you ideas and information that will assist you to become a better and safer forklift operator.
+An advantage will be gained by all trainees by actively participating in class discussions. Operators with previous
+experience are encouraged to put forth ideas which may also benefit those trainees who are being exposed to load
+shifting equipment for the first time. There are always new things to learn.
+IMPORTANCE OF THE COURSE
+The objective of this course is to prevent injury and minimise property damage through accidents involving
+industrial trucks. Reckless driving, lack of skill and poor operating knowledge can cause and, continues to cause
+extensive damage to property, injuries and permanent disabilities and loss of life. Through training we can reduce
+the tragedy and personal suffering from accidents, lower costly waste and, improve the efficiency of the workplace.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 6
+LEGISLATION
+QUALIFICATION OF OPERATORS
+Operators of industrial trucks shall have the following qualifications:
+1. Must be a minimum of 18 years of age.
+2. Not have any physical disabilities which could impair the safe operation of an industrial
+truck or endanger the safety of others.
+3. Be especially trained in the operation of every type of industrial truck that will be used.
+4. Be sufficiently fluent in the use of the English language for communication purposes.
+5. Have adequate knowledge of this standard to allow for the implementation of its
+requirements.
+6. Conform to any relevant requirements of the Statutory Authority SAFEWORK SA.
+NOTE:- The Statutory Authority may require the licensing of operators of some types of
+powered industrial trucks.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 7
+PERSONS PERFORMING HIGH RISK WORK
+National Standard for Licensing Persons Performing High Risk Work on 6 April 2006
+require that any person in industrial, commercial or construction workplaces and who is
+required to operate a forklift truck must have either, attended and passed an approved course
+of basic training in the safe operation of forklift trucks, or, since 3rd April 1995 been trained on
+site and under the supervision of a qualified forklift operator and assessed as competent to
+operate the equipment by an accredited assessor.
+The National Standard for Licensing Persons Performing High Risk Work, April 2006 (the
+National Standard) aims to facilitate the operation of a nationally uniform, competency-based
+licensing system for persons performing certain types of high risk work.
+RESPONSIBILITIES OF HRW APPLICANTS UNDER WHS
+• Very clear and specific.
+• Apply to all HRW (High Risk Work) categories.
+• When applying must:
+o Give correct full name, photograph & identity evidence
+o Must not give misleading or false information
+o If already have a licence / certificate - must produce
+o Make a declaration if:
+ a) have same licence from another state
+ b) if refused a license from SA or another state
+ c) guilty of any offense against WHS regs.& details
+HRW LICENSE RULES
+• Until person is competent/licenced, PCBU (employer) CAN NOT permit a that person to
+perform HRW.
+• Until successfully assessed, applicants undergoing formal /informal learning are
+considered trainees.
+• If successful in assessment, will receive Notice of Satisfactory Assessment & Tax Invoice
+for SWSA – valid for 60 days only,(late payments not accepted)
+• HRW licences have to be renewed every 5 years
+• If no longer competent / hold no licence, HRW operator must cease that HRW activity.
+HRW LICENCE HOLDER RESPONSIBILITIES
+• Own Health and Safety & Health and Safety of Others
+• Use and Maintain Plant Safely & use PPE correctly.
+• Doing HRW?
+o Take reasonable precautions
+o Exercise proper diligence & care
+• Failing to work safely / proper diligence – Penalties?
+o Licence suspended / cancelled
+o Renewal of licence refused – if occurred at renewal
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 8
+UNDER THE WORKCOVER ACT
+Serious or wilful misconduct by any party could invalidate any claim. Therefore neglect by an PCBU (employer) to
+ensure that all workers are trained and certified could, in the event of an incident, cause complications. Additional
+information can be obtained from the office of the Department for Administration and Information Services –
+Safework SA.
+AUTHORISATION OF OPERATORS
+GENERAL
+The PCBU (employer) shall ensure that only persons who are qualified are authorised to operate industrial trucks.
+Where appropriate, the PCBU (employer) should provide each authorised operator with a certificate of
+authorisation.
+CERTIFICATE OF AUTHORISATION
+Each Certificate of Authorisation should bear the following information in a legible manner:-
+1. Operator’s name
+2. Types of industrial trucks and attachments which the operator is authorised to use, including any
+limitations which may apply.
+3. Signature of issuing officer.
+CONDITIONS OF ISSUE
+Each Certificate of Authorisation should be issued under the following conditions:
+1. Wherever operating or in control of an industrial truck, the operator shall either carry the certificate on their
+person or display the certificate on the industrial truck.
+2. The operator shall be personally responsible for safe custody of the certificate, shall not lend it, shall guard
+against its loss, theft or damage, and shall not alter deface, destroy or tamper with it in any way.
+3. Any loss of the certificate shall be immediately reported to Safework SA.
+4. The certificate shall be surrendered to the issuing officer on demand.
+TRAINING OF OPERATORS
+New operators, including those with previous experience, shall be instructed on the following items for each
+type of industrial truck to be used:
+(a) PCBUs’ (employer) policies and operational procedures.
+(b) Safety practices and rules.
+(c) Operating conditions in all areas of operation, including any special or hazardous conditions.
+(d) Basic information of the particular industrial truck, such as its design features, centre of gravity, capacity,
+stability and limitations.
+(e) Control positions and functions.
+(f) Servicing, maintenance and repair responsibilities.
+The operator should also have supervised practice either, on a remote operating course designed to simulate
+actual conditions, or, in the workplace. This should be followed by oral, written and, operational performance
+tests, on-the-job evaluations, and refresher courses as required by the PCBU (employer).
+Every worker who has successfully completed a course of training should be provided with a Statement of
+Attainment by the training organisation.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 9
+GENERAL RULES
+When operating a powered industrial truck, the operator shall observe the following general rules.
+1. Be qualified in accordance with the appropriate standard.
+2. Be authorised in accordance with the appropriate Act and Regulations by being in possession of a
+current certificate of competency.
+3. In the event of a fault being revealed at any time or if the industrial truck becomes unsafe in any way:
+a. report the matter immediately to your supervisor, and
+b. if the fault or condition is immediately dangerous, do not use the industrial truck until it is rectified.
+4. Do not operate an industrial truck with a leak in the fuel system.
+5. Do not make repairs, alterations or adjustments to any industrial truck unless authorised.
+6. For industrial trucks powered by an electric motor, know the location of the emergency isolator and
+know how to operate it.
+7. Report the occurrence of any new hazard.
+8. Report all accidents, including those with personnel, buildings, structures, equipment and stock.
+9. Observe all safe practices.
+10. Safeguard pedestrians at all times.
+11. During emergency situations, yield right of way to all emergency vehicles.
+12. Do not allow anyone to stand or pass under elevated forks or attachments, whether loaded or empty.
+13. Do not allow any person to travel on an industrial truck or attachment or load, except on
+equipment which has been specifically designed to carry a rider and which has been approved.
+14. Do not put any portion of the body between the uprights of the mast or outside the outline of any
+rider industrial truck.
+15. Do not allow an internal combustion engine to be idled unnecessarily in enclosed or semienclosed areas, as this may result in an accumulation of fumes and gases.
+16. Turn on sufficient lighting to promote adequate visibility.
+17. Avoid contact with overhead installations, such as electrical systems, pipes and sprinkler
+systems.
+18. Do not use an industrial truck for any purpose for which it is not designed or equipped, such as
+pushing a load or any other object.
+19. Use only designated and approved industrial trucks for special or hazardous operating conditions.
+20. Carry only loads which are safely arranged and which are within the rated capacity of the
+industrial truck and attachment combination.
+21. Do not use supplementary counterweights or additional personnel to increase the rated capacity
+of any industrial truck.
+22. Take care when securing, manipulating, positioning and transporting a load, particularly when
+attachments are being used.
+23. When the industrial truck is equipped with attachments which are unloaded, operate it as if it were
+partially loaded.
+24. When unloading loads or pallets or parking an industrial truck, do not obstruct emergency exits,
+aisles, access to stairways or any safety equipment (including fire equipment), which shall be kept
+clear at all times.
+25. Do not operate an industrial truck unless a data plate is fitted.
+26. Do not operate an industrial truck on a public road unless the industrial truck is registered, has
+lights, turning indicators and warning devices fitted and, you have the appropriate class of driver’s
+licence covering the Gross Vehicle Mass of the industrial truck.
+27. Do not operate an industrial truck within 3 metres of low voltage power lines or within 8 metres of
+a high voltage tower and use spotter & 6.4 metres low voltage and 10 metres high voltage without
+a Spotter. Also check with Statutory Authorities.
+28. Always approach rail lines and speed humps at a 45o
+ angle and slow down.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 10
+TRAFFIC MANAGEMENT PLANS
+SEPARATE PEDESTRIANS AND FORKLIFTS
+The best way to reduce the risk of forklift-related injuries is to separate pedestrians and forklifts.
+Separating pedestrians and forklifts is the most important aim of your traffic management plan.
+A traffic management plan is a set of rules for managing the safest and most efficient movement of traffic in your
+workplace. It contains practical, workable controls and covers all vehicles in your workplace, not just forklifts. It
+should also be specific to the workplace.
+Everyone affected by the plan must understand it and follow it. Don’t wait until an injury or death occurs at your
+workplace before separating pedestrians and forklifts.
+DEVELOP YOUR TRAFFIC MANAGEMENT PLAN
+PCBUs (employers) and supervisors should develop a traffic management plan by consulting with workers and
+others in your workplace, and by using the principles of hazard management:
+IDENTIFY THE HAZARD
+— associated with the movement of forklifts, other vehicles and pedestrians.
+• Study the way forklifts, other vehicles and pedestrians move or need to move around in all areas of your
+workplace.
+• Identify the places where there is the potential for a collision to occur.
+• Consider the physical structure of your workplace. Look at floor surfaces, exits, driveways and
+housekeeping standards.
+• Ask your workers about any problems they have noticed.
+• Review your incident and injury records (including ‘near misses’), as well as manufacturers’ information.
+‘Practical issues to consider for your traffic management plan’ can help you decide what needs to be in your traffic
+management plan.
+ASSESS THE RISK
+— caused by these hazards. PCBUs, supervisors and operators should ask these questions:
+What is the potential impact of the hazard?
+• How severe could an injury be?
+• What is the worst possible damage the hazard could cause to someone’s health?
+• Would it require simple first aid only? Or could it cause permanent ill health or disability? Or could
+it kill? How likely is the hazard to cause someone harm?
+• Could it happen at any time or would it be a rare event?
+• How frequently are employees exposed to the hazard? You should also consider how many
+people are exposed to the hazards
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 11
+CONTROL THE RISK
+— the most effective way to control risks is to eliminate them in the first place. If it is not practical to
+control risks by eliminating them, consider other measures that can minimise them. When considering
+potential control measures and deciding which to use, follow the priority order set out in the Hierarchy of
+Control:
+(1) elimination (most effective control) — e.g. consider options to eliminate the use of forklifts
+(2) substitution — e.g. use a safer type of forklift
+(3) isolation — e.g. provide an overhead pedestrian walkway
+(4) engineering/redesign — e.g. use speed limiting devices on forklifts
+(5) administration — e.g. training and/or warning signs
+(6) personal protective equipment (least effective control) — e.g. high visibility vests.
+Once you have considered potential control measures in the correct order, implement the most effective
+controls practical, or a combination of controls. For example, can you eliminate risks by removing forklifts
+from your workplace completely? If that is not practical, can you replace them with more people-friendly
+load shifting equipment (such as a pallet jack or conveyor system)?
+Other control measures might include creating more efficient routes and traffic flows; creating ‘no go’
+zones; and using signs and barriers.
+REVIEW CONTROL MEASURES
+— Review your control measures to ensure they have been implemented and are not creating new
+hazards. Repeat the hazard management process at regular intervals and also whenever there is a
+change at your workplace or after a near miss or incident.
+For more detailed information about the principles of hazard management, call your local
+workplace safety authority.
+PRACTICAL ISSUES TO CONSIDER FOR YOUR TRAFFIC MANAGEMENT PLAN
+• Designate exclusion zones for pedestrians and forklifts. Use impact barriers to separate pedestrians and
+forklifts. Less permanent or less sturdy barriers, such as bollards or expandable fences may be adequate
+for temporary demarcation. If less sturdy barriers are used, factor in the likely stopping distances by
+considering the weight of the forklift and its expected load and the likely speed of the forklift.
+• Audio visual warnings can supplement controls in areas of partial separation. A mix of high volume alarms
+and horns coupled with flashing lights best warn pedestrians of approaching forklifts. Flashing lights are
+imperative in areas of high levels of ambient workplace noise.
+• Consider using proximity devices.
+• Safety intersections and blind corners can be managed with devices that ensure pedestrians slow down or
+stop, such as swinging or interlocked gates and chicanes. These controls can be enhanced by the addition
+of overhead mirrors. Avoid placing bins, racks or storage units that obstruct a forklift operator’s view at
+intersections or around corners.
+• Use signs, containment fences, boom gates and even overhead walkways. Install signs that indicate who
+must give way. Implement and enforce procedures that cover when and how pedestrians and forklifts must
+give way to each other.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 12
+• Create ‘no go’ zones for forklifts (pedestrian-only areas): e.g. around tearooms, time clocks,
+amenities and entrances. Create clearly marked pedestrian crossings.
+• Assess traffic destination, flow, volume and priorities (such as rail traffic).
+• Consider high-visibility or reflective clothing for pedestrians and workers operating forklifts, and
+high-visibility markings for forklifts. However, this is no substitute for physically separating
+pedestrians and forklifts. Make sure that any high-visibility clothing does not blend in with other
+brightly coloured objects in your workplace.
+• Consider speed limits and speed-limiting devices.
+• Examine the forklift and its characteristics: movement, stability, attachments, and braking
+distances.
+• Examine the loads being moved: their height and type.
+• Look at security measures.
+• Be alert for black spots caused by stationary equipment and vehicles. Black spots must be
+controlled.
+• Make sure roads are well formed, and clearly marked. Consider making roads two-way
+carriageways.
+• This list is not exhaustive, and does not replace the principles of hazard management.
+RECORD YOU TRAFFIC MANAGEMENT PLAN
+You should now be able to identify traffic flow, speed limits, parking areas, manoeuvring and loading
+areas, ‘no go’ zones, pedestrian crossings, required ‘give ways’, and areas requiring actions in your
+workplace.
+Detail this information in a site map, and display it in your workplace. Everyone in your workplace,
+including contractors and visitors, must know your traffic management plan. Use induction and training
+sessions, and post information at workplace entrances and notice boards.
+Creating a site map can help you analyse the workplace while developing the traffic management plan.
+Once the plan is developed, the finalised site map will help reinforce and communicate the traffic
+management plan. Review and monitor the traffic management plan at pre-determined and regular
+intervals.
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 13
+WORKPLACE HAZARDS
+HAZARDS – CONTROLS AND PLANNING
+Before commencing work on a site it is important to communicate with workplace personnel and
+WHS/HSR officers.
+You need to consult with the following people before starting to work:
+• Supervisors
+• Colleagues
+• Managers who are authorised to take responsibility for the workplace or operations.
+• Safety/HSR Officers
+• Site engineers, where applicable
+• Any others?
+To make sure that any workplace policies and/or site specific procedures are known & adhered
+to.
+You are about to commence forklift operations. What are possible hazards that you need to
+consider and plan for?
+• Pedestrians and Personnel
+• Plant and Equipment
+• Buildings
+• Obstructions
+• Electrical Power Lines / Overhead Power Lines
+• Potential non weight bearing surfaces, eg wood floors, dirt areas
+• Wind and bad weather conditions
+• Lighting / Illumination
+• Wet and Slippery Surfaces
+• Overhead Obstructions
+• Surrounding Structures
+• Ground Conditions
+• Dangerous Material
+• Vehicle Traffic
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 14
+EXAMPLES OF COMMON HAZARDS
+Hazard Potential harm
+Manual tasks Overexertion or repetitive movement can cause muscular strain
+Gravity Falling objects, falls, slips and trips of people can cause fractures, bruises,
+lacerations, dislocations, concussion, permanent injuries or death
+Electricity Potential ignition source.
+Exposure to live electrical wires (for example, Overhead powerlines) can
+cause shock, burns or death from electrocution
+Machinery and equipment Being hit by moving vehicles (for example, forklift or orderpicker), or being
+caught by moving parts of machinery can cause fractures, bruises,
+lacerations, dislocations, permanent injuries or death
+Hazardous chemicals Chemicals (such as acids, hydrocarbons, heavy metals) and dusts (such
+as asbestos and silica) can cause respiratory illnesses, cancers or
+dermatitis
+Extreme temperatures Heat can cause burns, heat stroke or fatigue
+Cold can cause hypothermia or frost bite
+Noise Exposure to loud noise can cause permanent hearing damage
+Radiation Ultra violet, welding arc flashes, micro waves and lasers can cause burns,
+cancer or blindness
+Biological Micro-organisms can cause hepatitis, legionnaires’
+disease, Q fever, HIV/AIDS or allergies
+Psychosocial hazards Effects of work-related stress, bullying, violence and work-related fatigue
+Other than site hazards what are things you need to consider when planning the task?
+• Site Specific issues
+• Communications (safe and adequate)
+• Access to where you are going
+• Location of task
+• Specifics of task
+• Permits required for the task
+• Equipment required for the task
+• Availability of equipment
+• Capacity of forklift
+• Characteristics of the load – weight, vol, nature (DG)
+• Doorways
+• Blind corners
+• Personal protective equipment
+• Temperature controls
+• Vehicle Traffic
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 15
+Before commencing a task or as soon as a hazard is identified during an operation the hierarchy of risk control is
+used as a logical sequence of steps that should be considered to control hazards in the workplace.
+HIERARCHY OF RISK CONTROL TABLE
+Until you have a better method of control…
+Other hazards within the workplace have specific requirement, for example overhead
+powerlines, you must observe the following distances when conducting forklift operations near
+uninsulated power lines?
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 16
+POLICIES AND SAFE WORK PROCEDURES
+Policies and safe work procedures ensure everyone who uses forklifts understands how to do
+so safely and correctly.
+Policies should cover the hazard management process; selecting a forklift; training and
+licences; incident reporting and investigation. Safe work procedures (or operating procedures)
+should cover many of the topics discussed in this guide, for example, checking the forklifts and
+the workplace, using attachments, operating the forklift, carrying loads, and maintenance. Other
+issues you should consider include fatigue, manual handling, refuelling, and battery charging.
+As with your traffic management plan, everyone in your workplace, including contractors and
+visitors, must know your policies and safe work procedures.
+Provide contract staff with the same level of training on traffic management as direct workers.
+Manage visitors so there is no possibility of them entering forklift operating areas. If this is not
+possible inform them of ‘no-go’ areas or ensure visitors are accompanied by a worker. You
+could use induction and training sessions, and post information at workplace entrances and
+notice boards.
+You should also review these regularly to ensure they remain appropriate and also ensure
+people are complying with them.
+INCIDENT REPORTING
+Develop and implement an incident reporting procedure. Incidents involving forklifts must be
+reported immediately to the manager or supervisor.
+Reporting incidents allows you to:
+• find out what went wrong and why
+• improve work practices or the physical environment
+• prevent similar incidents happening again. Near misses must also be recorded and
+followed up. Reporting near misses can give you the chance of preventing a severe
+accident, so treat them seriously. You may use the principles of hazard management in
+this process.
+It is important that if someone is killed or seriously injured — or could have been killed
+or seriously injured at your workplace — Safework SA must be notified.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 17
+COMMUNICATION
+Involving workers in Health and Safety matters is a legal requirement and makes good business
+sense. When management works with workers to achieve shared objectives workers are more
+likely to understand decisions and actively support them.
+
+Workers have a good understanding of high-risk activities in their work areas. By setting up a
+communication system, where management and employees have a genuine opportunity to
+exchange views, informed decisions can be made based on shared information. Effective
+worker involvement and cooperation assists in preventing incidents, injuries and ill health. For
+example communication could be used to alert workers of:
+• Emergency situation
+• The nature of the emergency
+• Unsafe work areas or zones
+• Information to emergency services i.e. ambulance, police or fire services personnel
+The PCBU (person conducting a business or undertaking) should actively consider
+arrangements for establishing formal consultative methods. For example, in larger organisations
+consider health and safety representatives and safety committees. These arrangements should
+be developed in consultation with workers, documented and communicated to everybody. For
+smaller organisations, less formal systems such as regular 'toolbox' or safety communications
+meetings can be considered. Some organisations combine formal and informal communication
+methods very effectively. Communication methods could be:
+• Visual Communication – WHS specially designed signs, electronic communication,
+documents, and even presentation
+• Written Communication – KPI reports, evaluations, emails, instant messages, physical
+and electronic memos, training materials, and other types of documents i.e. Safety Data
+Sheets
+• Verbal Communication – Toolbox meetings, instructions and public address messages
+(i.e. fire drills). Verbal communication would also involve active listening by workers
+and supervisors to ensure the message is clear and understood
+• Feedback Communication – Questioning to confirm understanding of workplace
+communication and/or safe procedures
+Any proposed changes to the work environment, work processes or the WHS management
+system must be discussed with workers. PCBUs (Employers) must involve workers, so that
+potential health and safety issues can be identified and resolved. Workers have the practical
+experience that is valuable in ensuring that workplace changes are implemented effectively and
+do not create further risks.
+Training must be provided to all staff to ensure the communication you have established is
+effective.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 18
+OVERHEAD POWERLINES
+The following distances MUST be observed when performing any work under or near to
+overhead power lines.
+• Low Voltage with a spotter: 3 m
+• Low Voltage without a spotter: 6.4 m
+• High Voltage with a spotter: 8 m
+• High Voltage without a spotter: 10 m
+If you are required to work closer than these minimum distances, the following controls could be
+used to do this safely?
+Controls include, but not limited to:
+• Must seek an exemption from the relevant authority.
+• Where possible have the electricity power shut off.
+• If this is not possible, the power lines must be insulated.
+• Depending on legislation of the state/territory, the use of a spotter within the exclusion
+zone may be appropriate.
+What is the best method to determine the voltage of over head power lines?
+• Refer to the local power authority for advice
+What should you do if the forklift truck you are operating comes into contact with power lines?
+• If possible & without danger to self:
+o Attempt to break the forklift’s contact with the power line by moving the forklift or
+moving / lowering the mast.
+• If NOT possible:
+o You should remain on the forklift if it is safe to do so
+o Do not touch any metal parts of the forklift
+o Call for assistance!
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 19
+WHAT IS MEANT BY A FORKLIFT TRUCK?
+The Regulations define the term “Forklift Truck” as a powered industrial truck:–
+(a) equipped with an elevated load carriage designed to permit tiering of one load on
+another;
+(b) equipped with forks or other load handling means;
+(c) capable of self loading; and,
+(d) on which the operator must ride to operate.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 20
+YOUR FORKLIFT TRUCK IS MADE UP OF:
+1. Mast
+2. Back rest extension (load guard)
+3. Load forks
+4. Fork carriage
+5. Drive axle and wheels
+6. Steer axle and wheels
+7. Overhead guard
+8. Tilt cylinder
+9. Counter balance (counterweight)
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 21
+OTHER TYPES OF FORKLIFTS IN GENERAL USE
+The following require training in use and some may require an Operator’s Certificate.
+A. Straddle Truck D. Counter Balanced Stand-up
+B. Reach Truck E. Walkie Straddle
+C. Order Picker F. Walkie Reach
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 22
+FORKS
+TYPES OF FORKS
+The Pallet is the most common type of fork is use. It is designed to handle pallets or skids.
+These forks are sometimes tapered on the bottom face so they can be used to chisel under
+certain types of loads.
+The Polished and Tapered fork is primarily used for chiselling operations. It is a thin fork that
+has a very smooth finish. These forks can be tapered either top or bottom depending on the
+intended chiselling operation. This fork can also be used for handling pallets or skids.
+The Plywood fork is primarily used in the timber business. It is wider and thinner than a
+regular fork and enables the operator to “chisel” between laminated timber sheets.
+LENGTHS OF FORKS
+The forks that are used should always be shorter than the load being handled. For example, a
+standard pallet is 1200mm in length, therefore, the forks to be used should be approximately
+1000mm in length. Fork length should always be shorter than the load length. Forks which
+protrude beyond the load may cause damage; however, if the forks are too short then load
+stability will be at risk. If ever faced with the situation where the forks are longer than the load,
+the operator should endeavour to travel in reverse with the forks trailing.
+As a general rule forks should always extend at least 75% of the distance under the load.
+FORK EXTENSIONS (SLIPPERS)
+Fork extensions are generally used to handle long loads. The slide over the regular forks and
+give added length.
+Fork extensions are an attachment and their weight should be taken into account as part of the
+load being carried by the forklift. Using fork extensions eliminates the necessity to have more
+than one pair of forks.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 23
+LOAD LENGTH, FORK LENGTH & SPACING
+SPACING
+When picking up a wide load, the forks should be evenly spread out toward the sides of the
+load.
+The key points are to use the proper length of forks spaced correctly for the load. In most
+cases load handling is performed with pallets.
+ (1200mm x 1200mm for a standard Chep or Loscam Pallet).
+The distance between the forks should be adjusted to be approximately between two thirds or
+three quarters of the overall width of the pallet to give the strongest support and to enable
+greater ease of manoeuvrability especially when stacking or de-stacking in confined areas.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 24
+FORK HEIGHT TERMINOLOGY
+A. The Collapsed Height is the
+distance from the floor to the top
+of the mast when the forks are in
+their lowest position.
+B. Free Lift is the distance the
+forks may be raised before the
+Collapsed Height is increased.
+C. The Maximum Fork Height is
+the distance from the floor to the
+top of the forks when the mast is
+fully raised.
+D. Overall Extended Height
+is the distance from the floor to
+the top of the load back rest
+extension when the mast is
+fully raised.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 25
+LIFT TRUCK STEERING FEATURES
+REAR END STEERING
+A. This allows the Truck to turn much sharper than those steered by the front wheels.
+B. Tail swing is a characteristic of Forklift Trucks. This is the direct result of being steered
+by the rear wheels. Operators need to become accustomed to this peculiarity in order to
+avoid accidents.
+WILL NOT SELF CENTRE
+A. Before boarding the machine check the position of the rear wheels.
+B. One hand must be on the steering wheel at all times during operation.
+C. Travel at a safe speed to enable manoeuvres to be carried out safely.
+POWER STEERING
+A. Turn steering only when the forklift is moving.
+B. If the forklift is fitted with pneumatic tyres ensure that they are inflated to
+recommended pressures.
+Never switch the engine off whilst the vehicle is in motion. Loss of engine power will result in
+loss of power steering function.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 26
+REAR WHEEL STEERING
+The ability to drive an ordinary motor vehicle does not necessarily mean that a person is
+capable of handling a forklift truck. The effect of rear wheel steering is similar to driving an
+ordinary vehicle in reverse.
+SPECIAL STEERING CHARACTERISTICS
+Rear wheel steering also imposes different steering characteristics. When an ordinary vehicle is
+turning, the rear wheels will “track” inside the turning arc of the front wheels. With rear wheel
+steering, the rear wheels will “track” outside the front wheel arc. This action induces the
+characteristic of rear end swing.
+REAR END SWING
+The tendency for the rear end to swing outside the arc of forward movement will become
+apparent when observing the progress of the front of the vehicle. Rear end swing is a major
+contributor to a considerable number of accidents involving forklift trucks. Novice drivers need
+to be particularly careful of this feature.
+Additionally, rear wheel steered vehicles will not revert
+from a turning arc to a straight course if the steering
+wheel is released. The tendency is for the turn to be
+continued in a decreasing circular movement until
+maximum lock is reached.
+THE SPEED OF REAR END SWING WILL BE APPROXIMATELY
+3 TIMES THE FORWARD SPEED OF THE FORKLIFT
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 27
+TYPES OF PROPULSION
+There are two distinct types of propulsion for forklifts: Internal Combustion Engines and Battery
+Electric.
+INTERNAL COMBUSTION
+The internal combustion engine in a forklift works on the very same principles as those in a
+normal motor vehicle. The variety of fuel sources are also similar to those of a normal motor
+car and include petrol, diesel, LPG and CNG (compressed natural gas).
+Gas powered vehicles are more often used indoors whereas those powered by petrol or diesel
+are often larger and are used in outdoor environments. Petrol emits more toxic fumes (carbon
+monoxide) than those using either LPG, CNG or diesel. Even with the advent of catalytic
+mufflers these engines should not be idled unnecessarily in confined spaces.
+More forklifts use the internal combustion engine rather than
+battery power because of its greater versatility as a power
+source. Considering that an internal combustion engine develops
+more torque than a battery powered vehicle, it yields more
+power. As a consequence, internal combustion engine forklifts
+will have a higher grade climbing ability than a comparable
+battery powered machine. Large outdoor forklifts always use
+internal combustion engine due to their power requirements.
+BATTERY
+The major differences apparent in battery operated forklifts is that they are fume free, quiet
+and, can be built to a smaller scale and should be maintained as to manufacturer’s
+specifications.
+Being fume free means they are ideally suited for use in
+operations such as food processing or, manufacturing plants
+where people are working in confined or poorly ventilated
+areas. Their quietness is beneficial when used in an area
+where noise would create a disturbance to workers. In contrast
+to the internal combustion engine, the battery operated forklift
+has fewer parts and can be built more compactly.
+Lead acid batteries should be stored in a cool well ventilated area away from ignition sources
+(eg welding, smoking etc.). A spill tray should be installed under the battery to contain any
+spill. If installed batteries are at risk of metal tools or other conductive materials touching
+terminals, then the terminals should be insulated.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 28
+TYRES
+There are four basic types of tyres used on forklifts.
+• Pneumatic Tyres: Similar to those used on motor vehicles which are inflated with air.
+• Semi-Pneumatic Tyres: Hollow centred tyres that operate at atmospheric pressure.
+• Solid Tyres: A ring of solid rubber, neoprene or other rubber like material around the
+wheel rim.
+• Cushion Tyres: A solid tyre, but with a different tread and profile configuration to give it
+some of the shock absorbing qualities not found in a solid tyre.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 29
+CONTROLS AND INSTRUMENTS
+HOUR METER
+A most important instrument for which there are two reasons:-
+1. Service intervals can be determined by worked hours on the machine. Similar to using
+odometer readings for the servicing of motor vehicles.
+2. Refuelling and even records of operating costs can be determined through hours worked.
+CONTROLS
+Some forklift truck controls are similar to, and operate in the same way as those found in a car:-
+accelerator, brake, hand brake for parking.
+Forklifts fitted with gear boxes giving a range of forward and reverse gears should always begin
+travelling in the lowest gear possible. Low gear should also be used on ramps and when load
+positioning.
+INCHING
+The majority of forklift trucks are equipped with power shift transmissions. In this case a clutch is
+not required to change gear. The third pedal provided on some forklifts, mounted in the normal
+position for a clutch, is an “inching pedal” (“clutch brake”). Use of this pedal by the operator
+enables the truck to “inch” or move very slowly when operating in confined spaces or when fine
+manoeuvring is required. The pedal is pressed part way in to “inch”. Depressing the pedal past
+the inching position will apply the brake.
+By using the inching pedal the operator is able to control the speed of the machine as well as
+being able to neutralise the transmission and stop the machine. Once fully depressed, the
+inching pedal will hold the machine (maximum braking), and neutralise the transmission without
+having to move the gear selector. The accelerator can then be used for better hydraulic
+response when initiating stacking, de-stacking and other static load shifting operations.
+VERSATILITY
+Forklift trucks can be made extremely versatile by adding to or replacing the forks with
+attachments. Clamps, revolving carriages, booms, jibs and even shovels form just a few of the
+attachments available. The most common attachment is the “side shift” which allows movement
+of the forks up to 100mm (4 inches) left or right of centre of the mast.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 30
+PRINCIPLES OF OPERATION
+INTRODUCTION
+The purpose of the following section is to explain the PRINCIPLES which govern the operation
+of forklift trucks.
+In particular we shall be considering the concepts of:
+• PIVOT POINT
+• LOAD RATING
+• LONGITUDINAL STABILITY
+• LATERAL STABILITY
+• CENTRE OF GRAVITY
+• STABILITY TRIANGLE
+An understanding of these principles is essential to gain an appreciation of the capabilities and
+limitations of the forklift.
+Most importantly, knowing these principles, will allow the operator to anticipate dangerous
+situations and thus maintain a safer operation.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 31
+PRINCIPLES OF OPERATION
+FULCRUM OF BALANCE
+The same principles that apply to a see-saw apply to a forklift. In diagrams A & B, equal weights
+are placed an equal distance apart from the pivot point, the result is that they remain balanced.
+This is SAFE. Note:- the pivot point of the forklift is at the front wheels.
+The counterweight of the forklift must always be greater than the load. In the following
+diagrams, counterweight C is greater than load D. This is SAFE.
+In diagrams E & F a heavier load has been placed at one end. As a consequence a loss of
+balance will occur. This is UNSAFE.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 32
+UNDERCUTTING THE LOAD
+In the diagrams below, equal weights have been placed each side of the pivot point, however
+one of the weights has been placed further away from the pivot point than the other. When
+operating a forklift this is called undercutting the load. This is UNSAFE.
+Even if the weight of the load is less than the counterweight, by moving the load further away
+from the pivot point, we can cause the forklift to tip forward. This is UNSAFE.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 33
+LONGITUDINAL (FORWARD) STABILITY
+There are several causes of forward instability. Overloading the forklift should never occur. This
+is a highly dangerous practice and will invariably cause the forklift to tip forward. Other causes
+of forward loss of balance can be cited as:
+• Tilting the mast forward with the load raised high (diagram A). Undercutting the load
+(diagram B)
+• Travelling downhill or down a ramp with the load leading (diagram C)
+Violent braking is another cause of forward instability and should be avoided at all costs
+LATERAL (SIDEWAYS) STABILITY
+Causes of sideways instability are:
+• Travelling over uneven ground, pot holes etc., (diagram 1).
+• Having the load unevenly balanced (diagram 2).
+• Turning too fast (diagram 3)*.
+* The most potential for disaster is turning too quickly. With rear end steering and moving at an
+approximate speed of 10kph, turning the steering will cause the rear to accelerate to 3 times the
+forward speed of the machine ie. 30kph. This can easily cause the forklift to tip sideways.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 34
+STABILITY - SUMMARY
+FORWARD STABILITY
+Is affected by: 1. Overloading
+2. Sudden stops
+3. Rough operation of controls
+4. Exceeding load centre
+5. Negotiating inclines
+6. Collision with overhead obstructions
+SIDE STABILITY
+Is affected by: 1. Turning too fast
+2. Turning on an incline
+3. Incorrect tyre pressure
+4. Ground obstructions
+5. Unbalanced loads
+Loads carried high with too much tilt and side-shift
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 35
+STABILITY TRIANGLE
+One of the most important concepts to understand about forklifts is that even though they have
+4 wheels, they are only suspended at 3 points. The rear steering axle is mounted to the truck by
+means of a pivot pin in the centre of the axle. This method of suspension allows for some
+flexibility when travelling over rough ground.
+Diagram A shows an imaginary triangle drawn between the two front wheels and the pivot pin in
+the rear axle. The area within the lines is referred to as the Stability Triangle/Pyramid.
+The centre of gravity of an object is the point within that object from which it could be
+suspended in mid-air perfectly balanced. Whenever operating a forklift, the centre of gravity
+must remain within the boundaries of the stability triangle, if not, the forklift will tip over.
+Diagrams 1 to 6 describe what happens to the centre of gravity during normal operation. Some
+forklifts have more degree of tilt than others and it should be noted that full backward or forward
+tilt should only be used under prescribed circumstances.
+EMPTY MAXIMUM MAST TILTED
+LOAD BACK
+
+MAST LOAD RAISED TRUCK
+TILTED HIGH & MAST TILTED CORNERING
+FORWARD BACK EXCESSIVELY OR UNEVEN LOAD
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 36
+LOAD CENTRE DEFINITION
+Load Centre: The distance measured from the vertical face of the forks to the centre of gravity
+of the load. Providing that the weight of the load is evenly distributed and the load is
+against the backrest a more simple definition of load centre is Half the Length of the
+Load.
+In Diagram A the load length measures 1200mm (standard pallet) so the load centre is 600mm.
+In Diagram B the load measures 1400mm, therefore, the load centre is 700mm.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 37
+MANUFACTURER’S DATA PLATES
+DATA PLATES
+The data plate attached to the forklift is an integral part of the safe operation of the forklift. After
+studying the information you are made aware of the forklift’s maximum lifting capacity, load
+centre and, maximum stacking height.
+The data plate above describes that the machine can lift a maximum of 2150kg to a maximum
+height of 3700mm providing the load centre does not exceed 600mm. When an attachment has
+been added the data plate will show a reduced lifting capacity. The attachment (in this case a
+“sideshift”) which has been added weighs 325kg. In consideration that this weight has been
+added forward of the pivot point (the front wheels) the capacity of the forklift is reduced by the
+weight of the attachment. The revised lifting capacity is calculated in the following manner:
+Rated capacity 2150kg
+Less - weight of attachment - 325kg
+Reduced capacity = 1825kg
+If a data plate is missing or unreadable, tag and report. Do not use.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 38
+LOAD CENTRE AND LIFTING CAPACITY
+ 1. 2. 3.
+LIFT CAPACITY DECREASES AS THE LOAD CENTRE INCREASES
+In Diagram 1 a forklift rated for lifting 2000kg with a 600mm load centre can safely lift the load,
+providing the load is evenly distributed. In Diagram 2 the load centre has increased to 750mm
+so the lifting capacity is reduced to 1700kg. In Diagram 3 the load centre has been increased
+even further to 900mm so the lifting capacity is further reduced to 1400kg.
+LOAD RATING GRAPH
+The graph shows how the load capacity decreases as the load centre increases. The forklift
+described on the graph can lift 3000kg as long as the load centre is 600mm or less. As the load
+centre increases beyond 600mm, the lifting capacity is reduced, e.g. for a 750mm load centre
+the lifting capacity is reduced to 2250kg. For a 900mm load centre the lifting capacity is further
+reduced to 1750kg.
+Under no circumstances can a forklift lift a greater load than the
+stated maximum
+- even if the load centre is less than that stated!
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 39
+LPG CYLINDER EXCHANGE PROCEDURE
+NOTE: Gloves and eye protection should be worn at all times when handling LPG
+containers.
+PREPARATION
+1. Park correctly in a designated area.
+2. Lower forks to the ground with the tips down.
+3. Apply the parking brake.
+4. Switch engine and all electrics off.
+5. No smoking.
+CYLINDER REMOVAL
+1. Put on gloves and eye protection.
+2. Turn off cylinder supply valve (hand tight).
+If exchanging the cylinder before it has run out of gas, restart the engine and allow it to
+run until all of the gas in the supply line has been exhausted. When the engine stops turn
+off the ignition.
+3. Disconnect the supply hose at the quick release coupling.
+4. Release the cylinder clamps.
+5. Remove the cylinder and place in a designated area.
+REPLACEMENT
+1. Check new cylinder is full by laying it horizontally to read the gauge.
+2. Lift cylinder onto the cradle.
+3. Position cylinder correctly with “top” pointing up.
+4. Lock the cylinder clamps.
+5. Connect the supply hose (hand tight).
+6. Open the supply valve slowly to avoid air locks.
+7. Check for leaks by smell or look for frosting at coupling joints.
+If a leak is detected, close the supply valve immediately and seek help
+TAG FIRST THEN REPORT
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 40
+ATTACHMENTS COMMONLY USED ON FORKLIFTS
+Paper Roll Clamps
+Choice of Fixed frames or Swing
+frames to match your equipment
+to your paper handling
+requirement. Heavy duty drive
+train delivers high torque and fast
+smooth rotation for quicker cycle
+times and speedier loading and
+unloading.
+Double Pallet Handlers
+High tensile steel construction.
+Eliminates load sag and increases
+stability and cycle times. Load backrests
+are available to suit specific load types
+and maximise operator safety.
+Weight Gauges
+An economical way to check load
+weight. Large, easy to read face.
+Low maintenance. Eliminates the
+need for complicated systems.
+Fork Extensions
+Ideal for double depth stacking or moving
+non-standard size pallets. Heavy duty
+retaining pin keeps them in position.
+Crane Mounted Pallet Forks
+Often used with truck mounted
+cranes to load and unload
+palletised goods where a lift truck
+is not available, i.e. a building site.
+Wide Fork Frames
+For handling long and awkward sized
+goods such as beams and pipes. High
+tensile steel construction for superior
+load stability.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 41
+Mechanical Attachments
+With a range of 30 Cascade
+Australia mechanical attachments
+to choose from, you can tailor your
+lift truck precisely to the task
+requirements. All are designed to
+AS2359 standards.
+Carpet Probes
+Moving carpet and vinyl is easy with Cascade
+Carpet Probes.
+360 Degree Rotators
+High capacity. Low weight design.
+Highly durable ring gear and drive
+group.
+Carton Clamps
+High visibility frame. Padded contact arms with
+narrow profile polyurethane filler blocks and
+longer entry ramps allow easy knifing between
+loads. Articulated contact pads for uniform force
+across load.
+180 Degree Rotators
+An alternative to traditional 360
+degree rotators for low volume
+applications with faster rotate
+speeds. Non-lube bearings ensure
+clean operation.
+Dedicated Push Pulls
+Unique gripper jaw extends over platen tips and
+incorporates a tilting faceplate which eases the
+engaging of slip-sheets and prevents the load
+from being dislodged. Low wear moving parts
+such as arms and bearings ensure long service
+life.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 42
+180 Degree Bin Rotators with
+Hold Down
+Includes positive lock down to
+prevent product movement during
+rotation.
+Quick Release Push Pulls
+High capacity, low weight construction increases net lift
+truck capacities. All the features of the Dedicated Push
+Pull with Quick Release for extra flexibility.
+Forward Bin Tipper
+Highly useful attachment for easy
+tipping of loose and liquid materials
+into containers and hoppers.
+Safety Work Platforms
+Ideal for maintenance work and high stack carton and
+parts picking. Robust with swing door access.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 43
+JIB ATTACHMENTS - USING THE FORKLIFT AS A CRANE
+To further increase the versatility of a forklift truck, the use of a Jib attachment enables the
+forklift to be used as a crane.
+Before attempting to operate the forklift in this fashion it is important that the operator observe
+certain safe practices and be aware of the operating requirements associated with any
+equipment used in conjunction with the crane function.
+1. Before attempting to lift a load using a jib attachment, the operator must ensure that the
+attachment is:–
+• in good order and condition;
+• is correctly secured to the forklift;
+• is fitted with a swivel hook (not a fixed hook); and
+• is of suitable capacity for the lifting operation to be performed (the Safe Working Load
+must be marked clearly at each hook position on the attachment).
+2. When travelling with a load on the jib (hung load) the operator must ensure that
+• the mast of the forklift is kept vertical or on back tilt at all times;
+• the load is kept as low to the ground as possible;
+• the jib attachment is kept as low to the ground as possible by using slings which are as
+short as practicable to allow the task to be carried out safely; and
+• when travelling and changing direction, forklift speed must be slow.
+3. Only equipment which is specifically designed for the purpose should be used with a jib
+attachment. NEVER hook or wrap slings around the tines of a forklift.
+4. The operator must ensure that any slings or other fittings which are to be used are of a
+capacity suitable for the task. The capacity of synthetic webbing slings is easily determined
+by a colour coding method, as well as by the information tag attached to the sling by the
+manufacturer. The capacity of flexible steel wire ropes and chains appears on the tag affixed
+to the sling or is stamped on the ferrule.
+5. The operator must ensure that all lifting gear is in good condition. All fittings must be
+inspected for wear and damage. The maximum amount of wear permissible in a shackle is
+10%. The shackle must be discarded at that point.
+6. Loads must be correctly slung and must be secure before lifting.
+7. The forklift must be on solid level terrain before lifting.
+8. The operator must lift the load slowly and smoothly avoiding rough operation of controls
+which could destabilise the forklift.
+9. Ensure that the fork is centred directly over the load to minimise the possibility of the load
+swinging. Once the load begins to swing the stability of the forklift is adversely affected.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 44
+10. Where the load needs to be guided, tag lines made of dry, natural fibre rope of a minimum
+diameter of 16mm should be used.
+11. If at any stage the operator detects that the load has become unstable, the load should be
+lowered immediately.
+12. Loads should NEVER be raised over or near other people.
+13. The pin of a shackle should always be “moused” (secured or tied in or secured to prevent it
+from unscrewing during use).
+LOAD FACTORS
+The WLL of a sling is the maximum weight which can be lifted when the sling is vertical (a
+straight lift). The load factor of a straight lift is 1. By altering the method of slinging, or, by
+adjusting the angle between the legs of slings will affect the lifting capacity of the sling.
+SLINGS
+CARE OF SLINGS
+1. When not in use, slings should never be allowed to remain on the ground, on wet and damp
+surfaces, near substances which could cause corrosion or wear that may absorb rust, other
+oxidants, or ashes.
+2. Slings should not be dragged from beneath loads.
+3. If slings will be contacting sharp edges etc., adequate packing should be used to prevent
+damage.
+4. Slings should never be overloaded or shock loaded.
+5. Slings should never be exposed to excessive heat.
+6. Slings should never be left exposed to the weather and must be kept away from salt water.
+7. Operators should take care to prevent twists from developing, and should never knot or
+cross twist kink any sling.
+8. Slings should be inspected EVERY time before use and operators should inspect for:
+• Broken wires or fibres
+• Kinks
+• High stranding
+• Core slippage
+• Excessive wear and corrosion
+• Crushed or jammed strands
+• Signs of stretching
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 45
+INSPECTION OF SLINGS
+CHAINS:
+• Stretched, gouged, pitted or cut links
+• Links locked or do not move freely
+• Knots, twists and kinks
+• Links crushed or worn more than 10% of their original diameter
+• Cracked links
+Most wear is likely to appear at the ends of each link or on the outer side of each link from being
+dragged.
+SYNTHETIC SLINGS:
+• Damage to stitching, sleeve or protective coating
+• Damage to eyes or to end fittings
+• Abrasions, cuts and tears
+• Variation in sling thickness
+• Ensure labels are present
+FIBRE ROPES:
+• Knots, cuts or an excessive amount of broken fibres
+• Rot due to moisture or sun baking
+• Disintegration due to contact with corrosive chemicals
+• High stranding
+Should any of the above be found in the condition of the sling, then the sling should be taken
+out of service immediately and either be repaired (where possible), or dis-carded from use. To
+ensure that faulty equipment is not used by unsuspecting par-ties, all equipment withdrawn
+from service should be clearly marked.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 46
+BASIC DE-STACKING RULES
+1. Approach the stack slowly, square and centre and
+stop half to 1 metre from the stack. At this point bring
+the mast to the vertical.
+2. Left foot on inching brake (if equipped) - right foot
+covering the accelerator (RPM may be required for
+better hydraulic response). Raise forks to a position
+permitting clear entry into the pallet or dunage.
+3. Fully engage the forks by moving forward into the
+pallet until the front face of the forks “kiss” the deck
+board. (Slight forward tilt may assist).
+4. Lift the load until clear of the stack (approx 100mm)
+and apply just enough back tilt to stabilise the load. Do
+not apply backward tilt before lifting.
+5. When the load is clear of the stack or rack look behind
+to make sure the way is clear before reversing. Move
+slowly backwards only as far as is necessary to clear
+the face of the stack. (Approx half to 1 metre).
+6. Lower the load gently to the correct travelling height,
+approx. 100-150mm before applying further back tilt to
+cradle the load before moving off.
+7. Extreme care must be taken to avoid jerking the
+controls when tilting a load backward or forward -
+especially when the load is at height.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 47
+BASIC STACKING RULES
+1. Approach stack slowly, square and centre with load low,
+approx. 100-150mm high and tilted back to cradle the load
+against the backrest.
+2. Stop approximately half to 1 metre from the stack and
+reduce the excessive back tilt.
+3. Left foot on inching brake right foot covering the accelerator
+(RPM may be required for better hydraulic response). Raise
+the load to just above the required stacking height.
+4. When the load is clear of the top, move forward into or over
+the stack and stop approximately 200mm from the bottom
+of the stack or rack.
+5. Bring the mast to the vertical (the mast will then be close to
+the stack and the forks should be in the horizontal position)
+then gently lower the load onto the stack or rack.
+6. When the load is securely stacked, lower the forks until
+clear of the pallet. Look behind before reversing.
+7. When clear of the rack (half to 1 metre) lower the forks to
+the correct travelling height, approx 100-150mm before
+moving off.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 48
+REACH TRUCK INTRODUCTION
+A reach truck is a forklift with a load carriage which moves longitudinally relative to the truck,
+away from the truck to pick up or deposit a load and toward the truck to enable the centre of
+gravity of the load to be within the wheelbase of the truck whilst travelling.
+Reach trucks are designed for narrow aisle work where manoeuvring space is generally more
+restricted. Therefore, even greater care needs to be taken to avoid damaging racks, loads and,
+the truck itself.
+The data plate or rating plate on these trucks shows the maximum load that can be safely lifted
+by the forklift when the mast or fork carriage is fully extended forward.
+Loads in excess of this rating will cause the rear wheels to lift off the ground which in turn will
+affect steering, braking and traction. This will endanger the operator and other persons in the
+vicinity.
+Reach trucks are designed to operate on clean, smooth and level floors. They have no
+suspension, nor do they have the shock absorbing qualities of pneumatic tyres. They must not
+be driven over floor hazards, broken pallets and other obstructions on floors.
+All rules of operating counterbalanced trucks apply equally to non-counterbalanced trucks,
+especially those rules which apply to loads when the forks are “reached” forward of the
+stabilising wheels. There are additional special rules which must be observed when using reach
+trucks.
+It is important to remember that a forklift can lift its recommended maximum load only if the
+centre of gravity of the load does not extend beyond its rated load centre and is not lifted to a
+height greater than that shown on the data plate.
+Note: The data plate for a reach truck refers to the capacity of the unit with the forks
+REACHED FORWARD.
+REACH TRUCK LOAD TABLE AND LOAD CENTRE
+The table below shows a reach truck with a rated capacity of 1800kg with a load centre of
+600mm. As can be seen by the load table, if the load centre extends beyond the 600mm rating,
+the safe working load is reduced.
+LOAD TABLE - 1800kg AT 600mm LOAD CENTRE
+Load Centre Lifting Capacity
+600mm 1800kg
+640mm 1690kg
+660mm 1640kg
+680mm 1590kg
+710mm 1520kg
+730mm 1480kg
+810mm 1330kg
+860mm 1260kg
+910mm 1190kg
+990mm 1090kg
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 49
+REACH TRUCK DE-STACKING
+1. Stop at the face of the stack and bring the mast to the
+vertical position. If necessary, adjust the fork spread to suit
+the width of the load and ensure that the weight of the load
+is within the rated capacity of the machine.
+2. Raise the forks to a position allowing clear entry into the
+pallet or dunage strips.
+3. Drive forward to bring the truck closer to the stack. Fully
+insert the fork arms by reaching forward.
+4. Lift the load until it is clear of the stack and carefully apply
+enough backward tilt to stabilise the load.
+5. When the load is clear of the top of the stack, reach back. If
+necessary move the truck back sufficiently to clear the face
+of the stack.
+Ensure the way is clear before moving off and, take care
+not to dislodge loads in adjacent stacks.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 50
+REACH TRUCK STACKING
+Reach trucks should never be driven, whether loaded or not, with
+the reach mechanism extended. The brake should be applied
+before operating the reach mechanism. No one should ever step
+over the reach legs or put any part of the body between the mast
+and power unit if the truck is capable of being operated. The
+reach mechanism should not be used for pushing or dragging
+loads and, the load should be carried on the forks and not resting
+on the reach legs unless the truck is specifically designed for this
+purpose.
+LOADING AND STACKING WITH REACH TRUCKS
+1. Approach the stack with the load low, reached back
+and tilted backwards to cradle the load.
+2. Stop at the face of the stack, apply the brakes and
+reduce the excessive backtilt.
+3. Raise the load to the required stacking height.
+4. When the load is clear of the top of the stack, drive
+forward if necessary, re-apply the brakes then reach
+forward taking care not to disturb other loads in
+adjacent stacks.
+5. When the load is over the stack, bring the mast to the
+vertical position and lower the load onto the stack.
+6. When the load is securely stacked, lower the arms
+until free of the pallet and reach back. At this position,
+slight forward tilt might be of assistance, otherwise it
+should seldom be necessary to use forward tilt. If the
+fork arms are not fully clear of the stack, the truck
+should be moved back a short distance, after ensuring
+the way is clear.
+7. When the fork arms are clear of the stack, re-apply the
+brakes if the truck has been moved. Tilt the fork arms
+backwards and lower them to just above ground level
+before moving off.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 51
+FORKLIFT TRUCK OPERATION - PRE-SHIFT CHECKS
+BEFORE COMMENCING OPERATION ALWAYS CHECK: OK Comments
+1. That the manufacturer’s Data and Load Capacity Plate is
+attached to the vehicle.
+
+2. That tyre condition is good and in the case of pneumatic tyres
+that inflation pressures are correct
+
+3. That brakes, both hand and foot, are functioning correctly.
+4. That the steering mechanism is in proper working order
+5. That the hydraulic lifting mechanism is in correct working
+condition
+
+6. Fuel level.
+7. Engine and hydraulic oil levels
+8. Battery and radiator water levels
+9. Radiator hoses and radiator core for obstructions
+10. For any fuel or oil leaks
+11. That the horn and any other warning devices are in working order
+12. The overhead and load guard for faults
+13. The fork carriage
+14. All load bearing parts and components
+• Are ‘no go’ zones clearly marked with signs and fences?
+• Is there sufficient lighting and ventilation for you to work safely?
+• Is there a lot of noise (from other machines) that may impair your ability to hear?
+• Are road surfaces even and clear of obstructions? (Are there features such as
+ramps and rail tracks?)
+• Are there overhead features such as low doorways, fittings, cables and power
+lines?
+• Are there any other obstructions?
+• Are there wet and dry areas? (Any spills?)
+• Are loading docks clear? (Do they have edge protection?)
+• Is there sufficient room or capacity on storage racking?
+• Are forklift operating paths clear? (Are they wide enough?)
+• Are there any congested areas?
+• Are there any blind spots?
+• Is there any interaction with pedestrians or other traffic?
+
+SHOULD ANY DEFECTS BE FOUND
+TAG THE FORKLIFT
+THEN REPORT THEM IMMEDIATELY TO YOUR SUPERVISOR.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 52
+RULES FOR SAFE OPERATION OF FORKLIFTS
+Rules listed are based on sound operating practices. Workplace conditions may make it
+advisable to add other operating rules specific to individual situations.
+• Always wear seat belts, where provided
+• Keep the forks down
+• Push the forks all the way under the load
+• Never lift unstable loads
+• Always tilt the load back before travelling
+• Keep left
+• Never follow other vehicles too closely
+• Operator must face in the direction of travel
+• Never leave an internal combustion engine powered vehicle running unattended
+• Do not drive with wet or greasy hands
+• Always slow down for wet or slippery floors
+• Do not ride the clutch or inching control
+• Always complete daily maintenance checks
+• Always turn in daily maintenance check list
+• Do not pump the accelerator during operation
+• Report all mechanical deficiencies
+• Refuel only in designated areas
+• Clean up any and all fuel spills
+• When working in public areas ensure safety by barricading area or use of traffic control
+methods
+• Ensure all permits are obtained for required worksites
+• Do not carry passengers in unauthorised ways
+• Slow down and sound horn at intersections
+• Never do wheel spinning starts and reversals
+• Do not come to tyre skidding stops
+• Always travel in reverse if vision is obscured by the load
+• Always look in direction of travel
+• Never turn sideways on a ramp or incline
+NEVER OVERLOAD
+• Ensure load is against load guard and goods cannot fall on operator
+• Do not carry double tiered loads
+• Check floor loadings in trucks and rail cars before entering with the fork-lift
+• Keep unauthorised persons away from the forklift 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 53
+• Never drive too close to the edge of loading docks
+• Never rotate attachments when moving as it can destabilise forklift
+• Do not damage overhead installations
+• Make sure dock plates and bridge plates are secure before use
+• Ensure trucks and freight cars have wheels blocked to prevent rolling
+• Do not run into other goods, fixtures or fittings
+• Do not ram into stacked goods
+• Space the forks to fit the load
+• Ensure pallets are evenly loaded
+• Restack unstable pallets before lifting
+• Replace or stack damaged pallets on a sound one
+• Never work within 3 metres of low voltage lines and 8 metres of high voltage power lines
+with a Spotter & 6.4 metres low voltage and 10 metres high voltage without a Spotter.. Also
+check with Statutory Authorities.
+• Never carry loads off centre
+• Always come to a complete stop before reversing direction of travel
+• Approach rail lines at a 45˚ angle and slow down
+• Never have any part of the body outside the outline of the machine
+• Never use the forklift as a personnel elevator except when using approved equipment
+• Do not smoke or allow the engine to run whilst refuelling
+• Lower the forks to the ground with the tips down when parked
+• Put the gear lever in neutral before leaving the seat
+• Do not cause damage to building structures such as doors, beams, walls and buildings
+• Always apply the hand brake when parking
+• When using more than one forklift to lift a load ensure that operators are experienced,
+someone is in charge of the lift, minimise distance load is moved, machines are of similar
+capacity and suitable for the job
+• Give way to all emergency vehicles (Police, Fire, Ambulance, SES)
+• Never park a forklift in front of emergency exits, fire fighting appliances, first aid stations or
+on walkways or in flood prone areas
+FINISHING WORK
+• Before getting off the forklift, lower the fork arms to ground level, ensure the parking brake is
+engaged, and the controls are in neutral.
+• If the forklift is liquefied petroleum gas (LPG) powered, turn off the LPG at the cylinder.
+• Do not park the forklift near a source of ignition, near a doorway, or near a pit.
+• Park the forklift in a well-lit area under cover and on a level and even surface. Make sure the
+forklift is at least three metres away from a power line or rail line.
+• Remove the ignition key and secure the forklift at all times when not in use. (This will
+stop unauthorised people from using the forklift.) 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 54
+RULES FOR SAFE OPERATION OF FORKLIFTS
+Only properly trained and authorized drivers should operate forklift trucks.
+Are you qualified to be a forklift truck operator?
+Are you familiar with the forklift truck you operate?
+DON’T OVERLOAD
+Check load weights and handle only within the rated capacity of
+your forklift truck
+Before picking up a load, be sure of where the load centre is
+located
+Safe operation requires understanding and observing the fork-lift
+trucks rated load capacity
+GO SLOW AND SOUND HORN AT CORNERS
+Go slow whenever vision is limited or obstructed.
+If your plant has traffic mirrors, use them.
+Observe stop signs, stop your forklift truck completely,
+sound the horn if necessary and then proceed with
+extreme caution.
+ALWAYS USE LOAD BACKREST EXTENSION and OVER-HEAD GUARD FOR HIGH
+STACKING
+Be especially alert for falling objects when high stacking.
+Make sure no loose articles are lying on top of the load
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 55
+RULES FOR SAFE OPERATION OF FORKLIFTS
+SLOW DOWN FOR SLIPPERY AREAS
+It is very easy to lose control in slippery conditions.
+Driving a forklift truck is not trying to win a
+Safari Rally, although the conditions may
+sometimes be rather similar!
+WATCH SIDE CLEARANCE
+Watch your side clearance, especially with wide loads.
+Where possible, drive in the centre of the aisle to avoid
+endangering personnel and equipment.
+WATCH REAR END SWING
+Because the rear wheels steer your truck, the rear end
+swings wide when you turn.
+Use care in aisles and other tight places.
+DON’T CARRY PASSENGERS
+Don’t use your forklift truck for moving loads for
+which it was not designed.
+There is NO safe place on a forklift truck for a
+passenger to ride, and they could fall off
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 56
+RULES FOR SAFE OPERATION OF FORKLIFTS
+AVOID RUNNING OVER LOOSE OBJECTS
+Remove hazardous, loose objects rather than driving over
+or around them.
+Avoid holes and bumps that might disturb your load.
+DO NOT PERMIT ANYONE TO STAND UNDER ELEVATED FORKS
+Never stand or pass, or permit anyone else to stand or
+pass under the elevated forks whether empty or
+loaded.
+Load could fall, hydraulic or mechanical failure or
+operator error
+SEAT BELTS
+Ensure seatbelts are correctly fitted and worn (for example, by installing intelligent systems, the
+forklift can only be started if the seatbelt is fastened).
+Monitoring/supervision of these intelligent systems should be such that they cannot be easily
+defeated. Seatbelts may be retro-fitted, but only in accordance with the manufacturer’s
+specifications.
+Tipping over is the biggest danger for a worker using a forklift! If a worker jumps from a tipping
+forklift, the chances of serious injury are high. Seatbelts save lives and must be worn.
+A forklift can tip over by rolling or overturning sideways; or by pitching forward when the back
+wheels lift off the ground.
+Forklifts can tip over if you:
+• accelerate quickly in reverse;
+• brake too quickly, especially on a loaded forklift;
+• brake or accelerate while cornering;
+• brake or accelerate down a slope;
+• carry a load facing down a slope;
+• carry an unevenly balanced load;
+• collide with another vehicle;
+• drive across inclines or uneven ground, such as potholes (particularly with a height
+difference greater than 20mm across the front wheels);
+• drive with the fork arms raised too high (loaded or unloaded);
+• strike low doors or overhead structures;
+• turn too fast; or
+• use a forklift that is not designed to tow (pushing or pulling)
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 57
+CALCULATION
+LENGTH
+You can measure how long things are, or how tall, or how far apart they are. Those are all
+examples of length measurements.
+Example: This fork is 20 centimeters long. These are the most common measurements:
+• Millimeters
+• Centimeters
+• Meters
+• Kilometers
+AREA
+The formula is:
+Area = w × h
+w = width
+h = height
+Example: What is the area of this rectangle?
+We know w = 5 and h = 3, so:
+Area = 5 × 3 = 15
+Mass (Weight)
+Mass: how much matter is in an object.
+We measure mass by weighing, but Weight and Mass are not really the same thing.
+These are the most common measurements:
+• Grams
+• Kilograms
+• Tonnes
+Grams are the smallest, Tonnes are the biggest.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 58
+Grams
+A paperclip weighs about 1 gram.
+Grams are often written as g (for short), so "300 g" means "300 grams".
+A loaf of bread weighs about 700 g (for a nice sized loaf)
+Kilograms
+Once you have 1,000 grams, you have 1 kilogram.
+1 kilogram = 1,000 grams
+A dictionary has a mass of about one kilogram.
+Kilograms are great for measuring things that can be lifted by people (sometimes very strong
+people are needed of course!).
+Kilograms are often written as kg (that is a "k" for "kilo" and a "g" for "gram), so
+"10 kg" means "10 kilograms".
+When you weigh yourself on a scale, you would use kilograms. An adult weighs
+about 70 kg.
+But when it comes to things that are very heavy, we need to use the tonne.
+Tonne
+Once you have 1,000 kilograms, you will have 1 tonne.
+1 tonne = 1,000 kilograms
+Tonnes (also called Metric Tons) are used to measure things that are
+very heavy.
+Things like cars, trucks and large cargo boxes are weighed using the
+tonne.
+This forklift weighs about 2.5 tonnes.
+Tonnes are often written as t (for short), so "2.5 t" means "2.5 tonnes".
+Final thoughts about measuring weight:
+1 kilogram = 1,000 grams
+1 tonne = 1,000 kilograms
+Weight or Mass?
+We have used the word "weight" only because that is what people commonly say.
+But we really should use is "Mass". 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 59
+EXAMPLE OF CALCULATION ASSESSMENTS - 1
+The load to be moved is cartons that are stacked on a pallet:
+• Four to a layer
+• Five layers on the pallet
+• The pallet is standard size and weighs 30 kg
+• Each carton is 25 kg
+
+What is the combined weight of the cartons and pallet?
+ Show all calculations.
+EXAMPLE OF CALCULATION ASSESSMENTS - 2
+The load to be moved is a rectangular block of concrete. The dimensions of the
+load are:
+• Height 1 meters
+• Width 1 metres
+• Length 1 metres
+Solid concrete has a mass of 2,400 kg per cubic metre
+Calculate the approximate weight (mass) of the load in tonnes.
+ Show all calculations.
+ 
+Transport Training Centre – TLILIC2001A
+TTC Forklift Manual 2012 V14 Page 60
+NOTE: 
