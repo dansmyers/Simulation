@@ -1,4 +1,4 @@
-### Make Your Own Predictions
+# Make Your Own Predictions
 
 ## Choice of Text-Generation Tool
 After some research, I chose the markovify tool. Markovify seems to be the simplest tool to generate text, as I was unable to find other generators with the same ease of use.  
