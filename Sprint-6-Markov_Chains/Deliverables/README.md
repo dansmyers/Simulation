@@ -37,6 +37,15 @@ git clone https://github.com/rollinscs/cms380-f18-lab-2
 The lab instructions tell you how to use a tool named `markovify` to generate random sentences. Work through the examples it contains and 
 record your five best random tweets.
 
+
+1. (Pride and Prejudice mixed with Hamlet): "I understand you not my meaning: but breath his faults so quaintly, That they are not the skill Ham."
+
+2. (Trump Tweets and Hamlet): "Let’s Make America Great Again! https://t.co/DGMxQYUm7s We need her to heauen, And to my heart; in grace whereof, No iocond health that Denmarke drinkes to Hamlet."
+3. (Just trump tweet, my favorite one haha): America is supposed to think?”
+4. (Trump Tweet and hamlet): A robust economy will continue to rise againe:
+5. (Trump and Tao): Everyone of those people who screw you.” – Trump Never Give Up.
+
+
 ## Predictive Keyboards
 
 [Botnik](https://botnik.org/) is a group that uses predictve text to make humor products. Some of their work includes:
@@ -55,6 +64,14 @@ P90X workout DVDs
 - [Cooking for Valentine's Day](https://www.youtube.com/watch?v=ck-GZOKRBg0)
 
 Play around with the predictive keyboard on Botnik's website. Record your best creative work.
+
+My predicted Christmas Song:
+
+This year christmas time is here and with the blessings from above god sends you his love. Holidays bells are ringing, snow is falling down around us. Little silver bells will come home. Shake your head hallelujah. 
+
+An short episode of Seinfield:
+
+George i think hitting her back hurts you 're still sleeping on the couch. You think that jerry 's penis disappears with his camcorder. The bathroom and elaine are making conversation great. George what are you doing here now you 're gon na have to go to the bathroom. What 's the matter with you two years ago the comedy club had a softball team. Mudda ' was a mudda. 
 
 ## Make Your Own Predictions
 
@@ -81,3 +98,20 @@ What makes a good data source?
 - You don't have to use the entire body of works by an author. For example, picking all the works of Shakespeare might be too much, but you could work with the text of his sonnets.
 
 - Song lyrics could be fun, but it needs to be from a writer with a large enough body of work and clear enough voice to create interesting results.
+
+
+
+
+I found Robert Frosts poems on Project Gutenburg and put them through markovify to generate some peoms.
+The best one was the Gum Gatherer:
+
+THE GUM-GATHERER 
+
+There overtook me and drew me in the house, The first night after guests have gone, Without so much before I slept there once: I noticed that it didn't fill Beside me, and so hung.
+
+Gum comes to market when you said I was burrowing in deep for warmth, Piling it well above the forest call; To-morrow they may form and go.
+
+The bird would cease and be as other birds But that he was talking in his hand.
+I tried to keep on the porch, then drew him down To sit beside her in the woods Years afterwards, trailing their leaves on the good side of everything, Including me.
+
+It's got so I don't know what I mean beginnings.

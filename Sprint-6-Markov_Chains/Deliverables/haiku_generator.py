@@ -11,7 +11,7 @@ model = {}
 starting_words = []
 ending_words = []
 
-f = open('kobayashi_issa_10000_haiku.txt')
+f = open('kanye.txt')
 
 # Read the file text as a string
 text = f.read()
