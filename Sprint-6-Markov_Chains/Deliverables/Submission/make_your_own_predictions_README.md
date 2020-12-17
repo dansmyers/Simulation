@@ -19,4 +19,4 @@ Bonus: "I can fan with the chicks and clocks, sir, mixed up with the fan as I st
 
 
 ## Room for Improvement
-I think that this generator could be much better if it had access to a larger database of Dr. Seuss books. However, I was unable to find more (free) text files containing his rhymes. However, I still think that this generator is already pretty decent.
+I think that this generator could be much better if it had access to a larger database of Dr. Seuss books. However, I was unable to find more (free) text files containing his rhymes. I still think that this generator is already pretty decent.
