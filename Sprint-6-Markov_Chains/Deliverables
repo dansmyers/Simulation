@@ -1,0 +1,217 @@
+Sprint 6 Deliverables
+
+Description
+
+This project will let you play around with Markov models that create randomized text outputs. We'll look at a few different techniques, then you'll be able to build your own model.
+
+Creating randomized text generators is a fun application of Markov chains. For example this Reddit account, which creates random Florida Man posts using a Markov model created from the r/FloridaMan subreddit.
+
+The model starts by picking a random starting word, then randomly choosing the next word, in such a way that words pairs occurring more frequently in the source text are more likely to be chosen by the generator. This process then repeats, randomly choosing the next word based on the current word.
+
+If you'd like, you can think of it as writing using only the autocomplete feature of your phone.
+
+In addition to the subreddit above, here are some other good examples:
+
+    https://kingjamesprogramming.tumblr.com/
+
+    The snarXiv for randomized high-energy physics papers
+
+    Lots and lots and lots of Twitter bot accounts.
+
+Text generation is another area that has been affected by the introduction of deep-learning neural network models. The current top-of-the-pile is GPT-3, which came out in mid-2020. It can be frighteningly good.
+Make Randomized Text Great Again
+
+Clone this public repo:
+
+git clone https://github.com/rollinscs/cms380-f18-lab-2
+
+The lab instructions tell you how to use a tool named markovify to generate random sentences. Work through the examples it contains and record your five best random tweets.
+Predictive Keyboards
+
+
+
+It is not obscure.
+
+Florida must be stopped.
+
+Yankees should have no troubles.
+
+RIGGED Pocahontas wanted V.P. slot so badly compared to season 14.
+
+Today will be much stronger.
+
+
+----------------------------------------------------
+
+Botnik is a group that uses predictve text to make humor products. Some of their work includes:
+
+    Harry Potter and the Portrait of What Looked Like a Large Pile of Ash
+
+    A Bitcoin explainer trained from other Bitcoin explainers
+
+    This episode of Tidying Up with Marie Kondo
+
+    "Bored with This Desire to Get Ripped" trained from Morrissey lyrics and reviews of the P90X workout DVDs
+
+    A makeup tutorial trained from Bob Ross episodes and YouTube makeup videos
+
+    Cooking for Valentine's Day
+
+Play around with the predictive keyboard on Botnik's website. Record your best creative work.
+
+
+
+first thing is butter. So delicious. Then cut up the potatoes and a cup of cream and two tablespoons of coarse mustard. Save the onions. so delicious. really so delicious. dont you think it 's delicious? it really is. Back to the television show. In a big bowl, the onions and the chives too, goes in with wine and they just keep working in there mmm yeah that looks fabulous. Then saute them together mmm smells delicious. So delicious. 
+
+
+
+Make Your Own Predictions
+
+For your main project, let's create some original predictive text.
+
+I want you to do four things:
+
+    Write or find a good tool for text-generation. markovify and Botnik's predictive keyboards are options, but I encourage you to do a little bit of research before you commmit to a tool. If you want to experiment with writing your own code, I've included an example haiku-generation program in the repo.
+
+    Pick an interesting author. This could be a poet, fiction, or non-fiction writer. Choose someone with a unique style. If you want to choose a group of writer that are closely related to each other, as a school or movement, then that's fine too.
+
+    Find a body of works by your author(s) and mash them up using the predictive text generation tool you chose in step (1).
+
+    Curate your tool's output to produce interesting results. Obviously, coming up with ridiculous sentences is fun and not too hard. It's more difficult to find things that cross the barrier from the absurd to the sublime, which is where you want to be. It's okay to edit your randomized outputs as part of the creative process.
+
+What makes a good data source?
+
+    Breaks nicely into medium-length chunks, like poems.
+
+    Unique style or sense of phrasing. Again, poets are great for this.
+
+    You don't have to use the entire body of works by an author. For example, picking all the works of Shakespeare might be too much, but you could work with the text of his sonnets.
+
+    Song lyrics could be fun, but it needs to be from a writer with a large enough body of work and clear enough voice to create interesting results.
+    
+    
+    
+    i used poems by john keats, keats was the name of the street i lived on for most my life
+    
+"
+import sys
+sys.path.insert(0, "/usr/local/lib/python3.8/dist-packages/")
+import markovify
+
+# Get raw text as string.
+with open("keats.txt") as f:
+    text = f.read()
+    
+# Build the Markov model
+model = markovify.Text(text, state_size=2)
+
+# Print randomly-generated sentences
+for i in range(100):
+    print(model.make_sentence())  # try to make sentences of no more than 60 characters
+    print()
+"
+
+
+"
+Sit thee there, and send abroad, With a still, mysterious stealth: She will bring thee, all together, All delights of summer weather; All the heaped Autumn's wealth, With a mind self-overaw'd, Fancy, high-commission'd:—send her!
+()
+O sweet Fancy! let her loose; Summer's joys are spoilt by use: Where's the face One would meet in every place?
+()
+O sweet Fancy! let her loose; Summer's joys are spoilt by use: Where's the cheek that doth not fade, Too much gaz'd at?
+()
+Faded the voice, however soft, One would meet in every place?
+()
+Oh, sweet Fancy! let her loose; Summer's joys are spoilt by use: Where's the voice, warmth, whiteness, paradise – Vanish’d unseasonably at shut of eve, When the bee-hive casts its swarm; Acorns ripe down-pattering, While the autumn breezes sing.
+()
+O sweet Fancy! let her loose; Summer's joys are spoilt by use: Where's the face One would meet in every place?
+()
+None
+()
+Faded the shape of beauty from my arms, Faded the voice, however soft, One would hear so very oft?
+()
+Faded the flower and all its budded charms, Faded the sight of beauty from my arms, Faded the voice, however soft, One would hear so very oft?
+()
+Faded the voice, however soft, One would meet in every place?
+()
+Thou shalt see the field-mouse peep Meagre from its celled sleep; And the enjoying of the mid-May; And every leaf, and every flower Pearled with the self-same shower.
+()
+Faded the flower and all its sweets are gone!
+()
+The day is gone, and all its budded charms, Faded the voice, however soft, One would meet in every place?
+()
+Yes, I will be thy choir, and make a moan Upon the midnight hours; No voice, no lute, no pipe, no incense sweet From swinged censer teeming; No shrine, no grove, no oracle, no heat Of pale-mouth'd prophet dreaming.
+()
+Faded the voice, warmth, whiteness, paradise – Vanish’d unseasonably at shut of eve, When the soundless earth is muffled, And the enjoying of the mid-May; And every leaf, and every flower Pearled with the self-same shower.
+()
+None
+()
+Faded the flower and all its sweets are gone!
+()
+None
+()
+Faded the voice, however soft, One would meet in every place?
+()
+None
+()
+Thou shalt see Hatching in the same moment, hark!
+()
+Faded the sight of beauty from my arms, Faded the flower and all its budded charms, Faded the voice, however soft, One would hear so very oft?
+()
+Where's the face One would hear so very oft?
+()
+O sweet Fancy! let her loose; Summer's joys are spoilt by use: Where's the face One would hear so very oft?
+()
+Four Seasons fill the measure of the sky; Fairer than Phoebe's sapphire-region'd star, Or Vesper, amorous glow-worm of the mid-May; And every leaf, and every flower Pearled with the self-same shower.
+()
+None
+()
+Thou shalt see the field-mouse peep Meagre from its celled sleep; And in the same moment, hark!
+()
+Faded the flower and all its sweets are gone!
+()
+She has vassals to attend her: She will be bound with garlands of her own.
+()
+Oh, sweet Fancy! let her loose; Summer's joys are spoilt by use, And the snake all winter-thin Cast on sunny bank its skin; Freckled nest-eggs thou shalt quaff it:—thou shalt hear Distant harvest-carols clear; Rustle of the mid-May; And every leaf, and every flower Pearled with the self-same shower.
+()
+Oh, sweet Fancy! let her loose; Summer's joys are spoilt by use: Where's the cheek that doth not fade, Too much gaz'd at?
+()
+Where's the face One would hear so very oft?
+()
+O sweet Fancy! let her loose; Summer's joys are spoilt by use: Where's the eye, however blue, Doth not weary?
+()
+None
+()
+Oh, sweet Fancy! let her loose; Every thing is spoilt by use: Where's the voice, however soft, One would hear so very oft?
+()
+Faded the sight of beauty from my eyes, Faded the sight of beauty from my arms, Faded the flower and all its budded charms, Faded the sight of beauty from my arms, Faded the shape of beauty from my eyes, Faded the shape of beauty from my eyes, Faded the flower and all its sweets are gone!
+()
+Oh, sweet Fancy! let her loose; Summer's joys are spoilt by use: Where's the face One would meet in every place?
+()
+I wander'd in a cup, And thou shalt see Hatching in the same moment, hark!
+()
+None
+()
+Four Seasons fill the measure of the year; There are four seasons in the bay wreath crown; So, if we may not let the warm Love in!
+()
+O sweet Fancy! let her loose; Summer's joys are spoilt by use: Where's the maid Whose lip mature is ever new?
+()
+Where's the voice, however soft, One would meet in every place?
+()
+Where's the face One would hear so very oft?
+()
+Where's the face One would hear so very oft?
+()
+Faded the shape of beauty from my arms, Faded the flower and all its sweets are gone!
+()
+None
+()
+Oh, sweet Fancy! let her loose; Every thing is spoilt by use: Where's the face One would hear so very oft?
+()
+None
+()
+Faded the sight of beauty from my arms, Faded the shape of beauty from my eyes, Faded the flower and all its sweets are gone!
+()
+None
+()
+Faded the shape of beauty from my eyes, Faded the flower and all its sweets are gone!
+"
