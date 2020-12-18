@@ -26,6 +26,10 @@ In addition to the subreddit above, here are some other good examples:
 
 Text generation is another area that has been affected by the introduction of deep-learning neural network models. The current top-of-the-pile is GPT-3, which came out in mid-2020. [It can be frighteningly good](https://www.theguardian.com/commentisfree/2020/sep/08/robot-wrote-this-article-gpt-3).
 
+## Honor Code 
+"In my honor, I have not given nor received, nor witnessed, any unauthorized assistance on this work" Hiroki Sato Edit this section to include a statement of the Honor Code."
+
+
 ## Make Randomized Text Great Again
 
 Clone this public repo:
