@@ -2,6 +2,12 @@
 
 <img src="https://imgs.xkcd.com/comics/twitter_bot_2x.png" width="75%" />
 
+# Honor Code:
+"on my honor I have not given, nor recieved, nor witnessed any unauthorized assistance on this work"
+
+# Collaboration Statement:
+I have worked with my team on this assignment
+
 ## Description
 
 This project will let you play around with Markov models that create randomized text outputs. We'll look at a few different techniques, then you'll be able to build your own
