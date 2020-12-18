@@ -1,6 +1,10 @@
 # Sprint 6 Deliverables
 
 <img src="https://imgs.xkcd.com/comics/twitter_bot_2x.png" width="75%" />
+## Honor code
+"On my honor, I have not given, nor received, nor witnesssed any unathorized assistance on this work"
+
+Discussed this sprint with Griffin and Jacob
 
 ## Description
 
