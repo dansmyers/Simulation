@@ -1,6 +1,6 @@
 """
 
-This program implements a markov chain text generator using the scripts from Star Wars IV, V, and VI.
+This program implements a markov chain text generator using the scripts from Star Wars IV, V, and VI, Art of War by Sun Tzu, and the Sound and the Fury by William Faulkner
 
 Jacob Buckelew
 CMS380 Fall 2020

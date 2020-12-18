@@ -1,5 +1,11 @@
 # Sprint 6 Deliverables
 
+Honor code
+
+"On my honor, I have not given, nor received, nor witnessed any unauthorized assistance on this work."
+
+
+
 <img src="https://imgs.xkcd.com/comics/twitter_bot_2x.png" width="75%" />
 
 ## Description
