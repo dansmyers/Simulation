@@ -36,7 +36,17 @@ git clone https://github.com/rollinscs/cms380-f18-lab-2
 
 The lab instructions tell you how to use a tool named `markovify` to generate random sentences. Work through the examples it contains and 
 record your five best random tweets.
-
+```
+    1) 11:7 When a country Taxes our products coming in from all over the world may know mine hand hath holden me up, and
+       bare a son, then ye shall do no servile work therein.
+    2) 118:24 This is indeed the unverified and Fake News! (my favorite)
+    3) 7:12 For the rich in thy house shall be clothed with shame and spitting.
+    4) 10:8 He that saith, I will be watching much NFL football game that fans are going back to Jury Duty. (close second)
+    5) We stand together as with a mighty destruction, until they came thither certain Jews from Asia found me in peace 
+       to him again.
+    6) Democrat judges have totally failed—in fact the people answered the Jews rested from war. 
+       (because I had too much fun with this)
+```
 ## Predictive Keyboards
 
 [Botnik](https://botnik.org/) is a group that uses predictve text to make humor products. Some of their work includes:
@@ -55,6 +65,13 @@ P90X workout DVDs
 - [Cooking for Valentine's Day](https://www.youtube.com/watch?v=ck-GZOKRBg0)
 
 Play around with the predictive keyboard on Botnik's website. Record your best creative work.
+
+```
+    1) I feel incense on ethereal lusty celestial songs of summer eves.
+    2) With a sprinkling of pinions o'er a wayward midnight romance, figures seen with a faery upon the boughs. 
+    3) Thy silver bees hear this living little spicy ale and there i feel it hung by the bugle. 
+    4) My feet love old sick. (I was trying for one that was not shakespearian)
+```
 
 ## Make Your Own Predictions
 
