@@ -55,7 +55,7 @@ Here are the  main features of Scrumage:
 
 4. As your professor, I'll be in the room each day to meet with your teams, answer your questions, and check your work-in-progress. You can make an **expert request** to ask for a short lecture, worked example, or other help with a particular topic.
 
-5. Each sprint ends with an individual quiz. You can receive bonus points if your entire team does well on the quiz or if your individual performance improves.
+5. Each sprint ends with an individual quiz.
 
 6. You'll complete a brief reflection at the end of each sprint, which will help you understand your own learning process and make improvements before the next sprint.
 
