@@ -1,6 +1,6 @@
 # CMS 380 &ndash; Simulation and Stochastic Modeling
 
-## Fall 2020 Syllabus
+## Spring 2023 Syllabus
 
 ## Who? Where?
 
@@ -11,20 +11,8 @@ dmyers@rollins.edu
 
 ## Office Hours
 
-To better manage student interactions during the pandemic, **I'm not planning to hold regular in-person office hours during the fall semester**. While I'm on campus, my office
-will be the primary space where I can work without a mask, record videos, eat, etc. Therefore, I think it's wise to limit the number of students coming in and out of my office
-each day, at least at the beginning of the semester while we're all adjusting to new patterns of working and interacting.
-
-Most informal class-related questions will be handled over Slack. I'll send out details for how to join our class workspace in the first week of the semester. I will also 
-handle most casual advising questions over Slack.
-
-If you'd like to chat in person, we can talk (in a socially-distanced way) at the beginning or end of class. You can also make an appointment to chat via WebEx
-if you have questions that are too in-depth to handle over Slack.
-
-I will plan to be generally available for WebEx appointments on
-
-- Mondays, Wednesdays, and Fridays from 2:30 to 3:30
-- Tuesdays and Thursdays from 10:00 to 12:00
+- Monday and Wednesday from 10:00 to 11:00 AM
+- Tuesday from 2:00 to 3:00
 
 ## Official Course Description
 
@@ -34,7 +22,7 @@ I will plan to be generally available for WebEx appointments on
 
 There is no required textbook. Our material will come from several online resources, plus my own notes.
 
-We will use [Mimir](https://www.mimirhq.com/) for programming. It is free for the 2020-21 academic year.
+We will use [Repl.it](https://www.replit.com/) for programming.
 
 
 ## Learning Outcomes
@@ -86,84 +74,62 @@ Finally, Scrumage supports **learning how to learn**, the **single most importan
 
 Some of you have already taken one or more Scrumage courses with me or Dr. Summet. If this is your second or third Scrumage experience, you'll find the rhythms of this course to be similar to your previous courses. If this is your first time, don't worry: the course format may feel a little unusual at first, but you'll adapt to it quickly.
 
-I'm using Scrumage for all of my classes this semester because it performed well during our emergency transition to remote learning in the spring. Scrumage gives us a lot of
-features that are useful for hybrid courses:
-
-- You're automatically connected to other students in the class, so you have allies already in place if we need to change formats.
-
-- It keeps the course on an overall schedule, but gives you flexibility for how to manage your time within each sprint. Flexibility emerged as an important theme in feedback
-from the spring semester.
-
-- It gives me lots of options for how to adjust the schedule if we need to. The sprint-based structure means that we're never more than two weeks from a reset point, and I
-can adjust the content and deliverables for each sprint in response to changing conditions.
-
 ### FAQs
 
-**How big are the teams?** In previous classes, most teams have been four or five students. For this semester, I think smaller is better, so most teams will be threes, with
-a few twos and fours.
+**How big are the teams?** In previous classes, most teams have been four or five students. Three and four are the best sizes for functional teams and no team should be larger than five.
 
-**How are the teams created?** I have let previous classes choose their initial teams for the first sprint. Almost all teams form at the beginning of the semester and
-stay together through the end.
+**How are the teams created?** I have let previous classes choose their initial teams for the first sprint. Almost all teams form at the beginning of the semester and stay together through the end.
 
 **What if I don't want to be on a team?** Working by yourself is allowed, although you should check with me first.
 
-**Does my grade depend on my team?** I approach the deliverables for each sprint as individual
-assignments that can be completed with the help of your teammates, rather than (shudder) "team projects". Most Scrumage teams operate more like collaborative study 
-groups rather than divide-and-conquer project teams that you might have used in other classes.
+**Does my grade depend on my team?** I approach the deliverables for each sprint as individual assignments that can be completed with the help of your teammates, rather than (shudder) "team projects". Most Scrumage teams operate more like collaborative study  groups rather than divide-and-conquer project teams that you might have used in other classes.
 
-**What if I can't work with my teammates? Do I have to stay in the same team?** You're allowed to change teams at the start of each sprint. One goal of Scrumage is to help you
-think about the kind of collaboration that works best for your learning. It's okay to recognize that some people in the class are your friends, but that you'd be better off
-working with a different group that's a better fit for your style.
+**What if I can't work with my teammates? Do I have to stay in the same team?** You're allowed to change teams at the start of each sprint. One goal of Scrumage is to help you think about the kind of collaboration that works best for your learning. It's okay to recognize that some people in the class are your friends, but that you'd be better off working with a different group that's a better fit for your style.
 
-**Will we be able to meet in person?** That's still an open question at this point. It might be possible for small groups to meet in some (socially-distanced) spaces on 
-campus. Even if that is possible, you should plan on a significant amount of remote collaboration. In addition to WebEx, we'll be using collaborative tools like Slack and
-GitHub that are widely used in industry. I'd also emphasize that **remote work is a skill**, and it's likely that many tech companies will continue to be mostly remote for
-at least the next year and others will choose to make a large-scale transition to a remote-first working philosophy.
-
-**What if I'm participating virtually?** To the greatest extent possible, we'll build virtual-only teams to avoid hybrid mixtures of in-person and virtual students.
 
 ## Schedule
 
 ### Sprints
 
-| Sprint       | Topic                           | Start  |   End  | Deliverable     |
-| -------------|---------------------------------|--------|--------|-----------------|
-| 1            | Python and Descriptive Statistics | 9/14     | 9/30       | Campus Connections |
-| 2            | Probability              |  9/30    |  10/14     | Hermione Granger and the Distributions of Probability    |
-| 3            | Monte Carlo           |   10/14   |  10/28      | Casino Royale    |
-| 4            | Continuous Distributions   | 10/28   |  11/11  | Queueing Simulators    |
-| 5            | Discrete Event Simulation   |   11/11  | 12/2   | Happiest Place on Earth? |
-| 6            | Markov Chains               |   12/2  |  12/18  | Predictive Text Generation |
+| Sprint       | Topic                           | Start  |   End  |
+| -------------|---------------------------------|--------|--------|
+| 1            | Python and Descriptive Statistics | 1/18     | 2/7    |
+| 2            | Probability              |  2/8    |  2/21     |
+| 3            | Monte Carlo           |   2/22   |  3/8      | 
+| 4            | Continuous Distributions   | 3/20   |  4/2  | 
+| 5            | Discrete Event Simulation   |   4/3  | 4/16   | 
+| 6            | Markov Chains               |   4/17  |  5/1  |
 
 ### Other Important Dates
 
-- Last day of class: December 18
-- Last day to drop the class: September 25
-- Last day to withdraw without penalty: November 6
+- Last day of class: May 2
+- Last day to drop the class: January 31
+- Last day to withdraw without penalty: March 31
+- Spring Break: March 13 to March 18
+- Dr. Myers out of town: April 13 to April 17 (no class)
 
 ## The All-Important Grading Section
 
 ### Specs Grading
-Grading for this course will also be different from your previous classes.
+Grading for this course will be different from your previous classes.
 
 Rather than calculating your score as number of points on a 0-100 scale, your grade will be based on attaining **satisfactory** performance on a bundle of assignments. This approach is called **Specifications Grading** or **Contract Grading** and it has several advantages over the traditional 0-100 based points system.
 
 If you achieve satisfactory performance on enough assigments, described in more detail below, you'll receive a baseline grade of **B** for the course. This demonstrates that you have engaged with the material and met the basic learning outcomes for the class. To get a higher grade, you can do more work that shows greater mastery of the course learning outcomes.
 
+
 ### Assignments and Scoring
-Each sprint will have two graded assessments: the **deliverable assignment** and an **individal quiz**. You will also complete a **short reflective self-assessment** at the
-end of each sprint.
+Each sprint will have two graded assessments: the **deliverable assignment** and an **individal quiz**. You will also complete a **short reflective self-assessment** at the end of each sprint.
 
-In addition to the quizzes and deliverables, there will be additional **challenge assignments** that you can complete to increase your grade above a B, or to make up for any
-work that failed to meet specifications. More information on the challenge projects is below.
+In addition to the quizzes and deliverables, there will be additional **challenge assignments** that you can complete to increase your grade above a B, or to make up for any work that failed to meet specifications. More information on the challenge projects is below.
 
-The sprint deliverables will be graded on a **binary scale**: you'll receive either **one full point** or **zero points**. To receive credit for a sprint deliverable, the work
-you submit must be:
+Each sprint deliverable is worth **one point**. To receive credit for a sprint deliverable, the work you submit must be:
 
 - Substantially complete and correct (there may be a few issues, but only minor ones).
 - Indicative of real understanding and application of the course material.
 - Completed on time and in the required format.
 
+Missing, incomplete, or fundamentally incorrect submissions receive **zero points**.
 
 Each quiz will be worth **one point**.
 
@@ -176,61 +142,59 @@ Each quiz will be worth **one point**.
 
 ### Midterm and Final Exams
 
-There will be **no exams** due to our compressed schedule.
+There are no exams. There will be one final end-of-semester deliverable taking the place of the final exam that counts for **two total points**.
 
 
 ### Final Letter Grades
 
-Using this system, you can earn a total of 12 points across all six sprints: six points from the deliverable assignments and a maximum of six points from all of the quizzes.
-**To earn a B for the course**, you must earn at least 11 out of 12 points. This is equivalent to allowing you to automatically drop your lowest grade.
+Using this system, you can earn a total of **14 points**: six points from the deliverable assignments, six points from all of the quizzes, and two points from the final assignment. **To earn a B for the course**, you must earn at least 13 out of 14 points. This is equivalent to allowing you to automatically drop your lowest grade.
 
-If you fail to achieve at least 11 points, your score will be adjusted downwards by a fraction of a letter grade per point, as shown in the following table:
+If you fail to achieve at least 13 points, your score will be adjusted downwards by a fraction of a letter grade per point, as shown in the following table:
 
 | Points      | Letter Grade                          |
 | -------------|---------------------------------|
-| 11            | B |
-| 10            | B- |
-| 9            | C+ |
-| 8            | C |
-| 7            | C- |
-| 6            | D+ |
-| 5            | D |
-| 4            | D- |
-| Less than 4  | F |
+| 13            | B |
+| 12            | B- |
+| 11           | C+ |
+| 10            | C |
+| 9            | C- |
+| 8            | D+ |
+| 7            | D |
+| 6            | D- |
+| Less than 6  | F |
 
-Fractional numbers of points fit into the appropriate spot on the table. For example, if you earned 10.5 points over the entire course, your letter grade would be a B-, because 
-you've earned more than 10 points but fewer than 11 points.
+Fractional numbers of points fit into the appropriate spot on the table. For example, if you earned 12.5 points over the entire course, your letter grade would be a B-, because you've earned more than 12 points but fewer than 13 points.
 
-**To raise your grade above a B**, you can complete **challenge projects**. My goal is to offer four challenge projects if the schedule allows, but there will be at least three. Satisfactory completion of each one will raise your final grade by
-a fraction of a letter. If you lose points for any reason, you can complete a challenge project to make up for what you've lost.
+**To raise your grade above a B**, you can complete **challenge projects**. There will be three challenge projects. Satisfactory completion of each one will raise your final grade by a fraction of a letter. If you lose points for any reason, you can complete a challenge project to make up for what you've lost.
 
 Here is the complete points table, including the challenge projects.
 
 | Points      | Letter Grade                       |
 | -------------|---------------------------------|
-| 14 or more  | A | 
-| 13            | A- |
-| 12            | B+ |                
-| 11            | B |
-| 10            | B- |
-| 9            | C+ |
-| 8            | C |
-| 7            | C- |
-| 6            | D+ |
-| 5            | D |
-| 4            | D- |
-| Less than 4  | F |
+| 16 or more  | A | 
+| 15            | A- |
+| 14            | B+ |                
+| 13            | B |
+| 12            | B- |
+| 11            | C+ |
+| 10            | C |
+| 9            | C- |
+| 8            | D+ |
+| 7            | D |
+| 6            | D- |
+| Less than 6  | F |
 
-If you earn 11 points from the regular coursework, you would need to complete three challenge projects to earn an A.
+You can guarantee yourself an A by doing the following:
 
+- Complete all six deliverables and all six quizzes, earning satisfactory credit on at least 11 out of 12
+- Submit a satisfactory final deliverable
+- Complete three challenge projects (you only need to complete two if you get full credit for all six spints)
 
 ### Why Are You Doing This To Us?
 
 1. In a traditional system, your grade is ultimately determined by my judgment of your work. My judgment is pretty good, but specs grading gives you more clarity about where you stand and guidance for how to achieve the grade you want.
 
-2. Points-out-of-100 based systems place a lot of value on small differences in your scores. What, really, is the meaningful difference between an 89 and a 91, even if we say
-one of those grades is a B+ and the other is an A-? Under specs grading, you're incentivized to focus on doing good work, not arguing for more points or partial credit after
-the fact.
+2. Points-out-of-100 based systems place a lot of value on small differences in your scores. What, really, is the meaningful difference between an 89 and a 91, even if we say one of those grades is a B+ and the other is an A-? Under specs grading, you're incentivized to focus on doing good work, not arguing for more points or partial credit after the fact.
 
 3. Your grade is directly tied to the learning that you demonstrate. The satisfactory work sets a baseline, but to earn a higher grade, you must demonstrate a higher level of engagement with the course material, and I give you choices for how to demonstrate that increased engagement.
 
@@ -258,8 +222,7 @@ the fact.
 
 ## Late Work
 
-Late work is only accepted in the case of unusual extenuating circumstances, such as a sudden illness. Work for other classes or part-time jobs does not count as extenuating. 
-You are responsible for submitting work on time, in the required format, and using the correct submission procedure.
+Late work is only accepted in the case of unusual extenuating circumstances, such as a sudden illness. Work for other classes or part-time jobs does not count as extenuating.  You are responsible for submitting work on time, in the required format, and using the correct submission procedure.
 
 Please speak with me as soon as possible if you have concerns about your ability to meet a deadline so we can discuss options.
 
