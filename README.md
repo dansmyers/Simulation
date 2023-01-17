@@ -119,7 +119,7 @@ If you achieve satisfactory performance on enough assigments, described in more 
 
 
 ### Assignments and Scoring
-Each sprint will have two graded assessments: the **deliverable assignment** and an **individal quiz**. You will also complete a **short reflective self-assessment** at the end of each sprint.
+Each sprint will have two graded assessments: the **deliverable assignment** and an **individual quiz**. You will also complete a **short reflective self-assessment** at the end of each sprint.
 
 In addition to the quizzes and deliverables, there will be additional **challenge assignments** that you can complete to increase your grade above a B, or to make up for any work that failed to meet specifications. More information on the challenge projects is below.
 
