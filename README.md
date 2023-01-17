@@ -226,22 +226,13 @@ Late work is only accepted in the case of unusual extenuating circumstances, suc
 
 Please speak with me as soon as possible if you have concerns about your ability to meet a deadline so we can discuss options.
 
-## Policies for Virtual Attendance
-
-When meeting virtually, it's important to maintain an atmosphere that's conducive to learning and comparable to an in-person class. In that spirit, I respectfully request
-the following:
-
-- Please wear regular clothes, of the kind that would be appropriate for in-person class.
-
-- Please don't relax in your bed (sitting in your bedroom or *on* your bed is perfectly fine, but don't bury yourself under the blankets).
-
-- Please don't eat, like, an entire three-course meal during class.
-
-- Please keep your webcams on as much as possible; it helps when I can see everyone.
-
 ## Necessary and Proper Clause
 
 I will make every effort to adhere to the topics and schedule described in this syllabus. However, I reserve the right to make changes for the good of the course.
+
+## Credit Hour Statement
+
+This course is a four-credit-hour course that meets three hours per week. The value of four credit hours results, in part, from work expected of enrolled students both inside and outside the classroom.  Rollins faculty require that students average at least 2 ½ hours of outside work for every hour of scheduled class time.  In this course, the additional outside-of-class expectations are substantial time spent on self-directed learning, team colalboration, and completion of programming assignemnts.
 
 ## Official Syllabus Statements
 
