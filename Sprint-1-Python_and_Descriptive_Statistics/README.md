@@ -1,8 +1,7 @@
 
 # Sprint 1 &ndash; Python and Descriptive Statistics
 
-## Starts Monday 9/14
-## Deliverables and quiz are due on Wednesday 9/30
+## Deliverables and quiz are due on Wednesday 2/8
 
 ## Overview and Goals
 
