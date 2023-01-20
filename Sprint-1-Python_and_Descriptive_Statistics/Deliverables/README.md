@@ -1,12 +1,5 @@
 # Sprint 1 &ndash; Deliverables
 
-## Honor Code
-
-Edit this section to include a statement of the Honor Code.
-
-## Team Members
-
-List the other members of your team here.
 
 ## I Promise I'll Only Make You Do This One Time
 
