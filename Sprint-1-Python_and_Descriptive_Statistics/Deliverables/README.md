@@ -158,6 +158,6 @@ Determine the average and distribution of the number of unique connections that 
 
 5. Keep repeating steps 2, 3, and 4 until you've determined the number of unique connections for every student in the data set.
 
-### Baccarat
+## Baccarat
 
 Complete the simulation program described in `Baccarat.md`.
