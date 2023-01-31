@@ -9,13 +9,11 @@ work for creating box plots: just substitute the box plot function (hint: you ca
 
 Open the terminal in your Mimir IDE.
 
-Install `matplotlib` using `apt-get`, the basic package manager for Debian Linux distributions:
+Install `matplotlib` using `pip`, the basic Python package manager.
 
 ```
-sudo apt-get install python-matplotlib
+pip install python-matplotlib
 ```
-
-You may recall that `sudo` is the *substitute user do* command. Linux systems always make a distinction between regular users (i.e., your normal user account), who are restricted from performing potentially damaging or insecure operations, and the `root` account, which is allowed to modify pretty much anything on the system. `sudo` allows you to run a single command with root-level privileges, so it's typically used when you want to perform one operation that modifies the system, like installing a new program. Your Mimir account is automatically configured so that you can use `sudo` to install new programs.
 
 ## Example Script
 
