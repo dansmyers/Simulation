@@ -15,6 +15,12 @@ Install `matplotlib` using `pip`, the basic Python package manager.
 pip install python-matplotlib
 ```
 
+or 
+
+```
+pip install matplotlib
+```
+
 ## Example Script
 
 ```
