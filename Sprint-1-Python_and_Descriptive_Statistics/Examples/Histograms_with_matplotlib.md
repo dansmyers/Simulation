@@ -29,7 +29,7 @@ pip install matplotlib
 # These three lines should be at the start of any script that uses matplotlib on Mimir
 import matplotlib
 matplotlib.use('Agg')  # <-- Required if you're using matplotilb in Mimir, see below
-from matplotlib import pyplt as plt
+from matplotlib import pyplot as plt
 
 # Example data
 data = [10, 12, 15, 25, 4, 8, 11, 64, 100]
@@ -43,7 +43,7 @@ plt.hist(data, 15)
 # Title and axis labels
 plt.title('Example Histogram')
 plt.xlabel('Data value')
-ply.ylabel('Count')
+plt.ylabel('Count')
 
 # Save the figure to a file
 plt.savefig('example_histogram.png', bbox_inches='tight')
