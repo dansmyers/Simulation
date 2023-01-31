@@ -40,7 +40,7 @@ plt.xlabel('Data value')
 ply.ylabel('Count')
 
 # Save the figure to a file
-plt.savefig('example_histogram.pdf', bbox_inches='tight')
+plt.savefig('example_histogram.png', bbox_inches='tight')
 ```
 
 Put this into a file named `histogram.py` and run it using `python3`.
