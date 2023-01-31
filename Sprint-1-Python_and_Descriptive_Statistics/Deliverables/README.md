@@ -106,7 +106,7 @@ for line in reader:
     course_id = line[1]
     
     if course_id not in students_per_course:
-        students_per_course = []
+        students_per_course[course_id] = []
         
     students_per_course[course_id].append(student_id)
     
