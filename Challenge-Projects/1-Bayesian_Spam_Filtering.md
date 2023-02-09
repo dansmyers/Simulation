@@ -1,6 +1,6 @@
 # Challenge Project &ndash; Bayesian Spam Filtering
 
-## Due December 11, 2020 (one week before the end of classes)
+## Due Wednesday, 2/22 (at the end of Sprint 2)
 
 ## Overview
 
