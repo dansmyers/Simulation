@@ -242,22 +242,22 @@ P(word | spam) = ---------------------------------------------------------------
 ```
 
 The numerator is now guaranteed to be at least 1, even a word does not appear in any messages. To compensate for this change, the denominator has been increased to
-include the number of unique words in all messages (the **vocabulary** of the training set). Our training set contains 13 unique words after dropping "at", "the", and "do".
+include the number of unique words in all messages (the **vocabulary** of the training set). Our training set contains 12 unique words after dropping "at", "the", and "do".
 
 Under these new assumptions, we can calculate
 
 ```
                       1 + 1
-P("anime" | spam) =  -------- ~ .095
-                      8 + 13
+P("anime" | spam) =  -------- ~ .090
+                      8 + 12
 ```
 
 The corresponding non-spam probability is
 
 ```
                            0 + 1
-P("anime" | not spam) =  -------- ~ .053
-                           6 + 13
+P("anime" | not spam) =  -------- ~ .055
+                           6 + 12
 ```
 
 The fancy name for this adjustment is **Laplace smoothing**.
@@ -269,21 +269,21 @@ Here is the table of likelihoods for the important words in "you want to watch a
 
 | word | P(word \| spam)  | P(word \| not spam) |
 |------| ----------------- | ------------------- |
-| you | .0476 | .158 |
-| want | .0476 | .105 |
-| watch | .095 | .053 |
-| anime | .095 | .053 |
-| my | .0476 | .053 |
-| house | .095 | .105 |
+| you | .05 | .166 |
+| want | .05 | .111 |
+| watch | .09 | .055 |
+| anime | .09 | .055 |
+| my | .05 | .055 |
+| house | .09 | .111 |
 
 For example, "you" appears two times in the non-spam messages and zero times in the spam messages. It's probabilities are therefore:
 
 ```
-P("you" | non-spam) = (2 + 1) / (6 + 13) ~ .158
+P("you" | non-spam) = (2 + 1) / (6 + 12) ~ .166
 ```
 
 ```
-P("you" | spam) = (0 + 1) / (8 + 13) ~ .0476
+P("you" | spam) = (0 + 1) / (8 + 12) ~ .05
 ```
 
 Also observe that "my" doesn't appear in either the spam or non-spam group of training examples, but we can still calculate non-zero probabilities for it because
