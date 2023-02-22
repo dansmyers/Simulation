@@ -102,7 +102,7 @@ Consider the following betting strategy, which is one of the best known. It's us
 
 Therefore, as long as you eventually win one round, the Martingale guarantees that you'll recover all previous losses and leave the table with at least a tiny profit. This sounds unbeatable, **and it would be if you had an infinite bankroll**. In reality, the exponential growth of the bets guarantees that you'll eventually hit a string of losses that will bankrupt you.
 
-Suppose that a gambler is playing roulette, always betting on black and using the Martingale system. She begins with $255, enough to cover seven losses. She ends her gambling session when either:
+Suppose that a gambler is playing roulette, always betting on black and using the Martingale system. She begins with $255, enough to cover eight losses. She ends her gambling session when either:
 
 - She's played 100 spins.
 
