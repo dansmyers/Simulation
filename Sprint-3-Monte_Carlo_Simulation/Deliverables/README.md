@@ -37,6 +37,29 @@ Hermione picks a number 1-6 and rolls three fair dice. If her number comes up *k
 What is Hermione's expected outcome from playing Dragon's Dice? Solve this problem analytically.
 
 
+## Reliability (Sheldon Ross)
+
+Consider a system with five independent components, each of which operates correctly with probability *p*. A second system has three independent components, each of which also operates correctly with probability *p*.
+
+Each system can only function if at least half of its components function correctly on a given day. For what values of *p* is the
+three component system more likely to function correctly than the five component system?
+
+Tip: use the binomial distribution
+
+
+## Living the Dream
+
+I want to use ChatGPT to automatically respond to my e-mails. The number of e-mails I get per hour is Poisson distributed with parameter 10 and ChatGPT can automatically answer 80% of normal e-mails. What's the probability that I need to personally answer more than 25 e-mails in an eight hour workday?
+
+## Expected value of the Poisson Distribution
+
+Show that the expected value of a Poisson distribution with parameter *λ* is *λ*. Use the definition of the expected value. The summation will appear to be gnarly, with a factorial in the denominator, but you can simplify it.
+
+For this problem, you can assume the period length *t* is fixed at 1. That is, events occur at rate *λ* per unit of time.
+
+Tip: look up definitions of the exponential function, one of which is a gnarly looking summation with a factorial in the denominator. Use that result to simplify the expected value result.
+
+
 ## *Les Poissons*! *Les Poissons*! How I Love *les Poissons*!
 
 <img src="https://vignette.wikia.nocookie.net/disney/images/4/4d/Tlmpe834.jpg/revision/latest?cb=20101108233151" width="40%" />
