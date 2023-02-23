@@ -4,9 +4,8 @@
 
 *Monte Carlo is a district of the small European principality of Monaco. It's the home of a famous casino and entertainment complex that has been in operation since the 1800s.*
 
-## Starts Wednesday 10/14
-## Deliverables and quiz are due on Wednesday 10/28
-
+## Starts Thursday, 2/23
+## Deliverables and quiz are due on Wednesday 3/8
 
 ## Overview
 
