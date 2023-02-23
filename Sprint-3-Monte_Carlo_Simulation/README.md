@@ -38,7 +38,7 @@ At the end of this sprint, you should be familiar with the following concepts an
 
 - Deriving the mean of the geometric distribution using a summation.
 
-- The binomial distribution and its role in reasoning about "*k*successes out of *n* trials" problems.
+- The binomial distribution and its role in reasoning about "*k* successes out of *n* trials" problems.
 
 - Deriving the mean of the binomial distribution.
 
