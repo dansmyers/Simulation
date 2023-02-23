@@ -51,6 +51,8 @@ Tip: use the binomial distribution
 
 I want to use ChatGPT to automatically respond to my e-mails. The number of e-mails I get per hour is Poisson distributed with parameter 10 and ChatGPT can automatically answer 80% of normal e-mails. What's the probability that I need to personally answer more than 25 e-mails in an eight hour workday?
 
+What's the probability that I get no e-mails that must be personally answered in two hours?
+
 ## Expected value of the Poisson Distribution
 
 Show that the expected value of a Poisson distribution with parameter *λ* is *λ*. Use the definition of the expected value. The summation will appear to be gnarly, with a factorial in the denominator, but you can simplify it.
