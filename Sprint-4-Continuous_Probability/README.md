@@ -3,6 +3,8 @@
 <img src="https://imgs.xkcd.com/comics/academia_vs_business.png" width="75%" />
 
 
+## Due Monday, 4/3
+
 ## Overview and Metaness
 
 We've spent the last two weeks refining your command of discrete probability and writing programs that use randomness. Now we're going to introduce the key concepts of
