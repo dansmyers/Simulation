@@ -30,7 +30,7 @@ by the energy demands of modern datacenters. One of the most basic strategies fo
 
 Suppose we have a set of *k* servers, each operating as an M/M/1 queue capable of running at a maximum
 rate *µ*. The total arrival rate to the entire set of servers is *λ*. Assume the service rate of each server scales
-linearly with its power consumption. Consider two basic operating strategies:
+linearly with its power consumption (this is probably not realistic). Consider two basic operating strategies:
 
 - Turn on all *k* servers, each running at a fraction 1 / *k* of its maximum power. In this scenario, the arrival rate at each queue is *λ* / *k* and the each queue’s service rate is *µ* / *k*.
 
@@ -38,3 +38,5 @@ linearly with its power consumption. Consider two basic operating strategies:
 
 Of these two strategies – multiple slow servers or one fast server – which one minimizes customer residence
 time? By how much? Can you provide an intuitive explanation for this result?
+
+Tip: Don't be intimidated by the fact that there are no numbers! Use the M/M/1 residence time equation and calculate the residence time for each scenario in terms of the given variables.
