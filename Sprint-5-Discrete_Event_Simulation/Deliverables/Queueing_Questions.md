@@ -40,3 +40,11 @@ Of these two strategies – multiple slow servers or one fast server – which o
 time? By how much? Can you provide an intuitive explanation for this result?
 
 Tip: Don't be intimidated by the fact that there are no numbers! Use the M/M/1 residence time equation and calculate the residence time for each scenario in terms of the given variables.
+
+## M/D/1
+
+The M/D/1 queue has Poisson arrivals and **deterministic** service times. Every customer receives the same service time of *s*, with no variability.
+
+Derive the expected residence time in the M/D/1 queue given *s* and the arrival rate *λ*. How does M/D/1 compare to M/M/1?
+
+Tip: Consider a customer that arrives at a random moment in time and finds the server occupied. On average, the new customer arrives **halfway** through the service period, so the expected residual life is *s* / 2.
