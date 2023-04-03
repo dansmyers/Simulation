@@ -48,3 +48,13 @@ The M/D/1 queue has Poisson arrivals and **deterministic** service times. Every 
 Derive the expected residence time in the M/D/1 queue given *s* and the arrival rate *λ*. How does M/D/1 compare to M/M/1?
 
 Tip: Consider a customer that arrives at a random moment in time and finds the server occupied. On average, the new customer arrives **halfway** through the service period, so the expected residual life is *s* / 2.
+
+
+## Service level objectives
+
+Suppose you manage a datacenter with 100 servers that can be modeled as M/M/1 queues. The stream
+of incoming requests to your system is a Poisson process with rate *λ* = 5000 requests per second, and all
+incoming requests are randomly divided across your 100 servers. What average service time is required to
+guarantee that 99.9% of requests exit the system with a residence time less than 100 ms?
+
+Tip: Use the M/M/1 residence time distribution.
