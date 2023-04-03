@@ -2,8 +2,8 @@
 
 <img src="https://i.imgur.com/YXOi1NJ.png" width="50%" />
 
-## Starts Wednesday 11/11
-## Deliverables and quiz are due on Wednesday 12/2
+## Starts Tuesday, 4/4
+## Deliverables and quiz are due on Monday, 4/17
 
 ## Overview 
 
@@ -25,7 +25,7 @@ design questions. At the end of this project, you'll be familiar with
 - Using heaps to implement priority queues as a useful data structure for storing an ordered sequence of events
 - Priority queueing
 
-We'll also continue to talk about queueing models in class, but those aren't part of the main project.
+We'll also continue to talk about queueing models, with the goal of deriving the residence time equation for M/M/1. This requires us to work through a few more fun theories, including the Poisson process and the PASTA theorem.
 
 ## Resources
 
