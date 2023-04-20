@@ -1,6 +1,6 @@
 # Sprint 6 &ndash; Markov Chains
 
-## Due Friday December 18
+## Due Tuesday, 5/2 (the last day of class)
 
 ## Description
 
