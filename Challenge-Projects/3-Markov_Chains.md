@@ -26,9 +26,7 @@ You'll need to deal with a geometric summation when it's time to solve for *π*<
 
 The M/M/*&infin;* model is an *infinite-server* queueing system: every customer that arrives gets to enter service immediately without ever needed to wait in a line. Its main application is modeling an exponential delay in a system, where customers pause before continuing. Any number of customers may be waiting at the same time.
 
-Use Markov chain analysis to show that the distribution of the number of customers in the M/M/*Infinity* system is Poisson distributed:
-
-<img src="poisson_dist.png" width="10%" />
+Use Markov chain analysis to show that the distribution of the number of customers in the M/M/*&infin;* system is Poisson distributed. Tip: review our notes on the Poisson distribution to see its probability mass function. Your goal is to show the probability of having *k* customers in the queueing system has the same form as the Poisson pmf.
 
 Tips:
 
