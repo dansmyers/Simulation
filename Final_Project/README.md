@@ -16,7 +16,7 @@ In modern queueing notation, this system is called the M/M/*c*/*c* queue: there 
 
 A key quantity of interest in the M/M/*c*/*c* is the **blocking probability**, the probability that an arbitrary call is rejected because the system is full. Engineers would typically like to adjust the capacity of the system to keep the blocking probability below an acceptable threshold. In 1917, Erlang derived a formula for the blocking probability in the M/M/*c*/*c* queue, which is now know as the Erlang-B formula.
 
-(There are also Erlang-A and Erlang-C formulas. Erlang-C gives the estimated residence time for a customer in an M/M/*c* system with infinite capacity. Erlang-A is similar to M/M/*c*, but adds the idea of **abandoned calls**; customers may give up leave the system before receiving service if their patience is exhausted.
+(There are also Erlang-A and Erlang-C formulas. Erlang-C gives the estimated residence time for a customer in an M/M/*c* system with infinite capacity. Erlang-A is similar to M/M/*c*, but adds the idea of **abandoned calls**; customers may give up leave the system before receiving service if their patience is exhausted.)
 
 In this, the final project, you're going to write a simulation program that estimates blocking probabilities, compare it to the results predicted by the Erlang-B formula and the use your results to do a little capacity planning for an example telecom system.
 
