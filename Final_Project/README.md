@@ -44,7 +44,7 @@ Consider a system with an offered load of 10. How many servers are required to k
 
 Tip: write a method that implements the Erlang-B formula. Look up how to do factorials in Python. The denominator of the formula looks weird, but it has a finite number of terms so you can calculate it using a simple loop. Use a binary search to find the value of *m* that satisfies the constraint.
 
-(Why do I use *c* as the number of servers instead of *m*? Because writing about the M/M/*m*/*m* queue [seems ridiculous](https://www.youtube.com/watch?v=eTeg1txDv8w).)
+(Note that choosing to call the number of servers *c* or *m* doesn't make any difference to the model, nor is one notation more traditional than the other. Personally, I think writing about the M/M/*m*/*m* queue [seems ridiculous](https://www.youtube.com/watch?v=eTeg1txDv8w), but others may have different opinions.)
 
 ## Simulate
 
