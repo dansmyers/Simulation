@@ -6,7 +6,7 @@ Agner Erlang was a Danish mathematician, statistician and engineer, who invented
 
 Consider a telephone system with the following characteristics:
 
-- Customers arrive according to a Poisson process at rate *λ*. The length of each call is exponentially distributed with average *s*.
+- Customers arrive according to a Poisson process at rate *λ*. The length of each call is exponentially distributed with average *s*. These assumptions are the same as the M/M/1 queue and our other models.
 
 - There are *c* identical servers available to process calls.
 
