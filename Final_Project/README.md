@@ -16,7 +16,7 @@ In modern queueing notation, this system is called the M/M/*c*/*c* queue: there 
 
 A key quantity of interest in the M/M/*c*/*c* is the **blocking probability**, the probability that an arbitrary call is rejected because the system is full. Engineers would typically like to adjust the capacity of the system to keep the blocking probability below an acceptable threshold. In 1917, Erlang derived a formula for the blocking probability in the M/M/*c*/*c* queue, which is now know as the Erlang-B formula.
 
-(There are also Erlang-A and Erlang-C formulas. Erlang-C gives the estimated residence time for a customer in an M/M/*c* system with infinite capacity. Erlang-A is similar to M/M/*c*, but adds the idea of **abandoned calls**; customers may give up leave the system before receiving service if their patience is exhausted.)
+There are also Erlang-A and Erlang-C formulas. Erlang-C gives the estimated residence time for a customer in an M/M/*c* system with infinite capacity. Erlang-A is similar to M/M/*c*, but adds the idea of **abandoned calls**; customers may give up leave the system before receiving service if their patience is exhausted.
 
 In this, the final project, you're going to write a simulation program that estimates blocking probabilities, compare it to the results predicted by the Erlang-B formula and the use your results to do a little capacity planning for an example telecom system.
 
@@ -44,7 +44,7 @@ Consider a system with an offered load of 10. How many servers are required to k
 
 Tip: write a method that implements the Erlang-B formula. Look up how to do factorials in Python. The denominator of the formula looks weird, but it has a finite number of terms so you can calculate it using a simple loop. Use a binary search to find the value of *m* that satisfies the constraint.
 
-(Note that choosing to call the number of servers *c* or *m* doesn't make any difference to the model, nor is one notation more traditional than the other. Personally, I think writing about the M/M/*m*/*m* queue [seems ridiculous](https://www.youtube.com/watch?v=eTeg1txDv8w), but others may have different opinions.)
+Note that choosing to call the number of servers *c* or *m* doesn't make any difference to the model, nor is one notation more traditional than the other. Personally, I think writing about the M/M/*m*/*m* queue [seems ridiculous](https://www.youtube.com/watch?v=eTeg1txDv8w), but others may have different opinions.
 
 ## Simulate
 
