@@ -1,5 +1,7 @@
 # Final Project: Erlang's Formulas
 
+## Due Monday, May 8 (the day that would have been our final exam)
+
 ## Overview
 
 Agner Erlang was a Danish mathematician, statistician and engineer, who invented the fields of traffic engineering and queueing theory. He worked for the Copenhagen Telephone Company from 1908 to 1929 and developed methods to analyze the use of telephone circuits and operators. The Erlang distribution and the Erlang unit, used to measure load in telecom systems, are both named after him.
