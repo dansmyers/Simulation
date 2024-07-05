@@ -18,7 +18,7 @@ At the end of this sprint, you will be familiar with the following concepts.
 
 1. The geometric, binomial, and Poisson distributions, their means, and their applications to modeling problems.
 
-2. Random number generation using a linear congruential generator; the important of correctly parameterizing a random number generator.
+2. Random number generation using a linear congruential generator; the importance of correctly parameterizing a random number generator.
 
 3. Writing Monte Carlo simulation programs that use randomness as an alternative to complex calculations.
 
