@@ -26,17 +26,13 @@ Complete the problems in the `Deliverables` directory:
 
 ## Learning Outcomes
 
-At the end of this sprint, you will be able to
+At the end of this unit, you will be able to
 
 - Write programs in Python using standard programming features: variables, conditionals, loops, functions, lists, etc.
-
-- Use a Python development environment.
-
-- Read numerical data from files in Python.
-
-- Calculate standard summary statistics: mean, median, quartiles, interquartile range, standard deviation, variance.
-
-- Use `matplotlib` to create box plots and histograms of data.
+- Use a Python development environment
+- Read numerical data from files in Python
+- Calculate standard summary statistics: mean, median, quartiles, interquartile range, standard deviation, variance
+- Use `matplotlib` to create box plots and histograms of data
 
 
 ## What You Need to Learn
