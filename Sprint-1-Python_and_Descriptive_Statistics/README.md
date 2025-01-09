@@ -5,32 +5,23 @@
 
 ## Overview and Goals
 
-This is it: the first sprint. We're going to do four things:
+This is it: the first project. We're going to do three things:
 
-1. Get comfortable with the rhythms and practice of Scrumage.
-2. Learn (or review) the important elements of Python programming
-3. Review important background concepts on descriptive statistics, including measures of centrality, measures of spread,
+1. Learn (or review) the important elements of Python programming
+2. Review important background concepts on descriptive statistics, including measures of centrality, measures of spread,
 quartiles, box plots, and histograms.
-4. Get comfortable using Python to conduct a non-trivial data analysis and visualize results.
+3. Get comfortable using Python to conduct a non-trivial data analysis and visualize results.
 
-At the end of the sprint, you'll have three things to complete:
-
-1. The deliverables described in this project.
-2. An individual quiz.
-3. A short individual reflective write-up.
-
-The content for this sprint is not particularly difficult, although you will need to get familiar with programming in Python, which may be new for you. As you're working,
-focus on getting into the rhythm of Scrumage and developing good working habits with your teams that will carry you through the more content-heavy sprints that are coming up.
+The content for this sprint is not particularly difficult, although it may require you to review some Python basics. As you're working, focus on getting into the rhythm of Scrumage and developing good working habits with your teams that will carry you through the more content-heavy sprints that are coming up.
 
 
 ## Deliverables and Quiz
 
-Complete the four problems in `Deliverables`. Remember that you may work freely with the members of your team and you may use any resources that you find helpful to
-complete the project. **Please list the names of you collaborators in the project document**.
+Complete the problems in the `Deliverables` directory:
 
-The quiz and reflective write-up will be done **online** on **Wednesday, September 30**, which will also be the release day for the next sprint's material. The quiz will be 
-**individual** (not team) but will be **open everything**: you can use the sprint resources, your notes, and online resources. Remember to abide by the Honor Code 
-and ask me if you have questions about what is an acceptable resource!
+- The Martingale
+- Campus Connections
+- Baccarat
 
 
 ## Learning Outcomes
@@ -46,6 +37,7 @@ At the end of this sprint, you will be able to
 - Calculate standard summary statistics: mean, median, quartiles, interquartile range, standard deviation, variance.
 
 - Use `matplotlib` to create box plots and histograms of data.
+
 
 ## What You Need to Learn
 
@@ -101,20 +93,14 @@ the basics:
 I will not make you perform extensive calculations by hand (no one does that in real life), but you should be able to manually calculate means, medians, quartiles, the five 
 number summary, and variance for small data sets.
 
+
+## AI Guidelines
+
+You're allowed to use any AI tools you want to complete these questions. I'm assuming, at this point, that you know how to program, so we can focus on the specific content of this course.
+
+
 ## Suggested Plan and Some Tips
 
 As always, **don't wait until the last minute**. You won't be able to learn everything that you need to know and finish the deliverables if you wait until the night before the end of the sprint.
 
 In general, you should be **making some progress every day**. Think about working at a steady, even pace throughout the two weeks, rather than trying to binge large amounts of work into small windows.
-
-Use our class meeting times to coordinate with your team and check-in with me. You'll still need to work outside of our scheduled class time to accomplish everything.
-
-Here is a suggested schedule:
-
-- **Week 1**: Begin by working through the Python scripts in the `Examples` directory. We will work through some of these examples together in class during the first week. I suggest reimplementing each script in Mimir, paying attention to the comments that describe what's happening in each program. Work on completing the first two deliverable
-problems, which will require you to be comfortable with the statistical calculations as well as opening files in Python.
-
-- **Week 2**: Focus on completing the Campus Connections problem. I will show you how to open and input the dataset during class. This problem is not that complicated, but
-it requires you to use Python's built-in lists and dictionaries, which have a different syntax than Java's `ArrayList` and `HashMap`.
-
-- **Week 3**: Finish the Campus Connections problem. **Do not wait until the last minute** or you won't be able to finish it.
