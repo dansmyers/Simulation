@@ -41,8 +41,9 @@ At the end of this course, you will be able to:
 
 ## Schedule
 
-### List of Topics
+### Planned List of Topics
 
+This is tentative and will probably change a bit as we move through the semester.
 
 
 | Week of      | Topic                           |
