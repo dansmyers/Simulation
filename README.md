@@ -39,66 +39,31 @@ At the end of this course, you will be able to:
 
 5. Intelligently evaluate system performance using analytical and simulated models and discuss design tradeoffs.
 
-## Scrumage
-
-### What?
-This course will be different from other courses you've taken. We'll be using a new course management framework called **Scrumage** ("**Scrum** for **Ag**ile **E**ducation"), originally developed by Dr. Shannon Duvall at Elon University. Scrumage is based on the Scrum project management framework, which you may have used for team-based projects in some of your other courses.
-
-### How Does It Work?
-Here are the  main features of Scrumage:
-
-1. The course is structured as a series of **sprints**, each lasting two weeks. Each sprint covers one unit of material. There will be six sprints in our course.
-
-2. At the beginning of each sprint, you'll be given a list of learning topics for the sprint, a curated list of resources (videos, readings, worked examples, etc.), and a set of required deliverables due at the end of the two-week period.
-
-3. Working with a team, you'll have broad freedom to decide how to use the available resources to learn the required material and complete the sprint deliverables. You can decide on your own meeting schedule, what resources to use, and your own plan for finishing the projects. Scrumage gives you **options** and the freedom to determine your own best learning approach.
-
-4. As your professor, I'll be in the room each day to meet with your teams, answer your questions, and check your work-in-progress. You can make an **expert request** to ask for a short lecture, worked example, or other help with a particular topic.
-
-5. Each sprint ends with an individual quiz.
-
-6. You'll complete a brief reflection at the end of each sprint, which will help you understand your own learning process and make improvements before the next sprint.
-
-### That Sounds Hard. Why Are We Doing This?
-Scrumage is based on **student choice**, **flexibility**, and **reflection**.
-
-In a traditional course, the professor is in charge of every aspect of the class. I get to decide what we learn, in what order, what readings or resoures we use, and how your learning will be assessed. If my choices don't work for you, well, that's tough.
-
-In this class, you'll have **freedom** to take ownership of your own learning. You'll have the broad ability to make your own schedule, choose your own combination of resources (lectures, readings, videos, examples, etc.), and generally pick the best individualized strategies that help you master the course material.
-
-Scrumage will let you **learn computer science concepts** by **working like a computer scientist**. Scrum is an industry-standard framework, so you'll be building facility with real software development techniques as you work through this course.
-
-Finally, Scrumage supports **learning how to learn**, the **single most important skill you can acquire in college**. By taking ownership of your own learning, you'll be able to identify the resources, plans, and strategies that work best for you and build skills that you can take forward into other classes or your professional career.
-
-### More Details
-
-Some of you have already taken one or more Scrumage courses with me or Dr. Summet. If this is your second or third Scrumage experience, you'll find the rhythms of this course to be similar to your previous courses. If this is your first time, don't worry: the course format may feel a little unusual at first, but you'll adapt to it quickly.
-
-### FAQs
-
-**How big are the teams?** In previous classes, most teams have been four or five students. Three and four are the best sizes for functional teams and no team should be larger than five.
-
-**How are the teams created?** I have let previous classes choose their initial teams for the first sprint. Almost all teams form at the beginning of the semester and stay together through the end.
-
-**What if I don't want to be on a team?** Working by yourself is allowed, although you should check with me first.
-
-**Does my grade depend on my team?** I approach the deliverables for each sprint as individual assignments that can be completed with the help of your teammates, rather than (shudder) "team projects". Most Scrumage teams operate more like collaborative study  groups rather than divide-and-conquer project teams that you might have used in other classes.
-
-**What if I can't work with my teammates? Do I have to stay in the same team?** You're allowed to change teams at the start of each sprint. One goal of Scrumage is to help you think about the kind of collaboration that works best for your learning. It's okay to recognize that some people in the class are your friends, but that you'd be better off working with a different group that's a better fit for your style.
-
-
 ## Schedule
 
-### Sprints
+### List of Topics
 
-| Sprint       | Topic                           | Start  |   End  |
-| -------------|---------------------------------|--------|--------|
-| 1            | Python and Descriptive Statistics | 1/18     | 2/7    |
-| 2            | Probability              |  2/8    |  2/21     |
-| 3            | Monte Carlo           |   2/22   |  3/8      | 
-| 4            | Continuous Distributions   | 3/20   |  4/2  | 
-| 5            | Discrete Event Simulation   |   4/3  | 4/16   | 
-| 6            | Markov Chains               |   4/17  |  5/1  |
+
+
+| Week of      | Topic                           |
+| -------------|---------------------------------|
+| 1/13         | Return to Python and GitHub Codespaces |
+| 1/20         | Descriptive statistics, Normal distribution |
+| 1/27         | Hypothesis testing, t-distribution, Central Limit Theorem |
+| 2/3          | Intro to probability: expected values, variance, conditional probability |
+| 2/10         | Discrete distributions  |
+| 2/17         | Monte Carlo techniques, calculating error bounds  |
+| 2/24         | Random number generation |
+| 2/17         | Continuous distributions I   |
+| 3/3          | Continuous distributions II: The exponential distribution |
+| 3/10         | Generating random variates, MIDTERM EXAM |
+| 3/17         | SPRING BREAK
+| 3/24         | Intro to queueing theory |
+| 3/31         | The M/M/1 queueing model |
+| 4/7          | Markov chains            |
+| 4/14         | Markov chains and queues  |
+| 4/21         | Dr. Myers' choice         |
+| 4/28         |  End of semester         |
 
 ### Other Important Dates
 
