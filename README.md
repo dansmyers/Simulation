@@ -1,6 +1,6 @@
 # CMS 380 &ndash; Simulation and Stochastic Modeling
 
-## Spring 2023 Syllabus
+## Spring 2025 Syllabus
 
 ## Who? Where?
 
@@ -117,93 +117,77 @@ Rather than calculating your score as number of points on a 0-100 scale, your gr
 
 If you achieve satisfactory performance on enough assigments, described in more detail below, you'll receive a baseline grade of **B** for the course. This demonstrates that you have engaged with the material and met the basic learning outcomes for the class. To get a higher grade, you can do more work that shows greater mastery of the course learning outcomes.
 
+### Labs
+You must be registered for a section of CMS 120L. You'll receive the **same grade** for both CMS 120 and CMS 120L.
 
-### Assignments and Scoring
-Each sprint will have two graded assessments: the **deliverable assignment** and an **individual quiz**. You will also complete a **short reflective self-assessment** at the end of each sprint.
+### Assignments
+We'll have five kinds of assignments in this class:
 
-In addition to the quizzes and deliverables, there will be additional **challenge assignments** that you can complete to increase your grade above a B, or to make up for any work that failed to meet specifications. More information on the challenge projects is below.
+1. **Autograded reading questions** from the Runestone text. These are easy to answer if you complete the required reading.
 
-Each sprint deliverable is worth **one point**. To receive credit for a sprint deliverable, the work you submit must be:
+2. A set of **six out-of-class programming assignments**. These involve writing larger, more substantial programs that combine multiple techniques. They also require you to practice program development skills.
 
-- Substantially complete and correct (there may be a few issues, but only minor ones).
-- Indicative of real understanding and application of the course material.
-- Completed on time and in the required format.
+3. The **CMS120L lab meetings**. Each lab consists of practice programs or activities to reinforce the topics we're covering that week. Six of the labs also incorporate hypothesis-based data collection that allows this course to account for the RFLA Science requirement. The labs will be graded on **completion** and I'll be there with you during each session to help you and check your work-in-progress.
 
-Missing, incomplete, or fundamentally incorrect submissions receive **zero points**.
+4. Written midterm and final exams. The midterm will be given in-class on the day specified on the calendar and the final will be given at the time scheduled by the college. The final is not cumulative, but unavoidably builds upon the techniques that we cover in the first part of the class. The focus of both exams will be **reading and understanding program code**.
 
-Each quiz will be worth **one point**.
+### Satisfactory Credit
 
-- You will receive the full point for a quiz if you give satisfactory answers to *N* - 1 quiz questions.
-- You will receive a half point if you give satisfactory answers to at least half of the quiz questions.
-- The typical quiz will have four questions, so you would need to answer three out of four for full credit and two out of four for half credit.
-- The quizzes will be taken online and are **open notes and open book**.
-- Individual questions will be marked as satisfactory or unsatisfactory using the same "substantially complete and correct" standard as the projects.
+I will grade most of the items you turn in on a two-level scale: your work will be either **satisfactory** or receive **no credit**. "Satisfactory" means that the work is:
 
+1. Substantially complete and correct (there may be a few issues, but only minor ones).
+2. Shows real understanding and application of the course material.
+3. Completed on time in the required format.
 
-### Midterm and Final Exams
+For programming assignments, you must make a fair attempt on every problem. For reading, you must complete 90% of the assigned problems in order to receive credit.
 
-There are no exams. There will be one final end-of-semester deliverable taking the place of the final exam that counts for **two total points**.
+### Letter Grades
 
+**To earn an A**, you must meet the following criteria:
 
-### Final Letter Grades
+1. Satisfactory completion of the six major programming assignments.
+2. Satisfactory completion of 12 of the 13 labs. You can miss one lab without it affecting your grade.
+3. Earn a score of at least 80% on both the midterm and final exams.
+4. Complete the autograded questions in the assigned reading. To allow some flexibility, the threshold for receiving credit is 90% of the assigned questions.
 
-Using this system, you can earn a total of **14 points**: six points from the deliverable assignments, six points from all of the quizzes, and two points from the final assignment. **To earn a B for the course**, you must earn at least 13 out of 14 points. This is equivalent to allowing you to automatically drop your lowest grade.
+**If you fail to complete the requirements for an A**, your grade will be adjusted downwards according to the following table:
 
-If you fail to achieve at least 13 points, your score will be adjusted downwards by a fraction of a letter grade per point, as shown in the following table:
+| Performance             | Your grade will be adjusted downwards by |
+|------------------------------------------------|------------------------------------------|
+| Unsatisfactory major programming assignemnt | One full letter grade (e.g., A to B)     |
+| Missing more than the one allowed lab | Fraction of a letter grade for the first missed lab (e.g., A to A-) |
+| Additional missed labs       | One full letter grade for each |
+| Incomplete reading assignment | Fraction of a letter grade for each |
+| Score between 60% and 80% on an exam         | Fraction of a letter grade   |
+| Score of less than 60% on an exam       | One full letter grade  |
 
-| Points      | Letter Grade                          |
-| -------------|---------------------------------|
-| 13            | B |
-| 12            | B- |
-| 11           | C+ |
-| 10            | C |
-| 9            | C- |
-| 8            | D+ |
-| 7            | D |
-| 6            | D- |
-| Less than 6  | F |
-
-Fractional numbers of points fit into the appropriate spot on the table. For example, if you earned 12.5 points over the entire course, your letter grade would be a B-, because you've earned more than 12 points but fewer than 13 points.
-
-**To raise your grade above a B**, you can complete **challenge projects**. There will be three challenge projects. Satisfactory completion of each one will raise your final grade by a fraction of a letter. If you lose points for any reason, you can complete a challenge project to make up for what you've lost.
-
-Here is the complete points table, including the challenge projects.
-
-| Points      | Letter Grade                       |
-| -------------|---------------------------------|
-| 16 or more  | A | 
-| 15            | A- |
-| 14            | B+ |                
-| 13            | B |
-| 12            | B- |
-| 11            | C+ |
-| 10            | C |
-| 9            | C- |
-| 8            | D+ |
-| 7            | D |
-| 6            | D- |
-| Less than 6  | F |
-
-You can guarantee yourself an A by doing the following:
-
-- Complete all six deliverables and all six quizzes, earning satisfactory credit on at least 11 out of 12
-- Submit a satisfactory final deliverable
-- Complete three challenge projects (you only need to complete two if you get full credit for all six spints)
+These penalties are cumulative. For example, if you failed to satisfactorily complete two major projects, your base grade would be lowered by 2 letters, from A to C.
 
 ### Why Are You Doing This To Us?
 
-1. In a traditional system, your grade is ultimately determined by my judgment of your work. My judgment is pretty good, but specs grading gives you more clarity about where you stand and guidance for how to achieve the grade you want.
+1. In a traditional system, your grade is ultimately determined by my judgment of your work. My judgment is pretty good, but specs grading gives you more clarity about where you stand and guidance for how to achieve the grade you want
 
-2. Points-out-of-100 based systems place a lot of value on small differences in your scores. What, really, is the meaningful difference between an 89 and a 91, even if we say one of those grades is a B+ and the other is an A-? Under specs grading, you're incentivized to focus on doing good work, not arguing for more points or partial credit after the fact.
+2. Your grade is directly tied to the learning that you demonstrate. The satisfactory work sets a baseline, but to earn a higher grade, you must demonstrate a higher level of engagement with the course material.
 
-3. Your grade is directly tied to the learning that you demonstrate. The satisfactory work sets a baseline, but to earn a higher grade, you must demonstrate a higher level of engagement with the course material, and I give you choices for how to demonstrate that increased engagement.
+3. It's relatively easy to get a B if you do the required work, but hard to get an A. This preserves the integrity of the course, while still making it possible for everyone to succeed.
 
-4. Earning a B is straightforward if you do the required work, but it's hard to get an A. This preserves the integrity of the course, while still making it possible for everyone to succeed. Failure is pretty much impossible unless you abandon the course.
+4. If you only need a B or a C, you can adjust your effort accordingly: the standards are transparent. You don't have to spend time on the most difficult assignments if you don't need them to get the result you want.
 
-5. If you only need a B or a C, you can adjust your effort accordingly: the standards are transparent. You don't have to spend time on the most difficult assignments if you don't need them to get the result you want.
+5. It reflects how you'll be evaluated in your career. Work assignments aren't graded out of 100% and your boss won't give partial credit for incomplete work. So, basically, I'm setting you up for massive career success.
 
-6. It reflects how you'll be evaluated in your career. Work assignments aren't graded out of 100% and your boss won't give partial credit for incomplete work. So, basically, I'm setting you up for massive career success.
+### I Feel Decidedly Uncomfortable
 
+This is probably a new approach to grading for you. In particular, students new to specs grading often have anxiety about the lack of partial credit in the system.
+
+Here are a few things to keep in mind:
+
+1. **You don't have to be perfect**. The "substantially complete and correct" standard allows for imperfections in your answers and you only need 90% for the reading and most assignments, so you don't have to correctly answer, or even attempt, every problem, so long as your cumulative work meets the required standard.
+
+2. **You do need to be consistent**. The system rewards you for putting forward good, consistent effort.
+
+3. **Attend the labs**. The lab sessions are your main place to practice programming skills. Make sure you attend every lab session.
+
+4. **You will get lots of feedback**. I will be there with you in lab to check on your work. The major projects will have clear standards describing what's required to receive full credit.
 ## Course Policies
 
 **Attendance** The only way to be consistently successful in your academic career is to regularly attend class meetings and participate in in-class activities. Therefore, while I do not mandate attendance at every single class, I expect full attendance every time we meet.
