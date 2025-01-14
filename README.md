@@ -56,11 +56,11 @@ This is tentative and will probably change a bit as we move through the semester
 | 2/17         | Monte Carlo techniques, calculating error bounds  |
 | 2/24         | Random number generation |
 | 2/17         | Continuous distributions I   |
-| 3/3          | Continuous distributions II: The exponential distribution |
-| 3/10         | Generating random variates, MIDTERM EXAM |
-| 3/17         | SPRING BREAK
-| 3/24         | Intro to queueing theory |
-| 3/31         | The M/M/1 queueing model |
+| 3/3          | Continuous distributions II: The exponential distribution, MIDTERM EXAM |
+| 3/10         | SPRING BREAK |
+| 3/17         | Intro to queueing theory |
+| 3/24         | Little's Law, Poisson arrivals  |
+| 3/31         | The M/M/1 queue |
 | 4/7          | Markov chains            |
 | 4/14         | Markov chains and queues  |
 | 4/21         | Dr. Myers' choice         |
