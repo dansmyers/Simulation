@@ -87,15 +87,11 @@ If you achieve satisfactory performance on enough assigments, described in more 
 You must be registered for a section of CMS 120L. You'll receive the **same grade** for both CMS 120 and CMS 120L.
 
 ### Assignments
-We'll have five kinds of assignments in this class:
+We'll have two kinds of assignments in this class:
 
-1. **Autograded reading questions** from the Runestone text. These are easy to answer if you complete the required reading.
+1. Approximately **six out-of-class assignments**. These will require implementing simulation models and solving analytical questions. You should be prepared to devote substantial effort to completing these projects.
 
-2. A set of **six out-of-class programming assignments**. These involve writing larger, more substantial programs that combine multiple techniques. They also require you to practice program development skills.
-
-3. The **CMS120L lab meetings**. Each lab consists of practice programs or activities to reinforce the topics we're covering that week. Six of the labs also incorporate hypothesis-based data collection that allows this course to account for the RFLA Science requirement. The labs will be graded on **completion** and I'll be there with you during each session to help you and check your work-in-progress.
-
-4. Written midterm and final exams. The midterm will be given in-class on the day specified on the calendar and the final will be given at the time scheduled by the college. The final is not cumulative, but unavoidably builds upon the techniques that we cover in the first part of the class. The focus of both exams will be **reading and understanding program code**.
+2. Written midterm and final exams. The midterm will be given in-class on the day specified on the calendar and the final will be given at the time scheduled by the college. The final is not cumulative, but unavoidably builds upon the techniques that we cover in the first part of the class. The focus of both exams will be **reading and understanding program code**.
 
 ### Satisfactory Credit
 
@@ -105,25 +101,21 @@ I will grade most of the items you turn in on a two-level scale: your work will 
 2. Shows real understanding and application of the course material.
 3. Completed on time in the required format.
 
-For programming assignments, you must make a fair attempt on every problem. For reading, you must complete 90% of the assigned problems in order to receive credit.
+For programming assignments, you must make a fair attempt on every problem.
 
 ### Letter Grades
 
 **To earn an A**, you must meet the following criteria:
 
-1. Satisfactory completion of the six major programming assignments.
-2. Satisfactory completion of 12 of the 13 labs. You can miss one lab without it affecting your grade.
-3. Earn a score of at least 80% on both the midterm and final exams.
-4. Complete the autograded questions in the assigned reading. To allow some flexibility, the threshold for receiving credit is 90% of the assigned questions.
+1. Satisfactory completion of the major assignments.
+2. Earn a score of at least 80% on both the midterm and final exams.
 
 **If you fail to complete the requirements for an A**, your grade will be adjusted downwards according to the following table:
 
 | Performance             | Your grade will be adjusted downwards by |
 |------------------------------------------------|------------------------------------------|
-| Unsatisfactory major programming assignemnt | One full letter grade (e.g., A to B)     |
-| Missing more than the one allowed lab | Fraction of a letter grade for the first missed lab (e.g., A to A-) |
-| Additional missed labs       | One full letter grade for each |
-| Incomplete reading assignment | Fraction of a letter grade for each |
+| Partially complete major assignment         | Fraction of a letter grade (e.g., A to A-) |
+| Unsatisfactory or missed major assignemnt | One full letter grade (e.g., A to B)     |
 | Score between 60% and 80% on an exam         | Fraction of a letter grade   |
 | Score of less than 60% on an exam       | One full letter grade  |
 
