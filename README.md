@@ -22,7 +22,7 @@ dmyers@rollins.edu
 
 There is no required textbook. Our material will come from several online resources, plus my own notes.
 
-We will use [Repl.it](https://www.replit.com/) for programming.
+We will use GitHub Codespaces for programming.
 
 
 ## Learning Outcomes
@@ -68,11 +68,12 @@ This is tentative and will probably change a bit as we move through the semester
 
 ### Other Important Dates
 
-- Last day of class: May 2
-- Last day to drop the class: January 31
-- Last day to withdraw without penalty: March 31
-- Spring Break: March 13 to March 18
-- Dr. Myers out of town: April 13 to April 17 (no class)
+- First day of class: January 15
+- Last day of class: April 28
+- Spring break: March 10 to March 14
+- Last day to drop the class: January 28
+- Last day to withdraw without penalty: March 28
+- Midterm exam: March 7
 
 ## The All-Important Grading Section
 
