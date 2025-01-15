@@ -31,6 +31,14 @@ You lose.
 Your program should use `randint` three times to generate the three die rolls. Assign each roll to its own variable. Calculate the sum, then use an `if`-`elif`-`else` block to test for the three conditions.
 
 
+## Winning probability
+
+Modify the previous problem to estimate the probability of winning at passe dix.
+
+Tip: Perform a large number of simulated trials. On each trial, roll three dice and test if the sum is greater than ten. Count the number of trials that succeed, then report the fraction of successes at the end of the program.
+
+This program illustrates one of our key techniques: using repeated sampling in a loop to estimate a value that would be somewhat challenging to evaluate analytically.
+
 ## Cho-Han
 
 Cho-han is a traditional Japanese dice game. The rules are simple:
