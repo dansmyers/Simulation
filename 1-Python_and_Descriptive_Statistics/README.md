@@ -58,6 +58,12 @@ given a small input data set. Know about the **mode** of a categorical data set.
 
 10. **Histograms** as visualizations of a quantitative data set. Again, know how to interpret them and create them in `matplotlib`.
 
+11. The concept of the **normal distribution** and the **z-score** of an observation.
+
+12. The **t-distribution** and how to use it to construct confidence intervals (we'll primarily practice this in class).
+
+13. A general statement of the **Central Limit Theorem** and an explanation for why it's useful.
+
 
 ## Resources
 
