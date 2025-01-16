@@ -10,7 +10,8 @@ This is it: the first project. We're going to do three things:
 1. Learn (or review) the important elements of Python programming
 2. Review important background concepts on descriptive statistics, including measures of centrality, measures of spread,
 quartiles, box plots, and histograms.
-3. Get comfortable using Python to conduct a non-trivial data analysis and visualize results.
+3. Understand the concept of a confidence interval and practice constructing them.
+4. Get comfortable using Python to conduct a non-trivial data analysis and visualize results.
 
 The content for this sprint is not particularly difficult, although it may require you to review some Python basics. As you're working, focus on getting into the rhythm of Scrumage and developing good working habits with your teams that will carry you through the more content-heavy sprints that are coming up.
 
