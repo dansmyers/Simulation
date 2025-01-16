@@ -97,6 +97,10 @@ number summary, and variance for small data sets.
 
 ### Distributions and Confidence Intervals
 
+[Notes on confidence interval calculation with examples](https://wmed.edu/sites/default/files/ANATOMY%20OF%20A%20CONFIDENCE%20INTERVAL%20%28full%29.pdf) (Western Michigan U.)
+
+[Confidence interval calculator](https://www.calculator.net/confidence-interval-calculator.html)
+
 [Central Limit Theorem demonstration app](https://dansmyers.github.io/CentralLimitTheorem/)
 
 
