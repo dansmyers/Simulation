@@ -1,7 +1,7 @@
 
 # Sprint 1 &ndash; Python and Descriptive Statistics
 
-## Deliverables and quiz are due on Wednesday 2/8
+## Due 1/31
 
 ## Overview and Goals
 
