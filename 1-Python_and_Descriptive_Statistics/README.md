@@ -99,6 +99,8 @@ number summary, and variance for small data sets.
 
 [Notes on confidence interval calculation with examples](https://wmed.edu/sites/default/files/ANATOMY%20OF%20A%20CONFIDENCE%20INTERVAL%20%28full%29.pdf) (Western Michigan U.)
 
+[Another good set of notes](https://www.westga.edu/academics/research/vrc/assets/docs/confidence_intervals_notes.pdf) (West Georgia)
+
 [Confidence interval calculator](https://www.calculator.net/confidence-interval-calculator.html)
 
 [Central Limit Theorem demonstration app](https://dansmyers.github.io/CentralLimitTheorem/)
