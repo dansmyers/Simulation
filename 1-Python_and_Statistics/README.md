@@ -1,5 +1,5 @@
 
-# Sprint 1 &ndash; Python and Descriptive Statistics
+# Sprint 1 &ndash; Python and Statistics
 
 ## Due 1/31
 
