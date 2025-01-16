@@ -11,8 +11,8 @@ dmyers@rollins.edu
 
 ## Office Hours
 
-- Monday and Wednesday from 10:00 to 11:00 AM
-- Tuesday from 2:00 to 3:00
+- Tuesday and Thursday from 10:00 to 11:00 AM
+- Friday from 1:30 to 2:30
 
 ## Official Course Description
 
