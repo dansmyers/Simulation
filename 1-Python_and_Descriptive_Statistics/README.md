@@ -95,6 +95,10 @@ the basics:
 I will not make you perform extensive calculations by hand (no one does that in real life), but you should be able to manually calculate means, medians, quartiles, the five 
 number summary, and variance for small data sets.
 
+### Distributions and Confidence Intervals
+
+[Central Limit Theorem demonstration app](https://dansmyers.github.io/CentralLimitTheorem/)
+
 
 ## AI Guidelines
 
