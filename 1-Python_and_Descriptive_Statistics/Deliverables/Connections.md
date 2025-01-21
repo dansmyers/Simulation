@@ -31,7 +31,6 @@ module for working with structured text files.
 ```
 # Standard matplotlib import
 import matplotlib
-matplotlib.use('Agg')
 from matplotlib import pyplot as plt
 
 # csv module makes it easy to process delimited text files
