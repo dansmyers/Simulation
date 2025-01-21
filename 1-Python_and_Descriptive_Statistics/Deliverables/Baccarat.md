@@ -28,8 +28,7 @@ chemin de fer has died out in the real world. According to Wikipedia, more than 
 
 The game is led by a dealer, who handles all the cards according to a fixed set of rules called the *tableau* ("table").
 
-A round begins with the dealer dealing out two hands of two cards each, which are called the "Player" and the "Banker". The names are just traditional: all of the card handling
-and decision making is done by the dealer according to the tableau. Gamblers may bet for either hand to win and the two bets have different odds.
+A round begins with the dealer dealing out two hands of two cards each, which are called the "Player" and the "Banker". The names are just traditional: all of the card handling and decision making is done by the dealer according to the tableau. Gamblers may bet for either hand to win and the two bets have different odds.
 
 Every card has a point value:
 
@@ -39,8 +38,7 @@ Every card has a point value:
 
 Here's one of the appealingly weird things about baccarat: the value of a hand is the sum of its card values **modulo 10**.
 
-For example, if the player hand is `Jack & 5`, it has a point value of 5: the Jack counts for zero and the 5 counts for face value. If the Banker hand is `7 & 6`, it has a
-point value of 3, calculated as `(7 + 6) % 10`.
+For example, if the player hand is `Jack & 5`, it has a point value of 5: the Jack counts for zero and the 5 counts for face value. If the Banker hand is `7 & 6`, it has a point value of 3, calculated as `(7 + 6) % 10`.
 
 ### The Tableau
 
@@ -50,7 +48,7 @@ Play proceeds as follows:
 
 1. The dealer deals the two hands of two cards and announces their values using the rules above.
 
-2. If a hand achieves an 8 or 9, it is declared a "natural" and the round ends immediately. The hand with the natural wins, or it's a tie if both hands have achieved naturals.
+2. If a hand achieves an 8 or 9, it is declared a "natural" and the round ends immediately. The hand with the higher natural wins, or it's a tie if both hands have achieved equal naturals.
 
 3. If neither hand achieves a natural, then the tableau of drawing rules is consulted, first for the player, then the banker.
 
