@@ -76,6 +76,12 @@ Look at the `Brainhead.doc` file posted to Canvas to see the data dictionary. Ho
 
 ##  Five-number summary
 
+Extract the `Brain` field into a series using
+```
+series = df['Brain']
+```
+You can then analyze it using the same techniques as the in-class example we did.
+
 Calculate the mean brain weight. Continue the analysis to calculate the five-number summary of the Brain field.
 
 Identify any outliers using the 1.5 * IQR rule.
