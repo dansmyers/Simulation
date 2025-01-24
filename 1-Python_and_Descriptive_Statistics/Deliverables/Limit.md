@@ -2,7 +2,7 @@
 
 <img src="https://www.thisisdig.com/wp-content/uploads/2023/11/the-eagles-812x609.jpg" width="300px" />
 
-*We stan our long-haired boomer soft country-rock overlords (Dig Magazine). The first song I learned to play on the guitar was "Take It Easy".*
+*We stan our long-haired 70s boomer country-soft rock overlords. The first song I learned to play on the guitar was "Take It Easy". Image from* Dig!*.*
 
 ## Overview
 
