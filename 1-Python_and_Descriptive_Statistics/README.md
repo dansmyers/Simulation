@@ -1,7 +1,7 @@
 
 # Sprint 1 &ndash; Python and Statistics
 
-## Due 1/31
+## Due 2/5
 
 ## Overview and Goals
 
