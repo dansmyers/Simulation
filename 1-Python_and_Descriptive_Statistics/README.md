@@ -23,6 +23,7 @@ Complete the problems in the `Deliverables` directory:
 - The Martingale
 - Campus Connections
 - Baccarat
+- Take It to the Central Limit
 
 
 ## Learning Outcomes
