@@ -1,4 +1,4 @@
-# Take It to the Limit
+# Take It to the Central Limit
 
 <img src="https://www.thisisdig.com/wp-content/uploads/2023/11/the-eagles-812x609.jpg" width="300px" />
 
