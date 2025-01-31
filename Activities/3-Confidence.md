@@ -15,17 +15,17 @@ Construct intervals for the following problems. Use critical z-scores of 1.96 fo
 
 ## For small sample sizes
 
-Testing soil samples from 12 sites, pH readings have mean 6.8, standard deviation 0.3. Calculate 99% confidence interval.
+1. Testing soil samples from 12 sites, pH readings have mean 6.8, standard deviation 0.3. Calculate 99% confidence interval.
 
-1. How many degrees of freedom does the appropriate t distribution have?
+- How many degrees of freedom does the appropriate t distribution have?
+- Use an online calculator to look up the appropriate critical value for this confidence interval.
+- Calculate the interval.
 
-2. Use an online calculator to look up the appropriate critical value for this confidence interval.
-
-3. Calculate the interval.
+2. Repeat the light bulb problem above, but assume the sample size is 20.
 
 
 ## Code
 
-Use Python program to answer the following question.
+Use Python to answer the following question.
 
 Measuring battery life of 15 laptops shows mean 5.2 hours, standard deviation 0.8 hours. Find 90% confidence interval.
