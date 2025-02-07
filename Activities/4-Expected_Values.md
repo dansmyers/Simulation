@@ -16,9 +16,12 @@ p(8) = .125
 
 3. Use (1) and (2) to calculate the variance: E[*X*<sup>2</sup>] - E[*X*]<sup>2</sup>
 
-## d6
+## dN
 
-What is the variance of a six-sided die roll?
+Suppose that you have an *n*-sided die that returns a uniformly chosen random value from 1 to *n*, including both.
+
+Write down an expression for the expected value of this random variable. It's going to be in the form of a standard summation.
+
 
 ## Bernoulli Trial
 
