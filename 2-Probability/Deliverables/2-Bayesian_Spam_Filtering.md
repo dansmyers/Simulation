@@ -99,26 +99,20 @@ P(c | m) =  ----------------
 
 The left-hand side is the classification probability we're interested in: the probability of observing class *c* given the contents of the message. The right side contains three terms.
 
-- The first is the conditional probability we considered a moment ago, *P*(*m* | *c*), which we interpret as the probability of observing message *m* if it really belongs
-to class *c*. In a moment, we'll talk about how to calculate this value from the training data. This probability is also called the **likelihood**.
+- *P*(*m* | *c*), is the probability of observing message *m* if it really belongs to class *c*. This probability is also called the **likelihood**. We'll calculate this from the training data.
 
-- *P*(*c*) is the **unconditional probability of observing class *c***, independent of any information about the message. In our problem, this is the fraction all messages that
-are spam or not spam. In Bayesian statistics, this is called the **prior** 
-probability. If you have reason to believe that one class is more likely than another, the prior probability allows you to incorporate this information into the model.  
+- *P*(*c*) is the **unconditional probability of observing class *c***, independent of any information about the message. In our problem, this is the fraction all messages that are spam or not spam. In Bayesian statistics, this is called the **prior**  probability. If you have reason to believe that one class is more likely than another, the prior probability allows you to incorporate this information into the model.  
 
-  For example, suppose that we believe 80% of all e-mail traffic is spam and only 20% is legitimate, which is consistent with research estimates. Using these probabilities for 
-*P*(spam) and *P*(not spam) would have the effect of making it more likely for us to classify messages as spam and require stronger evidence of legitimacy to mark a message
-as non-spam.  
+  For example, suppose that we believe 80% of all e-mail traffic is spam and only 20% is legitimate, which is consistent with research estimates. Using these probabilities for  *P*(spam) and *P*(not spam) would make it easier to classify messages as spam and require stronger evidence to mark a message as non-spam.  
 
   In practice, we could use pre-existing evidence to set these values, estimate them from the training set, or assume that all classes are equally likely, which
 is equivalent to assuming no prior evidence about the class distribution.
 
-- The denominator, *P*(*m*), is the unconditional probability of observing a message with contents *m*, across the universe of all spam and non-spam messages. Notice:
-this does not depend on *c*! Therefore, the value of *P*(*m*) will be the **same for both classes** and **we can ignore it in our calculations**.
+- The denominator, *P*(*m*), is the unconditional probability of observing a message with contents *m*, across the universe of all spam and non-spam messages. Notice: this does not depend on *c*! Therefore, the value of *P*(*m*) will be the **same for both classes** and **we can ignore it in our calculations**.
 
 ## Example
 
-This is all pretty abstract, so let's look at how this plays out in a **small** example.
+This is all pretty abstract, so let's look at how this plays out in a *small* example.
 
 Suppose we have a universe of only four messages, two spam and two non-spam. Let's assume the messages have been pre-processed to remove all punctuation and case.
 
@@ -130,81 +124,68 @@ Suppose we have a universe of only four messages, two spam and two non-spam. Let
 | sell your house now        | spam        |
 
 Is the message "you want to watch anime at my house" more likely to be spam or not spam? Using the Bayesian formulation, we need to calculate two probabilities:
-
 ```
 P(spam | "you want to watch anime at my house")
 ```
-
 ```
 P(not spam | "you want to watch anime at my house")
 ```
 
 Once we've performed both calculations, we'll take the larger probability to be the correct classification. From the previous model, we know that
-
 ```
 P(spam | "you want to watch anime at my house") = P("you want to watch anime at my house" | spam) P(spam)
 ```
-
 ```
 P(not spam | "you want to watch anime at my house") = P("you want to watch anime at my house" | not spam) P(not spam)
 ```
-
 These formulas are the numerator of Bayes' Rule. Recall that the denominator can be ignored because it's the same for both classes.
 
 ### Prior Probabilities
 
-First, let's consider the prior probabilities. Because we have an equal number of training examples in each class, we could reasonably decide that
-
+Because we have an equal number of training examples in each class, we could decide that
 ```
 P(spam) = P(not spam)
 ```
+which means that the priors will not affect our classification decision, and can be dropped from further calculation.
 
-which means that the priors will not affect our classification decision, and can be dropped from further calculation. 
-If we felt it was important to weight one class as more likely than the other, we could change the prior probabilities to do so.
+If we had evidence that one class was more likely than another, we'd use the prior probabilities to incorporate that information into the model.
 
-### The Naïve Bayes Model
+## The Naïve Bayes Model
 
-We now need to consider the likelihood of the message conditioned on each class, and to do it we're going to make a very strong simplification: **Assume that the likelihood of 
-each word in a message is independent of all of the other words**.
+To calculate the likelihoods, we're going to make a very strong simplification: **Assume that the likelihood of each individual word in a message is independent of all of the other words**.
 
-This is a strong assumption! By assuming independence, we're choosing to ignore all word context, sentence 
-structure, grammar, and any other aspect of language that makes some words more likely to appear together.
+This is a strong assumption! By assuming independence, we're choosing to ignore all word context, sentence structure, grammar, and anything else that makes some word combinations more likely than others.
 
 If all of the words are independent, then the likelihood of the entire message is the product of the individual word likelihoods
-
 ```
 P("you want to watch anime at my house" | spam) = P("you" | spam) * P("want" | spam) * P("to" | spam) * ... * P("house" | spam)
 ```
-
-A Bayesian model that assumes independence of the features is called a **naïve Bayesian classifier**, because the assumption of independence is usually a huge simplification
-of reality. Nonetheless, naïve Bayes has been shown to be effective in many real-world problems including text classification, so it's a standard technique in the field.
+A Bayesian model that assumes independence of the features is called a **naïve Bayesian classifier**, because the assumption of independence is usually a huge simplification of reality. Nonetheless, naïve Bayes has been shown to be effective in many real-world problems including text classification, so it's a standard technique in the field.
 
 ### Estimating Word Likelihoods
 
 Estimating the likelihood of individual words is easy:
-
 ```
                   Number of times word occurs in all spam messages
 P(word | spam) = --------------------------------------------------
                       Count of all words in all spam messages
 ``` 
-
 For example, the word "anime" occurs one time in the set of spam messages and there are a total count of eight words in the entire spam data set, so we estimate
-
 ```
 P("anime" | spam) = 1 / 8 = .125
 ```
+Based on our data set, we expect that 12.5% of all words in spam messages should be "anime".
 
-Based on our data set, we expect that 12.5% of all words in spam message should be "anime".
 
-There are two issues to consider before moving on the final calculations.
+### Smoothing
 
-First, some words &ndash; "a", "at", "the", "to", etc. &ndash; are so common they won't yield useful classification information. We can ignore these. More generally, we could
-pre-filter all messages to focus on only a subset of key words that we think are useful for classification. This has the advantage of making our feature vectors smaller and
-reducing irrelevant information in the model, at the risk that we choose to exclude something that would actually be useful.
+There are two other issues to consider.
 
-The second issue is more complicated. What about words that don't appear in one of the data sets? For example, "anime" does not appear in the non-spam data set, but we don't
-want to automatically conclude that `P("anime" | non-spam) = 0`, because that would imply it's impossible for me to receive a non-spam message about anime.
+First, we're doing to ignore high-frequency common words like *a*, *at*, *the*, because they don't help discriminate between the two classes. This is easy to do by preprocessing the data set before training the model.
+
+The second issue is more complicated. What about words that don't appear in one of the data sets?
+
+For example, "anime" does not appear in the non-spam data set, but we don't want to conclude that `P("anime" | non-spam) = 0`, because that would imply it's impossible for me to receive a non-spam message about anime.
 
 A typical solution to this problem is to assume that every word has some small constant probability of occurring, even if it was never observed in the training data set. Modify the word likelihood formula to be
 
@@ -215,25 +196,20 @@ P(word | spam) = ---------------------------------------------------------------
 
 ```
 
-The numerator is now guaranteed to be at least 1, even a word does not appear in any messages. To compensate for this change, the denominator has been increased to
-include the number of unique words in all messages (the **vocabulary** of the training set). Our training set contains 12 unique words after dropping "at", "the", and "do".
+The numerator is now guaranteed to be at least 1, even a word does not appear in any messages. To compensate for this change, the denominator has been increased to include the number of unique words in all messages (the **vocabulary** of the training set). Our training set contains 12 unique words after dropping "at", "the", and "do".
 
 Under these new assumptions, we can calculate
-
 ```
                       1 + 1
-P("anime" | spam) =  -------- ~ .090
+P("anime" | spam) =  -------- ~ .10
                       8 + 12
 ```
-
 The corresponding non-spam probability is
-
 ```
                            0 + 1
 P("anime" | not spam) =  -------- ~ .055
                            6 + 12
 ```
-
 The fancy name for this adjustment is **Laplace smoothing**.
 
 ### Results
@@ -245,49 +221,43 @@ Here is the table of likelihoods for the important words in "you want to watch a
 |------| ----------------- | ------------------- |
 | you | .05 | .166 |
 | want | .05 | .111 |
-| watch | .09 | .055 |
-| anime | .09 | .055 |
+| watch | .10 | .055 |
+| anime | .10 | .055 |
 | my | .05 | .055 |
-| house | .09 | .111 |
+| house | .10 | .111 |
 
 For example, "you" appears two times in the non-spam messages and zero times in the spam messages. It's probabilities are therefore:
-
 ```
 P("you" | non-spam) = (2 + 1) / (6 + 12) ~ .166
 ```
-
 ```
 P("you" | spam) = (0 + 1) / (8 + 12) ~ .05
 ```
-
 Also observe that "my" doesn't appear in either the spam or non-spam group of training examples, but we can still calculate non-zero probabilities for it because
 of smoothing.
 
-### Finally
+### The probabilities
 
 The final step is to calculate the likelihood of the entire message "you want to watch anime at my house".
-
 ```
 P("you want to watch anime at my house" | spam) = P("you" | spam) * P("want" | spam) * ... * P("house" | spam)
 
-                                                = .0476 * .0476 * .095 * .095 * .0476 * .095
+                                                = .05 * .05 * .10 * .10 * .05 * .10
                                               
-                                                = 9.247e-8
+                                                = 1.25e-7
 ```
 
 The corresponding probability for the non-spam case is
-
 ```
-P("you want to watch anime at my house" | not spam) = .158 * .105 * .053 * .053 * .053 * .105
+P("you want to watch anime at my house" | not spam) = .166 * .111 * .055 * .055 * .055 * .111
                                            
-                                                    = 2.593e-7
+                                                    = 3.4e-7
 
 ```
 
 Based on these results, we conclude that "you want to watch anime at my house" is **most likely not spam** because the non-spam case yields the higher value.
 
-Note that we can't truly interpret the output of these calculations as probabilities, due to the changes we've made to the original Bayes formulation, like dropping
-the denominator. The results are still **proportional** to the true probabilities, which is what allows us to conclude that the not spam case is more likely.
+Note that we can't truly interpret the output of these calculations as probabilities, due to the changes we've made to the original Bayes formulation, like dropping the denominator. The results are still **proportional** to the true probabilities, which is what allows us to conclude that the not spam case is more likely.
 
 ## Practice Problems
 
