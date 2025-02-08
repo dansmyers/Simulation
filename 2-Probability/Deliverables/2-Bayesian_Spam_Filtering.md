@@ -51,53 +51,41 @@ doesn't **overfit** the training data, which would result in a model that doesn'
 
 ### Classification as a Conditional Probability
 
-The Bayesian approach considers classification as a **probability problem**. Suppose we're considering a message *m*. We'd like to use the **words in *m*** to determine if *m* is spam or not. We could, potentially, expand the model to consider features other than just the contents of the message, but we won't worry about 
-that in these examples.
-
-Intuitively, there are some words that are likely to occur in spam message but not in legitimate messages. I'll let you think about what some of those words are.
+The Bayesian approach considers classification as a **probability problem**. Suppose we're considering a message *m*. We'd like to use the **words in *m*** to determine if *m* is spam or not. 
 
 Consider two conditional probabilities:
-
 ```
 P(m is spam | words in m)
 ```
-
 ```
 P(m is NOT spam | words in m)
 ```
 
-If we could calculate these two probabilities for the message *m*, we could classify *m* based on whichever probability is highest. For example, if our model deems it more 
-likely that *m* is spam than not-spam, we should send *m* straight to the junk folder.
+If we could calculate these two probabilities for the message *m*, we could classify *m* based on whichever probability is highest. If our model deems it more likely that *m* is spam than not-spam, we should send *m* straight to the junk folder.
 
 Here's the problem: **how do we calculate these two probabilities**?
 
 To begin, let's think about the reversed conditonal probability:
-
 ```
 P(words in m | spam)
 ```
+This probability expresses the likelihood that a message picked from the universe of all spam messages contains the words in message *m*. **We can estimate this from the training data**. 
 
-This probability expresses the likelihood that a message picked from the universe of all spam messages contains the words we observed in message *m*. **We can estimate
-this from the training data**. The training data contains a large number of example spam messages, so we can look at the words they contain and build a model that
-estimates how likely a given message is if it's really spam.
-
-Similarly, we can construct a model that estimates `P(words in m | not spam)` using the messages in the training data that we know are legitimate.
+The training data contains a large number of spam messages, so we can determine this probability by looking at the words in that data set. Similarly, we can construct a model that estimates `P(words in m | not spam)` using the messages in the training data that we know are legitimate.
 
 ### Intuition
 
-If you're not sure about this part, consider a message that contains the words "**FREE HERBAL VIAGRA**".  I do not often receive legitimate messages on this topic,
-so I'd expect `P("FREE HERBAL VIAGRA" | not spam)` to be very close to zero. The other case, `P("FREE HERBAL VIAGRA" | spam)`, should be much higher given that
-those words occur more frequently in the universe of all possible spam messages.
+If you're not sure about this part, consider a message that contains the words "**FREE HERBAL VIAGRA**". 
+
+I do not often receive legitimate messages on this topic, so I'd expect `P("FREE HERBAL VIAGRA" | not spam)` to be very close to zero. The other case, `P("FREE HERBAL VIAGRA" | spam)`, should be much higher.
 
 ### Bayes' Rule
 
-**This is the perfect setup for Bayes' Rule**. We have a conditional probability of interest that's hard to calculate directly, but we can reason about the reversed conditional
-probability.
+**This is the perfect setup for Bayes' Rule**. We have a conditional probability of interest that's hard to calculate directly, but we can work with the reversed conditional probability.
 
 Unleash the math!
 
-But first, let's simplify the notation a little bit. Let *c* denote a class of interest, either *spam* or *not spam* in this example. Let *m* denote the contents of the
-message.
+Let *c* denote a class of interest, either *spam* or *not spam* in this example. Let *m* denote the contents of the message.
 
 Direct application of Bayes' Rules yields:
 
@@ -109,8 +97,7 @@ P(c | m) =  ----------------
 
 <!--img src="https://render.githubusercontent.com/render/math?math=P(c \, | \, \textbf{m}) = \frac{P(\textbf{m} \, |  \, c) P(c)}{P(\textbf{m})}" width="20%"-->
 
-The left-hand side is the classification probability we're interested in: the probability of observing class *c* given the contents of the message. The right side
-contains three terms.
+The left-hand side is the classification probability we're interested in: the probability of observing class *c* given the contents of the message. The right side contains three terms.
 
 - The first is the conditional probability we considered a moment ago, *P*(*m* | *c*), which we interpret as the probability of observing message *m* if it really belongs
 to class *c*. In a moment, we'll talk about how to calculate this value from the training data. This probability is also called the **likelihood**.
