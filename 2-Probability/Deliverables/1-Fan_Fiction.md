@@ -66,8 +66,6 @@ Tip: Write a small program to do the calculation.
 
 ### Hat Problem
 
-Hermione made it to Hogwarts!
-
 Students arriving at Hogwarts are sorted into one of the four residential houses -- Gryffindor, Hufflepuff, Ravenclaw, and Slytherin -- by the magical Sorting Hat.
 
 In theory, the Hat is supposed to examine each student's personality, consider his or her wishes, and then place the student into the most appropriate house. However, after a thousand years, the Hat has gotten pretty lazy, so it has simplified its sorting process into a two-step algorithm:
