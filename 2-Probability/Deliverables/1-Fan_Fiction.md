@@ -58,8 +58,11 @@ Hints:
 
 - If Hermione buys her first frog on the Express, she's guaranteed to get a card she's never seen before.
 - After that, there are 29 out of 30 unseen cards remaining. Opening cards until she finds one of them is a geometric random variable with probability of success 29/30. The expected value of this variable is the number of cards she needs to open, on average, to find her next unseen card.
+- Finding the next card is again a geometric process with a success probability of 28/30, and so forth.
 
 This problem is based on a classic called the Coupon Collector's Problem.
+
+Tip: Write a small program to do the calculation.
 
 ### Hat Problem
 
@@ -99,6 +102,8 @@ Tip: Again, draw a tree of possible outcomes.
 
 
 
+### 
+
 
 ### Birthday Attack
 
@@ -116,6 +121,38 @@ Suppose there are only two students: Hermione and her best friend Harriet Potter
 P(Both are born on two different days) = (365 / 365) * (364 / 365)
 ```
 
-Hermoine's birthday can be on any day, but Victoria's must occur randomly on one of the other 364 days.
+Hermoine's birthday can be on any day, but Harriet's must occur randomly on one of the other 364 days.
 
 What if there are three students? How about more?
+
+
+## Binomial Problems
+
+Use the binomial distribution to answer the following questions.
+
+## The Newton-Pepys Problem
+
+<img src="https://cdn.aarp.net/content/dam/aarp/food/healthy-eating/2016/2016-05/1140-peeps-nation.imgcache.rev3aa6a5a0b7d521bbef63f0e833d97a8f.web.900.513.jpg" width="40%" />
+
+Samuel Pepys (pronounced "Peeps") was a 17th Century British naval administrator, best known for the detailed diary he kept describing his life in the 1660's. In 1693 he
+corresponded with Isaac Newton regarding a wager:
+
+>Which of the following three propositions has the greatest chance of success?
+>
+>- Six fair dice are tossed independently and at least one six appears.
+>- Twelve fair dice are tossed independently and at least two sixes appear.
+>- Eighteen fair dice are tossed independently and at least three sixes appear.
+
+What is the answer to Pepys' question? Calculate your answer exactly using a discrete probability distribution, not a simulation model.
+
+Tip: notice that the problem is phrased as *at least* **not** *exactly*.
+
+## Dragon Dice
+
+Hermione has settled into a nice routine with her fellow Slytherins. During the day, she eats meals in the Great Hall, reads about famous Dark Wizards in the library, and attends her classes. During the evening she does her homework and plays wizard games with her friend Daphne Greengrass.
+
+One of their games is called Dragon's Dice. It's a simple carnival game, also known as Chuck-a-Luck.
+
+Hermione picks a number 1-6 and rolls three fair dice. If her number comes up *k* = 1, 2, or 3 times, she wins *k* wizard dollars. If it does not appear on any of the dice, she loses one wizard dollar.
+
+What is Hermione's expected outcome from playing Dragon's Dice? Solve this problem analytically.
