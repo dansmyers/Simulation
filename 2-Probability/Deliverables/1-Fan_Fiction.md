@@ -2,7 +2,7 @@
 
 ## Disclaimer
 
-This problem set is a work of fan fiction that I wrote when I read the entire *Harry Potter* series out loud to my kids twicem during the COVID pandemic.
+This problem set is a work of fan fiction that I wrote when I read the entire *Harry Potter* series out loud to my kids twice during the COVID pandemic.
 
 <img src="https://64.media.tumblr.com/d85b44001002bb249c42b27e00d8dccb/tumblr_nzrkzfmjZW1s5b5tzo1_500.jpg" width="40%" />
 
