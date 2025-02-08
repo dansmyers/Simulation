@@ -19,7 +19,6 @@ Type your answers in a document or upload a **clean and legible** handwritten fi
 
 <img src="https://64.media.tumblr.com/99413ebb9f4e29d268974d90d81da509/tumblr_ne9qzeTT7T1s5b5tzo1_500.jpg" width="40%"/>
 
-
 Hermione Granger is pretty sure she’s a witch, because she read in a book that having very curly hair is a sign of latent mystical power. Also, one time an owl landed on her head. However, she didn’t receive a letter from Hogwarts on her 11th birthday.
 
 After reading several books and pamphlets, Hermione is pretty sure that
@@ -90,6 +89,7 @@ Suppose the urn contains 10 black balls and 5 red balls. If Hermione draws two b
 
 Tip: Draw a tree showing the sequence of changes that can occur. When Hermione takes the first ball, it could be red or black, the urn then chooses another ball at random to discard, so there are four possible states the urn can be in after the first draw. You can calculate the probability of reaching each of those states, then continue to reason about the second and third possible draws.
 
+
 ### Pólya's Urn
 
 Suppose an urn contains 9 black balls and 6 red balls. On each trial, Hermione picks a ball at random from the urn, returns it to the urn, and adds in one more ball of the same color.
@@ -99,26 +99,18 @@ Suppose she carries out this procedure two times. What are the expected numbers 
 Tip: Again, draw a tree of possible outcomes.
 
 
-
-### 
-
-
 ### Birthday Attack
 
 <img src="https://64.media.tumblr.com/3ee467fbfc590a59e079ddfe7f93d34d/tumblr_psp65oRMS91s5b5tzo1_500.jpg" width="40%" />
 
-There are a total of 40 students in Hermoine's year at Hogwarts. What's the probability that no two students in Hermoine's year share the same birthday?
+There are a total of 40 students in Hermoine's year at Hogwarts. What's the probability that no two students in Hermoine's year share the same birthday? Write a small program to do the calculation.
 
-Tip: Assume that there are 365 possible birthdays (wizards can't be born on Leap Days) and that wizards are equally likely to be born on any day of the year.
+Assume that there are 365 possible birthdays (wizards can't be born on Leap Days) and that wizards are equally likely to be born on any day of the year.
 
-Tip-Tip:
-
-Suppose there are only two students: Hermione and her best friend Harriet Potter, the Girl-Who-Lived.
-
+Tip: Suppose there are only two students: Hermione and her best friend Harriet Potter, the Girl-Who-Lived.
 ```
 P(Both are born on two different days) = (365 / 365) * (364 / 365)
 ```
-
 Hermoine's birthday can be on any day, but Harriet's must occur randomly on one of the other 364 days.
 
 What if there are three students? How about more?
@@ -128,12 +120,11 @@ What if there are three students? How about more?
 
 Use the binomial distribution to answer the following questions.
 
-## The Newton-Pepys Problem
+### The Newton-Pepys Problem
 
 <img src="https://cdn.aarp.net/content/dam/aarp/food/healthy-eating/2016/2016-05/1140-peeps-nation.imgcache.rev3aa6a5a0b7d521bbef63f0e833d97a8f.web.900.513.jpg" width="300px" />
 
-Samuel Pepys (pronounced "Peeps") was a 17th Century British naval administrator, best known for the detailed diary he kept describing his life in the 1660's. In 1693 he
-corresponded with Isaac Newton regarding a wager:
+Samuel Pepys (pronounced "Peeps") was a 17th Century British naval administrator, best known for the detailed diary he kept describing his life in the 1660's. In 1693 he corresponded with Isaac Newton regarding a wager:
 
 >Which of the following three propositions has the greatest chance of success?
 >
@@ -145,7 +136,8 @@ What is the answer to Pepys' question? Calculate your answer exactly using a dis
 
 Tip: notice that the problem is phrased as *at least* **not** *exactly*.
 
-## Dragon Dice
+
+### Dragon Dice
 
 Hermione has settled into a nice routine with her fellow Slytherins. During the day, she eats meals in the Great Hall, reads about famous Dark Wizards in the library, and attends her classes. During the evening she does her homework and plays wizard games with her friend Daphne Greengrass.
 
@@ -154,3 +146,11 @@ One of their games is called Dragon's Dice. It's a simple carnival game, also kn
 Hermione picks a number 1-6 and rolls three fair dice. If her number comes up *k* = 1, 2, or 3 times, she wins *k* wizard dollars. If it does not appear on any of the dice, she loses one wizard dollar.
 
 What is Hermione's expected outcome from playing Dragon's Dice? Solve this problem analytically.
+
+
+### Reliability problem (Sheldon Ross)
+
+Consider a system with five independent components, each of which operates correctly with probability *p*. A second system has three independent components, each of which also operates correctly with probability *p*.
+
+Each system can only function if at least half of its components function correctly on a given day. For what values of *p* is the
+three component system more likely to function correctly than the five component system?
