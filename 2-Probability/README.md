@@ -2,7 +2,7 @@
 
 ## Deliverables due Tuesday, 2/25
 
-<img src="https://imgs.xkcd.com/comics/seashell_2x.png" width="35%" />
+<img src="https://imgs.xkcd.com/comics/seashell_2x.png" width="300px" />
 
 ## Overview
 
