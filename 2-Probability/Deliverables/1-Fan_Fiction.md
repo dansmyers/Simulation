@@ -103,7 +103,7 @@ Tip: Again, draw a tree of possible outcomes.
 
 <img src="https://64.media.tumblr.com/3ee467fbfc590a59e079ddfe7f93d34d/tumblr_psp65oRMS91s5b5tzo1_500.jpg" width="40%" />
 
-There are a total of 40 students in Hermoine's year at Hogwarts. What's the probability that no two students in Hermoine's year share the same birthday? Write a small program to do the calculation.
+There are a total of 40 students in Hermione's year at Hogwarts. What's the probability that no two students in Hermione's year share the same birthday? Write a small program to do the calculation.
 
 Assume that there are 365 possible birthdays (wizards can't be born on Leap Days) and that wizards are equally likely to be born on any day of the year.
 
@@ -111,7 +111,7 @@ Tip: Suppose there are only two students: Hermione and her best friend Harriet P
 ```
 P(Both are born on two different days) = (365 / 365) * (364 / 365)
 ```
-Hermoine's birthday can be on any day, but Harriet's must occur randomly on one of the other 364 days.
+Hermione's birthday can be on any day, but Harriet's must occur randomly on one of the other 364 days.
 
 What if there are three students? How about more?
 
