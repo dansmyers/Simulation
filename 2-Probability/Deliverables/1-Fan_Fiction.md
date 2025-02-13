@@ -4,7 +4,7 @@
 
 This problem set is a work of fan fiction that I wrote when I read the entire *Harry Potter* series out loud to my kids twice during the COVID pandemic.
 
-<img src="https://64.media.tumblr.com/d85b44001002bb249c42b27e00d8dccb/tumblr_nzrkzfmjZW1s5b5tzo1_500.jpg" width="40%" />
+<img src="https://64.media.tumblr.com/d85b44001002bb249c42b27e00d8dccb/tumblr_nzrkzfmjZW1s5b5tzo1_500.jpg" width="400px" />
 
 
 ## Instructions
@@ -101,7 +101,7 @@ Tip: Again, draw a tree of possible outcomes.
 
 ### Birthday Attack
 
-<img src="https://64.media.tumblr.com/3ee467fbfc590a59e079ddfe7f93d34d/tumblr_psp65oRMS91s5b5tzo1_500.jpg" width="40%" />
+<img src="https://64.media.tumblr.com/3ee467fbfc590a59e079ddfe7f93d34d/tumblr_psp65oRMS91s5b5tzo1_500.jpg" width="400px" />
 
 There are a total of 40 students in Hermione's year at Hogwarts. What's the probability that no two students in Hermione's year share the same birthday? Write a small program to do the calculation.
 
@@ -138,6 +138,8 @@ Tip: notice that the problem is phrased as *at least* **not** *exactly*.
 
 
 ### Dragon Dice
+
+<img src="https://64.media.tumblr.com/0751d3e205fd547d3cf97ea51cf4d7fd/2d43161c01831bf4-be/s1280x1920/c2c3c0e65dc71a19933319e30805d954cd6cbb2f.jpg" width="400px" />
 
 Hermione has settled into a nice routine with her fellow Slytherins. During the day, she eats meals in the Great Hall, reads about famous Dark Wizards in the library, and attends her classes. During the evening she does her homework and plays wizard games with her friend Daphne Greengrass.
 
