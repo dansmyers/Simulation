@@ -1,6 +1,6 @@
 # Unit 2 &ndash; Introduction to Probability
 
-## Deliverables due 
+## Deliverables due Tuesday, 2/25
 
 <img src="https://imgs.xkcd.com/comics/seashell_2x.png" width="35%" />
 
