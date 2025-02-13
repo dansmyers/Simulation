@@ -158,3 +158,11 @@ Consider a system with five independent components, each of which operates corre
 
 Each system can only function if at least half of its components function correctly on a given day. For what values of *p* is the
 three component system more likely to function correctly than the five component system?
+
+Tips:
+
+- Let *X* be a binomial distributed random variable representing the number of functioning components in the 5-part system. *P*(*X* >= 3) is the probability this system functions.
+
+- Let *Y* be another binomial r.v. for the second system. *P*(*Y* >= 2) is the probability this system functions.
+ 
+- You want the value of parameter *p* that satisfies *P*(*Y* >= 2) > *P*(*X* >= 3)
