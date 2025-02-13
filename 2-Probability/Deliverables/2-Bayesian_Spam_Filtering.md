@@ -273,111 +273,18 @@ Using the training data set given above and the naïve Bayesian classifer techni
 
 ### Code
 
-Scikit-learn is a popular Python library for machine learning and analytics. It includes implementations of many popular learning algorithms, including the naïve Bayesian 
-classifier.
+Now generate a Bayesian learning model to classify the entries in `spam.csv`. Use the `naive_bayes` model of the `scikit-learn` library.
 
-Here is an example program that uses a Bayesian classifier to build a model for classifying spam text messages. It uses the `spam.csv` file from [Kaggle](https://www.kaggle.com/uciml/sms-spam-collection-dataset), which I have lightly pre-processed to make it easier to load.
+Some guidelines:
 
-To complete the example:
+- Split the data set so that 70% of entries are used for training and the other 30% for testing
+- Print the accuracy on the test set, and also output a more detailed report using `metrics.classification_report`
+- Once you have the report, explain the meaning of the terms *precision* and *recall*. What information do they give you about the model's performance and how are they different from the basic accuracy measurement and from each other?
 
-- Update your `Simulation` repo to contain this file and `spam.csv`. Your Mimir workspace should have scikit-learn pre-installed.
+How are you going to do this? **Use an AI model** to help you generate and interpret the required code.
 
-- Create a new file called `bayes.py` and copy the code below into it.
+I recommend starting with a chat model of your choice and having a discussion about what you need. Ask it to guide you through developing the Bayesian model and talk about what features the program needs to have. Once you've worked out the details, prompt it to generate code. This should be pretty easy.
 
-- Add two lines to complete the implementation, discussed below.
-
-- Run your code using `python3 bayes.py`.
-
-
-```
-"""
-Example spam filtering model using a naive Bayesian classifier.
-
-The spam.csv dataset is from Kaggle.
-"""
-
-#--- Imports
-from sklearn.model_selection import train_test_split
-from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.naive_bayes import MultinomialNB
-from sklearn.pipeline import Pipeline
-from sklearn import metrics
-import numpy as np
-import pandas as pd
-
-
-#--- Load spam.csv as a Pandas dataframe
-df = pd.read_csv('spam.csv', header = 0, encoding='latin1')
-print(df)
-
-
-#--- Split into training and testing sets, 70-30 ratio
-#
-# df['message'] is the column of text message contents
-# df['label'] is the column of labels for each message, either 'spam' or 'ham'
-#
-# X_train is the set of training messages
-# y_train is the set of correct labels for the training messages
-# X_test is the set of testing messages
-# y_test is the set of correct labels for the testing messages
-
-X_train, X_test, y_train, y_test = train_test_split(df['message'], df['label'], test_size = 0.30)
-
-    
-#--- Build a Pipeline that implements the classifier
-#
-# 1. CountVectorizer turns input text into counts of words
-# 2. MultinomialNB is the multinomial naive Bayes classifier
-    
-text_clf = Pipeline([
-    ('vect', CountVectorizer()),
-    ('clf', MultinomialNB()),
-])
-
-
-#--- Fit the model to the training data
-#
-# TODO: add one line to fit text_clf using X_train and y_train as the inputs
-    
-    
-#--- Use the trained model to predict classes on the test set       
-#
-# TODO: complete the right-hand side to use text_clf to predict the labels for X_test
-
-predicted = 
-
-
-#--- Testing accuracy
-print(np.mean(predicted == y_test))
-
-
-#--- Print more detailed assessment of the model's performance
-print(metrics.classification_report(y_test, predicted,
-    target_names=['spam', 'ham']))
-```
-
-Here's a quick summary of what's happening:
-
-- The first set of lines imports classes from scikit-learn, Pandas (another Python data analytics library that provides tools for loading and slicing data sets), and
-numpy (the numerical Python library).
-
-- The second section loads `spam.csv` as a Pandas dataframe. Going into the details of Pandas is way beyond the scope of this document, but a dataframe is like a supercharged
-Python dictionary with support for overloaded syntax that makes it easier to manipulate the rows and columns of a data set.
-
-- The next section uses `train_test_split` to break the complete `spam.csv` input set into training and testing sets. 70% of the data will be used for training and the
-other 30% reserved for testing.
-
-- The fourth section creates a `Pipeline`, which is scikit-learn's tool for implementing a complete sequence of data processing operations. Our pipeline uses only two classes:
-  `CountVectorizer`, which takes text inputs and converts them to vectors of word counts, and `MultinomialNB`, which is scikit-learn's implementation of the naïve Bayes algorithm that was described above.
-  
-The next step is to fit the model described by the `text_clf` pipeline to `X_train` using the class labels in `y_train`. **Your job is to figure out the ONE LINE OF CODE required to complete this step**. There is plenty of documentation on scikit-learn available on the Internet: take a look at some other examples and think about how
-to use what you see in this program.
-
-Once you have a fitted model, **complete the next line** to predict class labels for the messages in the test data set `X_test`. Again, look at other documentation
-and examples.
-
-The final set of lines compares the test set labels predicted by the model to the actual test set labels in `y_test`. If your model is correct, you should see an accuracy
-measurement of about **98%**.
 
 ## Summary
 
