@@ -71,13 +71,77 @@ Add the following methods to the generator:
 
 ### Uniformity
 
-Here's one of the simplest tests for randomness: Generate a large number of random values from the generator and group them into bins, like a histogram. The distribution should be uniform, with no bin having significantly more or less entries than any other. Here's some example code that generates a list of numbers and plots their histogram. Experiment with some different small parameter choices and see what you obtain. 
+Here's one of the simplest tests for randomness: Generate a large number of random values from the generator and group them into bins, like a histogram. The distribution should be uniform, with no bin having significantly more or less entries than any other.
 
+You could think of this as the "balls in bins" model: throw a large number of balls into bins determined by the RNG output. If the output is good, every bin should have, on average, the same number of balls.  The formal test for this quality is the **Chi-Square test**, which is used to determine if the distributions in the bins are statistically different from what would be expected from a uniform distribution.
+
+
+Here's some example code that generates a list of numbers and plots their histogram. Experiment with some different small parameter choices and see what you obtain. You'll need to import pyplot at the top of your script.
 ```
+# Import at top of script
+from matplotlib import pyplot as plt
+
 # Generate sequence
-numbers = [lcg.next() for _ in range(1000)]
+numbers = [lcg.next() for _ in range(10000)]
 
 plt.figure()
-plt.hist(numbers)
+plt.hist(numbers, bins=lcg.m)
 plt.savefig('test.png')    
+```
+
+### Bigger generators
+
+Modify the problem to use values from a larger generator. Here are the parameters for one implementation called [MINSTD](https://en.wikipedia.org/wiki/Lehmer_random_number_generator#Parameters_in_common_use), used as a default in some systems including C++:
+```
+# MINSTD generator
+self.a = 48271
+self.c = 0
+self.m = 2**31 - 1
+```
+Modify the histogram example to generate 1 million random values by calling the `next_float` method; they will all be in the range [0, 1). Histogram them into 100 bins.
+
+Repeat with the parameters for the old-school RANDU generator used by 70s-era C:
+```
+# RANDU
+self. a = 65539
+self.c = 0
+self.m = 2**31
+```
+Do you observe any obvious differences in the uniformity of the two implementations?
+
+### Spectral test
+
+The two generators appear to be similarly uniform (again, we haven't quantified this using a statistical test, but both would pass a basic test for uniformity).
+
+It's still possible to observe some differences between the generators. The **spectral test** checks for correlations between consecutive generated values. If you have a series of random values:
+```
+[x_1, x_2, x_3, x_4, x_5, ...]
+```
+You can form points of consecutive values. For example, in three dimensions:
+```
+(x_1, x_2, x_3)
+(x_2, x_3, x_4)
+(x_3, x_4, x_5)
+etc.
+```
+A basic property of the linear congruential generator is that, in high enough dimensions, these points will lie on a small number of distinct hyperplanes. The more separated the planes, the lower the quality of the generator.
+ 
+Here's an example main section that constructs 3-D points from a sequence of random floats and then creates a 3-D scatter plot. Run it with the MINSTD and RANDU paramters. What differences do you observe?
+
+```
+if __name__ == '__main__':
+    lcg = LinearCongruentialGenerator(seed=1)
+
+    # Generate sequence
+    numbers = [lcg.next_float() for _ in range(10000)]
+    x = numbers[:len(numbers) - 2]
+    y = numbers[1:len(numbers) - 1]
+    z = numbers[2:len(numbers)]
+
+    fig = plt.figure()
+    ax = fig.add_subplot(projection='3d')
+    ax.scatter(x, y, z)
+    ax.view_init(elev=24, azim=-126)
+    plt.savefig('test.png')    
+  
 ```
