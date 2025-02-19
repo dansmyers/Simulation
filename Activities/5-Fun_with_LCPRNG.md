@@ -31,9 +31,9 @@ class LinearCongruentialGenerator:
         
         Args:
             seed (int): Starting value for the sequence
-            multiplier (int): Multiplier in the LCG formula
-            increment (int): Increment in the LCG formula
-            modulus (int): Modulus in the LCG formula
+            a (int): Multiplier in the LCG formula
+            c (int): Increment in the LCG formula
+            m (int): Modulus in the LCG formula
         """
 
         # The seed is the first number in the sequence
