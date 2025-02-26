@@ -24,7 +24,7 @@ These days, traditional pensions have largely been phased out for most prviate-s
 
 - **Social Security**, the government program that provides monthly payments to the elderly, paid for by payroll taxes on current workers.
 
-- **Returns from investments**, accumulated during working years. The most important vehicle for building wealth through investing is the 401(k), named for the section of the tax code that defines them.
+- **Returns from investments**, accumulated during working years. The most important vehicle for building wealth through investing is the 401(k) account, named for the section of the tax code that defines it.
 
 The 401(k) allows workers to place a portion of their pre-tax income into a special account using automatic payroll deductions; every month a bit of your check is deducted and automatically invested into a fund that you've set up. Most employers will also **match** 401(k) contributions up to a certain amount: this can be a major source of free money for retirement.
 
