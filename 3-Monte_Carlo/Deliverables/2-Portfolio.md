@@ -12,7 +12,7 @@ In this project, you're going to use a Monte Carlo simulation to answer a simple
 
 To simulate these returns, we'll use historical stock market return data from Yahoo Finance.
 
-## Some Investing Tips
+## Investing Background
 
 (Obviously, I am not your financial advisor, but the following are basic details that are covered in most personal finance guides.)
 
