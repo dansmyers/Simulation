@@ -4,7 +4,7 @@
 
 **Portfolio simulation** is a practically significant application of the Monte Carlo technique.
 
-The core question in financial planning is _Will I have enough?_ That is, will my portfolio of investments yield results that will allow me to retire/send my kids to college/etc. with a desired level of comfort?
+The core question in financial planning is _Will I have enough?_ That is, will my portfolio of investments yield results that will allow me to retire/send my kids to college/etc. with a desired level of security?
 
 One way to address this question is through Monte Carlo simulation. Given a starting allocation of stocks, bonds, and other investments, perform simulated experiments that predict how the portfolio's value will evolve over time. Typically, this is done in a way that allows the analyst to examine a variety of market trajectories to see how the portfolio performs under both good and adversarial circumstances.
 
