@@ -28,7 +28,7 @@ These days, traditional pensions have largely been phased out for most prviate-s
 
 The 401(k) allows workers to place a portion of their pre-tax income into a special account using automatic payroll deductions; every month a bit of your check is deducted and automatically invested into a fund that you've set up. Most employers will also **match** 401(k) contributions up to a certain amount: this can be a major source of free money for retirement.
 
-401(k) plans are tax-advantaged, in that the money that goes into them reduces your taxable income and the money in the fund is not taxed until you withdraw it much later. In return their are restrictions: the amount you can put into a 401(k) annually is capped (currently about $23000) and there are significant penalties if you withdraw funds before age 59.5.
+401(k) plans are tax-advantaged, in that the money that goes into them reduces your taxable income and the money in the fund is not taxed until you withdraw it much later. In return there are restrictions: the amount you can put into a 401(k) annually is capped (currently about $23,000) and there are significant penalties if you withdraw funds before age 59.5.
 
 ### Roth IRA
 
