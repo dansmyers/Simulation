@@ -62,7 +62,7 @@ Investing in index funds is often referred to as *passive investing* and index f
 
 - There are *target date* funds aimed at people that want to retire in a particular year. These funds start with a higher-risk, growth-oriented allocation and then gradually shift to a lower-risk allocation as the target approaches.
 
-- **Hedge funds** are a very different thing and use all kinds of complex financial techniques to generate high returns. They aren't accessible to regular retial investors.
+- **Hedge funds** are a very different thing and use all kinds of complex financial techniques to generate high returns. They are generally only accessible to the extremely wealthy.
 
 ## Details
 
