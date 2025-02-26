@@ -18,7 +18,7 @@ To simulate these returns, we'll use historical stock market return data from Ya
 
 ### 401(k)
 
-In the older days, many workers received old-age pensions from their employers. Once a person retired, a pension plan would pay out a pre-set amount of money (a *defined benefit*) regularly for the rest of that person's life.
+In the older days, many workers received pensions from their employers. Once a person retired, a pension plan would pay out a pre-set amount of money (a *defined benefit*) regularly for the rest of that person's life.
 
 These days, traditional pensions have largely been phased out for most prviate-sector employees. Most Americans, other than the independently wealthy, rely on two sources of income to fund their living in retirement years:
 
