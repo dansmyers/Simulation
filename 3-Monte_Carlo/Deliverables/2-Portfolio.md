@@ -56,6 +56,8 @@ Investing in index funds is often referred to as *passive investing* and index f
 
 ### Other details
 
+- In practice, index funds still do transactions to periodically rebalance their holdings as the values of stocks in the market change. There are also techniques that allow a fund to mirror the performance of the complete index without actually needing to literally own shares of every stock.
+
 - There are index funds other than the S&P 500, some of which are specialized in particular areas, like emerging markets, large cap stocks, etc. A more advanced strategy is to balance your allocations across a few different index funds for more diversification.
 
 - There are *target date* funds aimed at people that want to retire in a particular year. These funds start with a higher-risk, growth-oriented allocation and then gradually shift to a lower-risk allocation as the target approaches.
