@@ -99,7 +99,7 @@ To do this, we'll use historical data from Yahoo Finance.
 
 For example, if you sample a month where the market went up 1%, you would increase the value of the portfolio by 1%. If you sampled a value of -.5%, you would adjust the value of the portfolio down by .5%.
 
-The script below uses the `yfinance` API to pull monthly return data for 1985 to the present.
+The script below uses the `yfinance` API to pull monthly return data for 1985 to the present. Use it as a starting point for the rest of your program.
 ```
 """
 Monthly stock market returns using Yahoo Finance
