@@ -94,7 +94,7 @@ The core of the simulation is modeling how much the market moves up or down each
 To do this, we'll use historical data from Yahoo Finance.
 
 - Pull monthly close prices for the S&P 500 using the Yahoo Finance API
-- Calculate the month-to-month percentage change
+- Calculate the month-to-month percentage changes
 - On each step of your simulation, sample a value from this dataset (with replacement) and use it to adjust the value of the portfolio up or down
 
 For example, if you sample a month where the market went up 1%, you would increase the value of the portfolio by 1%. If you sampled a value of -.5%, you would adjust the value of the portfolio down by .5%.
