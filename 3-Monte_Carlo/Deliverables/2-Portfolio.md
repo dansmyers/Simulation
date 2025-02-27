@@ -4,8 +4,6 @@
 
 *line go up*
 
-<br/>
-
 ## Overview
 
 **Portfolio simulation** is a practically significant application of the Monte Carlo technique.
