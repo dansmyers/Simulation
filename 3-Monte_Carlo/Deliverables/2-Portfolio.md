@@ -1,5 +1,7 @@
 # Monte Carlo Portfolio Simulation
 
+<img src="https://compote.slate.com/images/926e5009-c10a-48fe-b90e-fa0760f82fcd.png?width=1200&rect=680x453&offset=0x30" width="400px" />
+
 ## Overview
 
 **Portfolio simulation** is a practically significant application of the Monte Carlo technique.
@@ -66,5 +68,72 @@ Investing in index funds is often referred to as *passive investing* and index f
 
 ## Details
 
+Write a program that simulates market returns for a person who begins investing in an index fund at age 22 and continues until age 65.
 
-## Example Code
+- The investor starts with an investment of $1000 and then invests another $1000 every month for 516 months
+
+- For every month, simulate a percentage movement of the market up or down by sampling from the dataset of historical market returns, discussed below
+
+- After 516 months, you'll end with an estimate of the value of the portfolio at the time of retirement
+
+- Repeat for a total of 1000 simulations
+
+- Calculate the average expected portfolio value with 95% and 90% confidence intervals
+
+Repeat the same simulation for a person starting at age 32, for a total of 396 months of returns. Make a side-by-side box plot showing the distribution of returns generated in both cases.
+
+
+## Sampling Returns
+
+The core of the simulation is modeling how much the market moves up or down each month.
+
+To do this, we'll use historical data from Yahoo Finance.
+
+- Pull monthly close prices for the S&P 500 using the Yahoo Finance API
+- Calculate the month-to-month percentage change
+- On each step of your simulation, sample a value from this dataset (with replacement) and use it to adjust the value of the portfolio up or down
+
+For example, if you sample a month where the market went up 1%, you would increase the value of the portfolio by 1%. If you sampled a value of -.5%, you would adjust the value of the portfolio down by .5%.
+
+The script below uses the `yfinance` API to pull monthly return data for 1985 to the present.
+```
+"""
+Monthly stock market returns using Yahoo Finance
+"""
+import pandas as pd
+import yfinance as yf
+import numpy as np
+import matplotlib.pyplot as plt
+from datetime import datetime
+
+# Time period
+start_date = '1985-01-01'
+end_date = '2025-01-31'
+
+# Download S&P 500 data - '^GSPC' is the Yahoo Finance ticker for the S&P 500
+ticker_data = yf.Ticker('^GSPC')
+sp500_data = ticker_data.history(start='1970-01-01', auto_adjust=False, actions=False, interval='1mo')
+print(sp500_data.head())
+
+# Calculate percentage monthly returns
+#
+# 'Adj Close' is the close price at the end of each month accounting for stock splits
+# and reinvesting dividends over time
+sp500_data['Monthly_Return'] = sp500_data['Adj Close'].pct_change()
+
+# Remove the first row which will have NaN for return
+sp500_returns = sp500_data['Monthly_Return'].dropna()
+
+# Display a few monthly returns
+print(sp500_returns.head())
+```
+
+## Submission
+
+Submit the following:
+
+- Your script that performs both simulations and the analysis
+- Your side-by-side box plot showing the distributions of sampled outcomes for the two ages
+- A short text document giving the means, 90% CIs, and 95% CIs for the two ages
+
+
