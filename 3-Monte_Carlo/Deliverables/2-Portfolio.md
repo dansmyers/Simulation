@@ -80,9 +80,11 @@ Write a program that simulates market returns for a person who begins investing 
 
 - Repeat for a total of 1000 simulations
 
-- Calculate the average expected portfolio value with 95% and 90% confidence intervals
+- Calculate the average expected portfolio value from the 1000 simulated estimates, along with 90%, 95%, and 99% confidence intervals for the true mean return
 
-Repeat the same simulation for a person starting at age 32, for a total of 396 months of returns. Make a side-by-side box plot showing the distribution of returns generated in both cases.
+Repeat the same simulation for a person starting at age 32, for a total of 396 months of returns.
+
+Make a side-by-side box plot comparing the distributions of returns generated in both cases.
 
 
 ## Sampling Returns
