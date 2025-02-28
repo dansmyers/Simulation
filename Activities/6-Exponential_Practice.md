@@ -6,7 +6,7 @@ Write down the PDF, CDF, and CCDF of the exponential distribution.
 
 ## More lightbulbs
 
-A certain kind of industrial lightbulb a lifetime that is exponentially distributed with a mean of 2500 hours.
+A certain kind of industrial lightbulb has a lifetime that is exponentially distributed with a mean of 2500 hours.
 
 1. What is the parameter of the corresponding exponential distribution?
 
