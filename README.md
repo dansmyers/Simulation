@@ -55,8 +55,7 @@ This is tentative and will probably change a bit as we move through the semester
 | 2/10         | Discrete distributions  |
 | 2/17         | Monte Carlo techniques, calculating error bounds  |
 | 2/24         | Random number generation |
-| 2/17         | Continuous distributions I   |
-| 3/3          | Continuous distributions II: The exponential distribution, MIDTERM EXAM |
+| 3/3          | Continuous distributions: The exponential distribution, MIDTERM EXAM |
 | 3/10         | SPRING BREAK |
 | 3/17         | Intro to queueing theory |
 | 3/24         | Little's Law, Poisson arrivals  |
