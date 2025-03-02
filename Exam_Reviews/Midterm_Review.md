@@ -23,34 +23,36 @@ I will grade the exam by assessing the fraction of questions you answered correc
 - If you score 80% or higher, you'll receive full credit
 - If you score at least 60% but less than 80%, you'll receive half credit
 
-## Confidence intervals
+## Content
+
+### Confidence intervals
 
 - Write an expression for a 95% confidence interval for a sample mean given the mean, sample size, standard deviation
 - Do the same thing for a confidence interval of a proportion given *p*, the probability of success
 
-## Conditional probability
+### Conditional probability
 
 - Definition of conditional probability
 - The blood test example for Bayes' Rule and its comparable questions on the second assignment
 - Urn-style problems using trees (look at the examples in the notes and second project)
 
-## Discrete distributions
+### Discrete distributions
 
 - Examples using the geometric, binomial, and Poisson distributions from the notes
 - Those are representative of the types of questions that could show up on the exame
 
-## Exponential distribution
+### Exponential distribution
 
 - Formulas for the PDF, CDF, and CCDF of the exponential
 - Writing down expressions for exponentially-distributed lifetime problems (see the lightbulb examples in the notes and in the `Activities` directory)
 - Using the memoryless property to answer conditional lifetime questions
 
-## Random number generation
+### Random number generation
 
 - Be able to generate values from a linear congruential generator given its parameters and seed
 - Use the inverse CDF method to derive a formula for generating random variables from a specific distribution (we'll do this on Monday)
 
-## Proofs and Derivations
+### Proofs and Derivations
 
 Be familiar with the following results:
 
