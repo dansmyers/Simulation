@@ -13,7 +13,7 @@ Tips:
 
 ## Fundamental Law Questions
 
-### Check My Math
+### Check my math
 
 I measured a system with one disk for a long period of time and collected the following data:
 
@@ -29,7 +29,7 @@ Tip: use Little's Law to derive the system throughput, calculate the disk throug
 Answer: Yes, I did. The number you're looking for is 1.2.
 
 
-### Unbalanced Server Loads
+### Unbalanced server loads
 
 There are two servers, A and B, in a system that receives arrivals at rate λ. Suppose that A receives 60% of the arrivals and B receives 40%, and that A runs at a utilization of 80% and B at a utilization of 60%.
 
@@ -42,7 +42,7 @@ The answer should be about 222 µs.
 ## M/M/1 Questions
 
 
-### M/M/1 Calculation Practice
+### M/M/1 calculation practice
 
 Given an M/M/1 queue with *λ* = 10 arrivals per second and *s* = 75 ms, calculate the following quantities:
 
@@ -63,14 +63,11 @@ What value of *s* is required to keep *Q* ≤ 2?
 If *s* must stay fixed at 75 ms, what is the maximum arrival rate we can sustain while keeping *R* ≤ 1 second?
 
 
-### Power Management in Datacenters
+### Power management
 
-There has been a large amount of recent research on reducing the economic and environmental impact caused
-by the energy demands of modern datacenters. One of the most basic strategies for conserving energy is **dynamic voltage scaling** (DVS). By reducing the operating voltage of a processor, we can its reduce energy consumption in exchange for decreased performance.
+There has been a large amount of recent research on reducing the economic and environmental impact caused by the energy demands of modern datacenters. One of the most basic strategies for conserving energy is **dynamic voltage scaling** (DVS). By reducing the operating voltage of a processor, we can its reduce energy consumption in exchange for decreased performance.
 
-Suppose we have a set of *k* servers, each operating as an M/M/1 queue capable of running at a maximum
-rate *µ*. The total arrival rate to the entire set of servers is *λ*. Assume the service rate of each server scales
-linearly with its power consumption (this is probably not realistic). Consider two basic operating strategies:
+Suppose we have a set of *k* servers, each operating as an M/M/1 queue capable of running at a maximum rate *µ*. The total arrival rate to the entire set of servers is *λ*. Assume the service rate of each server scales linearly with its power consumption (this is probably not realistic). Consider two basic operating strategies:
 
 - Turn on all *k* servers, each running at a fraction 1 / *k* of its maximum power. In this scenario, the arrival rate at each queue is *λ* / *k* and the each queue’s service rate is *µ* / *k*.
 
