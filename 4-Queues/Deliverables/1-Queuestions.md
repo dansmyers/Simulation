@@ -39,7 +39,7 @@ Tip: Start by calculating the throughput at server B using the Utilization Law.
 
 The answer should be about 222 µs.
 
-### M/M/1 Questions
+## M/M/1 Questions
 
 
 ### M/M/1 Calculation Practice
