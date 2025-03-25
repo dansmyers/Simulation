@@ -10,7 +10,7 @@
 We've spent the first half of the course refining your command of probability and writing programs that use randomness. Now we're going to introduce the key concepts of
 queueing theory, which we'll continue to study for the rest of the semester.
 
-This sprint has five parts:
+This unit has five topics:
 
 1. Learning some words for things related to queues.
 2. Little's Law, the most important formula in all of systems analysis. What *F = ma* is to physics, Little's Law is to waiting in lines.
