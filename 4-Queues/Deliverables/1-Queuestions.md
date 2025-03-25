@@ -80,6 +80,8 @@ Of these two strategies – multiple slow servers or one fast server – which o
 
 Tip: Don't be intimidated by the fact that there are no numbers! Use the M/M/1 residence time equation and calculate the residence time for each scenario in terms of the given variables.
 
+Tip-tip: You have the service **rate** *µ*, but you need the service time *s*. Recall the relationship between service rate and the average service time (or double-check the notes).
+
 
 ### M/D/1
 
