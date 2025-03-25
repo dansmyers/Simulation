@@ -3,9 +3,9 @@
 <img src="https://imgs.xkcd.com/comics/academia_vs_business.png" width="75%" />
 
 
-## Due Monday, 4/3
+## Due 
 
-## Overview and Metaness
+## Overview
 
 We've spent the first half of the course refining your command of probability and writing programs that use randomness. Now we're going to introduce the key concepts of
 queueing theory, which we'll continue to study for the rest of the semester.
