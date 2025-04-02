@@ -2,8 +2,7 @@
 
 ## Strategy
 
-Many simulations incorporate an element of **time**. As time advances, **events** happen, and the simulation program models the effects of those events
-the effects of those events. For example, in an M/M/1 queueing model, we'd probably identify two basic kinds of events:
+Many simulations incorporate an element of **time**. As time advances, **events** happen, and the simulation program models the effects of those events. For example, in an M/M/1 queueing model, we'd probably identify two basic kinds of events:
 
 - Arrival events that put a new customer into the queue.
 - Departure events that occur when a customer finishes service and departs the queue.
