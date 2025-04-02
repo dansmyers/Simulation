@@ -158,8 +158,6 @@ Take a look at this article for an overview of heaps and their ordering rules:
 
 https://medium.com/basecs/learning-to-love-heaps-cef2b273a238
 
-<img src="https://www.cs.toronto.edu/~ylzhang/csc263/memes/dz-5.png" width="50%" />
-
 Python has a library called `heapq` that defines `heappush` and `heappop` methods that can be applied to regular lists.
 
 - `heappush` inserts a new item in the position required by the heap ordering rules.
