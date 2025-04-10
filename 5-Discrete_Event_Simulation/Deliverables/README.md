@@ -2,11 +2,11 @@
 
 ## Description
 
-In this project, you'll use the *discrete-event simuation* strategy to model a version of Disney's FastPass+ system.
+In this project, you'll use the *discrete-event simuation* strategy to model a version of Disney's FastPass+ virtual queueing system. Versions of FastPass were in use at the parks from 1999 until 2021, when they were discontinued and replaced by the current Lightning Lane system.
 
-The FastPass system allows park visitors to schedule a pre-set time to arrive at certain attractions. At their appointed time, FastPass holders get to enter a special shorter queue that takes them right to the front of the line, skipping almost all of the waiting time.
+The FastPass system allowed park visitors to schedule a pre-set time to arrive at certain attractions. At their appointed time, FastPass holders entered a special shorter queue that takes them right to the front of the line, skipping almost all of the waiting time.
 
-If you don't have a FastPass, you have to wait in the long regular line. Some popular Disney attractions have multi-hour waits if you try to access them without a FastPass.
+If you didn't have a FastPass, you waited in the long regular line, which might require multiple hours for popular attractions.
 
 <img src="https://i.pinimg.com/originals/11/e1/a8/11e1a852b9a10faac95bad71c94613ac.jpg" width="50%"/>
 
@@ -40,9 +40,13 @@ You'll then use your simulator to investigate how increasing the fraction of cus
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Cinderella_Castle_2013_Wade.jpg/1280px-Cinderella_Castle_2013_Wade.jpg" width="50%" />
 
-Consider a ride that can be modeled as an M/M/1 queue with two classes of customers.
+Consider a ride that can be modeled as an **M/M/1 queue** with two classes of customers. This is fairly unrealistic assumption for a real theme park ride:
 
-(*Note: Cinderella's Castle is not an M/M/1 queue*.)
+- Arrivals may be close to Poisson during some parts of the day, but are subject to bursts of arrivals around major events like opening, closing, parades, etc.
+- Service times should be close to deterministic for a ride, not exponential
+- Rides typically receive *bulk* arrivals as groups arrive together and serve customers in bulks
+
+The basic M/M/1 discrete-event simulation model could be adapted to deal with all of these cases.
 
 High-priority FastPass holders always get to go in front of low-priority non-FastPass customers, but have to wait to be served in first-come-first-served (FCFS) order. Therefore, a new FastPass holder that arrives at the ride will have to wait behind any other FastPass holders that are already in line, but no regular customers.
 
@@ -81,7 +85,5 @@ Repeat the same experiment for the lower-load periods where *λ* = .50. Your ini
 ## Deliverable
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Spaceship_Earth_2.jpg" width="50%" />
-
-*Ride the giant spikey golf ball.*
 
 Turn in two graphs, one for the high-load periods and one for the low-load periods, showing the residence times for FastPass and regular customers as a function of *f*. Also submit your code and a **brief** write-up summarizing your results and explaining your choices for good operating values of *f* based on the data you've collected.
