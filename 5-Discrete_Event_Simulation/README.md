@@ -26,6 +26,6 @@ design questions. At the end of this project, you'll be familiar with
 
 ## Resources
 
-The `Notes` and 'Examples' directories contains documents describing the basics of the event-based time-advance simulation strategy and an example of using it to implement a queueing model. This will be a helpful starting point for you as you start working on the FastPass+ project. Look at the other notes in Project 4 if you need to review the PASTA property, M/M/1 or any of the other foundational queueing material.
+The `Notes` directory contains documents describing the basics of the event-based time-advance simulation strategy and an example of using it to implement a queueing model. This will be a helpful starting point for you as you start working on the FastPass+ project. Look at the other notes in Project 4 if you need to review the PASTA property, M/M/1 or any of the other foundational queueing material.
 
 For background on heaps, which the example program uses, I recommend this article: https://medium.com/basecs/learning-to-love-heaps-cef2b273a238.
