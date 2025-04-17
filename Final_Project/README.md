@@ -42,7 +42,7 @@ Consider a system with an offered load of 10. How many servers are required to k
 
 - Under 1%?
 
-- Under .1?
+- Under .1%?
 
 Tip: write a method that implements the Erlang-B formula. Look up how to do factorials in Python. The denominator of the formula looks weird, but it has a finite number of terms so you can calculate it using a simple loop. Use a binary search to find the value of *m* that satisfies the constraint.
 
