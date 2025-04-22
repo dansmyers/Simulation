@@ -1,8 +1,14 @@
-# Final Project: Erlang's Formulas
+# Erlang's Formulas
 
-## Due Monday, May 8 (the day that would have been our final exam)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/TexasRichardson_telephoneExchangeOperator.jpg/500px-TexasRichardson_telephoneExchangeOperator.jpg" width="400px" />
+
+*Telephone operator, ca. 1900* (via Wikipedia)
+
+## Due Tuesday, May 6 (end of final exams)
 
 ## Overview
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Erlang.jpg" width="300px" />
 
 Agner Erlang was a Danish mathematician, statistician and engineer, who invented the fields of traffic engineering and queueing theory. He worked for the Copenhagen Telephone Company from 1908 to 1929 and developed methods to analyze the use of telephone circuits and operators. The Erlang distribution and the Erlang unit, used to measure load in telecom systems, are both named after him.
 
