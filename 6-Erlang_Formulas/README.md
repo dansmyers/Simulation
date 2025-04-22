@@ -12,6 +12,8 @@
 
 Agner Erlang was a Danish mathematician, statistician and engineer, who invented the fields of traffic engineering and queueing theory. He worked for the Copenhagen Telephone Company from 1908 to 1929 and developed methods to analyze the use of telephone circuits and operators. The Erlang distribution and the Erlang unit, used to measure load in telecom systems, are both named after him.
 
+Erlang is responsible for many of the orginal results we've investigated this semester. He showed that telephone traffic functioned according to a Poisson process and derived the first results for what we now call the M/M/1 queue. His most important results are three formulas, known as **Erlang-A**, **Erlang-B**, and **Erlang-C** that predict behaviors in multi-server queueing systems.
+
 Consider a telephone system with the following characteristics:
 
 - Customers arrive according to a Poisson process at rate *λ*. The length of each call is exponentially distributed with average *s*. These assumptions are the same as the M/M/1 queue and our other models.
@@ -20,11 +22,14 @@ Consider a telephone system with the following characteristics:
 
 - There is *no* additional capacity for waiting customers. A newly arriving customer is either accepted by one of the *c* servers and processed immediately, or **dropped** because there is no additional capacity.
 
-In modern queueing notation, this system is called the M/M/*c*/*c* queue: there are *c* servers and the system can have a maximum of *c* customers. In an old-style telephone system, the servers of the model corresponded to available switchboard lines that could carry incoming calls. If all lines were occupied, an incoming calls would be rejected.
+In modern queueing notation, this system is called the M/M/*c*/*c* queue: there are *c* servers and the system can have a maximum of *c* customers. In an old-style telephone system, the servers of the model corresponded to available switchboard lines that could carry incoming calls. If all lines were occupied, an incoming call would be rejected.
 
-A key quantity of interest in the M/M/*c*/*c* is the **blocking probability**, the probability that an arbitrary call is rejected because the system is full. Engineers would typically like to adjust the capacity of the system to keep the blocking probability below an acceptable threshold. In 1917, Erlang derived a formula for the blocking probability in the M/M/*c*/*c* queue, which is now know as the Erlang-B formula.
+A key quantity of interest in the M/M/*c*/*c* is the **blocking probability**, the probability that an arbitrary call is rejected because the system is full. Engineers would typically like to adjust the capacity of the system to keep the blocking probability below an acceptable threshold. The Erlang-B formula, derived in 1917, calculates the blocking probability in the M/M/*c*/*c* queue.
 
-There are also Erlang-A and Erlang-C formulas. Erlang-C gives the estimated residence time for a customer in an M/M/*c* system with infinite capacity. Erlang-A is similar to M/M/*c*, but adds the idea of **abandoned calls**; customers may give up leave the system before receiving service if their patience is exhausted.
+Erlang's other formulas apply to other multiserver systems:
+
+- Erlang-C gives the estimated residence time for a customer in an M/M/*c* system with infinite capacity.
+- Erlang-A is similar to M/M/*c*, but adds the idea of **abandoned calls**; customers may give up leave the system before receiving service if their patience is exhausted.
 
 In this, the final project, you're going to write a simulation program that estimates blocking probabilities, compare it to the results predicted by the Erlang-B formula and the use your results to do a little capacity planning for an example telecom system.
 
@@ -84,3 +89,13 @@ Modify your simulator to use service times drawn from the **two-stage Erlang dis
 Keep the arrival rate set to 10 and generate each Erlang-distributed service time by adding two independent exponential random variables, each with mean .5.
 
 How many servers are required to keep the blocking probability below 1% if the service times are Erlang distributed? How does that compare to the original case of exponentially distributed service times?
+
+## Derive
+
+Now use Markov chain techniques to derive the Erlang-B formula:
+
+- Create a model that has $c$ states, like our other multi-server examples.
+
+- Forward transition arvs are labeled with the arrival rate *λ*. The backward arc from state *k* to state *k* - 1 is labeled with service rate *kμ*.
+
+- 
