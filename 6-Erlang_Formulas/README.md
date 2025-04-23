@@ -96,6 +96,8 @@ Now use Markov chain techniques to derive the Erlang-B formula:
 
 - Create a model that has $c$ states, like our other multi-server examples.
 
-- Forward transition arvs are labeled with the arrival rate *λ*. The backward arc from state *k* to state *k* - 1 is labeled with service rate *kμ*.
+- Forward transition arcs are labeled with the arrival rate *λ*. The backward arc from state *k* to state *k* - 1 is labeled with service rate *kμ*.
 
-- 
+- Use the balance equations to find an expression for *π<sub>k</sub>*, then use total probability to solve for *π<sub>0</sub>*.
+
+- Think about how the blocking probability relates to the *π* values: If a customer gets blocked, how many customers must have been in the system at an an arrival instant?
