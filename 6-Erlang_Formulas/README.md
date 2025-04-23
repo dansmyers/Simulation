@@ -29,7 +29,7 @@ A key quantity of interest in the M/M/*c*/*c* is the **blocking probability**, t
 Erlang's other formulas apply to other multiserver systems:
 
 - Erlang-C gives the estimated residence time for a customer in an M/M/*c* system with infinite capacity.
-- Erlang-A is similar to M/M/*c*, but adds the idea of **abandoned calls**; customers may give up leave the system before receiving service if their patience is exhausted.
+- Erlang-A is similar to M/M/*c*, but adds the idea of **abandoned calls**; customers may give up and leave the system before receiving service if their patience is exhausted.
 
 In this, the final project, you're going to write a simulation program that estimates blocking probabilities, compare it to the results predicted by the Erlang-B formula and the use your results to do a little capacity planning for an example telecom system.
 
