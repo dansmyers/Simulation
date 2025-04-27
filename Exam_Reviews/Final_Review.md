@@ -70,7 +70,7 @@ The exam will be 8-12 short answer questions, similar in format to the midterm.
 - Derivation that  *π<sub>k</sub>* is Poisson distributed in the M/M/∞ system
 - Be able to write down chains for multiserver models: M/M/c/c, M/M/c
 
-## Summary of Proofs and Derivations You Should Definitely Know
+## Summary of proofs and derivations you should really definitely know
 
 - Residence time in M/M/1 using tagged customer
 - Residence time in M/D/1 using tagged customer
