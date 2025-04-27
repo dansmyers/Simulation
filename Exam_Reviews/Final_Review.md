@@ -17,7 +17,7 @@ The exam will be 8-12 short answer questions, similar in format to the midterm.
 - Ergodicity
 - M/M/1 Markov chain
 - Solving the M/M/1 CTMS using balance equations
-- Markov chain variations: M/M/{\infty}, M/M/c/c
+- Markov chain variations: M/M/∞, M/M/c/c
 
 ## Specific things you should know
 
@@ -63,7 +63,7 @@ The exam will be 8-12 short answer questions, similar in format to the midterm.
 - M/M/1 chain model
 - Know the derivation of *π<sub>k</sub>* using the chain model
 - Calculating other queue properties from *π<sub>k</sub>*
-- Derivation that  *π<sub>k</sub>* is Poisson distributed in the M/M/{\infty} system
+- Derivation that  *π<sub>k</sub>* is Poisson distributed in the M/M/∞ system
 - Be able to write down chains for multiserver models: M/M/c/c, M/M/c
 
 ## Summary of Proofs and Derivations You Should Definitely Know
