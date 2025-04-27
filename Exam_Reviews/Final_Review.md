@@ -1,8 +1,8 @@
 # Final Exam Review
 
-<img src="https://m.media-amazon.com/images/I/51crrEY3hIL.jpg" width="400px" />
+<img src="https://m.media-amazon.com/images/I/61i7jqn99WL._AC_UF350,350_QL50_.jpg" width="400px" />
 
-*Mt. Rainier (from the United States series)*, Hiroshi Yoshida
+*Grand Canyon*, Hiroshi Yoshida
 
 ## Exam format
 
