@@ -1,5 +1,9 @@
 # Final Exam Review
 
+<img src="https://m.media-amazon.com/images/I/51crrEY3hIL.jpg" width="400px" />
+
+*Mt. Rainier (from the United States series)*, Hiroshi Yoshida
+
 ## Exam format
 
 The exam will be 8-12 short answer questions, similar in format to the midterm.
