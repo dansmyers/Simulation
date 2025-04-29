@@ -59,7 +59,7 @@ The exam will be 8-12 short answer questions, similar in format to the midterm.
 - Requirements for ergodicity: irreducibility, aperiodicity, positive recurrence
 - Be able to tell if a given chain satisfies those properties
 - Given a chain and a starting state distribution, calculate the probabilities of being in each possible state at the next time step
-- You **don't** need to do calculations with transition matrices, but there may be a question that asks you to relate the graph of a chain to its transition matrix.
+- You **don't** need to do multiply transition matrices, but there may be a question that asks you to relate the graph of a chain to its transition matrix.
 
 ### Markov chains and queues
 
