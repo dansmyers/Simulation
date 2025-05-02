@@ -48,7 +48,7 @@ Play proceeds as follows:
 
 1. The dealer deals the two hands of two cards and announces their values using the rules above.
 
-2. If a hand achieves an 8 or 9, it is declared a "natural" and the round ends immediately. The hand with the higher natural wins, or it's a tie if both hands have achieved equal naturals.
+2. If any hand achieves an 8 or 9, it is declared a "natural" and the round ends immediately. The hand with the natural is automatically the winner. If both hands have naturals, the hand with the higher score wins, or it's a tie if both hands have achieved equal naturals.
 
 3. If neither hand achieves a natural, then the tableau of drawing rules is consulted, first for the player, then the banker.
 
