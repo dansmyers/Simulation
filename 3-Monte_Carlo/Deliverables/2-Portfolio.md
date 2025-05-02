@@ -50,7 +50,7 @@ So, given that you're going to invest, how should you allocate your money?
 
 - Rather than buying individual stocks, most retail investors put their money into **mutual funds**. The fund manages the buying and selling of stocks with the goal of securing the best returns and minimizing downside risk. Many funds are *actively managed* and charge fees to their investors that go toward compensating the fund supervisors.
 
-Research has shown, however, that both of these approaches are undesirable for regular investors. Instead, the superior approach is to simply **own the entire stock market**. That is, instead of trying to pick which specific stocks will "win" over time, just invest in a broad index that holds a large collection of stocks that represent the collective stock market.
+Research has shown, however, that both of these approaches are undesirable for regular investors. Instead, the superior approach is to simply **own the entire stock market**. That is, instead of trying to pick which specific stocks will "win" over time, just invest in a broad index that holds a large collection of stocks that represent the general stock market.
 
 It's been shown, empirically, that **index funds outperform almost all managed funds** over long periods of time. In a given year, some fund managers might "beat the market", but in the long run, a diversified approach tends to generate higher returns. Intuitively, investing in an index fund is like investing in the general strength of the U.S. economy.
 
