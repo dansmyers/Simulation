@@ -8,7 +8,7 @@
 >
 > Ian Fleming - *Casino Royale*
 
-*Casino Royale* is the first James Bond novel, published in 1953. In it, Bond travels to a French casino with the goal of challenging and bankrupting Le Chiffre ("The Number"), 
+*Casino Royale* is the first James Bond novel, published in 1953. In it, Bond travels to a French casino with the goal of challenging and bankrupting Le Chiffre ("The Cipher"), 
 an agent of the Soviets. Bond's game of choice, which occurs repeatedly throughout the early Ian Fleming novels, is **baccarat**.
 
 In real-world casinos, baccarat carries an image of exclusion and luxury. It's traditionally played in special roped off areas with very 
